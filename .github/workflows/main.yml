@@ -36,7 +36,7 @@ jobs:
       run: |
         cd cadquery
         $CONDA/bin/conda env update --file environment.yml --name base
-        $CONDA/bin/conda install sphinx-intl[transifex]>=0.9.11
+        $CONDA/bin/pip install sphinx-intl[transifex]>=0.9.11
         cd ../
     - name: update
       env:

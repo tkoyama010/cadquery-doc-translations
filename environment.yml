@@ -22,5 +22,5 @@ dependencies:
   - scipy
   - pip
   - pip:
-    - "--editable=."
+    - https://github.com/CadQuery/cadquery.git
     - sphinxcadquery

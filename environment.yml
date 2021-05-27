@@ -21,6 +21,6 @@ dependencies:
   - nptyping
   - scipy
   - pip
+  - cadquery@master
   - pip:
-    - https://github.com/CadQuery/cadquery.git
     - sphinxcadquery

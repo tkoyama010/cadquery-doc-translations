@@ -40,6 +40,7 @@ jobs:
         cd cadquery
         conda env create -f environment.yml
         cd ../
+        python -m pip install -r requirements.txt
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api

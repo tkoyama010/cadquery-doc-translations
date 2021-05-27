@@ -38,7 +38,6 @@ jobs:
     - name: install
       run: |
         conda install -c conda-forge -c cadquery cadquery=master
-        conda install sphinx-intl[transifex]>=0.9.11
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api

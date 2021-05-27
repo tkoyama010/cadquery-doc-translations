@@ -37,7 +37,9 @@ jobs:
         private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: install
       run: |
+        cd cadquery
         conda env create -f environment.yml
+        cd ../
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api

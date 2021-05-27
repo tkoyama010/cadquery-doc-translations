@@ -19,4 +19,3 @@ $LOCAL_PYTHON_PATH/tx push -s --skip
 rm -Rf ja
 $LOCAL_PYTHON_PATH/tx pull -l ja
 git checkout .tx/config
-rm -Rf benchmarks

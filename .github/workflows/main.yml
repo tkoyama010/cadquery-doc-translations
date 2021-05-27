@@ -37,7 +37,7 @@ jobs:
         private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: install
       run: |
-        conda install -f environment.yml
+        conda install -c conda-forge -c cadquery cadquery=master
         conda install sphinx-intl[transifex]>=0.9.11
     - name: update
       env:

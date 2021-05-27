@@ -1,2 +1,3 @@
 *.doctree
 *.pickle
+locale/pot/_static/*

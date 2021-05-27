@@ -50,7 +50,7 @@ jobs:
       run: |
         source /home/runner/work/.venv/bin/activate
         git submodule update --remote
-        (cd cadquery/doc; sphinx-build . _build html)
+        (cd cadquery/doc; sphinx-build -M html . _build)
         sh ./locale/update.sh
         deactivate
     - name: commit

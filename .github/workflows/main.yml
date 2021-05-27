@@ -39,7 +39,9 @@ jobs:
       run: |
         cd cadquery
         conda env create -f environment.yml
+        source activate feat
         cd ../
+        pip install -r requirements.txt
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api
@@ -47,7 +49,6 @@ jobs:
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
         git submodule update --remote
-        conda activate
         (cd cadquery/doc; sphinx-build -M html . _build)
         sh ./locale/update.sh
     - name: commit

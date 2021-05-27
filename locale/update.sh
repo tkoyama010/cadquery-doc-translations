@@ -6,7 +6,7 @@ set -ex
 # required environment variables
 # SPHINXINTL_TRANSIFEX_USERNAME=tkoyama010
 # SPHINXINTL_TRANSIFEX_PROJECT_NAME=cofea-doc
-LOCAL_PYTHON_PATH=$CONDA
+LOCAL_PYTHON_PATH=$CONDA/bin
 
 # pull po files from transifex
 cd `dirname $0`

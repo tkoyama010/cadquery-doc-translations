@@ -37,7 +37,6 @@ jobs:
         private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: install
       run: |
-        sudo apt-get update
         conda create -n cadquery
         conda activate cadquery
         conda install -f environment.yml

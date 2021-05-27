@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# This file is distributed under the same license as the CadQuery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CadQuery 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"PO-Revision-Date: 2021-05-27 10:38+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../cadquery/doc/assy.rst:5
+msgid "Assembly Tutorial"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:8
+msgid "Introduction"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:10
+msgid ""
+"The purpose of this section is to demonstrate how to use the assembly and "
+"constraints functionality to build a realistic model. It will be a enclosure"
+" door assembly made out of 20x20 v-slot profiles."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:15
+msgid "Defining parameters"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:17
+msgid ""
+"We want to start with defining the model parameters to allow for easy "
+"dimension changes later:"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:37
+msgid ""
+"It is interesting to note that the v-slot profile is imported from a DXF "
+"file. This way it is very easy to change to other aluminum extrusion type, "
+"e.g. Item or Bosch. Vendors usually provide DXF files."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:42
+msgid "Defining reusable components"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:44
+msgid ""
+"Next we want to define functions generating the assembly components based on"
+" the specified parameters."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:120
+msgid "Initial assembly"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:122
+msgid ""
+"Next we want to instantiate all the components and add them to the assembly."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:150
+msgid "Constraints definition"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:152
+msgid "Then we want to define all the constraints"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:186
+msgid ""
+"Should you need to do something unusual that is not possible with the string"
+" based selectors (e.g. use :py:class:`cadquery.selectors.BoxSelector` or a "
+"user-defined selector class), it is possible to pass "
+":py:class:`cadquery.Shape` objects to the "
+":py:meth:`cadquery.Assembly.constrain` method directly. For example, the "
+"above"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:194
+msgid "is equivalent to"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:200
+msgid ""
+"This method requires a :py:class:`cadquery.Shape` object, so remember to use"
+" the :py:meth:`cadquery.Workplane.val` method to pass a single "
+":py:class:`cadquery.Shape` and not the whole :py:class:`cadquery.Workplane` "
+"object."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:204
+msgid "Final result"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:206
+msgid "Below is the complete code including the final solve step."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:357
+msgid "This code generates the following assembly."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:363
+msgid "Data export"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:365
+msgid ""
+"The resulting assembly can be exported as a STEP file or in a internal OCCT "
+"XML format."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:368
+msgid ""
+"STEP can be loaded in all CAD tool, e.g. in FreeCAD and the XML be used in "
+"other applications using OCCT."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:376
+msgid "In the case of STEP colors are preserved but not transparency."
+msgstr ""

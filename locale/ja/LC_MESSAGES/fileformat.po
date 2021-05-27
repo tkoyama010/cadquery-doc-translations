@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# This file is distributed under the same license as the CadQuery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CadQuery 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"PO-Revision-Date: 2021-05-27 10:38+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../cadquery/doc/fileformat.rst:4
+msgid "CadQuery Scripts and Object Output"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:6
+msgid ""
+"CadQuery scripts are pure Python scripts, that may follow a few conventions."
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:8
+msgid "If you are using CadQuery as a library, there are no constraints."
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:10
+msgid ""
+"If you are using CadQuery scripts inside of a CadQuery execution environment"
+" like `CQ-editor <https://github.com/CadQuery/CQ-editor>`_, there are a few "
+"conventions you need to be aware of:"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:13
+msgid "cadquery is usually imported as 'cq' at the top of a script"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:14
+msgid ""
+"to return an object to the execution environment (like CQ-editor) for "
+"rendering, you need to call the show_object() method"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:16
+msgid "Each script generally has three sections:"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:18
+msgid "Variable Assignments and metadata definitions"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:19
+msgid "CadQuery and other Python code"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:20
+msgid "object export or rendering, via the show_object() function"
+msgstr ""
+
+#: ../../cadquery/doc/fileformat.rst:23
+msgid "see the :ref:`cqgi` section for more details."
+msgstr ""

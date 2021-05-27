@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# This file is distributed under the same license as the CadQuery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CadQuery 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"PO-Revision-Date: 2021-05-27 10:39+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../cadquery/doc/primer.rst:5
+msgid "CadQuery Concepts"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:9
+msgid "3D BREP Topology Concepts"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:10
+msgid ""
+"Before talking about CadQuery, it makes sense to talk a little about 3D CAD "
+"topology. CadQuery is based upon the OpenCascade kernel, which uses Boundary"
+" Representations ( BREP ) for objects.  This just means that objects are "
+"defined by their enclosing surfaces."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:14
+msgid ""
+"When working in a BREP system, these fundamental constructs exist to define "
+"a shape (working up the food chain):"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "vertex"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:16
+msgid "a single point in space"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "edge"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:17
+msgid ""
+"a connection between two or more vertices along a particular path (called a "
+"curve)"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "wire"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:18
+msgid "a collection of edges that are connected together."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "face"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:19
+msgid "a set of edges or wires that enclose a surface"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "shell"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:20
+msgid ""
+"a collection of faces that are connected together along some of their edges"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "solid"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:21
+msgid "a shell that has a closed interior"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "compound"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:22
+msgid "a collection of solids"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:24
+msgid ""
+"When using CadQuery, all of these objects are created, hopefully with the "
+"least possible work. In the actual CAD kernel, there is another set of "
+"Geometrical constructs involved as well. For example, an arc-shaped edge "
+"will hold a reference to an underlying curve that is a full circle, and each"
+" linear edge holds underneath it the equation for a line.  CadQuery shields "
+"you from these constructs."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:31
+msgid "CQ, the CadQuery Object"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:33
+msgid ""
+"The CadQuery object wraps a BREP feature, and provides functionality around "
+"it.  Typical examples include rotating, transforming, combining objects, and"
+" creating workplanes."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:36
+msgid "See :ref:`apireference` to learn more."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:40
+msgid "Workplanes"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:42
+msgid ""
+"Most CAD programs use the concept of Workplanes. If you have experience with"
+" other CAD programs you will probably feel comfortable with CadQuery's "
+"Workplanes, but if you don't have experience then they are an essential "
+"concept to understand."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:46
+msgid ""
+"Workplanes represent a plane in space, from which other features can be "
+"located. They have a center point and a local coordinate system. Most "
+"methods that create an object do so relative to the current workplane."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:49
+msgid ""
+"Usually the first workplane created is the \"XY\" plane, also known as the "
+"\"front\" plane. Once a solid is defined the most common way to create a "
+"workplane is to select a face on the solid that you intend to modify and "
+"create a new workplane relative to it. You can also create new workplanes in"
+" anywhere in world coordinate system, or relative to other planes using "
+"offsets or rotations."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:54
+msgid ""
+"The most powerful feature of workplanes is that they allow you to work in 2D"
+" space in the coordinate system of the workplane, and then CadQuery will "
+"transform these points from the workplane coordinate system to the world "
+"coordinate system so your 3D features are located where you intended. This "
+"makes scripts much easier to create and maintain."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:58
+msgid "See :py:class:`cadquery.Workplane` to learn more."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:62
+msgid "2D Construction"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:64
+msgid ""
+"Once you create a workplane, you can work in 2D, and then later use the "
+"features you create to make 3D objects. You'll find all of the 2D constructs"
+" you expect -- circles, lines, arcs, mirroring, points, etc."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:67
+msgid "See :ref:`2dOperations` to learn more."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:71
+msgid "3D Construction"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:73
+msgid ""
+"You can construct 3D primitives such as boxes, spheres, wedges, and "
+"cylinders directly. You can also sweep, extrude, and loft 2D geometry to "
+"form 3D features.  Of course the basic primitive operations are also "
+"available."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:76
+msgid "See :ref:`3doperations` to learn more."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:81
+msgid "Selectors"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:83
+msgid ""
+"Selectors allow you to select one or more features, in order to define new "
+"features.  As an example, you might extrude a box, and then select the top "
+"face as the location for a new feature.  Or, you might extrude a box, and "
+"then select all of the vertical edges so that you can apply a fillet to "
+"them."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:87
+msgid ""
+"You can select Vertices, Edges, Faces, Solids, and Wires using selectors."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:89
+msgid ""
+"Think of selectors as the equivalent of your hand and mouse, if you were to "
+"build an object using a conventional CAD system."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:91
+msgid "You can learn more about selectors :ref:`selectors`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:95
+msgid "Construction Geometry"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:96
+msgid ""
+"Construction geometry are features that are not part of the object, but are "
+"only defined to aid in building the object. A common example might be to "
+"define a rectangle, and then use the corners to define the location of a set"
+" of holes."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:99
+msgid ""
+"Most CadQuery construction methods provide a ``forConstruction`` keyword, "
+"which creates a feature that will only be used to locate other features"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:104
+msgid "The Stack"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:106
+msgid ""
+"As you work in CadQuery, each operation returns a new CadQuery object with "
+"the result of that operations. Each CadQuery object has a list of objects, "
+"and a reference to its parent."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:109
+msgid ""
+"You can always go backwards to older operations by removing the current "
+"object from the stack.  For example::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:113
+msgid ""
+"returns a CadQuery object that contains all of the vertices on the highest "
+"face of someObject. But you can always move backwards in the stack to get "
+"the face as well::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:118
+msgid "You can browse stack access methods here: :ref:`stackMethods`."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:124
+msgid "Chaining"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:126
+msgid ""
+"All CadQuery methods return another CadQuery object, so that you can chain "
+"the methods together fluently. Use the core CQ methods to get at the objects"
+" that were created."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:129
+msgid ""
+"Each time a new CadQuery object is produced during these chained calls, it "
+"has a ``parent`` attribute that points to the CadQuery object that created "
+"it. Several CadQuery methods search this parent chain, for example when "
+"searching for the context solid. You can also give a CadQuery object a tag, "
+"and further down your chain of CadQuery calls you can refer back to this "
+"particular object using its tag."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:136
+msgid "The Context Solid"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:138
+msgid ""
+"Most of the time, you are building a single object, and adding features to "
+"that single object.  CadQuery watches your operations, and defines the first"
+" solid object created as the 'context solid'.  After that, any features you "
+"create are automatically combined (unless you specify otherwise) with that "
+"solid.  This happens even if the solid was created  a long way up in the "
+"stack.  For example::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:145
+msgid ""
+"Will create a 1x2x3 box, with a cylindrical boss extending from the top "
+"face.  It was not necessary to manually combine the cylinder created by "
+"extruding the circle with the box, because the default behavior for extrude "
+"is to combine the result with the context solid. The hole() method works "
+"similarly -- CadQuery presumes that you want to subtract the hole from the "
+"context solid."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:150
+msgid ""
+"If you want to avoid this, you can specify ``combine=False``, and CadQuery "
+"will create the solid separately."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:154
+msgid "Iteration"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:156
+msgid ""
+"CAD models often have repeated geometry, and its really annoying to resort "
+"to for loops to construct features. Many CadQuery methods operate "
+"automatically on each element on the stack, so that you don't have to write "
+"loops. For example, this::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:162
+msgid ""
+"Will actually create 4 circles, because ``vertices()`` selects 4 vertices of"
+" a rectangular face, and the ``circle()`` method iterates on each member of "
+"the stack."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:165
+msgid ""
+"This is really useful to remember  when you author your own plugins. "
+":py:meth:`cadquery.cq.Workplane.each` is useful for this purpose."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:169
+msgid "Assemblies"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:171
+msgid ""
+"Simple models can be combined into complex, possibly nested, assemblies."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:175
+msgid "A simple example could look as follows::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:193
+msgid "Resulting in:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:197
+msgid ""
+"Note that the locations of the children parts are defined with respect to "
+"their parents - in the above example ``part3`` will be located at (-5,-5,20)"
+" in the global coordinate system. Assemblies with different colors can be "
+"created this way and exported to STEP or the native OCCT xml format."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:199
+msgid "You can browse assembly related methods here: :ref:`assembly`."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:202
+msgid "Assemblies with constraints"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:204
+msgid ""
+"Sometimes it is not desirable to define the component positions explicitly "
+"but rather use constraints to obtain a fully parametric assembly. This can "
+"be achieved in the following way::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:230
+msgid ""
+"This code results in identical object as one from the previous section. The "
+"added benefit is that with changing parameters ``w``, ``d``, ``h`` the final"
+" locations will be calculated automatically. It is admittedly dense and can "
+"be made clearer using tags. Tags can be directly referenced when "
+"constructing the constraints::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:263
+msgid "The following constraints are currently implemented:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "Axis"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:265
+msgid ""
+"two normal vectors are anti-coincident or the angle (in radians) between "
+"them is equal to the specified value. Can be defined for all entities with "
+"consistent normal vector - planar faces, wires and edges."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "Point"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:266
+msgid ""
+"two points are coincident or separated by a specified distance. Can be "
+"defined for all entities, center of mass is used for lines, faces, solids "
+"and the vertex position for vertices."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:0
+msgid "Plane"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:267
+msgid "combination of :Axis: and :Point: constraints."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:269
+msgid "For a more elaborate assembly example see :ref:`assytutorial`."
+msgstr ""

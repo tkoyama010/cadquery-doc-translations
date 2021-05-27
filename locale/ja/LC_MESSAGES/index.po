@@ -30,34 +30,35 @@ msgid ""
 "CadQuery is an intuitive, easy-to-use Python library for building parametric"
 " 3D CAD models.  It has several goals:"
 msgstr ""
+"CadQueryは、パラメトリック3 D CADモデルを構築するための、直感的で使いやすいPythonライブラリです。次のような目標があります。"
 
 #: ../../cadquery/doc/index.rst:8
 msgid ""
 "Build models with scripts that are as close as possible to how you'd "
 "describe the object to a human, using a standard, already established "
 "programming language"
-msgstr ""
+msgstr "すでに確立されている標準的なプログラミング言語を使用して、オブジェクトを人間に説明する方法に可能な限り近いスクリプトでモデルを構築します。"
 
 #: ../../cadquery/doc/index.rst:11
 msgid ""
 "Create parametric models that can be very easily customized by end users"
-msgstr ""
+msgstr "エンドユーザが非常に簡単にカスタマイズできるパラメトリックモデルを作成します"
 
 #: ../../cadquery/doc/index.rst:13
 msgid ""
 "Output high quality CAD formats like STEP and AMF in addition to traditional"
 " STL"
-msgstr ""
+msgstr "従来のSTL形式に加えて、STEPやAMFなどの高品質なCAD形式を出力します。"
 
 #: ../../cadquery/doc/index.rst:15
 msgid ""
 "Provide a non-proprietary, plain text model format that can be edited and "
 "executed with only a web browser"
-msgstr ""
+msgstr "Webブラウザのみで編集および実行できる、独自仕様ではないプレーン・テキスト・モデル・フォーマットを提供します。"
 
 #: ../../cadquery/doc/index.rst:18
 msgid "See CadQuery in Action"
-msgstr ""
+msgstr "CadQueryの動作を参照する"
 
 #: ../../cadquery/doc/index.rst:20
 msgid ""
@@ -65,10 +66,12 @@ msgid ""
 "what CadQuery can do. Please note that the video has not been updated for "
 "CadQuery 2 and still shows CadQuery use within FreeCAD."
 msgstr ""
+"この `Getting Started Video `_ は、CadQueryで何ができるかを示します。ビデオはまだCadQuery "
+"2用に更新されておらず、FreeCADでのCadQueryの使用を示しています。"
 
 #: ../../cadquery/doc/index.rst:24
 msgid "Quick Links"
-msgstr ""
+msgstr "クイックリンク"
 
 #: ../../cadquery/doc/index.rst:26
 msgid ":ref:`quickstart`"

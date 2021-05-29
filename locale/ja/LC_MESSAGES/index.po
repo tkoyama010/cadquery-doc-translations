@@ -75,32 +75,32 @@ msgstr "クイックリンク"
 
 #: ../../cadquery/doc/index.rst:26
 msgid ":ref:`quickstart`"
-msgstr ""
+msgstr ":ref:`quickstart`"
 
 #: ../../cadquery/doc/index.rst:27
 msgid "`CadQuery CheatSheet <_static/cadquery_cheatsheet.html>`_"
-msgstr ""
+msgstr "`CadQuery チートシート <_static/cadquery_cheatsheet.html>`_"
 
 #: ../../cadquery/doc/index.rst:28
 msgid ":ref:`apireference`"
-msgstr ""
+msgstr ":ref:`apireference`"
 
 #: ../../cadquery/doc/index.rst:31
 msgid "Table Of Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../cadquery/doc/index.rst:55
 msgid "Indices and tables"
-msgstr ""
+msgstr "インデックスとテーブル"
 
 #: ../../cadquery/doc/index.rst:57
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../cadquery/doc/index.rst:58
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../cadquery/doc/index.rst:59
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"

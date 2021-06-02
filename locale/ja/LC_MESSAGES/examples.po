@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-06-02 02:07+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -108,13 +108,13 @@ msgid ":py:meth:`Workplane.hole` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:83 ../../cadquery/doc/examples.rst:84
-#: ../../cadquery/doc/examples.rst:211 ../../cadquery/doc/examples.rst:423
-#: ../../cadquery/doc/examples.rst:451 ../../cadquery/doc/examples.rst:476
-#: ../../cadquery/doc/examples.rst:521 ../../cadquery/doc/examples.rst:546
-#: ../../cadquery/doc/examples.rst:593 ../../cadquery/doc/examples.rst:615
-#: ../../cadquery/doc/examples.rst:647 ../../cadquery/doc/examples.rst:706
-#: ../../cadquery/doc/examples.rst:732 ../../cadquery/doc/examples.rst:817
-#: ../../cadquery/doc/examples.rst:955
+#: ../../cadquery/doc/examples.rst:211 ../../cadquery/doc/examples.rst:425
+#: ../../cadquery/doc/examples.rst:454 ../../cadquery/doc/examples.rst:479
+#: ../../cadquery/doc/examples.rst:524 ../../cadquery/doc/examples.rst:549
+#: ../../cadquery/doc/examples.rst:596 ../../cadquery/doc/examples.rst:618
+#: ../../cadquery/doc/examples.rst:650 ../../cadquery/doc/examples.rst:709
+#: ../../cadquery/doc/examples.rst:735 ../../cadquery/doc/examples.rst:820
+#: ../../cadquery/doc/examples.rst:958
 msgid ":py:meth:`Workplane.box`"
 msgstr ""
 
@@ -151,12 +151,12 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:107 ../../cadquery/doc/examples.rst:133
 #: ../../cadquery/doc/examples.rst:162 ../../cadquery/doc/examples.rst:189
 #: ../../cadquery/doc/examples.rst:241 ../../cadquery/doc/examples.rst:274
-#: ../../cadquery/doc/examples.rst:302 ../../cadquery/doc/examples.rst:424
-#: ../../cadquery/doc/examples.rst:452 ../../cadquery/doc/examples.rst:477
-#: ../../cadquery/doc/examples.rst:548 ../../cadquery/doc/examples.rst:595
-#: ../../cadquery/doc/examples.rst:652 ../../cadquery/doc/examples.rst:712
-#: ../../cadquery/doc/examples.rst:734 ../../cadquery/doc/examples.rst:781
-#: ../../cadquery/doc/examples.rst:821 ../../cadquery/doc/examples.rst:863
+#: ../../cadquery/doc/examples.rst:302 ../../cadquery/doc/examples.rst:426
+#: ../../cadquery/doc/examples.rst:455 ../../cadquery/doc/examples.rst:480
+#: ../../cadquery/doc/examples.rst:551 ../../cadquery/doc/examples.rst:598
+#: ../../cadquery/doc/examples.rst:655 ../../cadquery/doc/examples.rst:715
+#: ../../cadquery/doc/examples.rst:737 ../../cadquery/doc/examples.rst:784
+#: ../../cadquery/doc/examples.rst:824 ../../cadquery/doc/examples.rst:866
 msgid ":py:meth:`Workplane`"
 msgstr ""
 
@@ -188,8 +188,8 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:191 ../../cadquery/doc/examples.rst:243
 #: ../../cadquery/doc/examples.rst:277 ../../cadquery/doc/examples.rst:303
 #: ../../cadquery/doc/examples.rst:358 ../../cadquery/doc/examples.rst:388
-#: ../../cadquery/doc/examples.rst:474 ../../cadquery/doc/examples.rst:777
-#: ../../cadquery/doc/examples.rst:856 ../../cadquery/doc/examples.rst:954
+#: ../../cadquery/doc/examples.rst:477 ../../cadquery/doc/examples.rst:780
+#: ../../cadquery/doc/examples.rst:859 ../../cadquery/doc/examples.rst:957
 msgid ":py:meth:`Workplane.extrude`"
 msgstr ""
 
@@ -219,14 +219,14 @@ msgid ":py:meth:`Workplane.center` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:163 ../../cadquery/doc/examples.rst:190
-#: ../../cadquery/doc/examples.rst:617 ../../cadquery/doc/examples.rst:779
-#: ../../cadquery/doc/examples.rst:818 ../../cadquery/doc/examples.rst:952
+#: ../../cadquery/doc/examples.rst:620 ../../cadquery/doc/examples.rst:782
+#: ../../cadquery/doc/examples.rst:821 ../../cadquery/doc/examples.rst:955
 msgid ":py:meth:`Workplane.circle`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:164 ../../cadquery/doc/examples.rst:522
-#: ../../cadquery/doc/examples.rst:618 ../../cadquery/doc/examples.rst:648
-#: ../../cadquery/doc/examples.rst:953
+#: ../../cadquery/doc/examples.rst:164 ../../cadquery/doc/examples.rst:525
+#: ../../cadquery/doc/examples.rst:621 ../../cadquery/doc/examples.rst:651
+#: ../../cadquery/doc/examples.rst:956
 msgid ":py:meth:`Workplane.rect`"
 msgstr ""
 
@@ -355,7 +355,7 @@ msgstr ""
 msgid ":py:meth:`Workplane.moveTo`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:357 ../../cadquery/doc/examples.rst:858
+#: ../../cadquery/doc/examples.rst:357 ../../cadquery/doc/examples.rst:861
 msgid ":py:meth:`Workplane.threePointArc`"
 msgstr ""
 
@@ -364,7 +364,7 @@ msgid ":py:meth:`Workplane.mirror`"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:360 ../../cadquery/doc/examples.rst:391
-#: ../../cadquery/doc/examples.rst:963
+#: ../../cadquery/doc/examples.rst:966
 msgid ":py:meth:`Workplane.union`"
 msgstr ""
 
@@ -387,11 +387,11 @@ msgstr ""
 msgid ":py:meth:`Workplane.line`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:389 ../../cadquery/doc/examples.rst:523
-#: ../../cadquery/doc/examples.rst:594 ../../cadquery/doc/examples.rst:616
-#: ../../cadquery/doc/examples.rst:651 ../../cadquery/doc/examples.rst:711
-#: ../../cadquery/doc/examples.rst:780 ../../cadquery/doc/examples.rst:862
-#: ../../cadquery/doc/examples.rst:957
+#: ../../cadquery/doc/examples.rst:389 ../../cadquery/doc/examples.rst:526
+#: ../../cadquery/doc/examples.rst:597 ../../cadquery/doc/examples.rst:619
+#: ../../cadquery/doc/examples.rst:654 ../../cadquery/doc/examples.rst:714
+#: ../../cadquery/doc/examples.rst:783 ../../cadquery/doc/examples.rst:865
+#: ../../cadquery/doc/examples.rst:960
 msgid ":py:meth:`Workplane.faces`"
 msgstr ""
 
@@ -407,9 +407,9 @@ msgstr ""
 
 #: ../../cadquery/doc/examples.rst:399
 msgid ""
-"Using workplanes in this way are a key feature of CadQuery.  Unlike typical "
-"3d scripting language, using work planes frees you from tracking the "
-"position of various features in variables, and allows the model to adjust "
+"Using workplanes in this way are a key feature of CadQuery.  Unlike a "
+"typical 3d scripting language, using work planes frees you from tracking the"
+" position of various features in variables, and allows the model to adjust "
 "itself with removing redundant dimensions"
 msgstr ""
 
@@ -422,212 +422,215 @@ msgstr ""
 
 #: ../../cadquery/doc/examples.rst:407
 msgid ""
-"Keep in mind that the origin of new workplanes are located at the center of "
-"a face by default."
+"Keep in mind that by default the origin of a new workplane is calculated by "
+"forming a plane from the selected face and projecting the previous origin "
+"onto that plane. This behaviour can be changed through the centerOption "
+"argument of :py:meth:`Workplane.workplane`."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:419
+#: ../../cadquery/doc/examples.rst:421
 msgid ":py:meth:`Workplane.faces` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:420 ../../cadquery/doc/examples.rst:453
+#: ../../cadquery/doc/examples.rst:422 ../../cadquery/doc/examples.rst:456
 msgid ":py:meth:`StringSyntaxSelector` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:421 ../../cadquery/doc/examples.rst:449
-#: ../../cadquery/doc/examples.rst:475
+#: ../../cadquery/doc/examples.rst:423 ../../cadquery/doc/examples.rst:452
+#: ../../cadquery/doc/examples.rst:478
 msgid ":ref:`selector_reference` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:422 ../../cadquery/doc/examples.rst:545
-#: ../../cadquery/doc/examples.rst:649 ../../cadquery/doc/examples.rst:708
-#: ../../cadquery/doc/examples.rst:820 ../../cadquery/doc/examples.rst:859
-#: ../../cadquery/doc/examples.rst:960
+#: ../../cadquery/doc/examples.rst:424 ../../cadquery/doc/examples.rst:548
+#: ../../cadquery/doc/examples.rst:652 ../../cadquery/doc/examples.rst:711
+#: ../../cadquery/doc/examples.rst:823 ../../cadquery/doc/examples.rst:862
+#: ../../cadquery/doc/examples.rst:963
 msgid ":py:meth:`Workplane.workplane`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:427
+#: ../../cadquery/doc/examples.rst:429
 msgid "Locating a Workplane on a vertex"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:429
+#: ../../cadquery/doc/examples.rst:431
 msgid ""
 "Normally, the :py:meth:`Workplane.workplane` method requires a face to be "
 "selected. But if a vertex is selected **immediately after a face**, "
-":py:meth:`Workplane.workplane` will locate the workplane on the face, with "
-"the origin at the vertex instead of at the center of the face"
+":py:meth:`Workplane.workplane` with the centerOption argument set to "
+"CenterOfMass will locate the workplane on the face, with the origin at the "
+"vertex instead of at the center of the face"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:433
+#: ../../cadquery/doc/examples.rst:436
 msgid ""
 "The example also introduces :py:meth:`Workplane.cutThruAll`, which makes a "
-"cut through the entire part, no matter how deep the part is"
-msgstr ""
-
-#: ../../cadquery/doc/examples.rst:447
-msgid ":py:meth:`Workplane.cutThruAll` **!**"
+"cut through the entire part, no matter how deep the part is."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:450
+msgid ":py:meth:`Workplane.cutThruAll` **!**"
+msgstr ""
+
+#: ../../cadquery/doc/examples.rst:453
 msgid ":py:meth:`Workplane.vertices` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:456
+#: ../../cadquery/doc/examples.rst:459
 msgid "Offset Workplanes"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:458
+#: ../../cadquery/doc/examples.rst:461
 msgid ""
 "Workplanes do not have to lie exactly on a face. When you make a workplane, "
 "you can define it at an offset from an existing face."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:461
+#: ../../cadquery/doc/examples.rst:464
 msgid ""
 "This example uses an offset workplane to make a compound object, which is "
 "perfectly valid!"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:480
+#: ../../cadquery/doc/examples.rst:483
 msgid "Copying Workplanes"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:482
+#: ../../cadquery/doc/examples.rst:485
 msgid "An existing CQ object can copy a workplane from another CQ object."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:505
+#: ../../cadquery/doc/examples.rst:508
 msgid "Rotated Workplanes"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:507
+#: ../../cadquery/doc/examples.rst:510
 msgid ""
 "You can create a rotated work plane by specifying angles of rotation "
 "relative to another workplane"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:520
+#: ../../cadquery/doc/examples.rst:523
 msgid ":py:meth:`Workplane.transformed` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:526
+#: ../../cadquery/doc/examples.rst:529
 msgid "Using construction Geometry"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:528
+#: ../../cadquery/doc/examples.rst:531
 msgid ""
 "You can draw shapes to use the vertices as points to locate other features."
 "  Features that are used to locate other features, rather than to create "
 "them, are called ``Construction Geometry``"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:531
+#: ../../cadquery/doc/examples.rst:534
 msgid ""
 "In the example below, a rectangle is drawn, and its vertices are used to "
 "locate a set of holes."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:543
+#: ../../cadquery/doc/examples.rst:546
 msgid ":py:meth:`Workplane.rect` (forConstruction=True)"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:544 ../../cadquery/doc/examples.rst:592
+#: ../../cadquery/doc/examples.rst:547 ../../cadquery/doc/examples.rst:595
 msgid ":ref:`selector_reference`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:547 ../../cadquery/doc/examples.rst:967
+#: ../../cadquery/doc/examples.rst:550 ../../cadquery/doc/examples.rst:970
 msgid ":py:meth:`Workplane.hole`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:551
+#: ../../cadquery/doc/examples.rst:554
 msgid "Shelling To Create Thin features"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:553
+#: ../../cadquery/doc/examples.rst:556
 msgid "Shelling converts a solid object into a shell of uniform thickness."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:555
+#: ../../cadquery/doc/examples.rst:558
 msgid ""
 "To shell an object and 'hollow out' the inside pass a negative thickness "
 "parameter to the :py:meth:`Workplane.shell()` method of a shape."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:562
+#: ../../cadquery/doc/examples.rst:565
 msgid ""
 "A positive thickness parameter wraps an object with filleted outside edges "
 "and the original object will be the 'hollowed out' portion."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:569
+#: ../../cadquery/doc/examples.rst:572
 msgid ""
 "Use face selectors to select a face to be removed from the resulting hollow "
 "shape."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:575
+#: ../../cadquery/doc/examples.rst:578
 msgid "Multiple faces can be removed using more complex selectors."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:591
+#: ../../cadquery/doc/examples.rst:594
 msgid ":py:meth:`Workplane.shell` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:598
+#: ../../cadquery/doc/examples.rst:601
 msgid "Making Lofts"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:600
+#: ../../cadquery/doc/examples.rst:603
 msgid ""
 "A loft is a solid swept through a set of wires. This example creates lofted "
 "section between a rectangle and a circular section."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:614
+#: ../../cadquery/doc/examples.rst:617
 msgid ":py:meth:`Workplane.loft` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:621
+#: ../../cadquery/doc/examples.rst:624
 msgid "Making Counter-bored and Counter-sunk Holes"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:623
+#: ../../cadquery/doc/examples.rst:626
 msgid ""
 "Counterbored and countersunk holes are so common that CadQuery creates "
 "macros to create them in a single step."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:625
+#: ../../cadquery/doc/examples.rst:628
 msgid ""
 "Similar to :py:meth:`Workplane.hole`, these functions operate on a list of "
 "points as well as a single point."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:645
+#: ../../cadquery/doc/examples.rst:648
 msgid ":py:meth:`Workplane.cboreHole` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:646
+#: ../../cadquery/doc/examples.rst:649
 msgid ":py:meth:`Workplane.cskHole` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:650 ../../cadquery/doc/examples.rst:709
-#: ../../cadquery/doc/examples.rst:860 ../../cadquery/doc/examples.rst:958
+#: ../../cadquery/doc/examples.rst:653 ../../cadquery/doc/examples.rst:712
+#: ../../cadquery/doc/examples.rst:863 ../../cadquery/doc/examples.rst:961
 msgid ":py:meth:`Workplane.vertices`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:655
+#: ../../cadquery/doc/examples.rst:658
 msgid "Offsetting wires in 2D"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:657
+#: ../../cadquery/doc/examples.rst:660
 msgid ""
 "Two dimensional wires can be transformed with :py:meth:`Workplane.offset2D`."
 " They can be offset inwards or outwards, and with different techniques for "
 "extending the corners."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:674
+#: ../../cadquery/doc/examples.rst:677
 msgid ""
 "Using the forConstruction argument you can do the common task of offsetting "
 "a series of bolt holes from the outline of an object. Here is the "
@@ -635,7 +638,7 @@ msgid ""
 "edges."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:692
+#: ../../cadquery/doc/examples.rst:695
 msgid ""
 "Note that :py:meth:`Workplane.edges` is for selecting objects. It does not "
 "add the selected edges to pending edges in the modelling context, because "
@@ -646,56 +649,56 @@ msgid ""
 " edges."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:703
+#: ../../cadquery/doc/examples.rst:706
 msgid ":py:meth:`Workplane.offset2D` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:704 ../../cadquery/doc/examples.rst:965
+#: ../../cadquery/doc/examples.rst:707 ../../cadquery/doc/examples.rst:968
 msgid ":py:meth:`Workplane.cboreHole`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:705 ../../cadquery/doc/examples.rst:966
+#: ../../cadquery/doc/examples.rst:708 ../../cadquery/doc/examples.rst:969
 msgid ":py:meth:`Workplane.cskHole`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:707
+#: ../../cadquery/doc/examples.rst:710
 msgid ":py:meth:`Workplane.polygon`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:710 ../../cadquery/doc/examples.rst:733
-#: ../../cadquery/doc/examples.rst:959
+#: ../../cadquery/doc/examples.rst:713 ../../cadquery/doc/examples.rst:736
+#: ../../cadquery/doc/examples.rst:962
 msgid ":py:meth:`Workplane.edges`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:716
+#: ../../cadquery/doc/examples.rst:719
 msgid "Rounding Corners with Fillet"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:718
+#: ../../cadquery/doc/examples.rst:721
 msgid ""
 "Filleting is done by selecting the edges of a solid, and using the fillet "
 "function."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:720
+#: ../../cadquery/doc/examples.rst:723
 msgid "Here we fillet all of the edges of a simple plate."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:731
+#: ../../cadquery/doc/examples.rst:734
 msgid ":py:meth:`Workplane.fillet` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:737
+#: ../../cadquery/doc/examples.rst:740
 msgid "Tagging objects"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:739
+#: ../../cadquery/doc/examples.rst:742
 msgid ""
 "The :py:meth:`Workplane.tag` method can be used to tag a particular object "
 "in the chain with a string, so that it can be refered to later in the chain."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:741
+#: ../../cadquery/doc/examples.rst:744
 msgid ""
 "The :py:meth:`Workplane.workplaneFromTagged` method applies "
 ":py:meth:`Workplane.copyWorkplane` to a tagged object. For example, when "
@@ -704,7 +707,7 @@ msgid ""
 "CadQuery's other selectors."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:756
+#: ../../cadquery/doc/examples.rst:759
 msgid ""
 "Tags can also be used with most selectors, including "
 ":py:meth:`Workplane.vertices`, :py:meth:`Workplane.faces`, "
@@ -713,50 +716,50 @@ msgid ""
 ":py:meth:`Workplane.compounds`."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:774
+#: ../../cadquery/doc/examples.rst:777
 msgid ":py:meth:`Workplane.tag` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:775
+#: ../../cadquery/doc/examples.rst:778
 msgid ":py:meth:`Workplane.getTagged` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:776
+#: ../../cadquery/doc/examples.rst:779
 msgid ":py:meth:`Workplane.workplaneFromTagged` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:778 ../../cadquery/doc/examples.rst:819
+#: ../../cadquery/doc/examples.rst:781 ../../cadquery/doc/examples.rst:822
 msgid ":py:meth:`Workplane.cutThruAll`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:784
+#: ../../cadquery/doc/examples.rst:787
 msgid "A Parametric Bearing Pillow Block"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:786
+#: ../../cadquery/doc/examples.rst:789
 msgid ""
 "Combining a few basic functions, its possible to make a very good parametric"
 " bearing pillow block, with just a few lines of code."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:800
+#: ../../cadquery/doc/examples.rst:803
 msgid "Splitting an Object"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:802
+#: ../../cadquery/doc/examples.rst:805
 msgid ""
 "You can split an object using a workplane, and retain either or both halves"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:816
+#: ../../cadquery/doc/examples.rst:819
 msgid ":py:meth:`Workplane.split` **!**"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:824
+#: ../../cadquery/doc/examples.rst:827
 msgid "The Classic OCC Bottle"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:826
+#: ../../cadquery/doc/examples.rst:829
 msgid ""
 "CadQuery is based on the OpenCascade.org (OCC) modeling Kernel.  Those who "
 "are familiar with OCC know about the famous 'bottle' example. `The bottle "
@@ -764,70 +767,70 @@ msgid ""
 "<https://old.opencascade.com/doc/occt-7.5.0/overview/html/occt__tutorial.html>`_."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:829
+#: ../../cadquery/doc/examples.rst:832
 msgid ""
 "A pythonOCC version is listed `here <https://github.com/tpaviot/pythonocc-"
 "demos/blob/f3ea9b4f65a9dff482be04b153d4ce5ec2430e13/examples/core_classic_occ_bottle.py>`_."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:831
+#: ../../cadquery/doc/examples.rst:834
 msgid ""
 "Of course one difference between this sample and the OCC version is the "
 "length. This sample is one of the longer ones at 13 lines, but that's very "
 "short compared to the pythonOCC version, which is 10x longer!"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:857
+#: ../../cadquery/doc/examples.rst:860
 msgid ":py:meth:`Workplane.mirrorX`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:861
+#: ../../cadquery/doc/examples.rst:864
 msgid ":py:meth:`Workplane.vLine`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:866
+#: ../../cadquery/doc/examples.rst:869
 msgid "A Parametric Enclosure"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:956
+#: ../../cadquery/doc/examples.rst:959
 msgid ":py:meth:`Workplane.all`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:961
+#: ../../cadquery/doc/examples.rst:964
 msgid ":py:meth:`Workplane.fillet`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:962
+#: ../../cadquery/doc/examples.rst:965
 msgid ":py:meth:`Workplane.cut`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:964
+#: ../../cadquery/doc/examples.rst:967
 msgid ":py:meth:`Workplane.rotateAboutCenter`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:970
+#: ../../cadquery/doc/examples.rst:973
 msgid "Lego Brick"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:972
+#: ../../cadquery/doc/examples.rst:975
 msgid ""
 "This script will produce any size regular rectangular Lego(TM) brick. Its "
 "only tricky because of the logic regarding the underside of the brick."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1032
+#: ../../cadquery/doc/examples.rst:1035
 msgid "Braille Example"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1214
+#: ../../cadquery/doc/examples.rst:1217
 msgid "Panel With Various Connector Holes"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1262
+#: ../../cadquery/doc/examples.rst:1265
 msgid "Cycloidal gear"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1264
+#: ../../cadquery/doc/examples.rst:1267
 msgid ""
 "You can define complex geometries using the parametricCurve functionality. "
 "This specific examples generates a helical cycloidal gear."

@@ -31,20 +31,21 @@ msgid ""
 "set of Python bindings for the open-source `OpenCascade "
 "<http://www.opencascade.com/>`_ modelling kernel."
 msgstr ""
-"CadQuery2はオープンソースの `OpenCascade `_ モデリングカーネル用のPythonバインディングのセットである `OCP `_ "
+"CadQuery2はオープンソースの `OpenCascade <http://www.opencascade.com/>`_ "
+"モデリングカーネル用のPythonバインディングのセットである `OCP <https://github.com/CadQuery/OCP>`_ "
 "に基づいています。"
 
 #: ../../cadquery/doc/installation.rst:11
 msgid "Anaconda or Miniconda (Python 3.x editions), Python 3.x"
-msgstr ""
+msgstr "Anaconda か Miniconda (Python 3.x エディション)。 Python 3.x"
 
 #: ../../cadquery/doc/installation.rst:12
 msgid "CadQuery requires OCP and Python version 3.x"
-msgstr ""
+msgstr "CadQuery は OCP と Python version 3.x が必要です"
 
 #: ../../cadquery/doc/installation.rst:15
 msgid "Command Line Installation"
-msgstr ""
+msgstr "コマンドラインインストール"
 
 #: ../../cadquery/doc/installation.rst:17
 msgid ""
@@ -52,12 +53,14 @@ msgid ""
 "you want the latest features or an older, probably more stable, version of "
 "CadQuery."
 msgstr ""
+"CadQueryの開発は非常に急速に進んでいるので、最新の機能が欲しいのか、より古い、おそらくより安定したバージョンのCadQueryが欲しいのかを選択する必要があります。"
 
 #: ../../cadquery/doc/installation.rst:19
 msgid ""
 "To get the latest features (recommended), once you have Anaconda or "
 "Miniconda installed, activate the environment you want to use and type::"
 msgstr ""
+"最新の機能(推奨)を入手するには、AnacondaまたはMinicondaをインストールした後、使用する環境をアクティブにし、次のように入力します::"
 
 #: ../../cadquery/doc/installation.rst:23
 msgid ""
@@ -65,30 +68,33 @@ msgid ""
 "Anaconda or Miniconda installed, activate the environment you want to use "
 "and type::"
 msgstr ""
+"より古い、より安定したバージョンのCadQueryが必要な場合、AnacondaまたはMinicondaをインストールした後、使用する環境をアクティブにし、次のように入力します::"
 
 #: ../../cadquery/doc/installation.rst:28
 msgid "Test Your Installation"
-msgstr ""
+msgstr "インストールのテスト"
 
 #: ../../cadquery/doc/installation.rst:30
 msgid "If all has gone well, you can open a command line/prompt, and type::"
-msgstr ""
+msgstr "問題がなければ、コマンドライン/プロンプトを開いて、次のように入力します::"
 
 #: ../../cadquery/doc/installation.rst:36
 msgid ""
 "You should see raw SVG output displayed on the command line if the CadQuery "
 "installation was successful."
-msgstr ""
+msgstr "CadQueryインストールが成功した場合は、コマンドラインに生のSVG出力が表示されます。"
 
 #: ../../cadquery/doc/installation.rst:39
 msgid "Adding a Nicer GUI via CQ-editor"
-msgstr ""
+msgstr "CQエディタによるより良いGUIの追加"
 
 #: ../../cadquery/doc/installation.rst:41
 msgid ""
 "If you prefer to have a GUI available, your best option is to use `CQ-editor"
 " <https://github.com/CadQuery/CQ-editor>`_."
 msgstr ""
+"GUIを使用したい場合は、 `CQ-editor <https://github.com/CadQuery/CQ-editor>`_ "
+"を使用することをお勧めします。"
 
 #: ../../cadquery/doc/installation.rst:44
 msgid ""
@@ -98,3 +104,6 @@ msgid ""
 "install CQ-editor into your activated Anaconda environment with the "
 "following::"
 msgstr ""
+"CQ-editorもAnaconda/Minicondaに依存しており、READMEにはCQ-"
+"editorを実行する環境の設定方法が説明されています。ただし、CadQueryのマスターブランチ(最新機能)を実行している場合は、以下のようにCQ-"
+"editorをアクティブなAnaconda環境にインストールする必要があります::"

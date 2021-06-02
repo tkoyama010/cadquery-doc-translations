@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-06-02 02:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3291,19 +3291,19 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.circle:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.ellipse:13
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:13
 msgid "should the new wires be reference geometry only?"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.circle:11
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.ellipse:17
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:17
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.slot2D:10
 msgid "a new CQ object with the created wires on the stack"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.circle:13
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:21
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:19
 msgid "A common use case is to use a for-construction rectangle to define the centers of a hole pattern::"
 msgstr ""
 
@@ -3317,7 +3317,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.circle:29
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutBlind:19
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:30
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rotateAboutCenter:24
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.shell:37
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.threePointArc:15
@@ -4354,22 +4354,26 @@ msgid "Make a rectangle for each item on the stack."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:4
-msgid "length in xDirection ( in workplane coordinates )"
+msgid "length in the x direction (in workplane coordinates)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:7
-msgid "length in yDirection ( in workplane coordinates )"
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:6
+msgid "length in the y direction (in workplane coordinates)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:8
 msgid "If True, the rectangle will be centered around the reference point. If False, the corner of the rectangle will be on the reference point and it will extend in the positive x and y directions. Can also use a 2-tuple to specify centering along each axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:24
 msgid "Creates 4 circles at the corners of a square centered on the origin."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:26
+msgid "Negative values for xLen and yLen are permitted, although they only have an effect when centered is False."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rect:30
 msgid "project points not in the workplane plane onto the workplane plane"
 msgstr ""
 

@@ -27,7 +27,7 @@ msgstr "アセンブリチュートリアル"
 
 #: ../../cadquery/doc/assy.rst:8
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../cadquery/doc/assy.rst:10
 msgid ""
@@ -35,16 +35,17 @@ msgid ""
 "constraints functionality to build a realistic model. It will be a enclosure"
 " door assembly made out of 20x20 v-slot profiles."
 msgstr ""
+"このセクションの目的は、アセンブリーと拘束の機能を使用して現実的なモデルを作成する方法を示すことです。20x20Vスロットプロファイルで構成されたエンクロージャドアアセンブリです。"
 
 #: ../../cadquery/doc/assy.rst:15
 msgid "Defining parameters"
-msgstr ""
+msgstr "パラメータを定義する"
 
 #: ../../cadquery/doc/assy.rst:17
 msgid ""
 "We want to start with defining the model parameters to allow for easy "
 "dimension changes later:"
-msgstr ""
+msgstr "後で簡単に寸法を変更できるように、モデルパラメータの定義から始めます。"
 
 #: ../../cadquery/doc/assy.rst:37
 msgid ""
@@ -52,20 +53,21 @@ msgid ""
 "file. This way it is very easy to change to other aluminum extrusion type, "
 "e.g. Item or Bosch. Vendors usually provide DXF files."
 msgstr ""
+"VスロットプロファイルがDXFファイルからインポートされていることに注目してください。このようにして、ItemやBoschのような他のアルミニウム押し出しタイプに変更することは非常に容易です。ベンダーは通常、DXFファイルを提供しています。"
 
 #: ../../cadquery/doc/assy.rst:42
 msgid "Defining reusable components"
-msgstr ""
+msgstr "再利用可能なコンポーネントの定義"
 
 #: ../../cadquery/doc/assy.rst:44
 msgid ""
 "Next we want to define functions generating the assembly components based on"
 " the specified parameters."
-msgstr ""
+msgstr "次に、指定したパラメータに基づいてアセンブリ構成部品を生成する関数を定義します。"
 
 #: ../../cadquery/doc/assy.rst:120
 msgid "Initial assembly"
-msgstr ""
+msgstr "初期アセンブリ"
 
 #: ../../cadquery/doc/assy.rst:122
 msgid ""

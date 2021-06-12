@@ -72,15 +72,15 @@ msgstr "初期アセンブリ"
 #: ../../cadquery/doc/assy.rst:122
 msgid ""
 "Next we want to instantiate all the components and add them to the assembly."
-msgstr ""
+msgstr "次に、すべての構成要素をインスタンス化し、アセンブリーに追加します。"
 
 #: ../../cadquery/doc/assy.rst:150
 msgid "Constraints definition"
-msgstr ""
+msgstr "拘束の定義"
 
 #: ../../cadquery/doc/assy.rst:152
 msgid "Then we want to define all the constraints"
-msgstr ""
+msgstr "次に、すべての制約を定義します。"
 
 #: ../../cadquery/doc/assy.rst:186
 msgid ""

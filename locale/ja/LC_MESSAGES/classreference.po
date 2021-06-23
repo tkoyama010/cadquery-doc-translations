@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 02:07+0000\n"
+"POT-Creation-Date: 2021-06-23 00:38+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -608,7 +608,9 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Shape.fix:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.fuse:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Shape.intersect:0
+#: of cadquery.Shape.importBrep:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.intersect:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.isEqual:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -627,7 +629,9 @@ msgstr ""
 #: of cadquery.Shape.scale:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.split:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Shape.transformGeometry:0
+#: of cadquery.Shape.toVtkPolyData:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.transformGeometry:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.transformShape:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1183,6 +1187,8 @@ msgstr ""
 #: of cadquery.BoundBox.findOutsideBox2D:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.BoundBox.isInside:0
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.Color.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Compound.__iter__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1217,7 +1223,9 @@ msgstr ""
 #: cadquery.Face.makeSplineApprox:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Face.normalAt:0 ../../cadquery/cadquery/occ_impl/geom.pydocstring
-#: of cadquery.Matrix.__getitem__:0
+#: of cadquery.Location.toTuple:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Matrix.__getitem__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Matrix.transposed_list:0
 #: ../../cadquery/cadquery/selectors.pydocstring of
@@ -1277,6 +1285,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.hashCode:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.importBrep:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.intersect:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.isEqual:0
@@ -1299,6 +1309,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.scale:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
 #: of cadquery.Shape.split:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.toVtkPolyData:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.transformGeometry:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1678,6 +1690,18 @@ msgstr ":py:class:`bool`"
 msgid "Wrapper for the OCCT color object Quantity_ColorRGBA."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.Color.toTuple:1
+msgid "Convert Color to RGB tuple."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.Color.toTuple:4
+msgid ""
+":py:data:`~typing.Tuple`\\[:py:class:`float`, :py:class:`float`, "
+":py:class:`float`, :py:class:`float`]"
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Compound:1
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Solid:1
 msgid ""
@@ -1715,7 +1739,9 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Shape.cut:6
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.fuse:12 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Shape.intersect:6
+#: of cadquery.Shape.importBrep:6
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.intersect:6
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.located:6
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -2324,6 +2350,20 @@ msgid ""
 "This class wraps the TopLoc_Location class from OCCT. It can be used to move"
 " Shape objects in both relative and absolute manner. It is the preferred "
 "type to locate objects in CQ."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Location.toTuple:1
+msgid "Convert the location to a translation, rotation tuple."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Location.toTuple:4
+msgid ""
+":py:data:`~typing.Tuple`\\[:py:data:`~typing.Tuple`\\[:py:class:`float`, "
+":py:class:`float`, :py:class:`float`], "
+":py:data:`~typing.Tuple`\\[:py:class:`float`, :py:class:`float`, "
+":py:class:`float`]]"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of cadquery.Matrix:3
@@ -3238,6 +3278,11 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.importBrep:1
+msgid "Import shape from a BREP file"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.intersect:1
 msgid "Intersection of the positional arguments and this Shape."
 msgstr ""
@@ -3366,6 +3411,16 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.split:1
 msgid "Split this shape with the positional arguments."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.toVtkPolyData:1
+msgid "Convert shape to vtkPolyData"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.toVtkPolyData:10
+msgid ":py:class:`~vtkmodules.vtkCommonDataModel.vtkPolyData`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

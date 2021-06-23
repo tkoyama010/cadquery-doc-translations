@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-06-23 00:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,35 +66,43 @@ msgstr ""
 msgid "VRML"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:34
+#: ../../cadquery/doc/importexport.rst:32
+msgid "VTP"
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:35
 msgid "Notes on the Formats"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:36
+#: ../../cadquery/doc/importexport.rst:37
 msgid "DXF is useful for importing complex 2D profiles that would be tedious to create using CadQuery's 2D operations. An example is that the 2D profiles of aluminum extrusion are often provided in DXF format. These can be imported and extruded to create the length of extrusion that is needed in a design."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:37
+#: ../../cadquery/doc/importexport.rst:38
 msgid "STEP files are useful for interchanging model data with other CAD and analysis systems, such as FreeCAD. Many parts such as screws have STEP files available, which can be imported and used in CadQuery assemblies."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:38
+#: ../../cadquery/doc/importexport.rst:39
 msgid "STL and AMF files are mesh-based formats which are typically used in additive manufacturing (i.e. 3D printing). AMF files support more features, but are not as universally supported as STL files."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:39
+#: ../../cadquery/doc/importexport.rst:40
 msgid "TJS is short for ThreeJS, and is a JSON mesh format that is useful for displaying 3D models in web browsers. The TJS format is used to display embedded 3D examples within the CadQuery documentation."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:40
+#: ../../cadquery/doc/importexport.rst:41
 msgid "VRML is a mesh-based format for representing interactive 3D objects in a web browser."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:43
-msgid "Importing DXF"
+#: ../../cadquery/doc/importexport.rst:42
+msgid "VTP is a mesh-based format used by the VTK library."
 msgstr ""
 
 #: ../../cadquery/doc/importexport.rst:45
+msgid "Importing DXF"
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:47
 msgid "DXF files can be imported using the :py:meth:`importers.importDXF` method."
 msgstr ""
 
@@ -119,99 +127,99 @@ msgstr ""
 msgid "a list of layer names not to import (default: [])"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:50
+#: ../../cadquery/doc/importexport.rst:52
 msgid "Importing a DXF profile with default settings and using it within a CadQuery script is shown in the following code."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:62
+#: ../../cadquery/doc/importexport.rst:64
 msgid "Note the use of the :py:meth:`Workplane.wires` and :py:meth:`Workplane.toPending` methods to make the DXF profile ready for use during subsequent operations. Calling ``toPending()`` tells CadQuery to make the edges/wires available to the next modelling operation that is called in the chain."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:67
+#: ../../cadquery/doc/importexport.rst:69
 msgid "Importing STEP"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:69
+#: ../../cadquery/doc/importexport.rst:71
 msgid "STEP files can be imported using the :py:meth:`importers.importStep` method (note the capitalization of \"Step\"). There are no parameters for this method other than the file path to import."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:79
+#: ../../cadquery/doc/importexport.rst:81
 msgid "Exporting SVG"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:81
+#: ../../cadquery/doc/importexport.rst:83
 msgid "The SVG exporter has several options which can be useful for achieving the desired final output. Those options are as follows."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:84
+#: ../../cadquery/doc/importexport.rst:86
 msgid "*width* - Document width of the resulting image."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:85
+#: ../../cadquery/doc/importexport.rst:87
 msgid "*height* - Document height of the resulting image."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:86
+#: ../../cadquery/doc/importexport.rst:88
 msgid "*marginLeft* - Inset margin from the left side of the document."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:87
+#: ../../cadquery/doc/importexport.rst:89
 msgid "*marginTop* - Inset margin from the top side of the document."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:88
+#: ../../cadquery/doc/importexport.rst:90
 msgid "*projectionDir* - Direction the camera will view the shape from."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:89
+#: ../../cadquery/doc/importexport.rst:91
 msgid "*showAxes* - Whether or not to show the axes indicator, which will only be visible when the projectionDir is also at the default."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:90
+#: ../../cadquery/doc/importexport.rst:92
 msgid "*strokeWidth* - Width of the line that visible edges are drawn with."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:91
+#: ../../cadquery/doc/importexport.rst:93
 msgid "*strokeColor* - Color of the line that visible edges are drawn with."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:92
+#: ../../cadquery/doc/importexport.rst:94
 msgid "*hiddenColor* - Color of the line that hidden edges are drawn with."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:93
+#: ../../cadquery/doc/importexport.rst:95
 msgid "*showHidden* - Whether or not to show hidden lines."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:95
+#: ../../cadquery/doc/importexport.rst:97
 msgid "The options are passed to the exporter in a dictionary, and can be left out to force the SVG to be created with default options. Below are examples with and without options set."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:98
+#: ../../cadquery/doc/importexport.rst:100
 msgid "Without options:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:109
+#: ../../cadquery/doc/importexport.rst:111
 msgid "Results in:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:113
+#: ../../cadquery/doc/importexport.rst:115
 msgid "Note that the exporters API figured out the format type from the file extension. The format type can be set explicitly by using :py:class:`exporters.ExportTypes`."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:116
+#: ../../cadquery/doc/importexport.rst:118
 msgid "The following is an example of using options to alter the resulting SVG output by passing in the ``opt`` parameter."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:142
+#: ../../cadquery/doc/importexport.rst:144
 msgid "Which results in the following image:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:147
+#: ../../cadquery/doc/importexport.rst:149
 msgid "Exporting STL"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:149
+#: ../../cadquery/doc/importexport.rst:151
 msgid "The STL exporter is capable of adjusting the quality of the resulting mesh, and accepts the following parameters."
 msgstr ""
 
@@ -243,80 +251,80 @@ msgstr ""
 msgid ":py:class:`bool`"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:154
-#: ../../cadquery/doc/importexport.rst:197
-#: ../../cadquery/doc/importexport.rst:221
+#: ../../cadquery/doc/importexport.rst:156
+#: ../../cadquery/doc/importexport.rst:199
+#: ../../cadquery/doc/importexport.rst:223
 msgid "For more complex objects, some experimentation with ``tolerance`` and ``angularTolerance`` may be required to find the optimum values that will produce an acceptable mesh."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:167
+#: ../../cadquery/doc/importexport.rst:169
 msgid "Exporting AMF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:169
+#: ../../cadquery/doc/importexport.rst:171
 msgid "The AMF exporter is capable of adjusting the quality of the resulting mesh, and accepts the following parameters."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:171
+#: ../../cadquery/doc/importexport.rst:173
 msgid "``fileName`` - The path and file name to write the AMF output to."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:172
-#: ../../cadquery/doc/importexport.rst:194
-#: ../../cadquery/doc/importexport.rst:218
+#: ../../cadquery/doc/importexport.rst:174
+#: ../../cadquery/doc/importexport.rst:196
+#: ../../cadquery/doc/importexport.rst:220
 msgid "``tolerance`` - A linear deflection setting which limits the distance between a curve and its tessellation. Setting this value too low will result in large meshes that can consume computing resources. Setting the value too high can result in meshes with a level of detail that is too low. Default is 0.1, which is good starting point for a range of cases."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:173
-#: ../../cadquery/doc/importexport.rst:195
-#: ../../cadquery/doc/importexport.rst:219
+#: ../../cadquery/doc/importexport.rst:175
+#: ../../cadquery/doc/importexport.rst:197
+#: ../../cadquery/doc/importexport.rst:221
 msgid "``angularTolerance`` - Angular deflection setting which limits the angle between subsequent segments in a polyline. Default is 0.1."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:175
+#: ../../cadquery/doc/importexport.rst:177
 msgid "For more complex objects, some experimentation with ``tolerance`` and ``angularTolerance`` may be required to find the optimum values that will produce an acceptable mesh. Note that parameters for AMF color and material are absent."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:189
+#: ../../cadquery/doc/importexport.rst:191
 msgid "Exporting TJS"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:191
+#: ../../cadquery/doc/importexport.rst:193
 msgid "The TJS (ThreeJS) exporter produces a file in JSON format that describes a scene for the ThreeJS WebGL renderer. The objects in the first argument are converted into a mesh and then form the ThreeJS geometry for the scene. The mesh can be adjusted with the following parameters."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:193
+#: ../../cadquery/doc/importexport.rst:195
 msgid "``fileName`` - The path and file name to write the ThreeJS output to."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:209
+#: ../../cadquery/doc/importexport.rst:211
 msgid "Note that the export type was explicitly specified as ``TJS`` because the extension that was used for the file name was ``.json``. If the extension ``.tjs`` had been used, CadQuery would have understood to use the ``TJS`` export format."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:213
+#: ../../cadquery/doc/importexport.rst:215
 msgid "Exporting VRML"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:215
+#: ../../cadquery/doc/importexport.rst:217
 msgid "The VRML exporter is capable of adjusting the quality of the resulting mesh, and accepts the following parameters."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:217
+#: ../../cadquery/doc/importexport.rst:219
 msgid "``fileName`` - The path and file name to write the VRML output to."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:234
+#: ../../cadquery/doc/importexport.rst:236
 msgid "Exporting Other Formats"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:236
+#: ../../cadquery/doc/importexport.rst:238
 msgid "The remaining export formats do not accept any additional parameters other than file name, and can be exported using the following structure."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:248
+#: ../../cadquery/doc/importexport.rst:250
 msgid "Be sure to use the correct file extension so that CadQuery can determine the export format. If in doubt, fall back to setting the type explicitly by using :py:class:`exporters.ExportTypes`."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:251
+#: ../../cadquery/doc/importexport.rst:253
 msgid "For example:"
 msgstr ""

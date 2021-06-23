@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-06-23 00:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,22 +84,18 @@ msgstr ""
 msgid "Below is the complete code including the final solve step."
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:357
-msgid "This code generates the following assembly."
-msgstr ""
-
-#: ../../cadquery/doc/assy.rst:363
+#: ../../cadquery/doc/assy.rst:360
 msgid "Data export"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:365
+#: ../../cadquery/doc/assy.rst:362
 msgid "The resulting assembly can be exported as a STEP file or in a internal OCCT XML format."
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:368
+#: ../../cadquery/doc/assy.rst:365
 msgid "STEP can be loaded in all CAD tool, e.g. in FreeCAD and the XML be used in other applications using OCCT."
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:376
+#: ../../cadquery/doc/assy.rst:373
 msgid "In the case of STEP colors are preserved but not transparency."
 msgstr ""

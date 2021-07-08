@@ -34,6 +34,7 @@ jobs:
         private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: install
       run: |
+        git submodule update --remote
         cd cadquery
         $CONDA/bin/conda env update --file environment.yml --name base
         $CONDA/bin/pip install sphinx-intl[transifex]>=0.9.11
@@ -44,7 +45,6 @@ jobs:
         SPHINXINTL_TRANSIFEX_PROJECT_NAME: cadquery-doc
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
-        git submodule update --remote
         (cd cadquery/doc; $CONDA/bin/sphinx-build -M html . _build)
         sh ./locale/update.sh
     - name: commit

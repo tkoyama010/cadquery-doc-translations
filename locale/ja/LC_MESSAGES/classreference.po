@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-23 00:38+0000\n"
+"POT-Creation-Date: 2021-07-08 03:08+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -1222,8 +1222,10 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Face.makeSplineApprox:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Face.normalAt:0 ../../cadquery/cadquery/occ_impl/geom.pydocstring
-#: of cadquery.Location.toTuple:0
+#: cadquery.Face.normalAt:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Face.toPln:0 ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Location.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Matrix.__getitem__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
@@ -2339,6 +2341,24 @@ msgstr ""
 msgid ""
 "the location to compute the normal at. If none, the center of the face is "
 "used."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Face.toPln:1
+msgid "Convert this face to a gp_Pln."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Face.toPln:3
+msgid ""
+"Note the Location of the resulting plane may not equal the center of this "
+"face, however the resulting plane will still contain the center of this "
+"face."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Face.toPln:7
+msgid ":py:class:`~OCP.gp.gp_Pln`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of cadquery.Location:1

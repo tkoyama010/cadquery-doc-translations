@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-08 03:08+0000\n"
+"POT-Creation-Date: 2021-07-20 00:43+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -4540,7 +4540,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:15
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:28
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:7
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:10
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:15
 #: ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.twistExtrude:16
 msgid "call :py:meth:`clean` afterwards to have a clean shape"
@@ -5264,14 +5264,12 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:4
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:5
 msgid "the distance to extrude, normal to the workplane plane"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:6
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:13
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:6
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:9
 #: ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.twistExtrude:15
 msgid "True to combine the resulting solid with parent solids if found."
@@ -5284,20 +5282,17 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:11
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:17
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:15
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:16
 #: ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.twistExtrude:18
 msgid "a CQ object with the resulting solid selected."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:13
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:18
 msgid "extrude always *adds* material to a part."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:15
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:19
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:20
 msgid ""
 "The returned object is always a CQ object, and depends on whether combine is"
 " True, and whether a context solid is already defined:"
@@ -5305,13 +5300,13 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:18
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:22
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:23
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:32
 msgid "if combine is False, the new value is pushed onto the stack."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:19
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:23
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:24
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:33
 msgid ""
 "if combine is true, the value is combined with the context solid if it "
 "exists, and the resulting solid becomes the new context solid."
@@ -6659,32 +6654,70 @@ msgid ""
 "the case after a lineTo operation or similar."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:3
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:4
 msgid "text to be rendered"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:7
-msgid "size of the font"
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:6
+msgid "size of the font in model units"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:8
-msgid "True to cut the resulting solid from the parent solids if found."
+msgid "the distance to extrude or cut, normal to the workplane plane"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:11
-msgid "fontname (default: Arial)"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:12
-msgid "font type (default: Normal)"
+msgid "True to cut the resulting solid from the parent solids if found"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:13
-msgid "horizontal alignment (default: center)"
+msgid "True to combine the resulting solid with parent solids if found"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:14
-msgid "vertical alignment (default: center)"
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:17
+msgid "font name"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:19
+msgid "path to font file"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:21
+msgid "font type"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:23
+msgid "horizontal alignment"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:25
+msgid "vertical alignment"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:27
+msgid "a CQ object with the resulting solid selected"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:29
+msgid ""
+"The returned object is always a Workplane object, and depends on whether "
+"combine is True, and whether a context solid is already defined:"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:36
+msgid "Examples::"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:40
+msgid "Specify the font (name), and kind to use an installed system font::"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:44
+msgid "Specify fontPath to use a font from a given file::"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:48
+msgid "Cutting text into a solid::"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of

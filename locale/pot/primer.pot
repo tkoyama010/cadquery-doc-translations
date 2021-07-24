@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-07-24 00:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,198 +93,361 @@ msgid "When using CadQuery, all of these objects are created, hopefully with the
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:31
-msgid "CQ, the CadQuery Object"
+msgid "Workplane class"
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:33
-msgid "The CadQuery object wraps a BREP feature, and provides functionality around it.  Typical examples include rotating, transforming, combining objects, and creating workplanes."
+msgid "The Workplane class contains the currently selected objects (a list of Shapes, Vectors or Locations in the :attr:`~cadquery.Workplane.objects` attribute), the modelling context (in the :attr:`~cadquery.Workplane.ctx` attribute), and CadQuery's fluent api methods. It is the main class that users will instantiate."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:36
+#: ../../cadquery/doc/primer.rst:38
 msgid "See :ref:`apireference` to learn more."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:40
+#: ../../cadquery/doc/primer.rst:42
 msgid "Workplanes"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:42
+#: ../../cadquery/doc/primer.rst:44
 msgid "Most CAD programs use the concept of Workplanes. If you have experience with other CAD programs you will probably feel comfortable with CadQuery's Workplanes, but if you don't have experience then they are an essential concept to understand."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:46
+#: ../../cadquery/doc/primer.rst:48
 msgid "Workplanes represent a plane in space, from which other features can be located. They have a center point and a local coordinate system. Most methods that create an object do so relative to the current workplane."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:49
+#: ../../cadquery/doc/primer.rst:51
 msgid "Usually the first workplane created is the \"XY\" plane, also known as the \"front\" plane. Once a solid is defined the most common way to create a workplane is to select a face on the solid that you intend to modify and create a new workplane relative to it. You can also create new workplanes in anywhere in world coordinate system, or relative to other planes using offsets or rotations."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:54
+#: ../../cadquery/doc/primer.rst:56
 msgid "The most powerful feature of workplanes is that they allow you to work in 2D space in the coordinate system of the workplane, and then CadQuery will transform these points from the workplane coordinate system to the world coordinate system so your 3D features are located where you intended. This makes scripts much easier to create and maintain."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:58
+#: ../../cadquery/doc/primer.rst:60
 msgid "See :py:class:`cadquery.Workplane` to learn more."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:62
+#: ../../cadquery/doc/primer.rst:64
 msgid "2D Construction"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:64
+#: ../../cadquery/doc/primer.rst:66
 msgid "Once you create a workplane, you can work in 2D, and then later use the features you create to make 3D objects. You'll find all of the 2D constructs you expect -- circles, lines, arcs, mirroring, points, etc."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:67
+#: ../../cadquery/doc/primer.rst:69
 msgid "See :ref:`2dOperations` to learn more."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:71
+#: ../../cadquery/doc/primer.rst:73
 msgid "3D Construction"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:73
+#: ../../cadquery/doc/primer.rst:75
 msgid "You can construct 3D primitives such as boxes, spheres, wedges, and cylinders directly. You can also sweep, extrude, and loft 2D geometry to form 3D features.  Of course the basic primitive operations are also available."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:76
+#: ../../cadquery/doc/primer.rst:78
 msgid "See :ref:`3doperations` to learn more."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:81
+#: ../../cadquery/doc/primer.rst:83
 msgid "Selectors"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:83
+#: ../../cadquery/doc/primer.rst:85
 msgid "Selectors allow you to select one or more features, in order to define new features.  As an example, you might extrude a box, and then select the top face as the location for a new feature.  Or, you might extrude a box, and then select all of the vertical edges so that you can apply a fillet to them."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:87
+#: ../../cadquery/doc/primer.rst:89
 msgid "You can select Vertices, Edges, Faces, Solids, and Wires using selectors."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:89
+#: ../../cadquery/doc/primer.rst:91
 msgid "Think of selectors as the equivalent of your hand and mouse, if you were to build an object using a conventional CAD system."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:91
+#: ../../cadquery/doc/primer.rst:93
 msgid "You can learn more about selectors :ref:`selectors`"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:95
+#: ../../cadquery/doc/primer.rst:97
 msgid "Construction Geometry"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:96
+#: ../../cadquery/doc/primer.rst:98
 msgid "Construction geometry are features that are not part of the object, but are only defined to aid in building the object. A common example might be to define a rectangle, and then use the corners to define the location of a set of holes."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:99
+#: ../../cadquery/doc/primer.rst:101
 msgid "Most CadQuery construction methods provide a ``forConstruction`` keyword, which creates a feature that will only be used to locate other features"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:104
+#: ../../cadquery/doc/primer.rst:106
 msgid "The Stack"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:106
-msgid "As you work in CadQuery, each operation returns a new CadQuery object with the result of that operations. Each CadQuery object has a list of objects, and a reference to its parent."
+#: ../../cadquery/doc/primer.rst:108
+msgid "As you work in CadQuery, each operation returns a new Workplane object with the result of that operations. Each Workplane object has a list of objects, and a reference to its parent."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:109
+#: ../../cadquery/doc/primer.rst:111
 msgid "You can always go backwards to older operations by removing the current object from the stack.  For example::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:113
+#: ../../cadquery/doc/primer.rst:115
 msgid "returns a CadQuery object that contains all of the vertices on the highest face of someObject. But you can always move backwards in the stack to get the face as well::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:118
+#: ../../cadquery/doc/primer.rst:120
 msgid "You can browse stack access methods here: :ref:`stackMethods`."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:124
+#: ../../cadquery/doc/primer.rst:126
 msgid "Chaining"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:126
-msgid "All CadQuery methods return another CadQuery object, so that you can chain the methods together fluently. Use the core CQ methods to get at the objects that were created."
+#: ../../cadquery/doc/primer.rst:128
+msgid "All Workplane methods return another Workplane object, so that you can chain the methods together fluently. Use the core Workplane methods to get at the objects that were created."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:129
-msgid "Each time a new CadQuery object is produced during these chained calls, it has a ``parent`` attribute that points to the CadQuery object that created it. Several CadQuery methods search this parent chain, for example when searching for the context solid. You can also give a CadQuery object a tag, and further down your chain of CadQuery calls you can refer back to this particular object using its tag."
+#: ../../cadquery/doc/primer.rst:131
+msgid "Each time a new Workplane object is produced during these chained calls, it has a :attr:`~cadquery.Workplane.parent` attribute that points to the Workplane object that created it. Several CadQuery methods search this parent chain, for example when searching for the context solid. You can also give a Workplane object a tag, and further down your chain of calls you can refer back to this particular object using its tag."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:136
+#: ../../cadquery/doc/primer.rst:139
 msgid "The Context Solid"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:138
+#: ../../cadquery/doc/primer.rst:141
 msgid "Most of the time, you are building a single object, and adding features to that single object.  CadQuery watches your operations, and defines the first solid object created as the 'context solid'.  After that, any features you create are automatically combined (unless you specify otherwise) with that solid.  This happens even if the solid was created  a long way up in the stack.  For example::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:145
+#: ../../cadquery/doc/primer.rst:148
 msgid "Will create a 1x2x3 box, with a cylindrical boss extending from the top face.  It was not necessary to manually combine the cylinder created by extruding the circle with the box, because the default behavior for extrude is to combine the result with the context solid. The hole() method works similarly -- CadQuery presumes that you want to subtract the hole from the context solid."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:150
+#: ../../cadquery/doc/primer.rst:153
 msgid "If you want to avoid this, you can specify ``combine=False``, and CadQuery will create the solid separately."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:154
+#: ../../cadquery/doc/primer.rst:157
 msgid "Iteration"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:156
+#: ../../cadquery/doc/primer.rst:159
 msgid "CAD models often have repeated geometry, and its really annoying to resort to for loops to construct features. Many CadQuery methods operate automatically on each element on the stack, so that you don't have to write loops. For example, this::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:162
+#: ../../cadquery/doc/primer.rst:165
 msgid "Will actually create 4 circles, because ``vertices()`` selects 4 vertices of a rectangular face, and the ``circle()`` method iterates on each member of the stack."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:165
+#: ../../cadquery/doc/primer.rst:168
 msgid "This is really useful to remember  when you author your own plugins. :py:meth:`cadquery.cq.Workplane.each` is useful for this purpose."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:169
-msgid "Assemblies"
-msgstr ""
-
-#: ../../cadquery/doc/primer.rst:171
-msgid "Simple models can be combined into complex, possibly nested, assemblies."
+#: ../../cadquery/doc/primer.rst:172
+msgid "An Introspective Example"
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:175
+msgid "If you are just beginning with CadQuery then you can leave this example for later.  If you have some experience with creating CadQuery models and now you want to read the CadQuery source to better understand what your code does, then it is recommended you read this example first."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:179
+msgid "To demonstrate the above concepts, we can define more detailed string representations for the :class:`~cadquery.Workplane`, :class:`~cadquery.Plane` and :class:`~cadquery.CQContext` classes and patch them in::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:226
+msgid "Now we can make a simple part and examine the :class:`~cadquery.Workplane` and :class:`~cadquery.cq.CQContext` objects at each step. The final part looks like:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:248
+msgid "Some of the modelling process for this part is a bit contrived and not a great example of fluent CadQuery techniques."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:251
+msgid "The start of our chain of calls is::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:256
+#: ../../cadquery/doc/primer.rst:280
+msgid "Which produces the output:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:271
+msgid "This is simply an empty :class:`~cadquery.Workplane`. Being the first :class:`~cadquery.Workplane` in the chain, it does not have a parent. The :attr:`~cadquery.Workplane.plane` attribute contains a :class:`~cadquery.Plane` object that describes the XY plane."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:275
+msgid "Now we create a simple box. To keep things short, the ``print(part)`` line will not be shown for the rest of these code blocks::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:295
+msgid "The first thing to note is that this is a different :class:`~cadquery.Workplane` object to the previous one, and in the :attr:`~cadquery.Workplane.parent` attribute of this :class:`~cadquery.Workplane` is our previous :class:`~cadquery.Workplane`. Returning a new instance of :class:`~caduqery.Workplane` is the normal behaviour of most :class:`~cadquery.Workplane` methods (with some exceptions, as will be shown below) and this is how the `chaining`_ concept is implemented."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:302
+msgid "Secondly, the modelling context object is the same as the one in the previous :class:`~cadquery.Workplane`, and this one modelling context at ``0x2730`` will be shared between every :class:`Workplane` object in this chain. If we instantiate a new :class:`~cadquery.Workplane` with ``part2 = cq.Workplane()``, then this ``part2`` would have a different instance of the :class:`~cadquery.cq.CQContext` attached to it."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:308
+msgid "Thirdly, in our objects list is a single :class:`~cadquery.Solid` object, which is the box we just created."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:311
+msgid "Often when creating models you will find yourself wanting to refer back to a specific :class:`~cadquery.Workplane` object, perhaps because it is easier to select the feature you want in this earlier state, or because you want to reuse a plane. Tags offer a way to refer back to a previous :class:`~cadquery.Workplane`. We can tag the :class:`~cadquery.Workplane` that contains this basic box now::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:318
+msgid "The string representation of ``part`` is now:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:333
+msgid "The :attr:`~cadquery.cq.CQContext.tags` attribute of the modelling context is simply a dict associating the string name given by the :meth:`~cadquery.Workplane.tag` method to the :class:`~cadquery.Workplane`. Methods such as :meth:`~cadquery.Workplane.workplaneFromTagged` and selection methods like :meth:`~cadquery.Workplane.edges` can operate on a tagged :class:`~cadquery.Workplane`. Note that unlike the ``part = part.box(1, 1, 1)`` step where we went from ``Workplane object at 0x2760`` to ``Workplane object at 0xaa90``, the :meth:`~cadquery.Workplane.tag` method has returned the same object at ``0xaa90``. This is unusual for a :class:`~cadquery.Workplane` method."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:342
+msgid "The next step is::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:346
+msgid "The output is:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:361
+msgid "Our selection method has taken the :class:`~cadquery.Solid` from the :attr:`~cadquery.Workplane.objects` list of the previous :class:`~cadquery.Workplane`, found the face with it's center furthest in the Z direction, and placed that face into the :attr:`~cadquery.Workplane.objects` attribute. The :class:`~cadquery.Solid` representing the box we are modelling is gone, and when a :class:`~cadquery.Workplane` method needs to access that solid it searches through the parent chain for the nearest solid. This action can also be done by a user through the :meth:`~cadquery.Workplane.findSolid` method."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:369
+msgid "Now we want to select the boundary of this :class:`~cadquery.Face` (a :class:`~cadquery.Wire`), so we use::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:374
+msgid "The output is now:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:389
+msgid "Modelling operations take their wires and edges from the modelling context's pending lists. In order to use the :meth:`~cadquery.Workplane.loft` command futher down the chain, we need to push this wire to the modelling context with::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:395
+msgid "Now we have:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:410
+msgid "The :class:`~cadquery.Wire` object that was only in the :attr:`~cadquery.Workplane.objects` attribute before is now also in the modelling context's :attr:`~cadquery.cq.CQContext.pendingWires`. The :meth:`~cadquery.Workplane.toPending` method is also another of the unusual methods that return the same :class:`~cadquery.Workplane` object instead of a new one."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:415
+msgid "To set up the other side of the :meth:`~cadquery.Workplane.loft` command further down the chain, we translate the wire in :attr:`~cadquery.Workplane.objects` by calling::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:420
+msgid "Now the string representation of ``part`` looks like:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:435
+msgid "It may look similar to the previous step, but the :class:`~cadquery.Wire` object in :attr:`~cadquery.Workplane.objects` is different. To get this wire into the pending wires list, again we use::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:441
+msgid "The result:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:456
+msgid "The modelling context's :attr:`~cadquery.cq.CQContext.pendingWires` attribute now contains the two wires we want to loft between, and we simply call::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:461
+msgid "After the loft operation, our Workplane looks quite different:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:476
+msgid "In the :attr:`cq.Workplane.objects` attribute we now have one Compound object and the modelling context's :attr:`~cadquery.cq.CQContext.pendingWires` has been cleared by :meth:`~cadquery.Workplane.loft`."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:481
+msgid "To inspect the :class:`~cadquery.Compound` object further you can use :meth:`~cadquery.Workplane.val` or :meth:`~cadquery.Workplane.findSolid` to get at the :class:`~cadquery.Compound` object, then use :meth:`cadquery.Shape.Solids` to return a list of the :class:`~cadquery.Solid` objects contained in the :class:`~cadquery.Compound`, which in this example will be a single :class:`~cadquery.Solid` object. For example::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:492
+msgid "Now we will create a small cylinder protruding from a face on the original box. We need to set up a workplane to draw a circle on, so firstly we will select the correct face::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:497
+msgid "Which results in:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:512
+msgid "We have the desired :class:`~cadquery.Face` in the :attr:`~cadquery.Workplane.objects` attribute, but the :attr:`~cadquery.Workplane.plane` has not changed yet. To create the new plane we use the :meth:`Workplane.workplane` method::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:518
+#: ../../cadquery/doc/primer.rst:541
+#: ../../cadquery/doc/primer.rst:565
+msgid "Now:"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:533
+msgid "The :attr:`~cadquery.Workplane.objects` list has been cleared and the :class:`~cadquery.Plane` object has a local Z direction in the global X direction. Since the base of the plane is the side of the box, the origin is offset in the X direction."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:537
+msgid "Onto this plane we can draw a circle::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:556
+msgid "The :meth:`~cadquery.Workplane.circle` method - like all 2D drawing methods - has placed the circle into both the :attr:`~cadquery.Workplane.objects` attribute (where it will be cleared during the next modelling step), and the modelling context's pending wires (where it will persist until used by another :class:`~cadquery.Workplane` method)."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:561
+msgid "The next step is to extrude this circle and create a cylindrical protrusion::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:580
+msgid "The :meth:`~cadquery.Workplane.extrude` method has cleared all the pending wires and edges. The :attr:`~cadquery.Workplane.objects` attribute contains the final :class:`~cadquery.Compound` object that is shown in the 3D view above."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:586
+msgid "Assemblies"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:588
+msgid "Simple models can be combined into complex, possibly nested, assemblies."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:592
 msgid "A simple example could look as follows::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:193
+#: ../../cadquery/doc/primer.rst:610
 msgid "Resulting in:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:197
+#: ../../cadquery/doc/primer.rst:614
 msgid "Note that the locations of the children parts are defined with respect to their parents - in the above example ``part3`` will be located at (-5,-5,20) in the global coordinate system. Assemblies with different colors can be created this way and exported to STEP or the native OCCT xml format."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:199
+#: ../../cadquery/doc/primer.rst:616
 msgid "You can browse assembly related methods here: :ref:`assembly`."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:202
+#: ../../cadquery/doc/primer.rst:619
 msgid "Assemblies with constraints"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:204
+#: ../../cadquery/doc/primer.rst:621
 msgid "Sometimes it is not desirable to define the component positions explicitly but rather use constraints to obtain a fully parametric assembly. This can be achieved in the following way::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:230
+#: ../../cadquery/doc/primer.rst:647
 msgid "This code results in identical object as one from the previous section. The added benefit is that with changing parameters ``w``, ``d``, ``h`` the final locations will be calculated automatically. It is admittedly dense and can be made clearer using tags. Tags can be directly referenced when constructing the constraints::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:263
+#: ../../cadquery/doc/primer.rst:680
 msgid "The following constraints are currently implemented:"
 msgstr ""
 
@@ -292,7 +455,7 @@ msgstr ""
 msgid "Axis"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:265
+#: ../../cadquery/doc/primer.rst:682
 msgid "two normal vectors are anti-coincident or the angle (in radians) between them is equal to the specified value. Can be defined for all entities with consistent normal vector - planar faces, wires and edges."
 msgstr ""
 
@@ -300,7 +463,7 @@ msgstr ""
 msgid "Point"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:266
+#: ../../cadquery/doc/primer.rst:683
 msgid "two points are coincident or separated by a specified distance. Can be defined for all entities, center of mass is used for lines, faces, solids and the vertex position for vertices."
 msgstr ""
 
@@ -308,10 +471,10 @@ msgstr ""
 msgid "Plane"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:267
+#: ../../cadquery/doc/primer.rst:684
 msgid "combination of :Axis: and :Point: constraints."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:269
+#: ../../cadquery/doc/primer.rst:686
 msgid "For a more elaborate assembly example see :ref:`assytutorial`."
 msgstr ""

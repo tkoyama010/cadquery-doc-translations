@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-20 00:43+0000\n"
+"POT-Creation-Date: 2021-07-30 00:41+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -7390,33 +7390,35 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.shell:1
-msgid "make a shelled solid of given  by removing the list of faces"
+msgid "Make a shelled solid of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.shell:4
-msgid "list of face objects, which must be part of the solid."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin3D.shell:6
 msgid ""
-"floating point thickness. positive shells outwards, negative shells inwards"
+"List of faces to be removed, which must be part of the solid. Can be an "
+"empty list."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin3D.shell:8
-msgid "modelling tolerance of the method, default=0.0001"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin3D.shell:9
-msgid ":py:data:`~typing.Any`"
+#: cadquery.occ_impl.shapes.Mixin3D.shell:7
+msgid ""
+"Floating point thickness. Positive shells outwards, negative shells inwards."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.shell:10
-msgid "a shelled solid"
+msgid "Modelling tolerance of the method, default=0.0001."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.shell:11
+msgid ":py:data:`~typing.Any`"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.shell:12
+msgid "A shelled solid."
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.pydocstring of cadquery.selectors:1

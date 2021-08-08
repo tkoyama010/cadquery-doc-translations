@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-08-08 00:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,7 +137,7 @@ msgid ":obj:`Workplane.polarLineTo <cadquery.Workplane.polarLineTo>`\\ \\(distan
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:73:<autosummary>:1
-msgid "Make a line from the current point to the given polar co-ordinates"
+msgid "Make a line from the current point to the given polar coordinates"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:73:<autosummary>:1
@@ -738,7 +738,7 @@ msgid "Selectors"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:169
-msgid "Objects that filter and select CAD objects. Selectors are used to select existing geometry as a basis for futher operations."
+msgid "Objects that filter and select CAD objects. Selectors are used to select existing geometry as a basis for further operations."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:194:<autosummary>:1

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-08-08 00:40+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -185,7 +185,7 @@ msgstr ""
 "\\(distance\\, angle\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:73:<autosummary>:1
-msgid "Make a line from the current point to the given polar co-ordinates"
+msgid "Make a line from the current point to the given polar coordinates"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:73:<autosummary>:1
@@ -1004,7 +1004,7 @@ msgstr ""
 #: ../../cadquery/doc/apireference.rst:169
 msgid ""
 "Objects that filter and select CAD objects. Selectors are used to select "
-"existing geometry as a basis for futher operations."
+"existing geometry as a basis for further operations."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:194:<autosummary>:1

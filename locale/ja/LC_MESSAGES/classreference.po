@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 00:41+0000\n"
+"POT-Creation-Date: 2021-08-08 00:40+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -1791,7 +1791,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.Constraint.__init__:4
-msgid "object names refernced in the constraint"
+msgid "object names referenced in the constraint"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
@@ -1813,7 +1813,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.Constraint.__init__:12
-msgid "optional arbitrary paramter passed to the solver"
+msgid "optional arbitrary parameter passed to the solver"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of cadquery.Constraint.toPOD:1
@@ -2116,14 +2116,15 @@ msgid "tuple of Vectors specifying start and finish tangent"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Edge.makeSpline:8
-msgid "creation of peridic curves"
+#: cadquery.Edge.makeSpline:8 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.spline:19
+msgid "creation of periodic curves"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Edge.makeSpline:10
 msgid ""
-"the value of the parameter at each interpolation point. (The intepolated "
+"the value of the parameter at each interpolation point. (The interpolated "
 "curve is represented as a vector-valued function of a scalar parameter.) If "
 "periodic == True, then len(parameters) must be len(intepolation points) + 1,"
 " otherwise len(parameters) must be equal to len(interpolation points)."
@@ -3360,7 +3361,7 @@ msgstr ":py:class:`~cadquery.occ_impl.geom.Location`"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.mesh:1
-msgid "Generate traingulation if none exists."
+msgid "Generate triangulation if none exists."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -3502,7 +3503,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.dprism:4
-msgid "face to perfrom the operation on"
+msgid "face to perform the operation on"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -3836,7 +3837,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.sweep:9
-msgid "return Solid or Shell (defualt True)"
+msgid "return Solid or Shell (default True)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -3901,7 +3902,7 @@ msgstr ""
 #: cadquery.StringSyntaxSelector:11
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.StringSyntaxSelector:11
-msgid "***Modfiers*** are ``('|','+','-','<','>','%')``"
+msgid "***Modifiers*** are ``('|','+','-','<','>','%')``"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
@@ -4023,7 +4024,7 @@ msgstr ""
 #: cadquery.selectors.StringSyntaxSelector:30
 msgid ""
 "It is possible to combine simple selectors together using logical "
-"operations. The following operations are suuported"
+"operations. The following operations are supported"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
@@ -4202,7 +4203,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.Center:3
 msgid ""
-"The center of myself is myself. Provided so that vectors, vertexes, and "
+"The center of myself is myself. Provided so that vectors, vertices, and "
 "other shapes all support a common interface, when Center() is requested for "
 "all objects on the stack."
 msgstr ""
@@ -5500,9 +5501,9 @@ msgstr ""
 msgid ""
 "Returns a plate surface that is 'thickness' thick, enclosed by "
 "'surf_edge_pts' points,  and going through 'surf_pts' points.  Using "
-"pushpoints directly with interpPlate and combine=True, can be very "
-"ressources intensive depending on the complexity of the shape. In this case "
-"set combine=False."
+"pushpoints directly with interpPlate and combine=True, can be very resources"
+" intensive depending on the complexity of the shape. In this case set "
+"combine=False."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.interpPlate:3
@@ -5920,7 +5921,7 @@ msgid "angle of the vector to the end of the line with the x-axis"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.polarLineTo:1
-msgid "Make a line from the current point to the given polar co-ordinates"
+msgid "Make a line from the current point to the given polar coordinates"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.polarLineTo:3
@@ -6168,7 +6169,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.rotateAboutCenter:21
 msgid ""
-"This method doesnt expose a very good interface, because the axis of "
+"This method doesn't expose a very good interface, because the axis of "
 "rotation could be inconsistent between multiple objects.  This is because "
 "the beginning of the axis is variable, while the end is fixed. This is fine "
 "when operating on one object, but is not cool for multiple."
@@ -6453,13 +6454,9 @@ msgid ""
 "tangent constraint is specified."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.spline:19
-msgid "creation of periodic curves"
-msgstr ""
-
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.spline:21
 msgid ""
-"the value of the parameter at each interpolation point. (The intepolated "
+"the value of the parameter at each interpolation point. (The interpolated "
 "curve is represented as a vector-valued function of a scalar parameter.)  If"
 " periodic == True, then len(parameters) must be len(intepolation points) + "
 "1, otherwise len(parameters) must be equal to len(interpolation points)."
@@ -6467,7 +6464,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.spline:21
 msgid ""
-"the value of the parameter at each interpolation point. (The intepolated "
+"the value of the parameter at each interpolation point. (The interpolated "
 "curve is represented as a vector-valued function of a scalar parameter.)"
 msgstr ""
 
@@ -7276,7 +7273,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.positionAt:1
 msgid ""
-"Generate a postion along the underlying curve. :type d: :py:class:`float` "
+"Generate a position along the underlying curve. :type d: :py:class:`float` "
 ":param d: distance or parameter value :type mode: "
 ":py:data:`~typing.Literal`\\['length', 'parameter'] :param mode: position "
 "calculation mode (default: length) :rtype: "
@@ -7380,7 +7377,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.isInside:7
-msgid "tolerence for inside determination, default=1.0e-6"
+msgid "tolerance for inside determination, default=1.0e-6"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -7592,7 +7589,7 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.SubtractSelector:1
 msgid ""
-"Difference selector. Substract results of a selector from another selectors "
+"Difference selector. Subtract results of a selector from another selectors "
 "results."
 msgstr ""
 

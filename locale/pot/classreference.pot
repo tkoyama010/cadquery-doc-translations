@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 00:40+0000\n"
+"POT-Creation-Date: 2021-08-13 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -911,6 +911,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Face.toPln:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Location.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.__getitem__:0
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.__repr__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.transposed_list:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.ParallelDirSelector.test:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.PerpendicularDirSelector.test:0
@@ -1713,6 +1714,17 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.LengthNthSelector.key:8
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.RadiusNthSelector.key:8
 msgid ":py:class:`float`"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.__repr__:1
+msgid "Generate a valid python expression representing this Matrix"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.__repr__:4
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__repr__:4
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__str__:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.toSvg:8
+msgid ":py:class:`str`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.transposed_list:1
@@ -2947,12 +2959,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__repr__:1
 msgid "Return repr(self)."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__repr__:4
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__str__:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.toSvg:8
-msgid ":py:class:`str`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__str__:1

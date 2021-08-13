@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 00:40+0000\n"
+"POT-Creation-Date: 2021-08-13 00:41+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -1229,6 +1229,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Matrix.__getitem__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Matrix.__repr__:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Matrix.transposed_list:0
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.ParallelDirSelector.test:0
@@ -2445,6 +2447,21 @@ msgstr ""
 #: cadquery.selectors.RadiusNthSelector.key:8
 msgid ":py:class:`float`"
 msgstr ":py:class:`float`"
+
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Matrix.__repr__:1
+msgid "Generate a valid python expression representing this Matrix"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Matrix.__repr__:4
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.__repr__:4
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.__str__:4 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.toSvg:8
+msgid ":py:class:`str`"
+msgstr ":py:class:`str`"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Matrix.transposed_list:1
@@ -4212,14 +4229,6 @@ msgstr ""
 #: cadquery.Vector.__repr__:1
 msgid "Return repr(self)."
 msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
-#: cadquery.Vector.__repr__:4
-#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
-#: cadquery.Vector.__str__:4 ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.Workplane.toSvg:8
-msgid ":py:class:`str`"
-msgstr ":py:class:`str`"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.__str__:1

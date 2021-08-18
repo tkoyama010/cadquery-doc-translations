@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 00:40+0000\n"
+"POT-Creation-Date: 2021-08-18 00:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "A rectangular box, but with a hole added."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:61
-msgid "\"\\>Z\" selects the top most face of the resulting box.  The hole is located in the center because the default origin of a working plane is at the center of the face.  The default hole depth is through the entire part."
+msgid "\"\\>Z\" selects the top most face of the resulting box. The hole is located in the center because the default origin of a working plane is at the center of the face. The default hole depth is through the entire part."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:82
@@ -156,7 +156,7 @@ msgid "Building Profiles using lines and arcs"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:112
-msgid "Sometimes you need to build complex profiles using lines and arcs.  This example builds a prismatic solid from 2-d operations."
+msgid "Sometimes you need to build complex profiles using lines and arcs. This example builds a prismatic solid from 2-d operations."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:115
@@ -302,7 +302,7 @@ msgid "Mirroring Symmetric Geometry"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:282
-msgid "You can mirror 2-d geometry when your shape is symmetric.  In this example we also introduce horizontal and vertical lines, which make for slightly easier coding."
+msgid "You can mirror 2-d geometry when your shape is symmetric. In this example we also introduce horizontal and vertical lines, which make for slightly easier coding."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:297
@@ -358,7 +358,7 @@ msgid "Mirroring From Faces"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:367
-msgid "This example shows how you can mirror about a selected face.  It also shows how the resulting mirrored object can be unioned immediately with the referenced mirror geometry."
+msgid "This example shows how you can mirror about a selected face. It also shows how the resulting mirrored object can be unioned immediately with the referenced mirror geometry."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:386
@@ -386,7 +386,7 @@ msgid "This example shows how to locate a new workplane on the face of a previou
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:399
-msgid "Using workplanes in this way are a key feature of CadQuery.  Unlike a typical 3d scripting language, using work planes frees you from tracking the position of various features in variables, and allows the model to adjust itself with removing redundant dimensions"
+msgid "Using workplanes in this way are a key feature of CadQuery. Unlike a typical 3d scripting language, using work planes frees you from tracking the position of various features in variables, and allows the model to adjust itself with removing redundant dimensions"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:403
@@ -479,7 +479,7 @@ msgid "Using construction Geometry"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:531
-msgid "You can draw shapes to use the vertices as points to locate other features.  Features that are used to locate other features, rather than to create them, are called ``Construction Geometry``"
+msgid "You can draw shapes to use the vertices as points to locate other features. Features that are used to locate other features, rather than to create them, are called ``Construction Geometry``"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:534
@@ -681,7 +681,7 @@ msgid "The Classic OCC Bottle"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:829
-msgid "CadQuery is based on the OpenCascade.org (OCC) modeling Kernel.  Those who are familiar with OCC know about the famous 'bottle' example. `The bottle example in the OCCT online documentation <https://old.opencascade.com/doc/occt-7.5.0/overview/html/occt__tutorial.html>`_."
+msgid "CadQuery is based on the OpenCascade.org (OCC) modeling Kernel. Those who are familiar with OCC know about the famous 'bottle' example. `The bottle example in the OCCT online documentation <https://old.opencascade.com/doc/occt-7.5.0/overview/html/occt__tutorial.html>`_."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:832

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-13 00:41+0000\n"
+"POT-Creation-Date: 2021-08-18 00:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1416,10 +1416,8 @@ msgid "Example::"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.DirectionSelector:13
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.ParallelDirSelector:13
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionSelector:13
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.ParallelDirSelector:13
-msgid "selects faces with a normals in the z direction, and is equivalent to::"
+msgid "selects faces with the normal in the z direction, and is equivalent to::"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.DirectionSelector.test:1
@@ -1790,6 +1788,11 @@ msgstr ""
 msgid "Use the string syntax shortcut \\|(X|Y|Z) if you want to select based on a cardinal direction."
 msgstr ""
 
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.ParallelDirSelector:13
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.ParallelDirSelector:13
+msgid "selects faces with the normal parallel to the z direction, and is equivalent to::"
+msgstr ""
+
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.PerpendicularDirSelector:7
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.PerpendicularDirSelector:7
 msgid "Use the string syntax shortcut #(X|Y|Z) if you want to select based on a cardinal direction."
@@ -1797,7 +1800,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.PerpendicularDirSelector:14
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.PerpendicularDirSelector:14
-msgid "selects faces with a normals perpendicular to the z direction, and is equivalent to::"
+msgid "selects faces with the normal perpendicular to the z direction, and is equivalent to::"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane:3

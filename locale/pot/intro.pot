@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-08-20 00:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Provide a non-proprietary, plain text model format that can be edited and
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:21
-msgid "CadQuery 2 is based on `OCP https://github.com/CadQuery/OCP`_, which is a set of Python bindings for the open-source `OpenCascade <http://www.opencascade.com/>`_ modelling kernel."
+msgid "CadQuery 2 is based on `OCP <https://github.com/CadQuery/OCP>`_, which is a set of Python bindings for the open-source `OpenCascade <http://www.opencascade.com/>`_ modelling kernel."
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:25
@@ -113,11 +113,11 @@ msgid "Where does the name CadQuery come from?"
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:83
-msgid "CadQuery is inspired by `jQuery <http://www.jquery.com>`_ , a popular framework that revolutionized web development involving javascript."
+msgid "CadQuery is inspired by `jQuery <http://www.jquery.com>`_, a popular framework that revolutionized web development involving JavaScript."
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:86
-msgid "CadQuery is for 3D CAD what jQuery is for javascript. If you are familiar with how jQuery works, you will probably recognize several jQuery features that CadQuery uses:"
+msgid "CadQuery is for 3D CAD what jQuery is for JavaScript. If you are familiar with how jQuery works, you will probably recognize several jQuery features that CadQuery uses:"
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:89

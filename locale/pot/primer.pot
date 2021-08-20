@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 00:40+0000\n"
+"POT-Creation-Date: 2021-08-20 00:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,7 +169,7 @@ msgid "Think of selectors as the equivalent of your hand and mouse, if you were 
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:93
-msgid "You can learn more about selectors :ref:`selectors`"
+msgid "See :ref:`selectors` to learn more."
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:97
@@ -181,7 +181,7 @@ msgid "Construction geometry are features that are not part of the object, but a
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:101
-msgid "Most CadQuery construction methods provide a ``forConstruction`` keyword, which creates a feature that will only be used to locate other features"
+msgid "Most CadQuery construction methods provide a ``forConstruction`` keyword, which creates a feature that will only be used to locate other features."
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:106

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 00:40+0000\n"
+"POT-Creation-Date: 2021-08-20 00:40+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -223,7 +223,7 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:93
-msgid "You can learn more about selectors :ref:`selectors`"
+msgid "See :ref:`selectors` to learn more."
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:97
@@ -241,7 +241,7 @@ msgstr ""
 #: ../../cadquery/doc/primer.rst:101
 msgid ""
 "Most CadQuery construction methods provide a ``forConstruction`` keyword, "
-"which creates a feature that will only be used to locate other features"
+"which creates a feature that will only be used to locate other features."
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:106

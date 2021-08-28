@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-18 00:39+0000\n"
+"POT-Creation-Date: 2021-08-28 00:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "CadQuery Class Summary"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:7
-msgid "This page documents all of the methods and functions of the CadQuery classes, organized alphabatically."
+msgid "This page documents all of the methods and functions of the CadQuery classes, organized alphabetically."
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:11
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane:1
-msgid "Defines a coordinate system in space, in which 2-d coordinates can be used."
+msgid "Defines a coordinate system in space, in which 2D coordinates can be used."
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
@@ -1808,7 +1808,7 @@ msgid "A 2D coordinate system in space, with the x-y axes on the plane, and a pa
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane:6
-msgid "A plane allows the use of 2-d coordinates, which are later converted to global, 3d coordinates when the operations are complete."
+msgid "A plane allows the use of 2D coordinates, which are later converted to global, 3d coordinates when the operations are complete."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane:9
@@ -2044,7 +2044,7 @@ msgid "void"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.setOrigin2d:10
-msgid "The new coordinates are specified in terms of the current 2-d system. As an example:"
+msgid "The new coordinates are specified in terms of the current 2D system. As an example:"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.setOrigin2d:13
@@ -2068,7 +2068,7 @@ msgid "an object of the same type, but converted to local coordinates"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.toLocalCoords:8
-msgid "Most of the time, the z-coordinate returned will be zero, because most operations based on a plane are all 2-d. Occasionally, though, 3-d points outside of the current plane are transformed. One such example is :py:meth:`Workplane.box`, where 3-d corners of a box are transformed to orient the box in space correctly."
+msgid "Most of the time, the z-coordinate returned will be zero, because most operations based on a plane are all 2D. Occasionally, though, 3D points outside of the current plane are transformed. One such example is :py:meth:`Workplane.box`, where 3D corners of a box are transformed to orient the box in space correctly."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.toWorldCoords:1
@@ -2917,7 +2917,7 @@ msgid "The default implementation returns the original list unfiltered. :type ob
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector:3
-msgid "a 3-d vector, with x-y-z parts."
+msgid "a 3D vector, with x-y-z parts."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector:13
@@ -3404,7 +3404,7 @@ msgid "Also note that, due to limitation of the underlying engine, `clean` may f
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.close:1
-msgid "End 2-d construction, and attempt to build a closed wire."
+msgid "End 2D construction, and attempt to build a closed wire."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.close:4
@@ -3412,7 +3412,7 @@ msgid "a CQ object with a completed wire on the stack, if possible."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.close:6
-msgid "After 2-d drafting with methods such as lineTo, threePointArc, tangentArcPoint and polyline, it is necessary to convert the edges produced by these into one or more wires."
+msgid "After 2D drafting with methods such as lineTo, threePointArc, tangentArcPoint and polyline, it is necessary to convert the edges produced by these into one or more wires."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.close:10
@@ -3956,7 +3956,7 @@ msgid "Returns a plate surface that is 'thickness' thick, enclosed by 'surf_edge
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.interpPlate:3
-msgid ":param surf_edges :type 1 surf_edges: list of [x,y,z] float ordered coordinates :type 2 surf_edges: list of ordered or unordered CadQuery wires :param surf_pts = [] (uses only edges if []) :type surf_pts: list of [x,y,z] float coordinates :param thickness = 0 (returns 2D surface if 0) :type thickness: float (may be negative or positive depending on thicknening direction) :type combine: :py:class:`bool` :param combine: should the results be combined with other solids on the stack"
+msgid ":param surf_edges :type 1 surf_edges: list of [x,y,z] float ordered coordinates :type 2 surf_edges: list of ordered or unordered CadQuery wires :param surf_pts = [] (uses only edges if []) :type surf_pts: list of [x,y,z] float coordinates :param thickness = 0 (returns 2D surface if 0) :type thickness: float (may be negative or positive depending on thickening direction) :type combine: :py:class:`bool` :param combine: should the results be combined with other solids on the stack"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.interpPlate:12
@@ -3964,7 +3964,7 @@ msgid "(and each other)?"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.interpPlate:15
-msgid ":param Degree = 3 (OCCT default) :type Degree: Integer >= 2 :param NbPtsOnCur = 15 (OCCT default) :type: NbPtsOnCur Integer >= 15 :param NbIter = 2 (OCCT default) :type: NbIterInteger >= 2 :param Anisotropie = False (OCCT default) :type Anisotropie: Boolean :param: Tol2d = 0.00001 (OCCT default) :type Tol2d: float > 0 :param Tol3d = 0.0001 (OCCT default) :type Tol3dReal: float > 0 :param TolAng = 0.01 (OCCT default) :type TolAngReal: float > 0 :param TolCurv = 0.1 (OCCT default) :type TolCurvReal: float > 0 :param MaxDeg = 8 (OCCT default) :type MaxDegInteger: Integer >= 2 (?) :param MaxSegments = 9 (OCCT default) :type MaxSegments: Integer >= 2 (?)"
+msgid ":param Degree = 3 (OCCT default) :type Degree: Integer >= 2 :param NbPtsOnCur = 15 (OCCT default) :type: NbPtsOnCur Integer >= 15 :param NbIter = 2 (OCCT default) :type: NbIterInteger >= 2 :param anisotropy = False (OCCT default) :type anisotropy: Boolean :param: Tol2d = 0.00001 (OCCT default) :type Tol2d: float > 0 :param Tol3d = 0.0001 (OCCT default) :type Tol3dReal: float > 0 :param TolAng = 0.01 (OCCT default) :type TolAngReal: float > 0 :param TolCurv = 0.1 (OCCT default) :type TolCurvReal: float > 0 :param MaxDeg = 8 (OCCT default) :type MaxDegInteger: Integer >= 2 (?) :param MaxSegments = 9 (OCCT default) :type MaxSegments: Integer >= 2 (?)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.intersect:1
@@ -4338,7 +4338,7 @@ msgid "*NOTE* most commonly, the resulting wire should be closed."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.pushPoints:1
-msgid "Pushes a list of points onto the stack as vertices. The points are in the 2-d coordinate space of the workplane face"
+msgid "Pushes a list of points onto the stack as vertices. The points are in the 2D coordinate space of the workplane face"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.pushPoints:5
@@ -4521,7 +4521,7 @@ msgid "a positive float, representing the thickness of the desired shell. Negati
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.shell:9
-msgid "kind of joints, intersetion or arc (default: arc)."
+msgid "kind of joints, intersection or arc (default: arc)."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.shell:10
@@ -4692,7 +4692,7 @@ msgid "The spline will be C2 continuous at the interpolation points where no tan
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.spline:21
-msgid "the value of the parameter at each interpolation point. (The interpolated curve is represented as a vector-valued function of a scalar parameter.)  If periodic == True, then len(parameters) must be len(intepolation points) + 1, otherwise len(parameters) must be equal to len(interpolation points)."
+msgid "the value of the parameter at each interpolation point. (The interpolated curve is represented as a vector-valued function of a scalar parameter.)  If periodic == True, then len(parameters) must be len(interpolation points) + 1, otherwise len(parameters) must be equal to len(interpolation points)."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.spline:21
@@ -4700,7 +4700,7 @@ msgid "the value of the parameter at each interpolation point. (The interpolated
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.spline:25
-msgid "If periodic == True, then len(parameters) must be len(intepolation points) + 1, otherwise len(parameters) must be equal to len(interpolation points)."
+msgid "If periodic == True, then len(parameters) must be len(interpolation points) + 1, otherwise len(parameters) must be equal to len(interpolation points)."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.spline:29
@@ -5138,11 +5138,11 @@ msgid "whether the wire should be used to make a solid, or if it is just for ref
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.wire:11
-msgid "This method is primarily of use to plugin developers making utilities for 2-d construction. This method should be called when a user operation implies that 2-d construction is finished, and we are ready to begin working in 3d."
+msgid "This method is primarily of use to plugin developers making utilities for 2D construction. This method should be called when a user operation implies that 2D construction is finished, and we are ready to begin working in 3d."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.wire:15
-msgid "SEE '2-d construction concepts' for a more detailed explanation of how CadQuery handles edges, wires, etc."
+msgid "SEE '2D construction concepts' for a more detailed explanation of how CadQuery handles edges, wires, etc."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.wire:18
@@ -5170,7 +5170,7 @@ msgid "returns 1, because a face typically only has one outer wire"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:1
-msgid "Creates a new 2-D workplane, located relative to the first face on the stack."
+msgid "Creates a new 2D workplane, located relative to the first face on the stack."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:4
@@ -5194,7 +5194,7 @@ msgid "The first element on the stack must be a face, a set of co-planar faces o
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:22
-msgid "The result will be a 2-d working plane with a new coordinate system set up as follows:"
+msgid "The result will be a 2D working plane with a new coordinate system set up as follows:"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:25

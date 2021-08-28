@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 00:40+0000\n"
+"POT-Creation-Date: 2021-08-28 00:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "The CadQuery API is made up of 2 main objects:"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:9
-msgid "**Workplane** -- Wraps a topological entity and provides a 2-D modelling context."
+msgid "**Workplane** -- Wraps a topological entity and provides a 2D modelling context."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:10
@@ -53,19 +53,19 @@ msgid ":obj:`Workplane <cadquery.Workplane>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:29:<autosummary>:1
-msgid "Defines a coordinate system in space, in which 2-d coordinates can be used."
+msgid "Defines a coordinate system in space, in which 2D coordinates can be used."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:33
-msgid "2-d Operations"
+msgid "2D Operations"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:35
-msgid "Creating 2-d constructs that can be used to create 3 d features."
+msgid "Creating 2D constructs that can be used to create 3D features."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:37
-msgid "All 2-d operations require a **Workplane** object to be created."
+msgid "All 2D operations require a **Workplane** object to be created."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:73:<autosummary>:1
@@ -281,7 +281,7 @@ msgid ":obj:`Workplane.close <cadquery.Workplane.close>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:73:<autosummary>:1
-msgid "End 2-d construction, and attempt to build a closed wire."
+msgid "End 2D construction, and attempt to build a closed wire."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:73:<autosummary>:1
@@ -317,15 +317,15 @@ msgid "Creates a 2D offset wire."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:77
-msgid "3-d Operations"
+msgid "3D Operations"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79
-msgid "Some 3-d operations also require an active 2-d workplane, but some do not."
+msgid "Some 3D operations also require an active 2D workplane, but some do not."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:81
-msgid "3-d operations that require a 2-d workplane to be active:"
+msgid "3D operations that require a 2D workplane to be active:"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:102:<autosummary>:1
@@ -462,7 +462,7 @@ msgid "Create a 3D text"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:103
-msgid "3-d operations that do NOT require a 2-d workplane to be active:"
+msgid "3D operations that do NOT require a 2D workplane to be active:"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:114:<autosummary>:1

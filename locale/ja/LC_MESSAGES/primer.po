@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-20 00:40+0000\n"
+"POT-Creation-Date: 2021-08-28 00:38+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -409,7 +409,7 @@ msgid ""
 ":class:`~cadquery.Workplane` object to the previous one, and in the "
 ":attr:`~cadquery.Workplane.parent` attribute of this "
 ":class:`~cadquery.Workplane` is our previous :class:`~cadquery.Workplane`. "
-"Returning a new instance of :class:`~caduqery.Workplane` is the normal "
+"Returning a new instance of :class:`~cadquery.Workplane` is the normal "
 "behaviour of most :class:`~cadquery.Workplane` methods (with some "
 "exceptions, as will be shown below) and this is how the `chaining`_ concept "
 "is implemented."
@@ -624,23 +624,35 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:586
+msgid ""
+"The :meth:`~cadquery.Workplane.extrude` has an argument for ``clean`` which "
+"defaults to ``True``. This extrudes the pending wires (creating a new "
+":class:`~cadquery.Workplane` object), then runs the "
+":meth:`~cadquery.Workplane.clean` method to refine the result, creating "
+"another :class:`~cadquery.Workplane`. If you were to run the example with "
+"the default ``clean=True`` then you would see an intermediate "
+":class:`~cadquery.Workplane` object in :attr:`~cadquery.Workplane.parent` "
+"rather than the object from the previous step."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:596
 msgid "Assemblies"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:588
+#: ../../cadquery/doc/primer.rst:598
 msgid ""
 "Simple models can be combined into complex, possibly nested, assemblies."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:592
+#: ../../cadquery/doc/primer.rst:602
 msgid "A simple example could look as follows::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:610
+#: ../../cadquery/doc/primer.rst:620
 msgid "Resulting in:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:614
+#: ../../cadquery/doc/primer.rst:624
 msgid ""
 "Note that the locations of the children parts are defined with respect to "
 "their parents - in the above example ``part3`` will be located at (-5,-5,20)"
@@ -648,22 +660,22 @@ msgid ""
 "created this way and exported to STEP or the native OCCT xml format."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:616
+#: ../../cadquery/doc/primer.rst:626
 msgid "You can browse assembly related methods here: :ref:`assembly`."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:619
+#: ../../cadquery/doc/primer.rst:629
 msgid "Assemblies with constraints"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:621
+#: ../../cadquery/doc/primer.rst:631
 msgid ""
 "Sometimes it is not desirable to define the component positions explicitly "
 "but rather use constraints to obtain a fully parametric assembly. This can "
 "be achieved in the following way::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:647
+#: ../../cadquery/doc/primer.rst:657
 msgid ""
 "This code results in identical object as one from the previous section. The "
 "added benefit is that with changing parameters ``w``, ``d``, ``h`` the final"
@@ -672,7 +684,7 @@ msgid ""
 "constructing the constraints::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:680
+#: ../../cadquery/doc/primer.rst:690
 msgid "The following constraints are currently implemented:"
 msgstr ""
 
@@ -680,7 +692,7 @@ msgstr ""
 msgid "Axis"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:682
+#: ../../cadquery/doc/primer.rst:692
 msgid ""
 "two normal vectors are anti-coincident or the angle (in radians) between "
 "them is equal to the specified value. Can be defined for all entities with "
@@ -691,7 +703,7 @@ msgstr ""
 msgid "Point"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:683
+#: ../../cadquery/doc/primer.rst:693
 msgid ""
 "two points are coincident or separated by a specified distance. Can be "
 "defined for all entities, center of mass is used for lines, faces, solids "
@@ -702,10 +714,10 @@ msgstr ""
 msgid "Plane"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:684
+#: ../../cadquery/doc/primer.rst:694
 msgid "combination of :Axis: and :Point: constraints."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:686
+#: ../../cadquery/doc/primer.rst:696
 msgid "For a more elaborate assembly example see :ref:`assytutorial`."
 msgstr ""

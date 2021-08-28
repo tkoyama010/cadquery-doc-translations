@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-20 00:40+0000\n"
+"POT-Creation-Date: 2021-08-28 00:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "A rectangular box, but with a hole added."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:61
-msgid "\"\\>Z\" selects the top most face of the resulting box. The hole is located in the center because the default origin of a working plane is the projected origin of the last Workplane, the last Worplane having origin at (0,0,0) the projection is at the center of the face. The default hole depth is through the entire part."
+msgid "\"\\>Z\" selects the top most face of the resulting box. The hole is located in the center because the default origin of a working plane is the projected origin of the last Workplane, the last Workplane having origin at (0,0,0) the projection is at the center of the face. The default hole depth is through the entire part."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:84
@@ -156,11 +156,11 @@ msgid "Building Profiles using lines and arcs"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:114
-msgid "Sometimes you need to build complex profiles using lines and arcs. This example builds a prismatic solid from 2-d operations."
+msgid "Sometimes you need to build complex profiles using lines and arcs. This example builds a prismatic solid from 2D operations."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:117
-msgid "2-d operations maintain a current point, which is initially at the origin. Use close() to finish a closed curve."
+msgid "2D operations maintain a current point, which is initially at the origin. Use close() to finish a closed curve."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:132
@@ -302,7 +302,7 @@ msgid "Mirroring Symmetric Geometry"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:284
-msgid "You can mirror 2-d geometry when your shape is symmetric. In this example we also introduce horizontal and vertical lines, which make for slightly easier coding."
+msgid "You can mirror 2D geometry when your shape is symmetric. In this example we also introduce horizontal and vertical lines, which make for slightly easier coding."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:299

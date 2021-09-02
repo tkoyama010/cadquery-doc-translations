@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-28 00:38+0000\n"
+"POT-Creation-Date: 2021-09-02 00:41+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -196,11 +196,11 @@ msgid ""
 " than returning a copy"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:86
+#: ../../cadquery/doc/roadmap.rst:85
 msgid "primitive creation"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:86
+#: ../../cadquery/doc/roadmap.rst:85
 msgid "Need primitive creation for:"
 msgstr ""
 
@@ -209,22 +209,18 @@ msgid "cone"
 msgstr ""
 
 #: ../../cadquery/doc/roadmap.rst:84
-msgid "cylinder"
-msgstr ""
-
-#: ../../cadquery/doc/roadmap.rst:85
 msgid "torus"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:86
+#: ../../cadquery/doc/roadmap.rst:85
 msgid "wedge"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:88
+#: ../../cadquery/doc/roadmap.rst:87
 msgid "extrude/cut up to surface"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:89
+#: ../../cadquery/doc/roadmap.rst:88
 msgid ""
 "allow a cut or extrude to terminate at another surface, rather than either "
 "through all or a fixed distance"

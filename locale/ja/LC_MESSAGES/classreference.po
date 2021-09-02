@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-28 00:38+0000\n"
+"POT-Creation-Date: 2021-09-02 00:41+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -736,6 +736,8 @@ msgstr ""
 #: cadquery.Workplane.cutEach:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.cutThruAll:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.cutThruAll:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.cylinder:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.cylinder:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.each:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.each:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.eachpoint:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -1035,6 +1037,7 @@ msgstr ""
 #: of cadquery.Workplane.cut:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.cutBlind:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.cutThruAll:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.cylinder:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.eachpoint:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.edges:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.ellipse:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -1396,6 +1399,7 @@ msgstr ""
 #: cadquery.Workplane.cut:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.cutBlind:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.cutThruAll:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.cylinder:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.each:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.eachpoint:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.edges:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -4548,6 +4552,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cut:6
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:10
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutThruAll:7
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:25
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:7
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.hole:9
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.interpPlate:14
@@ -5065,6 +5070,67 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutThruAll:13
 msgid "see :py:meth:`cutBlind` to cut material to a limited depth"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:1
+msgid ""
+"Returns a cylinder with the specified radius and height for each point on "
+"the stack"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:4
+msgid "The height of the cylinder"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:7
+msgid "The radius of the cylinder"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:10
+msgid "The direction axis for the creation of the cylinder"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:13
+msgid "The angle to sweep the cylinder arc through"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:16
+msgid ""
+"If True, the cylinder will be centered around the reference point. If False,"
+" the corner of a bounding box around the cylinder will be on the reference "
+"point and it will extend in the positive x, y and z directions. Can also use"
+" a 3-tuple to specify centering along each axis."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:21
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:24
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:25
+msgid ""
+"Whether the results should be combined with other solids on the stack (and "
+"each other)"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:27
+msgid "A cylinder object for each point on the stack"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:29
+msgid ""
+"One cylinder is created for each item on the current stack. If no items are "
+"on the stack, one cylinder is created using the current workplane center."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:32
+msgid ""
+"If combine is true, the result will be a single object on the stack. If a "
+"solid was found in the chain, the result is that solid with all cylinders "
+"produced fused onto it otherwise, the result is the combination of all the "
+"produced cylinders."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:36
+msgid ""
+"If combine is false, the result will be a list of the cylinders produced."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:1
@@ -6390,13 +6456,6 @@ msgid ""
 "the corner of a bounding box around the sphere will be on the reference "
 "point and it will extend in the positive x, y and z directions. Can also use"
 " a 3-tuple to specify centering along each axis."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:24
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:25
-msgid ""
-"Whether the results should be combined with other solids on the stack (and "
-"each other)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:30

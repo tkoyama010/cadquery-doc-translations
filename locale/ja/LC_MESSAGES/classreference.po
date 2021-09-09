@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-02 00:41+0000\n"
+"POT-Creation-Date: 2021-09-09 00:43+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -679,6 +679,10 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.__eq__:0 ../../cadquery/cadquery/occ_impl/geom.pydocstring
 #: of cadquery.Vector.multiply:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToLine:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToLine:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.projectToPlane:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
@@ -1362,6 +1366,8 @@ msgstr ""
 #: of cadquery.Vector.multiply:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.normalized:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToLine:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.projectToPlane:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -2238,6 +2244,8 @@ msgstr ""
 #: of cadquery.Vector.multiply:6
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.normalized:4
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToLine:11
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.projectToPlane:10
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -4255,6 +4263,25 @@ msgid "Return a normalized version of this vector"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToLine:1
+msgid ""
+"Returns a new vector equal to the projection of this Vector onto the line "
+"represented by Vector <line>"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToLine:4
+msgid "Vector"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToLine:6
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.Vector.projectToPlane:5
+msgid "Returns the projected vector."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.projectToPlane:1
 msgid "Vector is projected onto the plane provided as input."
 msgstr ""
@@ -4262,11 +4289,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.Vector.projectToPlane:3
 msgid "Plane object"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
-#: cadquery.Vector.projectToPlane:5
-msgid "Returns the projected vector."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

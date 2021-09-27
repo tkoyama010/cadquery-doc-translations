@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-02 00:41+0000\n"
+"POT-Creation-Date: 2021-09-27 00:41+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -486,11 +486,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1
 msgid ""
-":obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(distance\\[\\, "
-"combine\\, ...\\]\\)"
+":obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(until\\[\\, "
+"combine\\, clean\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(distance\\[\\, "
-"combine\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1
 msgid ""
@@ -509,11 +507,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1
 msgid ""
-":obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ "
-"\\(distanceToCut\\[\\, clean\\, taper\\]\\)"
+":obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ \\(until\\[\\, "
+"clean\\, taper\\]\\)"
 msgstr ""
-":obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ "
-"\\(distanceToCut\\[\\, clean\\, taper\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1

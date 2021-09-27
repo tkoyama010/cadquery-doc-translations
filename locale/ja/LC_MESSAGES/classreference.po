@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-09 00:43+0000\n"
+"POT-Creation-Date: 2021-09-27 00:41+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -605,6 +605,8 @@ msgstr ""
 #: cadquery.Shape.exportStep:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.exportStl:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Shape.fix:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.fuse:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
@@ -639,8 +641,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Shell:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Solid:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Solid.extrudeLinear:0
+#: cadquery.Solid.extrudeLinear:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinear:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -883,6 +884,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.chamfer:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.fillet:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.isInside:0
@@ -1007,6 +1010,8 @@ msgstr ""
 #: cadquery.Shape.Volume:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
 #: of cadquery.Shape.Wires:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.geomType:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.mirror:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
@@ -1016,8 +1021,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.transformShape:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Solid.extrudeLinear:0
+#: cadquery.Solid.extrudeLinear:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinearWithRotation:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1114,6 +1118,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Mixin1D.startPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.tangentAt:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.isInside:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1329,8 +1335,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.translate:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Solid.extrudeLinear:0
+#: cadquery.Solid.extrudeLinear:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinearWithRotation:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1494,6 +1499,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Mixin1D.startPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.tangentAt:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.isInside:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -2477,7 +2484,7 @@ msgid "Needed by the cqparts gltf exporter"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
-#: cadquery.Matrix.transposed_list:5
+#: cadquery.Matrix.transposed_list:4
 msgid ":py:class:`~typing.Sequence`\\[:py:class:`float`]"
 msgstr ":py:class:`~typing.Sequence`\\[:py:class:`float`]"
 
@@ -3228,6 +3235,65 @@ msgid ""
 "segments in a polyline. Default is 0.1."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:1
+msgid ""
+"Computes the intersections between the provided line and the faces of this "
+"Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:0
+msgid "point"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:3
+msgid "Base point for defining a line"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:0
+msgid "axis"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:4
+msgid "Axis on which the line rest"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:0
+msgid "tol"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:5
+msgid "Intersection tolerance"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:0
+msgid "direction"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:6
+msgid ""
+"Valid values : \"AlongAxis\", \"Opposite\", if specified will ignore all "
+"faces that are not in the specified direction"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:7
+msgid "including the face where the :point: lies if it is the case"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Shape.facesIntersectedByLine:9
+msgid "A list of intersected faces sorted by distance from :point:"
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of cadquery.Shape.fix:1
 msgid "Try to fix shape if not valid"
 msgstr ""
@@ -3531,69 +3597,6 @@ msgid "Translates this shape through a transformation."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:1
-msgid "Make a prismatic feature (additive or subtractive)"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:4
-msgid "face to perform the operation on"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:6 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Solid.sweep_multi:4
-msgid "list of profiles"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:8
-msgid "depth of the cut or extrusion"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:10
-msgid "cut thruAll"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:11
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:11
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinearWithRotation:23
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.makeBox:16
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.makeCone:20
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.makeCylinder:18
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.makeLoft:12
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.makeTorus:21
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.makeWedge:25
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:16
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep_multi:9
-msgid ":py:class:`~cadquery.occ_impl.shapes.Solid`"
-msgstr ":py:class:`~cadquery.occ_impl.shapes.Solid`"
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.dprism:12
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:12
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:17
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:18 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Solid.sweep_multi:10
-msgid "a Solid object"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinear:1
 msgid ""
 "Attempt to extrude the list of wires  into a prismatic solid in the provided"
@@ -3626,6 +3629,41 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinear:10
 msgid "taper angle, default=0"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:11
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinearWithRotation:23
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.makeBox:16
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.makeCone:20
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.makeCylinder:18
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.makeLoft:12
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.makeTorus:21
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.makeWedge:25
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:16
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.sweep_multi:9
+msgid ":py:class:`~cadquery.occ_impl.shapes.Solid`"
+msgstr ":py:class:`~cadquery.occ_impl.shapes.Solid`"
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:12
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:17
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.sweep:18 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
+#: of cadquery.Solid.sweep_multi:10
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:16
+msgid "a Solid object"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -3896,6 +3934,13 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.sweep_multi:1
 msgid "Multi section sweep. Only single outer profile per section is allowed."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.sweep_multi:4
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:6
+msgid "list of profiles"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
@@ -4572,10 +4617,10 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.combine:4
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cskHole:15
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cut:6
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:10
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:13
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutThruAll:7
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:25
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:7
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:11
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.hole:9
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.interpPlate:14
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.intersect:6
@@ -4792,7 +4837,6 @@ msgid "Creates two concentric circles, which when extruded will form a ring."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.circle:29
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:19
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.rect:30
 #: ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.rotateAboutCenter:24
@@ -4879,7 +4923,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.combine:9
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cut:9
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:14
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:17
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutThruAll:11
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.intersect:9
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.union:12
@@ -5025,7 +5069,7 @@ msgid "object to cut"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cut:7
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:12
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:15
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutThruAll:8
 msgid "if there is no solid to subtract from in the chain"
 msgstr ""
@@ -5033,30 +5077,32 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:1
 msgid ""
 "Use all un-extruded wires in the parent chain to create a prismatic cut from"
-" existing solid."
+" existing solid. You must define either :distance: , :untilNextFace: or "
+":untilLastFace:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:3
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:4
 msgid ""
 "Similar to extrude, except that a solid in the parent chain is required to "
 "remove material from. cutBlind always removes material from a part."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:7
-msgid "distance to extrude before cutting"
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:8
+msgid ""
+"The distance to cut to, normal to the workplane plane. When a negative float"
+" is passed the cut extends this far in the opposite direction to the normal "
+"of the plane (i.e in the solid). The string \"next\" cuts until the next "
+"face orthogonal to the wire normal.  \"last\" cuts to the last face. If a "
+"object of type Face is passed then the cut will extend until this face."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:11
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:9
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:14
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:13
 msgid "angle for optional tapered extrusion"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:16
-msgid "see :py:meth:`cutThruAll` to cut material from the entire part"
-msgstr ""
-
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:19
-msgid "Cut Up to Surface"
+msgid "see :py:meth:`cutThruAll` to cut material from the entire part"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutEach:1
@@ -5370,7 +5416,17 @@ msgstr ""
 msgid "the distance to extrude, normal to the workplane plane"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:6
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:5
+msgid ""
+"The distance to extrude, normal to the workplane plane. When a float is "
+"passed, the extrusion extends this far and a negative value is in the "
+"opposite direction to the normal of the plane. The string \"next\" extrudes "
+"until the next face orthogonal to the wire normal. \"last\" extrudes to the "
+"last face. If a object of type Face is passed then the extrusion will extend"
+" until this face."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:10
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:13
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:6
 #: ../../cadquery/cadquery/cq.pydocstring of
@@ -5378,11 +5434,11 @@ msgstr ""
 msgid "True to combine the resulting solid with parent solids if found."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:8
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:12
 msgid "extrude in both directions symmetrically"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:11
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:15
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:17
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:15
 #: ../../cadquery/cadquery/cq.pydocstring of
@@ -5390,40 +5446,33 @@ msgstr ""
 msgid "a CQ object with the resulting solid selected."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:13
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:17
 msgid "extrude always *adds* material to a part."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:15
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:19
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:19
 msgid ""
 "The returned object is always a CQ object, and depends on whether combine is"
 " True, and whether a context solid is already defined:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:18
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:22
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:32
-msgid "if combine is False, the new value is pushed onto the stack."
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:22
+msgid ""
+"if combine is False, the new value is pushed onto the stack. Note that when "
+"extruding"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:19
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:23
+msgid "until a specified face, combine can not be False"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:24
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:23
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:33
 msgid ""
 "if combine is true, the value is combined with the context solid if it "
 "exists, and the resulting solid becomes the new context solid."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:25
-msgid "FutureEnhancement:"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:23
-msgid ""
-"Support for non-prismatic extrusion ( IE, sweeping along a profile, not just"
-" perpendicular to the plane extrude to surface. this is quite tricky since "
-"the surface selected may not be planar"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.faces:1
@@ -6203,6 +6252,11 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:1
 msgid "Use all un-revolved wires in the parent chain to create a solid."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:22
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:32
+msgid "if combine is False, the new value is pushed onto the stack."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.rotate:1
@@ -7445,6 +7499,36 @@ msgid ""
 ":py:class:`~typing.Iterable`\\[:py:class:`~cadquery.occ_impl.shapes.Edge`] "
 ":param edgeList:  a list of Edge objects, which must belong to this solid "
 ":rtype: :py:data:`~typing.Any` :return: Chamfered solid"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:1
+msgid "Make a prismatic feature (additive or subtractive)"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:4
+msgid "face to perfrom the operation on"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:8
+msgid "depth of the cut or extrusion"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:10
+msgid "a face to extrude until"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:12
+msgid "cut thruAll"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:14
+msgid "set the kind of operation (additive or subtractive)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

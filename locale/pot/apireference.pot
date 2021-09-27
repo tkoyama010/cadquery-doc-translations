@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-02 00:41+0000\n"
+"POT-Creation-Date: 2021-09-27 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -353,7 +353,7 @@ msgid "Makes a hole for each item on the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1
-msgid ":obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(distance\\[\\, combine\\, ...\\]\\)"
+msgid ":obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(until\\[\\, combine\\, clean\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1
@@ -369,7 +369,7 @@ msgid "Cuts the provided solid from the current solid, IE, perform a solid subtr
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1
-msgid ":obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ \\(distanceToCut\\[\\, clean\\, taper\\]\\)"
+msgid ":obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ \\(until\\[\\, clean\\, taper\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:103:<autosummary>:1

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-27 00:41+0000\n"
+"POT-Creation-Date: 2021-10-31 00:45+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -5427,11 +5427,9 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:10
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:13
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:6
-#: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.Workplane.twistExtrude:15
-msgid "True to combine the resulting solid with parent solids if found."
+msgid ""
+"True to combine the resulting solid with parent solids if found. (Cannot be "
+"set to False when `until` is not set as a float)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:12
@@ -6254,9 +6252,26 @@ msgstr ""
 msgid "Use all un-revolved wires in the parent chain to create a solid."
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:13
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:6
+#: ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.twistExtrude:15
+msgid "True to combine the resulting solid with parent solids if found."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:22
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:32
 msgid "if combine is False, the new value is pushed onto the stack."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:27
+msgid ""
+"Keep in mind that `axisStart` and `axisEnd` are defined relative to the "
+"current Workplane center position. So if for example you want to revolve a "
+"circle centered at (10,0,0) around the Y axis, be sure to either "
+":py:meth:`move` (or :py:meth:`moveTo`) the current Workplane position or "
+"specify `axisStart` and `axisEnd` with the correct vector position. In this "
+"example (0,0,0), (0,1,0) as axis coords would fail."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.rotate:1

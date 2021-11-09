@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-31 00:45+0000\n"
+"POT-Creation-Date: 2021-11-09 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3425,7 +3425,6 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.rotateAboutCenter:24
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.shell:37
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.threePointArc:15
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:48
 msgid "Future Enhancements:"
 msgstr ""
 
@@ -5267,11 +5266,11 @@ msgid "Creates a new 2D workplane, located relative to the first face on the sta
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:4
-msgid "offset for the work plane in the Z direction. Default"
+msgid "offset for the workplane in its normal direction . Default"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:6
-msgid "invert the Z direction from that of the face."
+msgid "invert the normal direction from that of the face."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:8
@@ -5295,7 +5294,7 @@ msgid "The centerOption parameter sets how the center is defined. Options are 'C
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:31
-msgid "The Z direction will be normal to the plane of the face,computed at the center point."
+msgid "The Z direction will be the normal of the face,computed at the center point."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:33
@@ -5304,18 +5303,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:37
 msgid "Most commonly, the selected face will be planar, and the workplane lies in the same plane of the face ( IE, offset=0).  Occasionally, it is useful to define a face offset from an existing surface, and even more rarely to define a workplane based on a face that is not planar."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:42
-msgid "To create a workplane without first having a face, use the Workplane() method."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:45
-msgid "Allow creating workplane from planar wires"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplane:46
-msgid "Allow creating workplane based on an arbitrary point on a face, not just the center. For now you can work around by creating a workplane and then offsetting the center afterwards."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.workplaneFromTagged:1

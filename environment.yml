@@ -26,3 +26,4 @@ dependencies:
   - pip:
     - git+https://github.com/CadQuery/cadquery.git@master
     - sphinxcadquery
+    - multimethod

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-23 00:38+0000\n"
+"POT-Creation-Date: 2021-11-11 16:45+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -134,29 +134,29 @@ msgid ""
 "DXF files can be imported using the :py:meth:`importers.importDXF` method."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers.pydocstring of
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
 #: cadquery.importers.importDXF:1
 msgid "Loads a DXF file into a cadquery Workplane."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers.pydocstring of
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
 #: cadquery.importers.importDXF:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.exportStl:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers.pydocstring of
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
 #: cadquery.importers.importDXF:3
 msgid "The path and name of the DXF file to be imported"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers.pydocstring of
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
 #: cadquery.importers.importDXF:4
 msgid "The tolerance used for merging edges into wires (default: 1e-6)"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers.pydocstring of
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
 #: cadquery.importers.importDXF:5
 msgid "a list of layer names not to import (default: [])"
 msgstr ""

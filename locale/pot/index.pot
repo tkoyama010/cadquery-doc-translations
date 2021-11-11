@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 11:06+0000\n"
+"POT-Creation-Date: 2021-11-11 16:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,18 +68,18 @@ msgstr ""
 msgid "Table Of Contents"
 msgstr ""
 
-#: ../../cadquery/doc/index.rst:55
+#: ../../cadquery/doc/index.rst:56
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../cadquery/doc/index.rst:57
+#: ../../cadquery/doc/index.rst:58
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../cadquery/doc/index.rst:58
+#: ../../cadquery/doc/index.rst:59
 msgid ":ref:`modindex`"
 msgstr ""
 
-#: ../../cadquery/doc/index.rst:59
+#: ../../cadquery/doc/index.rst:60
 msgid ":ref:`search`"
 msgstr ""

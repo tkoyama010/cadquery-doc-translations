@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# This file is distributed under the same license as the CadQuery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CadQuery 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-11 16:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../cadquery/doc/sketch.rst:5
+msgid "Sketch"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:8
+msgid "Sketch tutorial"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:10
+msgid "The purpose of this section is to demonstrate how to construct sketches using different approaches."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:14
+msgid "Face-based API"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:16
+msgid "The main approach for constructing sketches is based on constructing faces and combining them using boolean operations."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:36
+msgid "Note that selectors are implemented, but selection has to be explicitly reset. Sketch class does not implement history and all modifications happen in-place."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:41
+msgid "Edge-based API"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:43
+msgid "If needed, one can construct sketches by placing individual edges."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:62
+msgid "Once the construction is finished it has to be converted to the face-based representation using :meth:`~cadquery.Sketch.assemble`. Afterwards, face based operations can be applied."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:66
+msgid "Convex hull"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:68
+msgid "For certain special use-cases convex hull can be constructed from straight segments and circles."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:83
+msgid "Constraint-based sketches"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:85
+msgid "Finally, if desired, geometric constraints can be used to construct sketches. So far only line segments and arcs can be used in such a use case."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:105
+msgid "Following constraints are implemented. Arguments are passed in as one tuple in :meth:`~cadquery.Sketch.constrain`. In this table, `0..1` refers to a float between 0 and 1 where 0 would create a constraint relative to the start of the element, and 1 the end."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:111
+msgid "Name"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:112
+msgid "Arity"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:113
+msgid "Entities"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:114
+msgid "Arguments"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:115
+msgid "Description"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:116
+msgid "FixedPoint"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:117
+#: ../../cadquery/doc/sketch.rst:132
+#: ../../cadquery/doc/sketch.rst:142
+#: ../../cadquery/doc/sketch.rst:147
+#: ../../cadquery/doc/sketch.rst:152
+msgid "1"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:118
+#: ../../cadquery/doc/sketch.rst:123
+#: ../../cadquery/doc/sketch.rst:128
+#: ../../cadquery/doc/sketch.rst:133
+#: ../../cadquery/doc/sketch.rst:138
+msgid "All"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:119
+msgid "`None` for arc center or `0..1` for point on segment/arc"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:120
+msgid "Specified point is fixed"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:121
+msgid "Coincident"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:122
+#: ../../cadquery/doc/sketch.rst:127
+#: ../../cadquery/doc/sketch.rst:137
+msgid "2"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:124
+msgid "None"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:125
+msgid "Specified points coincide"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:126
+msgid "Angle"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:129
+#: ../../cadquery/doc/sketch.rst:154
+msgid "`angle`"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:130
+msgid "Angle between the tangents of the two entities is fixed"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:131
+msgid "Length"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:134
+msgid "`length`"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:135
+msgid "Specified entity has fixed length"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:136
+msgid "Distance"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:139
+msgid "`None or 0..1, None or 0..1, distance`"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:140
+msgid "Distance between two points is fixed"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:141
+msgid "Radius"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:143
+#: ../../cadquery/doc/sketch.rst:153
+msgid "Arc"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:144
+msgid "`radius`"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:145
+msgid "Specified entity has a fixed radius"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:146
+msgid "Orientation"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:148
+msgid "Segment"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:149
+msgid "`x,y`"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:150
+msgid "Specified entity is parallel to `(x,y)`"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:151
+msgid "ArcAngle"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:155
+msgid "Specified entity is fixed angular span"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:159
+msgid "Workplane integration"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:161
+msgid "Once created, a sketch can be used to construct various features on a workplane. Supported operations include :meth:`~cadquery.Workplane.extrude`, :meth:`~cadquery.Workplane.twistExtrude`, :meth:`~cadquery.Workplane.revolve`, :meth:`~cadquery.Workplane.sweep`, :meth:`~cadquery.Workplane.cutBlind`, :meth:`~cadquery.Workplane.cutThruAll` and :meth:`~cadquery.Workplane.loft`."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:166
+msgid "Sketches can be created as separate entities and reused, but also created ad-hoc in one fluent chain of calls as shown below."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:170
+msgid "Note that the sketch is placed on all locations that are on the top of the stack."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:172
+msgid "Constructing sketches in-place can be accomplished as follows."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:192
+msgid "Sketch API is available after the :meth:`~cadquery.Workplane.sketch` call and original `workplane`."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:194
+msgid "When multiple elements are selected before constructing the sketch, multiple sketches will be created."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:220
+msgid "Sometimes it is desired to reuse existing sketches and place them as-is on a workplane."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:245
+msgid "Reusing of existing sketches is needed when using :meth:`~cadquery.Workplane.loft`."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:272
+msgid "When lofting only outer wires are taken into account."
+msgstr ""

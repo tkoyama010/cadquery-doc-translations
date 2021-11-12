@@ -68,29 +68,3 @@ After that, you should commit updated po files.
 5. add translation project to parent project like:
 
    https://readthedocs.org/dashboard/cadquery/translations/
-
-
-## How to add a new version
-
-1. add tag `1.7`
-
-   ```
-   git tag 1.7
-   ```
-
-2. replace old version `1_7` with `1_8` in:
-
-   - release.sh
-   - .travis.yml
-
-3. commit it and push them:
-
-   ```
-   git add release.sh .travis.yml
-   git commit -m "add new version: 1.8"
-   git push --tags
-   ```
-
-4. enable version 1.7 on RTD:
-
-   https://readthedocs.org/projects/cadquery/versions/

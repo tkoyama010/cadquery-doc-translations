@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 16:45+0000\n"
+"POT-Creation-Date: 2021-11-14 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1286,7 +1286,7 @@ msgid "Add a subassembly to the current assembly."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
-msgid ":obj:`Assembly.save <cadquery.Assembly.save>`\\ \\(path\\[\\, exportType\\]\\)"
+msgid ":obj:`Assembly.save <cadquery.Assembly.save>`\\ \\(path\\[\\, exportType\\, tolerance\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:291:<autosummary>:1

@@ -12,8 +12,6 @@ This conf.py do:
 
 """
 import os
-import shutil
-import sys
 
 from sphinx.util.pycompat import execfile_
 

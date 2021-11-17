@@ -11,7 +11,7 @@ This conf.py do:
 - Overrides source directory as 'CoFEA/docs/`.
 
 """
-import sys
+import os
 
 from sphinx.util.pycompat import execfile_
 

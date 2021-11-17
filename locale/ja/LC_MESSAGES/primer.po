@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-28 00:38+0000\n"
+"POT-Creation-Date: 2021-11-17 00:44+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -348,11 +348,280 @@ msgid ""
 ":py:meth:`cadquery.cq.Workplane.each` is useful for this purpose."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:172
+#: ../../cadquery/doc/primer.rst:171
+msgid "CadQuery API layers"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:173
+msgid ""
+"Once you start to dive a bit more into CadQuery, you may find yourself a bit"
+" confused juggling between different types of objects the CadQuery APIs can "
+"return. This chapter aims to give an explanation on this topic and to "
+"provide background on the underlying implementation and kernel layers so you"
+" can leverage more of CadQuery functionality."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:176
+msgid ""
+"CadQuery is composed of 3 different API, which are implemented on top of "
+"each other."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:178 ../../cadquery/doc/primer.rst:183
+msgid "The Fluent API"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:179 ../../cadquery/doc/primer.rst:219
+msgid "The Direct API"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:180 ../../cadquery/doc/primer.rst:254
+msgid "The OCCT API"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:185
+msgid ""
+"What we call the fluent API is what you work with when you first start using"
+" CadQuery, the :class:`~cadquery.Workplane` class and all its methods "
+"defines the Fluent API. This is the API you will use and see most of the "
+"time, it's fairly easy to use and it simplifies a lot of things for you. A "
+"classic example could be : ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:190
+msgid ""
+"Here we create a :class:`~cadquery.Workplane` object on which we "
+"subsequently call several methods to create our part. A general way of "
+"thinking about the Fluent API is to consider the "
+":class:`~cadquery.Workplane` as your part object and all it's methods as "
+"operations that will affect your part. Often you will start with an empty "
+":class:`~cadquery.Workplane`, then add more features by calling "
+":class:`~cadquery.Workplane` methods."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:194
+msgid ""
+"This hierarchical structure of operations modifying a part is well seen with"
+" the traditional code style used in CadQuery code. Code written with the "
+"CadQuery fluent API will often look like this : ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:205
+msgid "Or like this : ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:215
+msgid ""
+"While the first code style is what people default to, it's important to note"
+" that when you write your code like this it's equivalent as writting it on a"
+" single line. It's then more difficult to debug as you cannot visualize each"
+" operation step by step, which is a functionality that is provided by the "
+"CQ-Editor debugger for example."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:221
+msgid ""
+"While the fluent API exposes much functionality, you may find scenarios that"
+" require extra flexibility or require working with lower level objects."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:223
+msgid ""
+"The direct API is the API that is called by the fluent API under the hood. "
+"The 9 topological classes and their methods compose the direct API. These "
+"classes actually wrap the equivalent Open CASCADE Technology (OCCT) classes."
+" The 9 topological classes are :"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:227
+msgid ":class:`~cadquery.Shape`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:228
+msgid ":class:`~cadquery.Compound`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:229
+msgid ":class:`~cadquery.CompSolid`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:230
+msgid ":class:`~cadquery.Solid`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:231
+msgid ":class:`~cadquery.Shell`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:232
+msgid ":class:`~cadquery.Face`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:233
+msgid ":class:`~cadquery.Wire`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:234
+msgid ":class:`~cadquery.Edge`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:235
+msgid ":class:`~cadquery.Vertex`"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:237
+msgid ""
+"Each class has its own methods to create and/or edit shapes of their "
+"respective type. As already explained in :ref:`cadquery_concepts` there is "
+"also some kind of hierarchy in the topological classes. A Wire is made of "
+"several edges which are themselves made of several vertices. This means you "
+"can create geometry from the bottom up and have a lot of control over it."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:240
+msgid "For example we can create a circular face like so ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:246
+msgid ""
+"In CadQuery (and OCCT) all the topological classes are shapes, the "
+":class:`~cadquery.Shape` class is the most abstract topological class. The "
+"topological class inherits :class:`~cadquery.Mixin3D` or "
+":class:`~cadquery.Mixin1D` which provide aditional methods that are shared "
+"between the classes that inherits them."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:249
+msgid ""
+"The direct API as its name suggests doesn't provide a parent/children data "
+"structure, instead each method call directly returns an object of the "
+"specified topological type. It is more verbose than the fluent API and more "
+"tedious to work with, but as it offer more flexibility (you can work with "
+"faces, which is something you can't do in the fluent API) it is sometimes "
+"more convenient than the fluent API."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:256
+msgid ""
+"Finally we are discussing about the OCCT API. The OCCT API is the lowest "
+"level of CadQuery. The direct API is built upon the OCCT API, where the OCCT"
+" API in CadQuery is available through OCP. OCP are the Python bindings of "
+"the OCCT C++ libraries CadQuery uses. This means you have access to (almost)"
+" all the OCCT C++ libraries in Python and in CadQuery. Working with the OCCT"
+" API will give you the maximum flexibility and control over you designs, it "
+"is however very verbose and difficult to use. You will need to have a strong"
+" knowledge of the different C++ libraries to be able to achieve what you "
+"want. To obtain this knowledge the most obvious ways are :"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:261
+msgid ""
+"Read the direct API source code, since it is build upon the OCCT API it is "
+"full of example usage."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:262
+msgid ""
+"Go through the `C++ documentation "
+"<https://dev.opencascade.org/doc/overview/html/>`_"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:265
+msgid "The general way of importing a specific class of the OCCT API is ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:269
+msgid ""
+"For example if you want to use the class `BRepPrimAPI_MakeBox "
+"<https://dev.opencascade.org/doc/refman/html/class_b_rep_prim_a_p_i___make_box.html>`_."
+" You will go by the following ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:274
+msgid ""
+"The package name of any class is written at the top of the documentation "
+"page. Often it's written in the class name itself as a prefix."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:277
+msgid "Going back and forth between the APIs"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:279
+msgid ""
+"While the 3 APIs provide 3 different layer of complexity and functionality "
+"you can mix the 3 layers as you wish. Below is presented the different ways "
+"you can interact with the different API layers."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:284
+msgid "Fluent API <=> Direct API"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:286
+msgid ""
+"Here are all the possibilities you have to get an object from the Direct API"
+" (i.e a topological object)."
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:288
+msgid ""
+"You can end the Fluent API call chain and get the last object on the stack "
+"with :py:meth:`Workplane.val` alternatively you can get all the objects with"
+" :py:meth:`Workplane.vals` ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:299
+msgid ""
+"If you are only interested in getting the context solid of your Workplane, "
+"you can use :py:meth:`Workplane.findSolid`::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:310
+msgid ""
+"If you want to go the other way around i.e using objects from the "
+"topological API in the Fluent API here are your options :"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:312
+msgid ""
+"You can pass a topological object as a base object to the "
+":class:`~cadquery.Workplane` object. ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:320
+msgid ""
+"You can add a topological object as a new operation/step in the Fluent API "
+"call chain with :py:meth:`Workplane.newObject` ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:329
+msgid "Direct API <=> OCCT API"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:331
+msgid ""
+"Every object of the Direct API stores its OCCT equivalent object in its "
+":attr:`wrapped` attribute. ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:342
+msgid ""
+"If you want to cast an OCCT object into a Direct API one you can just pass "
+"it as a parameter of the intended class ::"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:353
+msgid ""
+"You can cast into the direct API the types found `here "
+"<https://dev.opencascade.org/doc/refman/html/class_topo_d_s___shape.html>`_"
+msgstr ""
+
+#: ../../cadquery/doc/primer.rst:356
 msgid "An Introspective Example"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:175
+#: ../../cadquery/doc/primer.rst:359
 msgid ""
 "If you are just beginning with CadQuery then you can leave this example for "
 "later.  If you have some experience with creating CadQuery models and now "
@@ -360,7 +629,7 @@ msgid ""
 "does, then it is recommended you read this example first."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:179
+#: ../../cadquery/doc/primer.rst:363
 msgid ""
 "To demonstrate the above concepts, we can define more detailed string "
 "representations for the :class:`~cadquery.Workplane`, "
@@ -368,28 +637,28 @@ msgid ""
 "them in::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:226
+#: ../../cadquery/doc/primer.rst:410
 msgid ""
 "Now we can make a simple part and examine the :class:`~cadquery.Workplane` "
 "and :class:`~cadquery.cq.CQContext` objects at each step. The final part "
 "looks like:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:248
+#: ../../cadquery/doc/primer.rst:432
 msgid ""
 "Some of the modelling process for this part is a bit contrived and not a "
 "great example of fluent CadQuery techniques."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:251
+#: ../../cadquery/doc/primer.rst:435
 msgid "The start of our chain of calls is::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:256 ../../cadquery/doc/primer.rst:280
+#: ../../cadquery/doc/primer.rst:440 ../../cadquery/doc/primer.rst:464
 msgid "Which produces the output:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:271
+#: ../../cadquery/doc/primer.rst:455
 msgid ""
 "This is simply an empty :class:`~cadquery.Workplane`. Being the first "
 ":class:`~cadquery.Workplane` in the chain, it does not have a parent. The "
@@ -397,13 +666,13 @@ msgid ""
 ":class:`~cadquery.Plane` object that describes the XY plane."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:275
+#: ../../cadquery/doc/primer.rst:459
 msgid ""
 "Now we create a simple box. To keep things short, the ``print(part)`` line "
 "will not be shown for the rest of these code blocks::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:295
+#: ../../cadquery/doc/primer.rst:479
 msgid ""
 "The first thing to note is that this is a different "
 ":class:`~cadquery.Workplane` object to the previous one, and in the "
@@ -415,7 +684,7 @@ msgid ""
 "is implemented."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:302
+#: ../../cadquery/doc/primer.rst:486
 msgid ""
 "Secondly, the modelling context object is the same as the one in the "
 "previous :class:`~cadquery.Workplane`, and this one modelling context at "
@@ -425,13 +694,13 @@ msgid ""
 " :class:`~cadquery.cq.CQContext` attached to it."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:308
+#: ../../cadquery/doc/primer.rst:492
 msgid ""
 "Thirdly, in our objects list is a single :class:`~cadquery.Solid` object, "
 "which is the box we just created."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:311
+#: ../../cadquery/doc/primer.rst:495
 msgid ""
 "Often when creating models you will find yourself wanting to refer back to a"
 " specific :class:`~cadquery.Workplane` object, perhaps because it is easier "
@@ -441,11 +710,11 @@ msgid ""
 "that contains this basic box now::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:318
+#: ../../cadquery/doc/primer.rst:502
 msgid "The string representation of ``part`` is now:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:333
+#: ../../cadquery/doc/primer.rst:517
 msgid ""
 "The :attr:`~cadquery.cq.CQContext.tags` attribute of the modelling context "
 "is simply a dict associating the string name given by the "
@@ -459,15 +728,15 @@ msgid ""
 ":class:`~cadquery.Workplane` method."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:342
+#: ../../cadquery/doc/primer.rst:526
 msgid "The next step is::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:346
+#: ../../cadquery/doc/primer.rst:530
 msgid "The output is:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:361
+#: ../../cadquery/doc/primer.rst:545
 msgid ""
 "Our selection method has taken the :class:`~cadquery.Solid` from the "
 ":attr:`~cadquery.Workplane.objects` list of the previous "
@@ -480,17 +749,17 @@ msgid ""
 " by a user through the :meth:`~cadquery.Workplane.findSolid` method."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:369
+#: ../../cadquery/doc/primer.rst:553
 msgid ""
 "Now we want to select the boundary of this :class:`~cadquery.Face` (a "
 ":class:`~cadquery.Wire`), so we use::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:374
+#: ../../cadquery/doc/primer.rst:558
 msgid "The output is now:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:389
+#: ../../cadquery/doc/primer.rst:573
 msgid ""
 "Modelling operations take their wires and edges from the modelling context's"
 " pending lists. In order to use the :meth:`~cadquery.Workplane.loft` command"
@@ -498,11 +767,11 @@ msgid ""
 "with::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:395
+#: ../../cadquery/doc/primer.rst:579
 msgid "Now we have:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:410
+#: ../../cadquery/doc/primer.rst:594
 msgid ""
 "The :class:`~cadquery.Wire` object that was only in the "
 ":attr:`~cadquery.Workplane.objects` attribute before is now also in the "
@@ -512,40 +781,40 @@ msgid ""
 "a new one."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:415
+#: ../../cadquery/doc/primer.rst:599
 msgid ""
 "To set up the other side of the :meth:`~cadquery.Workplane.loft` command "
 "further down the chain, we translate the wire in "
 ":attr:`~cadquery.Workplane.objects` by calling::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:420
+#: ../../cadquery/doc/primer.rst:604
 msgid "Now the string representation of ``part`` looks like:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:435
+#: ../../cadquery/doc/primer.rst:619
 msgid ""
 "It may look similar to the previous step, but the :class:`~cadquery.Wire` "
 "object in :attr:`~cadquery.Workplane.objects` is different. To get this wire"
 " into the pending wires list, again we use::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:441
+#: ../../cadquery/doc/primer.rst:625
 msgid "The result:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:456
+#: ../../cadquery/doc/primer.rst:640
 msgid ""
 "The modelling context's :attr:`~cadquery.cq.CQContext.pendingWires` "
 "attribute now contains the two wires we want to loft between, and we simply "
 "call::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:461
+#: ../../cadquery/doc/primer.rst:645
 msgid "After the loft operation, our Workplane looks quite different:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:476
+#: ../../cadquery/doc/primer.rst:660
 msgid ""
 "In the :attr:`cq.Workplane.objects` attribute we now have one Compound "
 "object and the modelling context's "
@@ -553,7 +822,7 @@ msgid ""
 ":meth:`~cadquery.Workplane.loft`."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:481
+#: ../../cadquery/doc/primer.rst:665
 msgid ""
 "To inspect the :class:`~cadquery.Compound` object further you can use "
 ":meth:`~cadquery.Workplane.val` or :meth:`~cadquery.Workplane.findSolid` to "
@@ -564,18 +833,18 @@ msgid ""
 ":class:`~cadquery.Solid` object. For example::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:492
+#: ../../cadquery/doc/primer.rst:676
 msgid ""
 "Now we will create a small cylinder protruding from a face on the original "
 "box. We need to set up a workplane to draw a circle on, so firstly we will "
 "select the correct face::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:497
+#: ../../cadquery/doc/primer.rst:681
 msgid "Which results in:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:512
+#: ../../cadquery/doc/primer.rst:696
 msgid ""
 "We have the desired :class:`~cadquery.Face` in the "
 ":attr:`~cadquery.Workplane.objects` attribute, but the "
@@ -583,12 +852,12 @@ msgid ""
 "plane we use the :meth:`Workplane.workplane` method::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:518 ../../cadquery/doc/primer.rst:541
-#: ../../cadquery/doc/primer.rst:565
+#: ../../cadquery/doc/primer.rst:702 ../../cadquery/doc/primer.rst:725
+#: ../../cadquery/doc/primer.rst:749
 msgid "Now:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:533
+#: ../../cadquery/doc/primer.rst:717
 msgid ""
 "The :attr:`~cadquery.Workplane.objects` list has been cleared and the "
 ":class:`~cadquery.Plane` object has a local Z direction in the global X "
@@ -596,11 +865,11 @@ msgid ""
 " offset in the X direction."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:537
+#: ../../cadquery/doc/primer.rst:721
 msgid "Onto this plane we can draw a circle::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:556
+#: ../../cadquery/doc/primer.rst:740
 msgid ""
 "The :meth:`~cadquery.Workplane.circle` method - like all 2D drawing methods "
 "- has placed the circle into both the :attr:`~cadquery.Workplane.objects` "
@@ -609,13 +878,13 @@ msgid ""
 "another :class:`~cadquery.Workplane` method)."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:561
+#: ../../cadquery/doc/primer.rst:745
 msgid ""
 "The next step is to extrude this circle and create a cylindrical "
 "protrusion::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:580
+#: ../../cadquery/doc/primer.rst:764
 msgid ""
 "The :meth:`~cadquery.Workplane.extrude` method has cleared all the pending "
 "wires and edges. The :attr:`~cadquery.Workplane.objects` attribute contains "
@@ -623,7 +892,7 @@ msgid ""
 "above."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:586
+#: ../../cadquery/doc/primer.rst:770
 msgid ""
 "The :meth:`~cadquery.Workplane.extrude` has an argument for ``clean`` which "
 "defaults to ``True``. This extrudes the pending wires (creating a new "
@@ -635,24 +904,24 @@ msgid ""
 "rather than the object from the previous step."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:596
+#: ../../cadquery/doc/primer.rst:780
 msgid "Assemblies"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:598
+#: ../../cadquery/doc/primer.rst:782
 msgid ""
 "Simple models can be combined into complex, possibly nested, assemblies."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:602
+#: ../../cadquery/doc/primer.rst:786
 msgid "A simple example could look as follows::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:620
+#: ../../cadquery/doc/primer.rst:804
 msgid "Resulting in:"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:624
+#: ../../cadquery/doc/primer.rst:808
 msgid ""
 "Note that the locations of the children parts are defined with respect to "
 "their parents - in the above example ``part3`` will be located at (-5,-5,20)"
@@ -660,22 +929,22 @@ msgid ""
 "created this way and exported to STEP or the native OCCT xml format."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:626
+#: ../../cadquery/doc/primer.rst:810
 msgid "You can browse assembly related methods here: :ref:`assembly`."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:629
+#: ../../cadquery/doc/primer.rst:813
 msgid "Assemblies with constraints"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:631
+#: ../../cadquery/doc/primer.rst:815
 msgid ""
 "Sometimes it is not desirable to define the component positions explicitly "
 "but rather use constraints to obtain a fully parametric assembly. This can "
 "be achieved in the following way::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:657
+#: ../../cadquery/doc/primer.rst:841
 msgid ""
 "This code results in identical object as one from the previous section. The "
 "added benefit is that with changing parameters ``w``, ``d``, ``h`` the final"
@@ -684,7 +953,7 @@ msgid ""
 "constructing the constraints::"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:690
+#: ../../cadquery/doc/primer.rst:874
 msgid "The following constraints are currently implemented:"
 msgstr ""
 
@@ -692,7 +961,7 @@ msgstr ""
 msgid "Axis"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:692
+#: ../../cadquery/doc/primer.rst:876
 msgid ""
 "two normal vectors are anti-coincident or the angle (in radians) between "
 "them is equal to the specified value. Can be defined for all entities with "
@@ -703,7 +972,7 @@ msgstr ""
 msgid "Point"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:693
+#: ../../cadquery/doc/primer.rst:877
 msgid ""
 "two points are coincident or separated by a specified distance. Can be "
 "defined for all entities, center of mass is used for lines, faces, solids "
@@ -714,10 +983,10 @@ msgstr ""
 msgid "Plane"
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:694
+#: ../../cadquery/doc/primer.rst:878
 msgid "combination of :Axis: and :Point: constraints."
 msgstr ""
 
-#: ../../cadquery/doc/primer.rst:696
+#: ../../cadquery/doc/primer.rst:880
 msgid "For a more elaborate assembly example see :ref:`assytutorial`."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-03 00:43+0000\n"
+"POT-Creation-Date: 2021-11-17 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -557,7 +557,7 @@ msgid "Here is a typical situation where extruding and cuting until a given surf
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:715
-msgid "If the wire you want to extrude cannot be fully projected on the target surface, the result will be unpredictable. Furthermore the algorithm in charge of finding the candidates faces do it's search by counting all the faces intersected by a line created from your wire center along your extrusion direction. So make sure your wire can be projected on your target face to avoid unexpected behaviour."
+msgid "If the wire you want to extrude cannot be fully projected on the target surface, the result will be unpredictable. Furthermore, the algorithm in charge of finding the candidate faces does its search by counting all the faces intersected by a line created from your wire center along your extrusion direction. So make sure your wire can be projected on your target face to avoid unexpected behaviour."
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:726

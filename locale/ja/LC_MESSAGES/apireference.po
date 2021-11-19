@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 00:44+0000\n"
+"POT-Creation-Date: 2021-11-19 00:43+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -830,7 +830,7 @@ msgstr ""
 msgid "3D operations that require a 2D workplane to be active:"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.cboreHole <cadquery.Workplane.cboreHole>`\\ \\(diameter\\, "
 "cboreDiameter\\, ...\\)"
@@ -838,11 +838,11 @@ msgstr ""
 ":obj:`Workplane.cboreHole <cadquery.Workplane.cboreHole>`\\ \\(diameter\\, "
 "cboreDiameter\\, ...\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Makes a counterbored hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.cskHole <cadquery.Workplane.cskHole>`\\ \\(diameter\\, "
 "cskDiameter\\, ...\\)"
@@ -850,11 +850,11 @@ msgstr ""
 ":obj:`Workplane.cskHole <cadquery.Workplane.cskHole>`\\ \\(diameter\\, "
 "cskDiameter\\, ...\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Makes a countersunk hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.hole <cadquery.Workplane.hole>`\\ \\(diameter\\[\\, depth\\,"
 " clean\\]\\)"
@@ -862,45 +862,45 @@ msgstr ""
 ":obj:`Workplane.hole <cadquery.Workplane.hole>`\\ \\(diameter\\[\\, depth\\,"
 " clean\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Makes a hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(until\\[\\, "
 "combine\\, clean\\, ...\\]\\)"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 "Use all un-extruded wires in the parent chain to create a prismatic solid."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ":obj:`Workplane.cut <cadquery.Workplane.cut>`\\ \\(toCut\\[\\, clean\\]\\)"
 msgstr ":obj:`Workplane.cut <cadquery.Workplane.cut>`\\ \\(toCut\\[\\, clean\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 "Cuts the provided solid from the current solid, IE, perform a solid "
-"subtraction"
+"subtraction."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ \\(until\\[\\, "
 "clean\\, taper\\]\\)"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 "Use all un-extruded wires in the parent chain to create a prismatic cut from"
 " existing solid."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.cutThruAll <cadquery.Workplane.cutThruAll>`\\ \\(\\[clean\\,"
 " taper\\]\\)"
@@ -908,7 +908,7 @@ msgstr ""
 ":obj:`Workplane.cutThruAll <cadquery.Workplane.cutThruAll>`\\ \\(\\[clean\\,"
 " taper\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.box <cadquery.Workplane.box>`\\ \\(length\\, width\\, "
 "height\\[\\, ...\\]\\)"
@@ -916,12 +916,12 @@ msgstr ""
 ":obj:`Workplane.box <cadquery.Workplane.box>`\\ \\(length\\, width\\, "
 "height\\[\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 "Return a 3d box with specified dimensions for each object on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.sphere <cadquery.Workplane.sphere>`\\ \\(radius\\[\\, "
 "direct\\, angle1\\, ...\\]\\)"
@@ -929,24 +929,36 @@ msgstr ""
 ":obj:`Workplane.sphere <cadquery.Workplane.sphere>`\\ \\(radius\\[\\, "
 "direct\\, angle1\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-"Returns a 3D sphere with the specified radius for each point on the stack"
+"Returns a 3D sphere with the specified radius for each point on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
+msgid ""
+":obj:`Workplane.wedge <cadquery.Workplane.wedge>`\\ \\(dx\\, dy\\, dz\\, "
+"xmin\\, zmin\\, ...\\)"
+msgstr ""
+
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
+msgid ""
+"Returns a 3D wedge with the specified dimensions for each point on the "
+"stack."
+msgstr ""
+
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.cylinder <cadquery.Workplane.cylinder>`\\ \\(height\\, "
 "radius\\[\\, direct\\, ...\\]\\)"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 "Returns a cylinder with the specified radius and height for each point on "
 "the stack"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.union <cadquery.Workplane.union>`\\ \\(\\[toUnion\\, "
 "clean\\, glue\\, tol\\]\\)"
@@ -954,12 +966,12 @@ msgstr ""
 ":obj:`Workplane.union <cadquery.Workplane.union>`\\ \\(\\[toUnion\\, "
 "clean\\, glue\\, tol\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 "Unions all of the items on the stack of toUnion with the current solid."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.combine <cadquery.Workplane.combine>`\\ \\(\\[clean\\, "
 "glue\\, tol\\]\\)"
@@ -967,11 +979,11 @@ msgstr ""
 ":obj:`Workplane.combine <cadquery.Workplane.combine>`\\ \\(\\[clean\\, "
 "glue\\, tol\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Attempts to combine all of the items on the stack into a single item."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.intersect <cadquery.Workplane.intersect>`\\ "
 "\\(toIntersect\\[\\, clean\\]\\)"
@@ -979,11 +991,11 @@ msgstr ""
 ":obj:`Workplane.intersect <cadquery.Workplane.intersect>`\\ "
 "\\(toIntersect\\[\\, clean\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Intersects the provided solid from the current solid."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.loft <cadquery.Workplane.loft>`\\ \\(\\[filled\\, ruled\\, "
 "combine\\]\\)"
@@ -991,11 +1003,11 @@ msgstr ""
 ":obj:`Workplane.loft <cadquery.Workplane.loft>`\\ \\(\\[filled\\, ruled\\, "
 "combine\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Make a lofted solid, through the set of wires."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.sweep <cadquery.Workplane.sweep>`\\ \\(path\\[\\, "
 "multisection\\, ...\\]\\)"
@@ -1003,11 +1015,11 @@ msgstr ""
 ":obj:`Workplane.sweep <cadquery.Workplane.sweep>`\\ \\(path\\[\\, "
 "multisection\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Use all un-extruded wires in the parent chain to create a swept solid."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.twistExtrude <cadquery.Workplane.twistExtrude>`\\ "
 "\\(distance\\, angleDegrees\\)"
@@ -1015,13 +1027,13 @@ msgstr ""
 ":obj:`Workplane.twistExtrude <cadquery.Workplane.twistExtrude>`\\ "
 "\\(distance\\, angleDegrees\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 "Extrudes a wire in the direction normal to the plane, but also twists by the"
-" specified angle over the length of the extrusion"
+" specified angle over the length of the extrusion."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.revolve <cadquery.Workplane.revolve>`\\ "
 "\\(\\[angleDegrees\\, axisStart\\, ...\\]\\)"
@@ -1029,11 +1041,11 @@ msgstr ""
 ":obj:`Workplane.revolve <cadquery.Workplane.revolve>`\\ "
 "\\(\\[angleDegrees\\, axisStart\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Use all un-revolved wires in the parent chain to create a solid."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
 ":obj:`Workplane.text <cadquery.Workplane.text>`\\ \\(txt\\, fontsize\\, "
 "distance\\[\\, ...\\]\\)"
@@ -1041,32 +1053,32 @@ msgstr ""
 ":obj:`Workplane.text <cadquery.Workplane.text>`\\ \\(txt\\, fontsize\\, "
 "distance\\[\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:182:<autosummary>:1
-msgid "Create a 3D text"
+#: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
+msgid "Returns a 3D text."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:183
+#: ../../cadquery/doc/apireference.rst:184
 msgid "3D operations that do NOT require a 2D workplane to be active:"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ":obj:`Workplane.shell <cadquery.Workplane.shell>`\\ \\(thickness\\[\\, kind\\]\\)"
 msgstr ":obj:`Workplane.shell <cadquery.Workplane.shell>`\\ \\(thickness\\[\\, kind\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 "Remove the selected faces to create a shell of the specified thickness."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ":obj:`Workplane.fillet <cadquery.Workplane.fillet>`\\ \\(radius\\)"
 msgstr ":obj:`Workplane.fillet <cadquery.Workplane.fillet>`\\ \\(radius\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid "Fillets a solid on the selected edges."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 ":obj:`Workplane.chamfer <cadquery.Workplane.chamfer>`\\ \\(length\\[\\, "
 "length2\\]\\)"
@@ -1074,21 +1086,21 @@ msgstr ""
 ":obj:`Workplane.chamfer <cadquery.Workplane.chamfer>`\\ \\(length\\[\\, "
 "length2\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid "Chamfers a solid on the selected edges."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ":obj:`Workplane.split <cadquery.Workplane.split>`\\ \\(\\)"
 msgstr ":obj:`Workplane.split <cadquery.Workplane.split>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 "Splits a solid on the stack into two parts, optionally keeping the separate "
 "parts."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 ":obj:`Workplane.rotate <cadquery.Workplane.rotate>`\\ \\(axisStartPoint\\, "
 "...\\)"
@@ -1096,13 +1108,13 @@ msgstr ""
 ":obj:`Workplane.rotate <cadquery.Workplane.rotate>`\\ \\(axisStartPoint\\, "
 "...\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 "Returns a copy of all of the items on the stack rotated through and angle "
 "around the axis of rotation."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 ":obj:`Workplane.rotateAboutCenter <cadquery.Workplane.rotateAboutCenter>`\\ "
 "\\(axisEndPoint\\, ...\\)"
@@ -1110,23 +1122,23 @@ msgstr ""
 ":obj:`Workplane.rotateAboutCenter <cadquery.Workplane.rotateAboutCenter>`\\ "
 "\\(axisEndPoint\\, ...\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 "Rotates all items on the stack by the specified angle, about the specified "
 "axis"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ":obj:`Workplane.translate <cadquery.Workplane.translate>`\\ \\(vec\\)"
 msgstr ":obj:`Workplane.translate <cadquery.Workplane.translate>`\\ \\(vec\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 "Returns a copy of all of the items on the stack moved by the specified "
 "translation vector."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
 ":obj:`Workplane.mirror <cadquery.Workplane.mirror>`\\ \\(\\[mirrorPlane\\, "
 "...\\]\\)"
@@ -1134,40 +1146,40 @@ msgstr ""
 ":obj:`Workplane.mirror <cadquery.Workplane.mirror>`\\ \\(\\[mirrorPlane\\, "
 "...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:194:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid "Mirror a single CQ object."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:196
+#: ../../cadquery/doc/apireference.rst:197
 msgid "File Management and Export"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:202:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
 msgid ":obj:`Workplane.toSvg <cadquery.Workplane.toSvg>`\\ \\(\\[opts\\]\\)"
 msgstr ":obj:`Workplane.toSvg <cadquery.Workplane.toSvg>`\\ \\(\\[opts\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:202:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
 msgid "Returns svg text that represents the first item on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:202:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
 msgid ":obj:`Workplane.exportSvg <cadquery.Workplane.exportSvg>`\\ \\(fileName\\)"
 msgstr ":obj:`Workplane.exportSvg <cadquery.Workplane.exportSvg>`\\ \\(fileName\\)"
 
-#: ../../cadquery/doc/apireference.rst:202:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
 msgid "Exports the first item on the stack as an SVG file"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:208:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid ":obj:`importers.importStep <cadquery.importers.importStep>`\\ \\(fileName\\)"
 msgstr ""
 ":obj:`importers.importStep <cadquery.importers.importStep>`\\ \\(fileName\\)"
 
-#: ../../cadquery/doc/apireference.rst:208:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid "Accepts a file name and loads the STEP file into a cadquery Workplane"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:208:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid ""
 ":obj:`importers.importDXF <cadquery.importers.importDXF>`\\ "
 "\\(filename\\[\\, tol\\, exclude\\]\\)"
@@ -1175,11 +1187,11 @@ msgstr ""
 ":obj:`importers.importDXF <cadquery.importers.importDXF>`\\ "
 "\\(filename\\[\\, tol\\, exclude\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:208:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid "Loads a DXF file into a cadquery Workplane."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:208:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid ""
 ":obj:`exporters.export <cadquery.exporters.export>`\\ \\(w\\, fname\\[\\, "
 "exportType\\, ...\\]\\)"
@@ -1187,19 +1199,19 @@ msgstr ""
 ":obj:`exporters.export <cadquery.exporters.export>`\\ \\(w\\, fname\\[\\, "
 "exportType\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:208:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid "Export Wokrplane or Shape to file."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:210
+#: ../../cadquery/doc/apireference.rst:211
 msgid "Iteration Methods"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:212
+#: ../../cadquery/doc/apireference.rst:213
 msgid "Methods that allow iteration over the stack or objects"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:218:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
 msgid ""
 ":obj:`Workplane.each <cadquery.Workplane.each>`\\ \\(callback\\[\\, "
 "useLocalCoordinates\\]\\)"
@@ -1207,13 +1219,13 @@ msgstr ""
 ":obj:`Workplane.each <cadquery.Workplane.each>`\\ \\(callback\\[\\, "
 "useLocalCoordinates\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:218:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
 msgid ""
 "Runs the provided function on each value in the stack, and collects the "
 "return values into a new CQ object."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:218:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
 msgid ""
 ":obj:`Workplane.eachpoint <cadquery.Workplane.eachpoint>`\\ "
 "\\(callback\\[\\, ...\\]\\)"
@@ -1221,97 +1233,97 @@ msgstr ""
 ":obj:`Workplane.eachpoint <cadquery.Workplane.eachpoint>`\\ "
 "\\(callback\\[\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:218:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
 msgid ""
 "Same as each(), except each item on the stack is converted into a point "
 "before it is passed into the callback function."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:222
+#: ../../cadquery/doc/apireference.rst:223
 msgid "Stack and Selector Methods"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:224
+#: ../../cadquery/doc/apireference.rst:225
 msgid "CadQuery methods that operate on the stack"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.all <cadquery.Workplane.all>`\\ \\(\\)"
 msgstr ":obj:`Workplane.all <cadquery.Workplane.all>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return a list of all CQ objects on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.size <cadquery.Workplane.size>`\\ \\(\\)"
 msgstr ":obj:`Workplane.size <cadquery.Workplane.size>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the number of objects currently on the stack"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.vals <cadquery.Workplane.vals>`\\ \\(\\)"
 msgstr ":obj:`Workplane.vals <cadquery.Workplane.vals>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "get the values in the current list"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.add <cadquery.Workplane.add>`\\ \\(\\)"
 msgstr ":obj:`Workplane.add <cadquery.Workplane.add>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Adds an object or a list of objects to the stack"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.val <cadquery.Workplane.val>`\\ \\(\\)"
 msgstr ":obj:`Workplane.val <cadquery.Workplane.val>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the first value on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.first <cadquery.Workplane.first>`\\ \\(\\)"
 msgstr ":obj:`Workplane.first <cadquery.Workplane.first>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Return the first item on the stack :returns: the first item on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.item <cadquery.Workplane.item>`\\ \\(i\\)"
 msgstr ":obj:`Workplane.item <cadquery.Workplane.item>`\\ \\(i\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the ith item on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.last <cadquery.Workplane.last>`\\ \\(\\)"
 msgstr ":obj:`Workplane.last <cadquery.Workplane.last>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the last item on the stack."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.end <cadquery.Workplane.end>`\\ \\(\\[n\\]\\)"
 msgstr ":obj:`Workplane.end <cadquery.Workplane.end>`\\ \\(\\[n\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Return the nth parent of this CQ element :type n: :py:class:`int` :param n: "
 "number of ancestor to return (default: 1) :rtype: a CQ object :raises: "
 "ValueError if there are no more parents in the chain."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 ":obj:`Workplane.vertices <cadquery.Workplane.vertices>`\\ \\(\\[selector\\, "
 "tag\\]\\)"
@@ -1319,63 +1331,63 @@ msgstr ""
 ":obj:`Workplane.vertices <cadquery.Workplane.vertices>`\\ \\(\\[selector\\, "
 "tag\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Select the vertices of objects on the stack, optionally filtering the "
 "selection."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.faces <cadquery.Workplane.faces>`\\ \\(\\[selector\\, tag\\]\\)"
 msgstr ":obj:`Workplane.faces <cadquery.Workplane.faces>`\\ \\(\\[selector\\, tag\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Select the faces of objects on the stack, optionally filtering the "
 "selection."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.edges <cadquery.Workplane.edges>`\\ \\(\\[selector\\, tag\\]\\)"
 msgstr ":obj:`Workplane.edges <cadquery.Workplane.edges>`\\ \\(\\[selector\\, tag\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Select the edges of objects on the stack, optionally filtering the "
 "selection."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.wires <cadquery.Workplane.wires>`\\ \\(\\[selector\\, tag\\]\\)"
 msgstr ":obj:`Workplane.wires <cadquery.Workplane.wires>`\\ \\(\\[selector\\, tag\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Select the wires of objects on the stack, optionally filtering the "
 "selection."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.solids <cadquery.Workplane.solids>`\\ \\(\\[selector\\, tag\\]\\)"
 msgstr ":obj:`Workplane.solids <cadquery.Workplane.solids>`\\ \\(\\[selector\\, tag\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Select the solids of objects on the stack, optionally filtering the "
 "selection."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ":obj:`Workplane.shells <cadquery.Workplane.shells>`\\ \\(\\[selector\\, tag\\]\\)"
 msgstr ":obj:`Workplane.shells <cadquery.Workplane.shells>`\\ \\(\\[selector\\, tag\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 "Select the shells of objects on the stack, optionally filtering the "
 "selection."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
 ":obj:`Workplane.compounds <cadquery.Workplane.compounds>`\\ "
 "\\(\\[selector\\, tag\\]\\)"
@@ -1383,21 +1395,21 @@ msgstr ""
 ":obj:`Workplane.compounds <cadquery.Workplane.compounds>`\\ "
 "\\(\\[selector\\, tag\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:243:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Select compounds on the stack, optionally filtering the selection."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:247
+#: ../../cadquery/doc/apireference.rst:248
 msgid "Selectors"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:249
+#: ../../cadquery/doc/apireference.rst:250
 msgid ""
 "Objects that filter and select CAD objects. Selectors are used to select "
 "existing geometry as a basis for further operations."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`NearestToPointSelector <cadquery.selectors.NearestToPointSelector>`\\ "
 "\\(pnt\\)"
@@ -1405,11 +1417,11 @@ msgstr ""
 ":obj:`NearestToPointSelector <cadquery.selectors.NearestToPointSelector>`\\ "
 "\\(pnt\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects object nearest the provided point."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
 "point1\\[\\, boundingbox\\]\\)"
@@ -1417,11 +1429,11 @@ msgstr ""
 ":obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
 "point1\\[\\, boundingbox\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects inside the 3D box defined by 2 points."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
@@ -1429,12 +1441,12 @@ msgstr ""
 ":obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 "A selector that handles selection on the basis of a single direction vector."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
@@ -1442,11 +1454,11 @@ msgstr ""
 ":obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects parallel with the provided direction."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
@@ -1454,11 +1466,11 @@ msgstr ""
 ":obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects aligned with the provided direction."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
 "\\(vector\\, n\\[\\, ...\\]\\)"
@@ -1466,13 +1478,13 @@ msgstr ""
 ":obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
 "\\(vector\\, n\\[\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 "Filters for objects parallel (or normal) to the specified direction then "
 "returns the Nth one."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ \\(n\\[\\,"
 " directionMax\\, tolerance\\]\\)"
@@ -1480,11 +1492,11 @@ msgstr ""
 ":obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ \\(n\\[\\,"
 " directionMax\\, tolerance\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Select the object(s) with the Nth length"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
 "directionMax\\, tolerance\\]\\)"
@@ -1492,11 +1504,11 @@ msgstr ""
 ":obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
 "directionMax\\, tolerance\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects the object(s) with Nth area"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ \\(n\\[\\,"
 " directionMax\\, tolerance\\]\\)"
@@ -1504,11 +1516,11 @@ msgstr ""
 ":obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ \\(n\\[\\,"
 " directionMax\\, tolerance\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Select the object with the Nth radius."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`PerpendicularDirSelector "
 "<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
@@ -1518,19 +1530,19 @@ msgstr ""
 "<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
 "tolerance\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects perpendicular with the provided direction."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ":obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
 msgstr ":obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects having the prescribed geometry type."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`DirectionMinMaxSelector "
 "<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
@@ -1538,11 +1550,11 @@ msgstr ""
 ":obj:`DirectionMinMaxSelector "
 "<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects closest or farthest in the specified direction."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
 "\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
@@ -1550,13 +1562,13 @@ msgstr ""
 ":obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
 "\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 "Sorts objects into a list with order determined by the distance of their "
 "center projected onto the specified direction."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
 "right\\)"
@@ -1564,27 +1576,27 @@ msgstr ""
 ":obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
 "right\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Base class for selectors that operates with two other selectors."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ":obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
 msgstr ":obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Intersection selector."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ":obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
 msgstr ":obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Union selector."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ \\(left\\, "
 "right\\)"
@@ -1592,20 +1604,20 @@ msgstr ""
 ":obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ \\(left\\, "
 "right\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Difference selector."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ":obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ \\(selector\\)"
 msgstr ""
 ":obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ \\(selector\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Inverts the selection of given selector."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
 ":obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
 "\\(selectorString\\)"
@@ -1613,63 +1625,63 @@ msgstr ""
 ":obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
 "\\(selectorString\\)"
 
-#: ../../cadquery/doc/apireference.rst:274:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Filter lists objects using a simple string syntax."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:278
+#: ../../cadquery/doc/apireference.rst:279
 msgid "Assemblies"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:280
+#: ../../cadquery/doc/apireference.rst:281
 msgid "Workplane and Shape objects can be connected together into assemblies"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\]\\)"
 msgstr ":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ""
 "Nested assembly of Workplane and Shape objects defining their relative "
 "positions."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ":obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(\\)"
 msgstr ":obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Add a subassembly to the current assembly."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ""
 ":obj:`Assembly.save <cadquery.Assembly.save>`\\ \\(path\\[\\, exportType\\, "
 "tolerance\\, ...\\]\\)"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "save as STEP or OCCT native XML file"
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ":obj:`Assembly.constrain <cadquery.Assembly.constrain>`\\ \\(\\)"
 msgstr ":obj:`Assembly.constrain <cadquery.Assembly.constrain>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Define a new constraint."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ":obj:`Assembly.solve <cadquery.Assembly.solve>`\\ \\(\\)"
 msgstr ":obj:`Assembly.solve <cadquery.Assembly.solve>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Solve the constraints."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ""
 ":obj:`Constraint <cadquery.Constraint>`\\ \\(objects\\, args\\, sublocs\\, "
 "kind\\[\\, param\\]\\)"
@@ -1677,14 +1689,14 @@ msgstr ""
 ":obj:`Constraint <cadquery.Constraint>`\\ \\(objects\\, args\\, sublocs\\, "
 "kind\\[\\, param\\]\\)"
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Geometrical constraint between two shapes of an assembly."
 msgstr ""
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ":obj:`Color <cadquery.Color>`\\ \\(\\)"
 msgstr ":obj:`Color <cadquery.Color>`\\ \\(\\)"
 
-#: ../../cadquery/doc/apireference.rst:291:<autosummary>:1
+#: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Wrapper for the OCCT color object Quantity_ColorRGBA."
 msgstr ""

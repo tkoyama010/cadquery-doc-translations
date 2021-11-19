@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-17 00:44+0000\n"
+"POT-Creation-Date: 2021-11-19 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgid "3D Construction"
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:75
-msgid "You can construct 3D primitives such as boxes, spheres, wedges, and cylinders directly. You can also sweep, extrude, and loft 2D geometry to form 3D features.  Of course the basic primitive operations are also available."
+msgid "You can construct 3D primitives such as boxes, wedges, cylinders and spheres directly. You can also sweep, extrude, and loft 2D geometry to form 3D features.  Of course the basic primitive operations are also available."
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:78

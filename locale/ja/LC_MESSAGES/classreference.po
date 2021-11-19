@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 00:44+0000\n"
+"POT-Creation-Date: 2021-11-19 00:43+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -1864,8 +1864,7 @@ msgid "Create a compound out of a list of shapes"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Compound.makeText:1 ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.Workplane.text:1
+#: cadquery.Compound.makeText:1
 msgid "Create a 3D text"
 msgstr ""
 
@@ -5458,7 +5457,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cut:1
 msgid ""
 "Cuts the provided solid from the current solid, IE, perform a solid "
-"subtraction"
+"subtraction."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cut:4
@@ -5569,7 +5568,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:21
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:24
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:25
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:27
 msgid ""
 "Whether the results should be combined with other solids on the stack (and "
 "each other)"
@@ -6946,7 +6945,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:1
 msgid ""
-"Returns a 3D sphere with the specified radius for each point on the stack"
+"Returns a 3D sphere with the specified radius for each point on the stack."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:4
@@ -7243,6 +7242,10 @@ msgid ""
 "the case after a lineTo operation or similar."
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:1
+msgid "Returns a 3D text."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:4
 msgid "text to be rendered"
 msgstr ""
@@ -7389,11 +7392,11 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.twistExtrude:1
 msgid ""
 "Extrudes a wire in the direction normal to the plane, but also twists by the"
-" specified angle over the length of the extrusion"
+" specified angle over the length of the extrusion."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.twistExtrude:4
-msgid "The center point of the rotation will be the center of the workplane"
+msgid "The center point of the rotation will be the center of the workplane."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.twistExtrude:6
@@ -7524,43 +7527,49 @@ msgstr ""
 msgid ":py:class:`StringSyntaxSelector`"
 msgstr ":py:class:`StringSyntaxSelector`"
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:2
-msgid "Distance along the X axis"
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:1
+msgid ""
+"Returns a 3D wedge with the specified dimensions for each point on the "
+"stack."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:4
-msgid "Distance along the Y axis"
+msgid "Distance along the X axis"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:6
-msgid "Distance along the Z axis"
+msgid "Distance along the Y axis"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:8
-msgid "The minimum X location"
+msgid "Distance along the Z axis"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:10
-msgid "The minimum Z location"
+msgid "The minimum X location"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:12
-msgid "The maximum X location"
+msgid "The minimum Z location"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:14
-msgid "The maximum Z location"
+msgid "The maximum X location"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:16
-msgid "A vector (or tuple) for the origin of the direction for the wedge"
+msgid "The maximum Z location"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:18
-msgid "The direction vector (or tuple) for the major axis of the wedge"
+msgid "A vector (or tuple) for the origin of the direction for the wedge"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:20
+msgid "The direction vector (or tuple) for the major axis of the wedge"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:22
 msgid ""
 "If True, the wedge will be centered around the reference point. If False, "
 "the corner of the wedge will be on the reference point and it will extend in"
@@ -7568,22 +7577,22 @@ msgid ""
 "centering along each axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:28
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:30
 msgid ""
 "True to attempt to have the kernel clean up the geometry, False otherwise"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:30
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:32
 msgid "A wedge object for each point on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:32
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:34
 msgid ""
 "One wedge is created for each item on the current stack. If no items are on "
 "the stack, one wedge using the current workplane center is created."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:35
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:37
 msgid ""
 "If combine is True, the result will be a single object on the stack. If a "
 "solid was found in the chain, the result is that solid with all wedges "
@@ -7591,7 +7600,7 @@ msgid ""
 "produced wedges."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:39
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.wedge:41
 msgid "If combine is False, the result will be a list of the wedges produced."
 msgstr ""
 

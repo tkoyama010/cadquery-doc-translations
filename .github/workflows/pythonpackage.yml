@@ -22,3 +22,4 @@ jobs:
         use-mypy: true
         use-isort: true
         extra-pylint-options: --disable=F0010
+        extra-mypy-options: --ignore-missing-imports

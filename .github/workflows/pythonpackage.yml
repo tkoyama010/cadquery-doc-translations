@@ -19,6 +19,7 @@ jobs:
         use-pycodestyle: true
         use-flake8: true
         use-black: true
-        use-mypy: false
+        use-mypy: true
         use-isort: true
         extra-pylint-options: --disable=F0010
+        extra-mypy-options: --ignore-missing-imports

@@ -59,16 +59,16 @@ msgstr ""
 msgid ""
 "To get the latest features (recommended), once you have Anaconda or "
 "Miniconda installed, activate the [conda "
-"environment](https://conda.io/projects/conda/en/latest/user-guide/tasks"
-"/manage-environments.html) you want to use and type::"
+"environment](https://conda.io/projects/conda/en/latest/user-"
+"guide/tasks/manage-environments.html) you want to use and type::"
 msgstr ""
 
 #: ../../cadquery/doc/installation.rst:23
 msgid ""
 "If you want an older, more stable version of CadQuery, once you have "
 "Anaconda or Miniconda installed, activate the [conda "
-"environment](https://conda.io/projects/conda/en/latest/user-guide/tasks"
-"/manage-environments.html) you want to use and type::"
+"environment](https://conda.io/projects/conda/en/latest/user-"
+"guide/tasks/manage-environments.html) you want to use and type::"
 msgstr ""
 
 #: ../../cadquery/doc/installation.rst:28

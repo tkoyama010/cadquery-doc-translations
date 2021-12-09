@@ -109,8 +109,8 @@ msgstr ""
 
 #: ../../cadquery/doc/intro.rst:57
 msgid ""
-"As an Jupyter extension `jupyter-cadquery <https://github.com/bernhard-42"
-"/jupyter-cadquery>`_"
+"As an Jupyter extension `jupyter-cadquery "
+"<https://github.com/bernhard-42/jupyter-cadquery>`_"
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:61

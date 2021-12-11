@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 00:43+0000\n"
+"POT-Creation-Date: 2021-12-11 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Defines a coordinate system in space, in which 2D coordinates can be used
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
-msgid ":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\]\\)"
+msgid ":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\, metadata\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
@@ -752,11 +752,15 @@ msgid "location of the root object (default: None, interpreted as identity trans
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:8
-msgid "unique name of the root object (default: None, reasulting in an UUID being generated)"
+msgid "unique name of the root object (default: None, resulting in an UUID being generated)"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:10
 msgid "color of the added object (default: None)"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:12
+msgid "a store for user-defined metadata (default: None)"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:0
@@ -881,15 +885,15 @@ msgstr ""
 msgid "Returns"
 msgstr ""
 
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:11
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:13
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:14
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:16
 msgid "To create an empty assembly use::"
 msgstr ""
 
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:18
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__init__:20
 msgid "To create one constraint a root object::"
 msgstr ""
 

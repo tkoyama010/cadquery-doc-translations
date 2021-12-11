@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 00:43+0000\n"
+"POT-Creation-Date: 2021-12-11 00:44+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -1638,8 +1638,10 @@ msgid "Workplane and Shape objects can be connected together into assemblies"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
-msgid ":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\]\\)"
-msgstr ":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\]\\)"
+msgid ""
+":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\, "
+"metadata\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ""

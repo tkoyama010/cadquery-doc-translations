@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 00:44+0000\n"
+"POT-Creation-Date: 2021-12-25 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3587,14 +3587,14 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cboreHole:15
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.combine:4
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cskHole:15
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cut:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cut:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutBlind:13
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutThruAll:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cylinder:25
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.extrude:11
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.hole:9
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.interpPlate:14
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.intersect:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.intersect:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.revolve:15
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.sphere:28
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.sweep:7
@@ -3829,12 +3829,12 @@ msgid "Attempts to combine all of the items on the stack into a single item. WAR
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.combine:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:10
 msgid "use a faster gluing mode for non-overlapping shapes (default False)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.combine:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:12
 msgid "tolerance value for fuzzy bool operation mode (default None)"
 msgstr ""
 
@@ -3843,11 +3843,8 @@ msgid "ValueError if there are no items on the stack, or if they cannot be combi
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.combine:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cut:9
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutBlind:17
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutThruAll:11
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.intersect:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:12
 msgid "a CQ object with the resulting object selected"
 msgstr ""
 
@@ -3959,10 +3956,16 @@ msgstr ""
 msgid "object to cut"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cut:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cut:8
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutBlind:15
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutThruAll:8
 msgid "if there is no solid to subtract from in the chain"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cut:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.intersect:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:15
+msgid "a Workplane object with the resulting object selected"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.cutBlind:1
@@ -4417,7 +4420,7 @@ msgstr ""
 msgid "object to intersect"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.intersect:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.intersect:8
 msgid "if there is no solid to intersect with in the chain"
 msgstr ""
 
@@ -5465,11 +5468,11 @@ msgstr ""
 msgid "Unions all of the items on the stack of toUnion with the current solid. If there is no current solid, the items in toUnion are unioned together."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:8
 msgid "call :py:meth:`clean` afterwards to have a clean shape (default True)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.union:13
 msgid "ValueError if there is no solid to add to in the chain"
 msgstr ""
 

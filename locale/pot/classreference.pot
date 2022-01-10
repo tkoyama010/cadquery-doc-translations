@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-25 00:45+0000\n"
+"POT-Creation-Date: 2022-01-10 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1978,6 +1978,11 @@ msgstr ""
 msgid "Return self!=value."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.__repr__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__repr__:1
+msgid "Return repr(self)."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.named:1
 msgid "Create a predefined Plane based on the conventional names."
 msgstr ""
@@ -3355,10 +3360,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.Center:3
 msgid "The center of myself is myself. Provided so that vectors, vertices, and other shapes all support a common interface, when Center() is requested for all objects on the stack."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__repr__:1
-msgid "Return repr(self)."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__str__:1

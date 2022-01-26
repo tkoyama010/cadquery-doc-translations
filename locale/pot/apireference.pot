@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 00:44+0000\n"
+"POT-Creation-Date: 2022-01-26 00:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -798,7 +798,7 @@ msgid "Intersects the provided solid from the current solid."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
-msgid ":obj:`Workplane.loft <cadquery.Workplane.loft>`\\ \\(\\[filled\\, ruled\\, combine\\]\\)"
+msgid ":obj:`Workplane.loft <cadquery.Workplane.loft>`\\ \\(\\[ruled\\, combine\\, clean\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
@@ -958,7 +958,7 @@ msgid "Methods that allow iteration over the stack or objects"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
-msgid ":obj:`Workplane.each <cadquery.Workplane.each>`\\ \\(callback\\[\\, useLocalCoordinates\\]\\)"
+msgid ":obj:`Workplane.each <cadquery.Workplane.each>`\\ \\(callback\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:219:<autosummary>:1

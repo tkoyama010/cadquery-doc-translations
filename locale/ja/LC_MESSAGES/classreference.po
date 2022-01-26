@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 00:47+0000\n"
+"POT-Creation-Date: 2022-01-26 00:51+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -1098,6 +1098,7 @@ msgstr ""
 #: cadquery.Workplane.largestDimension:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.line:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.lineTo:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.loft:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.mirrorX:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.mirrorY:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.newObject:0
@@ -1524,6 +1525,7 @@ msgstr ""
 #: cadquery.Workplane.largestDimension:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.line:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.lineTo:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.loft:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.mirror:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.mirrorX:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.mirrorY:0
@@ -4327,7 +4329,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.sweep:10 ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.Workplane.sweep:9
+#: cadquery.Workplane.sweep:10
 msgid ""
 "handling of profile orientation at C1 path discontinuities. Possible values "
 "are {'transformed','round', 'right'} (default: 'right')."
@@ -5025,16 +5027,19 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutBlind:13
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cutThruAll:7
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.cylinder:25
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:12
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.eachpoint:12
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:11
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.hole:9
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.interpPlate:14
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.intersect:7
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:15
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.loft:6
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:14
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sphere:28
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:7
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:8
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:15
 #: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.Workplane.twistExtrude:16
+#: cadquery.Workplane.twistExtrude:17
 msgid "call :py:meth:`clean` afterwards to have a clean shape"
 msgstr ""
 
@@ -5629,6 +5634,21 @@ msgid "should  values be converted from local coordinates first?"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:11
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.eachpoint:11
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:10
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.loft:5
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:13
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:7
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:13
+#: ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane.twistExtrude:16
+msgid ""
+"True or \"a\" to combine the resulting solid with parent solids if found, "
+"\"cut\" or \"s\" to remove the resulting solid from the parent solids if "
+"found. False to keep the resulting solid separated from the parent solids."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:15
 msgid ""
 "The callback function must accept one argument, which is the item on the "
 "stack, and return one object, which is collected. If the function returns "
@@ -5637,18 +5657,18 @@ msgid ""
 "useLocalCoordinates is true"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:16
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:20
 msgid "useLocalCoordinates is very useful for plugin developers."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:18
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:22
 msgid ""
 "If false, the callback function is assumed to be working in global "
 "coordinates.  Objects created are added as-is, and objects passed into the "
 "function are sent in using global coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:22
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:26
 msgid ""
 "If true, the calling function is assumed to be  working in local "
 "coordinates.  Objects are transformed to local coordinates before they are "
@@ -5656,14 +5676,14 @@ msgid ""
 "global coordinates after they are returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:26
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:30
 msgid ""
 "This allows plugin developers to create objects in local coordinates, "
 "without worrying about the fact that the working plane is different than the"
 " global coordinate system."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:30
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.each:34
 msgid ""
 "TODO: wrapper object for Wire will clean up forConstruction flag everywhere"
 msgstr ""
@@ -5683,14 +5703,14 @@ msgstr ""
 msgid "should points be in local or global coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.eachpoint:11
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.eachpoint:15
 msgid ""
 "The resulting object has a point on the stack for each object on the "
 "original stack. Vertices and points remain a point.  Faces, Wires, Solids, "
 "Edges, and Shells are converted to a point by using their center of mass."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.eachpoint:15
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.eachpoint:19
 msgid ""
 "If the stack has zero length, a single point is returned, which is the "
 "center of the current workplane/coordinate system"
@@ -5820,23 +5840,14 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:4
-msgid "the distance to extrude, normal to the workplane plane"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:5
 msgid ""
 "The distance to extrude, normal to the workplane plane. When a float is "
 "passed, the extrusion extends this far and a negative value is in the "
 "opposite direction to the normal of the plane. The string \"next\" extrudes "
 "until the next face orthogonal to the wire normal. \"last\" extrudes to the "
 "last face. If a object of type Face is passed then the extrusion will extend"
-" until this face."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:10
-msgid ""
-"True to combine the resulting solid with parent solids if found. (Cannot be "
-"set to False when `until` is not set as a float)"
+" until this face. **Note that the Workplane must contain a Solid for "
+"extruding to a given face.**"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:12
@@ -5844,36 +5855,32 @@ msgid "extrude in both directions symmetrically"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:15
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:17
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:15
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:16
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:16
 #: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.Workplane.twistExtrude:18
+#: cadquery.Workplane.twistExtrude:19
 msgid "a CQ object with the resulting solid selected."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:17
-msgid "extrude always *adds* material to a part."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:19
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:19
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:18
 msgid ""
 "The returned object is always a CQ object, and depends on whether combine is"
 " True, and whether a context solid is already defined:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:22
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:20
 msgid ""
 "if combine is False, the new value is pushed onto the stack. Note that when "
 "extruding"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:23
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:21
 msgid "until a specified face, combine can not be False"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:24
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:23
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.extrude:22
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:22
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:33
 msgid ""
 "if combine is true, the value is combined with the context solid if it "
@@ -6179,9 +6186,16 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.loft:1
+msgid "Make a lofted solid, through the set of wires."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.loft:3
 msgid ""
-"Make a lofted solid, through the set of wires. :rtype: \\~T :return: a CQ "
-"object containing the created loft"
+"When set to `True` connects each section linearly and without continuity"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.loft:9
+msgid "a Workplane object containing the created loft"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.mirror:1
@@ -6678,19 +6692,12 @@ msgstr ""
 msgid "Use all un-revolved wires in the parent chain to create a solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:13
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:6
-#: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.Workplane.twistExtrude:15
-msgid "True to combine the resulting solid with parent solids if found."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:22
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:21
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:32
 msgid "if combine is False, the new value is pushed onto the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:27
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.revolve:26
 msgid ""
 "Keep in mind that `axisStart` and `axisEnd` are defined relative to the "
 "current Workplane center position. So if for example you want to revolve a "
@@ -7204,11 +7211,11 @@ msgid ""
 "wires on the chain"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:11
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:12
 msgid "optional fixed normal for extrusion"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:13
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.sweep:14
 msgid "a wire defining the binormal along the extrusion path"
 msgstr ""
 
@@ -7271,10 +7278,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:11
 msgid "True to cut the resulting solid from the parent solids if found"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:13
-msgid "True to combine the resulting solid with parent solids if found"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.Workplane.text:17

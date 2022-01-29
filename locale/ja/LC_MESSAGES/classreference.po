@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-26 00:51+0000\n"
+"POT-Creation-Date: 2022-01-29 00:43+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -1064,13 +1064,17 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Shape.transformShape:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinearWithRotation:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.revolve:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep_multi:0 ../../cadquery/cadquery/selectors.pydocstring
-#: of cadquery.StringSyntaxSelector:0 ../../cadquery/cadquery/cq.pydocstring
-#: of cadquery.Workplane:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Solid.sweep:0 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
+#: of cadquery.Solid.sweep_multi:0
+#: ../../cadquery/cadquery/selectors.pydocstring of
+#: cadquery.StringSyntaxSelector:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Workplane:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.__init__:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.add:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.center:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -1898,7 +1902,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.makeSphere:17
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:33
+#: cadquery.Solid.sweep:17
 msgid ":py:class:`~cadquery.occ_impl.shapes.Shape`"
 msgstr ":py:class:`~cadquery.occ_impl.shapes.Shape`"
 
@@ -3733,22 +3737,6 @@ msgstr ""
 msgid "Construct an arc."
 msgstr ""
 
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.arc:4
-msgid ""
-"arc(self: ~T, p2: Union[cadquery.occ_impl.geom.Vector, Tuple[Union[int, "
-"float], Union[int, float]]], p3: Union[cadquery.occ_impl.geom.Vector, "
-"Tuple[Union[int, float], Union[int, float]]], tag: Optional[str] = None, "
-"forConstruction: bool = False) -> ~T"
-msgstr ""
-
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.arc:7
-msgid ""
-"arc(self: ~T, c: Union[cadquery.occ_impl.geom.Vector, Tuple[Union[int, "
-"float], Union[int, float]]], r: Union[int, float], a: Union[int, float], da:"
-" Union[int, float], tag: Optional[str] = None, forConstruction: bool = "
-"False) -> ~T"
-msgstr ""
-
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.assemble:1
 msgid "Assemble edges into faces."
 msgstr ""
@@ -3771,13 +3759,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.constrain:1
 msgid "Add a constraint."
-msgstr ""
-
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.constrain:4
-msgid ""
-"constrain(self: ~T, tag1: str, tag2: str, constraint: Literal['Fixed', "
-"'FixedPoint', 'Coincident', 'Angle', 'Length', 'Distance', 'Radius', "
-"'Orientation', 'ArcAngle'], arg: Any) -> ~T"
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.copy:1
@@ -3883,19 +3864,6 @@ msgstr ""
 msgid "Construct a segment."
 msgstr ""
 
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.segment:4
-msgid ""
-"segment(self: ~T, p2: Union[cadquery.occ_impl.geom.Vector, Tuple[Union[int, "
-"float], Union[int, float]]], tag: Optional[str] = None, forConstruction: "
-"bool = False) -> ~T"
-msgstr ""
-
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.segment:7
-msgid ""
-"segment(self: ~T, l: Union[int, float], a: Union[int, float], tag: "
-"Optional[str] = None, forConstruction: bool = False) -> ~T"
-msgstr ""
-
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.select:1
 msgid "Select based on tags."
 msgstr ""
@@ -3910,13 +3878,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.spline:1
 msgid "Construct a spline edge."
-msgstr ""
-
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.spline:4
-msgid ""
-"spline(self: ~T, pts: Iterable[Union[cadquery.occ_impl.geom.Vector, "
-"Tuple[Union[int, float], Union[int, float]]]], tag: Optional[str] = None, "
-"forConstruction: bool = False) -> ~T"
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.Sketch.tag:1
@@ -3943,137 +3904,35 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:0
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "param outerWire"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:3
+#: cadquery.Solid.extrudeLinear:4
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.revolve:4
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:3
+#: cadquery.Solid.sweep:4
 msgid "the outermost wire"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:0
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "param innerWires"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:4
+#: cadquery.Solid.extrudeLinear:6
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.revolve:6
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:4
+#: cadquery.Solid.sweep:6
 msgid "a list of inner wires"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:0
-msgid "param vecNormal"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:5
+#: cadquery.Solid.extrudeLinear:8
 msgid "a vector along which to extrude the wires"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:0
-msgid "param taper"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:6
+#: cadquery.Solid.extrudeLinear:10
 msgid "taper angle, default=0"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:0
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "return"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:7
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:17
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:12 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
-#: of cadquery.Solid.sweep_multi:10
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin3D.dprism:14
-msgid "a Solid object"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:9
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:19
-msgid "The wires must not intersect"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinear:11
-msgid ""
-"Extruding wires is very non-trivial.  Nested wires imply very different "
-"geometry, and there are many geometries that are invalid. In general, the "
-"following conditions must be met:"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:14
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:21
-msgid "all wires must be closed"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:15
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:22
-msgid "there cannot be any intersecting or self-intersecting wires"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:16
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:23
-msgid "wires must be listed from outside in"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:17
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:24
-msgid "more than one levels of nesting is not supported reliably"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:19
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.revolve:27
-msgid ""
-"This method will attempt to sort the wires, but there is much work remaining"
-" to make this method reliable."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:23
-msgid ""
-"extrudeLinear(cls, face: cadquery.occ_impl.shapes.Face, vecNormal: "
-"cadquery.occ_impl.geom.Vector, taper: Union[float, int] = 0) -> 'Solid'"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.extrudeLinear:35
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinearWithRotation:23
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -4096,6 +3955,70 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Mixin3D.dprism:13
 msgid ":py:class:`~cadquery.occ_impl.shapes.Solid`"
 msgstr ":py:class:`~cadquery.occ_impl.shapes.Solid`"
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:12
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:17
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.sweep:18 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
+#: of cadquery.Solid.sweep_multi:10
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin3D.dprism:14
+msgid "a Solid object"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:14
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:19
+msgid "The wires must not intersect"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:16
+msgid ""
+"Extruding wires is very non-trivial.  Nested wires imply very different "
+"geometry, and there are many geometries that are invalid. In general, the "
+"following conditions must be met:"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:19
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:21
+msgid "all wires must be closed"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:20
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:22
+msgid "there cannot be any intersecting or self-intersecting wires"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:21
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:23
+msgid "wires must be listed from outside in"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:22
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:24
+msgid "more than one levels of nesting is not supported reliably"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.extrudeLinear:24
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.Solid.revolve:27
+msgid ""
+"This method will attempt to sort the wires, but there is much work remaining"
+" to make this method reliable."
+msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.Solid.extrudeLinearWithRotation:1
@@ -4281,69 +4204,33 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "param path"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:5 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
+#: cadquery.Solid.sweep:8 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
 #: of cadquery.Solid.sweep_multi:6
 msgid "The wire to sweep the face resulting from the wires over"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "param boolean makeSolid"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:6
+#: cadquery.Solid.sweep:9
 msgid "return Solid or Shell (default True)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "param boolean isFrenet"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:7
+#: cadquery.Solid.sweep:10
 msgid "Frenet mode (default False)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "param mode"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:8 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
+#: cadquery.Solid.sweep:12 ../../cadquery/cadquery/occ_impl/shapes.pydocstring
 #: of cadquery.Solid.sweep_multi:8
 msgid "additional sweep mode parameters."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:0
-msgid "param transitionMode"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:10 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.Solid.sweep:14 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.Workplane.sweep:10
 msgid ""
 "handling of profile orientation at C1 path discontinuities. Possible values "
 "are {'transformed','round', 'right'} (default: 'right')."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.Solid.sweep:15
-msgid ""
-"sweep(cls, face: cadquery.occ_impl.shapes.Face, path: "
-"Union[cadquery.occ_impl.shapes.Wire, cadquery.occ_impl.shapes.Edge], "
-"makeSolid: bool = True, isFrenet: bool = False, mode: "
-"Union[cadquery.occ_impl.geom.Vector, cadquery.occ_impl.shapes.Wire, "
-"cadquery.occ_impl.shapes.Edge, NoneType] = None, transitionMode: "
-"Literal['transformed', 'round', 'right'] = 'transformed') -> 'Shape'"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

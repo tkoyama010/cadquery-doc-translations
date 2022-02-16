@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 00:40+0000\n"
+"POT-Creation-Date: 2022-02-16 00:50+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -210,11 +210,13 @@ msgid "( param - \\lvert \\vec{ c_1 } - \\vec{ c_2 } \\rvert ) ^2"
 msgstr ""
 
 #: ../../cadquery/doc/assy.rst:443 ../../cadquery/doc/assy.rst:513
-#: ../../cadquery/doc/assy.rst:660
+#: ../../cadquery/doc/assy.rst:659 ../../cadquery/doc/assy.rst:723
+#: ../../cadquery/doc/assy.rst:768 ../../cadquery/doc/assy.rst:814
+#: ../../cadquery/doc/assy.rst:855
 msgid "Where:"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:445
+#: ../../cadquery/doc/assy.rst:445 ../../cadquery/doc/assy.rst:727
 msgid ":math:`param` is the parameter of the constraint, which defaults to 0,"
 msgstr ""
 
@@ -343,8 +345,8 @@ msgstr ""
 #: ../../cadquery/doc/assy.rst:621
 msgid ""
 "The Plane constraint is simply a combination of both the Point and Axis "
-"constraints. It is a convienient shortcut for a commonly used combination of"
-" constraints. It can be used to shorten the previous example from the two "
+"constraints. It is a convenient shortcut for a commonly used combination of "
+"constraints. It can be used to shorten the previous example from the two "
 "constraints to just one:"
 msgstr ""
 
@@ -356,47 +358,155 @@ msgstr ""
 #: ../../cadquery/doc/assy.rst:643
 msgid ""
 "For the cost function of Plane, please see the Point and Axis sections. The "
-"``param`` argument is copied into both constraints and should be left as the"
-" default value of ``None`` for a \"mate\" style constraint (two surfaces "
-"touching) or can be set to ``0`` for a through surface constraint (see "
-"desciption in the Axis constraint section)."
+"``param`` argument is applied to Axis and should be left as the default "
+"value for a \"mate\" style constraint (two surfaces touching) or can be set "
+"to ``0`` for a through surface constraint (see description in the Axis "
+"constraint section)."
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:650
+#: ../../cadquery/doc/assy.rst:649
 msgid "PointInPlane"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:652
+#: ../../cadquery/doc/assy.rst:651
 msgid ""
 "PointInPlane positions the center of the first object within the plane "
 "defined by the second object. The cost function is:"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:655
+#: ../../cadquery/doc/assy.rst:654
 msgid "\\operatorname{dist}( \\vec{ c }, p_\\text{ offset } ) ^2"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:662
+#: ../../cadquery/doc/assy.rst:661 ../../cadquery/doc/assy.rst:725
 msgid ":math:`\\vec{ c }` is the center of the first argument,"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:663
+#: ../../cadquery/doc/assy.rst:662
 msgid ""
 ":math:`p_\\text{ offset }` is a plane created from the second object, offset"
 " in the plane's normal direction by ``param``, and"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:665
+#: ../../cadquery/doc/assy.rst:664
 msgid ""
 ":math:`\\operatorname{dist}( \\vec{ a }, b)` is the distance between point "
 ":math:`\\vec{ a }` and plane :math:`b`."
 msgstr ""
 
+#: ../../cadquery/doc/assy.rst:713
+msgid "PointOnLine"
+msgstr ""
+
 #: ../../cadquery/doc/assy.rst:715
+msgid ""
+"PointOnLine positions the center of the first object on the line defined by "
+"the second object. The cost function is:"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:718
+msgid "( param - \\operatorname{dist}(\\vec{ c }, l ) )^2"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:726
+msgid ":math:`l` is a line created from the second object"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:728 ../../cadquery/doc/assy.rst:772
+msgid ""
+":math:`\\operatorname{dist}( \\vec{ a }, b)` is the distance between point "
+":math:`\\vec{ a }` and line :math:`b`."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:758
+msgid "FixedPoint"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:760
+msgid ""
+"FixedPoint fixes the position of the given argument to be equal to the given"
+" point specified via the parameter of the constraint. This constraint locks "
+"all translational degrees of freedom of the argument. The cost function is:"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:763
+msgid "\\left\\lVert \\vec{ c } - \\vec{param} \\right\\rVert ^2"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:770
+msgid ":math:`\\vec{ c }` is the center of the argument,"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:771
+msgid ""
+":math:`param` is the parameter of the constraint - tuple specifying the "
+"target position,"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:802
+msgid "FixedRotation"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:804
+msgid ""
+"FixedRotation fixes the rotation of the given argument to be equal to the "
+"value specified via the parameter of the constraint. The argument is rotated"
+" about it's origin firstly by the Z angle, then Y and finally X."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:806
+msgid ""
+"This constraint locks all rotational degrees of freedom of the argument. The"
+" cost function is:"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:809
+msgid "\\left\\lVert \\vec{ R } - \\vec{param} \\right\\rVert ^2"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:816
+msgid ""
+":math:`\\vec{ R }` vector of the rotation angles of the rotation applied to "
+"the argument,"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:817
+msgid ""
+":math:`param` is the parameter of the constraint - tuple specifying the "
+"target rotation."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:845
+msgid "FixedAxis"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:847
+msgid ""
+"FixedAxis fixes the orientation of the given argument's normal or tangent to"
+" be equal to the orientation of the vector specified via the parameter of "
+"the constraint. This constraint locks two rotational degrees of freedom of "
+"the argument. The cost function is:"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:850
+msgid "( \\vec{ a } \\angle \\vec{ param } ) ^2"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:857
+msgid ":math:`\\vec{ a }` normal or tangent vector of the argument,"
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:858
+msgid ""
+":math:`param` is the parameter of the constraint - tuple specifying the "
+"target direction."
+msgstr ""
+
+#: ../../cadquery/doc/assy.rst:886
 msgid "Assembly colors"
 msgstr ""
 
-#: ../../cadquery/doc/assy.rst:717
+#: ../../cadquery/doc/assy.rst:888
 msgid ""
 "Aside from RGBA values, the :class:`~cadquery.Color` class can be "
 "instantiated from a text name. Valid names are listed along with a color "

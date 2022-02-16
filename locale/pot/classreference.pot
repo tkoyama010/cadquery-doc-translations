@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-29 00:43+0000\n"
+"POT-Creation-Date: 2022-02-16 00:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,12 +59,11 @@ msgid "Nested assembly of Workplane and Shape objects defining their relative po
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
-msgid ":obj:`Constraint <cadquery.Constraint>`\\ \\(objects\\, args\\, sublocs\\, kind\\[\\, param\\]\\)"
+msgid ":obj:`Constraint <cadquery.Constraint>`\\"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint:1
-msgid "Geometrical constraint between two shapes of an assembly."
+msgid "alias of :class:`cadquery.occ_impl.solver.ConstraintSpec`"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:26
@@ -381,7 +380,6 @@ msgstr ""
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.BoundBox:1
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.Color:1
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Location:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane:1
@@ -411,8 +409,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Compound.makeCompound:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Compound.makeText:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Compound.remove:0
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint:0
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__init__:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.DirectionMinMaxSelector:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.DirectionMinMaxSelector.__init__:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.DirectionSelector:0
@@ -903,7 +899,6 @@ msgstr ""
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__weakref__:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.BoundBox.__weakref__:1
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.Color.__weakref__:1
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__weakref__:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Location.__weakref__:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.__weakref__:1
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.__weakref__:1
@@ -959,7 +954,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Compound.intersect:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Compound.makeCompound:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Compound.makeText:0
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.toPOD:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.DirectionSelector.test:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Edge.arcCenter:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Edge.close:0
@@ -1414,38 +1408,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Compound.remove:1
 msgid "Remove the specified shape."
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__init__:1
-msgid "Construct a constraint."
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__init__:4
-msgid "object names referenced in the constraint"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__init__:6
-msgid "subshapes (e.g. faces or edges) of the objects"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__init__:8
-msgid "locations of the objects (only relevant if the objects are nested in a sub-assembly)"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__init__:10
-msgid "constraint kind"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.__init__:12
-msgid "optional arbitrary parameter passed to the solver"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.toPOD:1
-msgid "Convert the constraint to a representation used by the solver."
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Constraint.toPOD:4
-msgid ":py:data:`~typing.Tuple`\\[:py:data:`~typing.Tuple`\\[:py:data:`~typing.Union`\\[:py:class:`~OCP.gp.gp_Pln`, :py:class:`~OCP.gp.gp_Dir`, :py:class:`~OCP.gp.gp_Pnt`], ...], :py:data:`~typing.Tuple`\\[:py:data:`~typing.Union`\\[:py:class:`~OCP.gp.gp_Pln`, :py:class:`~OCP.gp.gp_Dir`, :py:class:`~OCP.gp.gp_Pnt`, :py:obj:`None`], ...], :py:data:`~typing.Optional`\\[:py:data:`~typing.Any`]]"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.DirectionMinMaxSelector:1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 00:40+0000\n"
+"POT-Creation-Date: 2022-02-17 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,11 +25,11 @@ msgid "Want a quick glimpse of what CadQuery can do?  This quickstart will demon
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:12
-msgid "Prerequisites: Anaconda/Miniconda + CQ-editor running from an environment"
+msgid "Prerequisites: conda + CQ-editor running from an environment"
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:14
-msgid "If you have not already done so, follow the :ref:`installation`, to install Anaconda/Miniconda and CQ-editor."
+msgid "If you have not already done so, follow the :ref:`installation`, to install conda and CQ-editor."
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:16

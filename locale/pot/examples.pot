@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-17 00:44+0000\n"
+"POT-Creation-Date: 2022-03-16 00:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,7 +98,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:824
 #: ../../cadquery/doc/examples.rst:850
 #: ../../cadquery/doc/examples.rst:935
-#: ../../cadquery/doc/examples.rst:1073
+#: ../../cadquery/doc/examples.rst:1074
 msgid ":py:meth:`Workplane.box`"
 msgstr ""
 
@@ -178,7 +178,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:474
 #: ../../cadquery/doc/examples.rst:895
 #: ../../cadquery/doc/examples.rst:974
-#: ../../cadquery/doc/examples.rst:1072
+#: ../../cadquery/doc/examples.rst:1073
 msgid ":py:meth:`Workplane.extrude`"
 msgstr ""
 
@@ -208,7 +208,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:735
 #: ../../cadquery/doc/examples.rst:897
 #: ../../cadquery/doc/examples.rst:936
-#: ../../cadquery/doc/examples.rst:1070
+#: ../../cadquery/doc/examples.rst:1071
 msgid ":py:meth:`Workplane.circle`"
 msgstr ""
 
@@ -217,7 +217,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:618
 #: ../../cadquery/doc/examples.rst:727
 #: ../../cadquery/doc/examples.rst:766
-#: ../../cadquery/doc/examples.rst:1071
+#: ../../cadquery/doc/examples.rst:1072
 msgid ":py:meth:`Workplane.rect`"
 msgstr ""
 
@@ -344,7 +344,7 @@ msgstr ""
 
 #: ../../cadquery/doc/examples.rst:357
 #: ../../cadquery/doc/examples.rst:388
-#: ../../cadquery/doc/examples.rst:1081
+#: ../../cadquery/doc/examples.rst:1082
 msgid ":py:meth:`Workplane.union`"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:829
 #: ../../cadquery/doc/examples.rst:898
 #: ../../cadquery/doc/examples.rst:980
-#: ../../cadquery/doc/examples.rst:1075
+#: ../../cadquery/doc/examples.rst:1076
 msgid ":py:meth:`Workplane.faces`"
 msgstr ""
 
@@ -418,7 +418,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:826
 #: ../../cadquery/doc/examples.rst:938
 #: ../../cadquery/doc/examples.rst:977
-#: ../../cadquery/doc/examples.rst:1078
+#: ../../cadquery/doc/examples.rst:1079
 msgid ":py:meth:`Workplane.workplane`"
 msgstr ""
 
@@ -496,7 +496,7 @@ msgid ":ref:`selector_reference`"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:547
-#: ../../cadquery/doc/examples.rst:1085
+#: ../../cadquery/doc/examples.rst:1086
 msgid ":py:meth:`Workplane.hole`"
 msgstr ""
 
@@ -577,7 +577,7 @@ msgid ":py:meth:`Workplane.loft`"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:732
-#: ../../cadquery/doc/examples.rst:1082
+#: ../../cadquery/doc/examples.rst:1083
 msgid ":py:meth:`Workplane.rotateAboutCenter`"
 msgstr ""
 
@@ -608,7 +608,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:768
 #: ../../cadquery/doc/examples.rst:827
 #: ../../cadquery/doc/examples.rst:978
-#: ../../cadquery/doc/examples.rst:1076
+#: ../../cadquery/doc/examples.rst:1077
 msgid ":py:meth:`Workplane.vertices`"
 msgstr ""
 
@@ -633,12 +633,12 @@ msgid ":py:meth:`Workplane.offset2D` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:822
-#: ../../cadquery/doc/examples.rst:1083
+#: ../../cadquery/doc/examples.rst:1084
 msgid ":py:meth:`Workplane.cboreHole`"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:823
-#: ../../cadquery/doc/examples.rst:1084
+#: ../../cadquery/doc/examples.rst:1085
 msgid ":py:meth:`Workplane.cskHole`"
 msgstr ""
 
@@ -648,7 +648,7 @@ msgstr ""
 
 #: ../../cadquery/doc/examples.rst:828
 #: ../../cadquery/doc/examples.rst:851
-#: ../../cadquery/doc/examples.rst:1077
+#: ../../cadquery/doc/examples.rst:1078
 msgid ":py:meth:`Workplane.edges`"
 msgstr ""
 
@@ -749,38 +749,38 @@ msgstr ""
 msgid "A Parametric Enclosure"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1074
+#: ../../cadquery/doc/examples.rst:1075
 msgid ":py:meth:`Workplane.all`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1079
+#: ../../cadquery/doc/examples.rst:1080
 msgid ":py:meth:`Workplane.fillet`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1080
+#: ../../cadquery/doc/examples.rst:1081
 msgid ":py:meth:`Workplane.cut`"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1088
+#: ../../cadquery/doc/examples.rst:1089
 msgid "Lego Brick"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1090
+#: ../../cadquery/doc/examples.rst:1091
 msgid "This script will produce any size regular rectangular Lego(TM) brick. Its only tricky because of the logic regarding the underside of the brick."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1150
+#: ../../cadquery/doc/examples.rst:1151
 msgid "Braille Example"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1332
+#: ../../cadquery/doc/examples.rst:1333
 msgid "Panel With Various Connector Holes"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1380
+#: ../../cadquery/doc/examples.rst:1381
 msgid "Cycloidal gear"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:1382
+#: ../../cadquery/doc/examples.rst:1383
 msgid "You can define complex geometries using the parametricCurve functionality. This specific examples generates a helical cycloidal gear."
 msgstr ""

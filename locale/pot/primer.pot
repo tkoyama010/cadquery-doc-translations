@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-08 00:48+0000\n"
+"POT-Creation-Date: 2022-03-20 00:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "3D BREP Topology Concepts"
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:10
-msgid "Before talking about CadQuery, it makes sense to talk a little about 3D CAD topology. CadQuery is based upon the OpenCascade kernel, which uses Boundary Representations ( BREP ) for objects.  This just means that objects are defined by their enclosing surfaces."
+msgid "Before talking about CadQuery, it makes sense to talk a little about 3D CAD topology. CadQuery is based upon the OpenCascade kernel, which uses Boundary Representations (BREP) for objects.  This just means that objects are defined by their enclosing surfaces."
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:14

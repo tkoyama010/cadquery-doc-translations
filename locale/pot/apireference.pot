@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-26 00:51+0000\n"
+"POT-Creation-Date: 2022-03-21 00:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -657,7 +657,7 @@ msgid ":obj:`Workplane.polarArray <cadquery.Workplane.polarArray>`\\ \\(radius\\
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid "Creates an polar array of points and pushes them onto the stack."
+msgid "Creates a polar array of points and pushes them onto the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1

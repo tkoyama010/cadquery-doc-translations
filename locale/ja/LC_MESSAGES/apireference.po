@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-26 00:51+0000\n"
+"POT-Creation-Date: 2022-03-21 00:58+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -790,7 +790,7 @@ msgstr ""
 "startAngle\\, ...\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid "Creates an polar array of points and pushes them onto the stack."
+msgid "Creates a polar array of points and pushes them onto the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1

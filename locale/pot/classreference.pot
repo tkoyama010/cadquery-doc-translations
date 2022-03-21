@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-16 00:50+0000\n"
+"POT-Creation-Date: 2022-03-21 00:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4596,7 +4596,7 @@ msgid "Workplane object with the sketch added."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.polarArray:1
-msgid "Creates an polar array of points and pushes them onto the stack. The 0 degree reference angle is located along the local X-axis."
+msgid "Creates a polar array of points and pushes them onto the stack. The zero degree reference angle is located along the local X-axis."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.polarArray:5
@@ -4604,15 +4604,15 @@ msgid "Radius of the array."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.polarArray:7
-msgid "Starting angle (degrees) of array. 0 degrees is situated along local X-axis."
+msgid "Starting angle (degrees) of array. Zero degrees is situated along the local X-axis."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.polarArray:10
-msgid "The angle (degrees) to fill with elements. A positive value will fill in the counter-clockwise direction. If fill is false, angle is the angle between elements."
+msgid "The angle (degrees) to fill with elements. A positive value will fill in the counter-clockwise direction. If fill is False, angle is the angle between elements."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.polarArray:14
-msgid "Number of elements in array. ( > 0 )"
+msgid "Number of elements in array. (count >= 1)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.polarArray:16

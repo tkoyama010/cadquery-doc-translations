@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-21 00:58+0000\n"
+"POT-Creation-Date: 2022-03-27 01:03+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,7 +63,7 @@ msgid "Creating new sketches."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":obj:`Sketch <cadquery.Sketch>`\\ \\(\\[parent\\, locs\\]\\)"
+msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -76,7 +72,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
 msgid ""
-":obj:`Sketch.importDXF <cadquery.Sketch.importDXF>`\\ \\(filename\\[\\, "
+":py:obj:`Sketch.importDXF <cadquery.Sketch.importDXF>`\\ \\(filename\\[\\, "
 "tol\\, exclude\\, ...\\]\\)"
 msgstr ""
 
@@ -85,7 +81,7 @@ msgid "Import a DXF file and construct face(s)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":obj:`Workplane.sketch <cadquery.Workplane.sketch>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.sketch <cadquery.Workplane.sketch>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -93,7 +89,7 @@ msgid "Initialize and return a sketch"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":obj:`Sketch.finalize <cadquery.Sketch.finalize>`\\ \\(\\)"
+msgid ":py:obj:`Sketch.finalize <cadquery.Sketch.finalize>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -101,7 +97,7 @@ msgid "Finish sketch construction and return the parent"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":obj:`Sketch.copy <cadquery.Sketch.copy>`\\ \\(\\)"
+msgid ":py:obj:`Sketch.copy <cadquery.Sketch.copy>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -109,7 +105,7 @@ msgid "Create a partial copy of the sketch."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":obj:`Sketch.located <cadquery.Sketch.located>`\\ \\(loc\\)"
+msgid ":py:obj:`Sketch.located <cadquery.Sketch.located>`\\ \\(loc\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -117,7 +113,7 @@ msgid "Create a partial copy of the sketch with a new location."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(loc\\)"
+msgid ":py:obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(loc\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -133,7 +129,7 @@ msgid "Selecting, tagging and manipulating elements."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
-msgid ":obj:`Sketch.tag <cadquery.Sketch.tag>`\\ \\(tag\\)"
+msgid ":py:obj:`Sketch.tag <cadquery.Sketch.tag>`\\ \\(tag\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
@@ -141,7 +137,7 @@ msgid "Tag current selection."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
-msgid ":obj:`Sketch.select <cadquery.Sketch.select>`\\ \\(\\*tags\\)"
+msgid ":py:obj:`Sketch.select <cadquery.Sketch.select>`\\ \\(\\*tags\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
@@ -149,7 +145,7 @@ msgid "Select based on tags."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
-msgid ":obj:`Sketch.reset <cadquery.Sketch.reset>`\\ \\(\\)"
+msgid ":py:obj:`Sketch.reset <cadquery.Sketch.reset>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
@@ -157,7 +153,7 @@ msgid "Reset current selection."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
-msgid ":obj:`Sketch.delete <cadquery.Sketch.delete>`\\ \\(\\)"
+msgid ":py:obj:`Sketch.delete <cadquery.Sketch.delete>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
@@ -165,7 +161,7 @@ msgid "Delete selected object."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
-msgid ":obj:`Sketch.faces <cadquery.Sketch.faces>`\\ \\(\\[s\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.faces <cadquery.Sketch.faces>`\\ \\(\\[s\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
@@ -173,7 +169,7 @@ msgid "Select faces."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
-msgid ":obj:`Sketch.edges <cadquery.Sketch.edges>`\\ \\(\\[s\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.edges <cadquery.Sketch.edges>`\\ \\(\\[s\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
@@ -181,7 +177,7 @@ msgid "Select edges."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
-msgid ":obj:`Sketch.vertices <cadquery.Sketch.vertices>`\\ \\(\\[s\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.vertices <cadquery.Sketch.vertices>`\\ \\(\\[s\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:52:<autosummary>:1
@@ -197,7 +193,9 @@ msgid "Sketching using the face-based API."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.face <cadquery.Sketch.face>`\\ \\(b\\[\\, angle\\, mode\\, tag\\, ...\\]\\)"
+msgid ""
+":py:obj:`Sketch.face <cadquery.Sketch.face>`\\ \\(b\\[\\, angle\\, mode\\, "
+"tag\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -205,7 +203,9 @@ msgid "Construct a face from a wire or edges."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.rect <cadquery.Sketch.rect>`\\ \\(w\\, h\\[\\, angle\\, mode\\, tag\\]\\)"
+msgid ""
+":py:obj:`Sketch.rect <cadquery.Sketch.rect>`\\ \\(w\\, h\\[\\, angle\\, "
+"mode\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -213,7 +213,7 @@ msgid "Construct a rectangular face."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.circle <cadquery.Sketch.circle>`\\ \\(r\\[\\, mode\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.circle <cadquery.Sketch.circle>`\\ \\(r\\[\\, mode\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -222,8 +222,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
 msgid ""
-":obj:`Sketch.ellipse <cadquery.Sketch.ellipse>`\\ \\(a1\\, a2\\[\\, angle\\,"
-" mode\\, tag\\]\\)"
+":py:obj:`Sketch.ellipse <cadquery.Sketch.ellipse>`\\ \\(a1\\, a2\\[\\, "
+"angle\\, mode\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -232,8 +232,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
 msgid ""
-":obj:`Sketch.trapezoid <cadquery.Sketch.trapezoid>`\\ \\(w\\, h\\, a1\\[\\, "
-"a2\\, angle\\, ...\\]\\)"
+":py:obj:`Sketch.trapezoid <cadquery.Sketch.trapezoid>`\\ \\(w\\, h\\, "
+"a1\\[\\, a2\\, angle\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -241,7 +241,9 @@ msgid "Construct a trapezoidal face."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.slot <cadquery.Sketch.slot>`\\ \\(w\\, h\\[\\, angle\\, mode\\, tag\\]\\)"
+msgid ""
+":py:obj:`Sketch.slot <cadquery.Sketch.slot>`\\ \\(w\\, h\\[\\, angle\\, "
+"mode\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -250,7 +252,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
 msgid ""
-":obj:`Sketch.regularPolygon <cadquery.Sketch.regularPolygon>`\\ \\(r\\, "
+":py:obj:`Sketch.regularPolygon <cadquery.Sketch.regularPolygon>`\\ \\(r\\, "
 "n\\[\\, angle\\, mode\\, tag\\]\\)"
 msgstr ""
 
@@ -260,7 +262,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
 msgid ""
-":obj:`Sketch.polygon <cadquery.Sketch.polygon>`\\ \\(pts\\[\\, angle\\, "
+":py:obj:`Sketch.polygon <cadquery.Sketch.polygon>`\\ \\(pts\\[\\, angle\\, "
 "mode\\, tag\\]\\)"
 msgstr ""
 
@@ -269,7 +271,7 @@ msgid "Construct a polygonal face."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.rarray <cadquery.Sketch.rarray>`\\ \\(xs\\, ys\\, nx\\, ny\\)"
+msgid ":py:obj:`Sketch.rarray <cadquery.Sketch.rarray>`\\ \\(xs\\, ys\\, nx\\, ny\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -277,7 +279,9 @@ msgid "Generate a rectangular array of locations."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.parray <cadquery.Sketch.parray>`\\ \\(r\\, a1\\, da\\, n\\[\\, rotate\\]\\)"
+msgid ""
+":py:obj:`Sketch.parray <cadquery.Sketch.parray>`\\ \\(r\\, a1\\, da\\, "
+"n\\[\\, rotate\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -286,8 +290,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
 msgid ""
-":obj:`Sketch.distribute <cadquery.Sketch.distribute>`\\ \\(n\\[\\, start\\, "
-"stop\\, rotate\\]\\)"
+":py:obj:`Sketch.distribute <cadquery.Sketch.distribute>`\\ \\(n\\[\\, "
+"start\\, stop\\, rotate\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -295,7 +299,9 @@ msgid "Distribute locations along selected edges or wires."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.each <cadquery.Sketch.each>`\\ \\(callback\\[\\, mode\\, tag\\, ...\\]\\)"
+msgid ""
+":py:obj:`Sketch.each <cadquery.Sketch.each>`\\ \\(callback\\[\\, mode\\, "
+"tag\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -303,7 +309,7 @@ msgid "Apply a callback on all applicable entities."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.push <cadquery.Sketch.push>`\\ \\(locs\\[\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.push <cadquery.Sketch.push>`\\ \\(locs\\[\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -311,7 +317,7 @@ msgid "Set current selection to given locations or points."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.hull <cadquery.Sketch.hull>`\\ \\(\\[mode\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.hull <cadquery.Sketch.hull>`\\ \\(\\[mode\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -319,7 +325,7 @@ msgid "Generate a convex hull from current selection or all objects."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.offset <cadquery.Sketch.offset>`\\ \\(d\\[\\, mode\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.offset <cadquery.Sketch.offset>`\\ \\(d\\[\\, mode\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -327,7 +333,7 @@ msgid "Offset selected wires or edges."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.fillet <cadquery.Sketch.fillet>`\\ \\(d\\)"
+msgid ":py:obj:`Sketch.fillet <cadquery.Sketch.fillet>`\\ \\(d\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -335,7 +341,7 @@ msgid "Add a fillet based on current selection."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.chamfer <cadquery.Sketch.chamfer>`\\ \\(d\\)"
+msgid ":py:obj:`Sketch.chamfer <cadquery.Sketch.chamfer>`\\ \\(d\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -343,7 +349,7 @@ msgid "Add a chamfer based on current selection."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
-msgid ":obj:`Sketch.clean <cadquery.Sketch.clean>`\\ \\(\\)"
+msgid ":py:obj:`Sketch.clean <cadquery.Sketch.clean>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:79:<autosummary>:1
@@ -360,7 +366,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
 msgid ""
-":obj:`Sketch.edge <cadquery.Sketch.edge>`\\ \\(val\\[\\, tag\\, "
+":py:obj:`Sketch.edge <cadquery.Sketch.edge>`\\ \\(val\\[\\, tag\\, "
 "forConstruction\\]\\)"
 msgstr ""
 
@@ -370,8 +376,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
 msgid ""
-":obj:`Sketch.segment <cadquery.Sketch.segment>`\\ \\(p1\\, p2\\[\\, tag\\, "
-"forConstruction\\]\\)"
+":py:obj:`Sketch.segment <cadquery.Sketch.segment>`\\ \\(self\\, p1\\, "
+"p2\\[\\, tag\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -380,8 +386,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
 msgid ""
-":obj:`Sketch.arc <cadquery.Sketch.arc>`\\ \\(p1\\, p2\\, p3\\[\\, tag\\, "
-"forConstruction\\]\\)"
+":py:obj:`Sketch.arc <cadquery.Sketch.arc>`\\ \\(self\\, p1\\, p2\\, p3\\[\\,"
+" tag\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -390,8 +396,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
 msgid ""
-":obj:`Sketch.spline <cadquery.Sketch.spline>`\\ \\(pts\\, tangents\\, "
-"periodic\\[\\, ...\\]\\)"
+":py:obj:`Sketch.spline <cadquery.Sketch.spline>`\\ \\(self\\, pts\\, "
+"tangents\\, periodic\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -399,7 +405,7 @@ msgid "Construct a spline edge."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid ":obj:`Sketch.close <cadquery.Sketch.close>`\\ \\(\\[tag\\]\\)"
+msgid ":py:obj:`Sketch.close <cadquery.Sketch.close>`\\ \\(\\[tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -407,7 +413,7 @@ msgid "Connect last edge to the first one."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid ":obj:`Sketch.assemble <cadquery.Sketch.assemble>`\\ \\(\\[mode\\, tag\\]\\)"
+msgid ":py:obj:`Sketch.assemble <cadquery.Sketch.assemble>`\\ \\(\\[mode\\, tag\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -416,7 +422,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
 msgid ""
-":obj:`Sketch.constrain <cadquery.Sketch.constrain>`\\ \\(tag\\, "
+":py:obj:`Sketch.constrain <cadquery.Sketch.constrain>`\\ \\(self\\, tag\\, "
 "constraint\\, arg\\)"
 msgstr ""
 
@@ -425,7 +431,7 @@ msgid "Add a constraint."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid ":obj:`Sketch.solve <cadquery.Sketch.solve>`\\ \\(\\)"
+msgid ":py:obj:`Sketch.solve <cadquery.Sketch.solve>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -441,8 +447,8 @@ msgid "Creating new workplanes and object chains"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:108:<autosummary>:1
-msgid ":obj:`Workplane <cadquery.Workplane>`\\ \\(\\)"
-msgstr ":obj:`Workplane <cadquery.Workplane>`\\ \\(\\)"
+msgid ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:108:<autosummary>:1
 msgid ""
@@ -462,8 +468,8 @@ msgid "All 2D operations require a **Workplane** object to be created."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid ":obj:`Workplane.center <cadquery.Workplane.center>`\\ \\(x\\, y\\)"
-msgstr ":obj:`Workplane.center <cadquery.Workplane.center>`\\ \\(x\\, y\\)"
+msgid ":py:obj:`Workplane.center <cadquery.Workplane.center>`\\ \\(x\\, y\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Shift local coordinates to the specified location."
@@ -471,11 +477,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.lineTo <cadquery.Workplane.lineTo>`\\ \\(x\\, y\\[\\, "
+":py:obj:`Workplane.lineTo <cadquery.Workplane.lineTo>`\\ \\(x\\, y\\[\\, "
 "forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.lineTo <cadquery.Workplane.lineTo>`\\ \\(x\\, y\\[\\, "
-"forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Make a line from the current point to the provided point"
@@ -483,11 +487,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.line <cadquery.Workplane.line>`\\ \\(xDist\\, yDist\\[\\, "
-"forConstruction\\]\\)"
+":py:obj:`Workplane.line <cadquery.Workplane.line>`\\ \\(xDist\\, yDist\\[\\,"
+" forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.line <cadquery.Workplane.line>`\\ \\(xDist\\, yDist\\[\\, "
-"forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -497,11 +499,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.vLine <cadquery.Workplane.vLine>`\\ \\(distance\\[\\, "
+":py:obj:`Workplane.vLine <cadquery.Workplane.vLine>`\\ \\(distance\\[\\, "
 "forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.vLine <cadquery.Workplane.vLine>`\\ \\(distance\\[\\, "
-"forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Make a vertical line from the current point the provided distance"
@@ -509,11 +509,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.vLineTo <cadquery.Workplane.vLineTo>`\\ \\(yCoord\\[\\, "
+":py:obj:`Workplane.vLineTo <cadquery.Workplane.vLineTo>`\\ \\(yCoord\\[\\, "
 "forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.vLineTo <cadquery.Workplane.vLineTo>`\\ \\(yCoord\\[\\, "
-"forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -522,11 +520,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.hLine <cadquery.Workplane.hLine>`\\ \\(distance\\[\\, "
+":py:obj:`Workplane.hLine <cadquery.Workplane.hLine>`\\ \\(distance\\[\\, "
 "forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.hLine <cadquery.Workplane.hLine>`\\ \\(distance\\[\\, "
-"forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Make a horizontal line from the current point the provided distance"
@@ -534,11 +530,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.hLineTo <cadquery.Workplane.hLineTo>`\\ \\(xCoord\\[\\, "
+":py:obj:`Workplane.hLineTo <cadquery.Workplane.hLineTo>`\\ \\(xCoord\\[\\, "
 "forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.hLineTo <cadquery.Workplane.hLineTo>`\\ \\(xCoord\\[\\, "
-"forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -547,11 +541,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.polarLine <cadquery.Workplane.polarLine>`\\ \\(distance\\, "
-"angle\\[\\, ...\\]\\)"
+":py:obj:`Workplane.polarLine <cadquery.Workplane.polarLine>`\\ "
+"\\(distance\\, angle\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.polarLine <cadquery.Workplane.polarLine>`\\ \\(distance\\, "
-"angle\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -560,27 +552,25 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.polarLineTo <cadquery.Workplane.polarLineTo>`\\ "
+":py:obj:`Workplane.polarLineTo <cadquery.Workplane.polarLineTo>`\\ "
 "\\(distance\\, angle\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.polarLineTo <cadquery.Workplane.polarLineTo>`\\ "
-"\\(distance\\, angle\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Make a line from the current point to the given polar coordinates"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid ":obj:`Workplane.moveTo <cadquery.Workplane.moveTo>`\\ \\(\\[x\\, y\\]\\)"
-msgstr ":obj:`Workplane.moveTo <cadquery.Workplane.moveTo>`\\ \\(\\[x\\, y\\]\\)"
+msgid ":py:obj:`Workplane.moveTo <cadquery.Workplane.moveTo>`\\ \\(\\[x\\, y\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Move to the specified point, without drawing."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid ":obj:`Workplane.move <cadquery.Workplane.move>`\\ \\(\\[xDist\\, yDist\\]\\)"
-msgstr ":obj:`Workplane.move <cadquery.Workplane.move>`\\ \\(\\[xDist\\, yDist\\]\\)"
+msgid ":py:obj:`Workplane.move <cadquery.Workplane.move>`\\ \\(\\[xDist\\, yDist\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Move the specified distance from the current point, without drawing."
@@ -588,11 +578,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.spline <cadquery.Workplane.spline>`\\ \\(listOfXYTuple\\[\\,"
-" tangents\\, ...\\]\\)"
+":py:obj:`Workplane.spline <cadquery.Workplane.spline>`\\ "
+"\\(listOfXYTuple\\[\\, tangents\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.spline <cadquery.Workplane.spline>`\\ \\(listOfXYTuple\\[\\,"
-" tangents\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Create a spline interpolated through the provided points (2D or 3D)."
@@ -600,11 +588,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.parametricCurve <cadquery.Workplane.parametricCurve>`\\ "
+":py:obj:`Workplane.parametricCurve <cadquery.Workplane.parametricCurve>`\\ "
 "\\(func\\[\\, N\\, start\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.parametricCurve <cadquery.Workplane.parametricCurve>`\\ "
-"\\(func\\[\\, N\\, start\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Create a spline curve approximating the provided function."
@@ -612,11 +598,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.parametricSurface <cadquery.Workplane.parametricSurface>`\\ "
-"\\(func\\[\\, N\\, ...\\]\\)"
+":py:obj:`Workplane.parametricSurface "
+"<cadquery.Workplane.parametricSurface>`\\ \\(func\\[\\, N\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.parametricSurface <cadquery.Workplane.parametricSurface>`\\ "
-"\\(func\\[\\, N\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Create a spline surface approximating the provided function."
@@ -624,11 +608,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.threePointArc <cadquery.Workplane.threePointArc>`\\ "
+":py:obj:`Workplane.threePointArc <cadquery.Workplane.threePointArc>`\\ "
 "\\(point1\\, point2\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.threePointArc <cadquery.Workplane.threePointArc>`\\ "
-"\\(point1\\, point2\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -637,11 +619,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.sagittaArc <cadquery.Workplane.sagittaArc>`\\ \\(endPoint\\,"
-" sag\\[\\, ...\\]\\)"
+":py:obj:`Workplane.sagittaArc <cadquery.Workplane.sagittaArc>`\\ "
+"\\(endPoint\\, sag\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.sagittaArc <cadquery.Workplane.sagittaArc>`\\ \\(endPoint\\,"
-" sag\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -651,11 +631,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.radiusArc <cadquery.Workplane.radiusArc>`\\ \\(endPoint\\, "
-"radius\\[\\, ...\\]\\)"
+":py:obj:`Workplane.radiusArc <cadquery.Workplane.radiusArc>`\\ "
+"\\(endPoint\\, radius\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.radiusArc <cadquery.Workplane.radiusArc>`\\ \\(endPoint\\, "
-"radius\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -665,35 +643,33 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.tangentArcPoint <cadquery.Workplane.tangentArcPoint>`\\ "
+":py:obj:`Workplane.tangentArcPoint <cadquery.Workplane.tangentArcPoint>`\\ "
 "\\(endpoint\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.tangentArcPoint <cadquery.Workplane.tangentArcPoint>`\\ "
-"\\(endpoint\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Draw an arc as a tangent from the end of the current edge to endpoint."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid ":obj:`Workplane.mirrorY <cadquery.Workplane.mirrorY>`\\ \\(\\)"
-msgstr ":obj:`Workplane.mirrorY <cadquery.Workplane.mirrorY>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.mirrorY <cadquery.Workplane.mirrorY>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Mirror entities around the y axis of the workplane plane."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid ":obj:`Workplane.mirrorX <cadquery.Workplane.mirrorX>`\\ \\(\\)"
-msgstr ":obj:`Workplane.mirrorX <cadquery.Workplane.mirrorX>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.mirrorX <cadquery.Workplane.mirrorX>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Mirror entities around the x axis of the workplane plane."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid ":obj:`Workplane.wire <cadquery.Workplane.wire>`\\ \\(\\[forConstruction\\]\\)"
-msgstr ":obj:`Workplane.wire <cadquery.Workplane.wire>`\\ \\(\\[forConstruction\\]\\)"
+msgid ":py:obj:`Workplane.wire <cadquery.Workplane.wire>`\\ \\(\\[forConstruction\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Returns a CQ object with all pending edges connected into a wire."
@@ -701,11 +677,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.rect <cadquery.Workplane.rect>`\\ \\(xLen\\, yLen\\[\\, "
+":py:obj:`Workplane.rect <cadquery.Workplane.rect>`\\ \\(xLen\\, yLen\\[\\, "
 "centered\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.rect <cadquery.Workplane.rect>`\\ \\(xLen\\, yLen\\[\\, "
-"centered\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Make a rectangle for each item on the stack."
@@ -713,11 +687,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.circle <cadquery.Workplane.circle>`\\ \\(radius\\[\\, "
+":py:obj:`Workplane.circle <cadquery.Workplane.circle>`\\ \\(radius\\[\\, "
 "forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.circle <cadquery.Workplane.circle>`\\ \\(radius\\[\\, "
-"forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Make a circle for each item on the stack."
@@ -725,11 +697,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.ellipse <cadquery.Workplane.ellipse>`\\ \\(x\\_radius\\, "
+":py:obj:`Workplane.ellipse <cadquery.Workplane.ellipse>`\\ \\(x\\_radius\\, "
 "y\\_radius\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.ellipse <cadquery.Workplane.ellipse>`\\ \\(x\\_radius\\, "
-"y\\_radius\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Make an ellipse for each item on the stack."
@@ -737,11 +707,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.ellipseArc <cadquery.Workplane.ellipseArc>`\\ "
+":py:obj:`Workplane.ellipseArc <cadquery.Workplane.ellipseArc>`\\ "
 "\\(x\\_radius\\, y\\_radius\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.ellipseArc <cadquery.Workplane.ellipseArc>`\\ "
-"\\(x\\_radius\\, y\\_radius\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
@@ -751,19 +719,17 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.polyline <cadquery.Workplane.polyline>`\\ "
+":py:obj:`Workplane.polyline <cadquery.Workplane.polyline>`\\ "
 "\\(listOfXYTuple\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.polyline <cadquery.Workplane.polyline>`\\ "
-"\\(listOfXYTuple\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Create a polyline from a list of points"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
-msgid ":obj:`Workplane.close <cadquery.Workplane.close>`\\ \\(\\)"
-msgstr ":obj:`Workplane.close <cadquery.Workplane.close>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.close <cadquery.Workplane.close>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "End 2D construction, and attempt to build a closed wire."
@@ -771,11 +737,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.rarray <cadquery.Workplane.rarray>`\\ \\(xSpacing\\, "
+":py:obj:`Workplane.rarray <cadquery.Workplane.rarray>`\\ \\(xSpacing\\, "
 "ySpacing\\, xCount\\, ...\\)"
 msgstr ""
-":obj:`Workplane.rarray <cadquery.Workplane.rarray>`\\ \\(xSpacing\\, "
-"ySpacing\\, xCount\\, ...\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Creates an array of points and pushes them onto the stack."
@@ -783,11 +747,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.polarArray <cadquery.Workplane.polarArray>`\\ \\(radius\\, "
-"startAngle\\, ...\\)"
+":py:obj:`Workplane.polarArray <cadquery.Workplane.polarArray>`\\ "
+"\\(radius\\, startAngle\\, ...\\)"
 msgstr ""
-":obj:`Workplane.polarArray <cadquery.Workplane.polarArray>`\\ \\(radius\\, "
-"startAngle\\, ...\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Creates a polar array of points and pushes them onto the stack."
@@ -795,11 +757,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.slot2D <cadquery.Workplane.slot2D>`\\ \\(length\\, "
+":py:obj:`Workplane.slot2D <cadquery.Workplane.slot2D>`\\ \\(length\\, "
 "diameter\\[\\, angle\\]\\)"
 msgstr ""
-":obj:`Workplane.slot2D <cadquery.Workplane.slot2D>`\\ \\(length\\, "
-"diameter\\[\\, angle\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Creates a rounded slot for each point on the stack."
@@ -807,11 +767,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid ""
-":obj:`Workplane.offset2D <cadquery.Workplane.offset2D>`\\ \\(d\\[\\, kind\\,"
-" forConstruction\\]\\)"
+":py:obj:`Workplane.offset2D <cadquery.Workplane.offset2D>`\\ \\(d\\[\\, "
+"kind\\, forConstruction\\]\\)"
 msgstr ""
-":obj:`Workplane.offset2D <cadquery.Workplane.offset2D>`\\ \\(d\\[\\, kind\\,"
-" forConstruction\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:152:<autosummary>:1
 msgid "Creates a 2D offset wire."
@@ -832,11 +790,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.cboreHole <cadquery.Workplane.cboreHole>`\\ \\(diameter\\, "
-"cboreDiameter\\, ...\\)"
+":py:obj:`Workplane.cboreHole <cadquery.Workplane.cboreHole>`\\ "
+"\\(diameter\\, cboreDiameter\\, ...\\)"
 msgstr ""
-":obj:`Workplane.cboreHole <cadquery.Workplane.cboreHole>`\\ \\(diameter\\, "
-"cboreDiameter\\, ...\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Makes a counterbored hole for each item on the stack."
@@ -844,11 +800,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.cskHole <cadquery.Workplane.cskHole>`\\ \\(diameter\\, "
+":py:obj:`Workplane.cskHole <cadquery.Workplane.cskHole>`\\ \\(diameter\\, "
 "cskDiameter\\, ...\\)"
 msgstr ""
-":obj:`Workplane.cskHole <cadquery.Workplane.cskHole>`\\ \\(diameter\\, "
-"cskDiameter\\, ...\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Makes a countersunk hole for each item on the stack."
@@ -856,11 +810,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.hole <cadquery.Workplane.hole>`\\ \\(diameter\\[\\, depth\\,"
-" clean\\]\\)"
+":py:obj:`Workplane.hole <cadquery.Workplane.hole>`\\ \\(diameter\\[\\, "
+"depth\\, clean\\]\\)"
 msgstr ""
-":obj:`Workplane.hole <cadquery.Workplane.hole>`\\ \\(diameter\\[\\, depth\\,"
-" clean\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Makes a hole for each item on the stack."
@@ -868,7 +820,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(until\\[\\, "
+":py:obj:`Workplane.extrude <cadquery.Workplane.extrude>`\\ \\(until\\[\\, "
 "combine\\, clean\\, ...\\]\\)"
 msgstr ""
 
@@ -878,8 +830,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
-msgid ":obj:`Workplane.cut <cadquery.Workplane.cut>`\\ \\(toCut\\[\\, clean\\]\\)"
-msgstr ":obj:`Workplane.cut <cadquery.Workplane.cut>`\\ \\(toCut\\[\\, clean\\]\\)"
+msgid ":py:obj:`Workplane.cut <cadquery.Workplane.cut>`\\ \\(toCut\\[\\, clean\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
@@ -889,7 +841,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ \\(until\\[\\, "
+":py:obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ \\(until\\[\\, "
 "clean\\, taper\\]\\)"
 msgstr ""
 
@@ -902,19 +854,15 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.cutThruAll <cadquery.Workplane.cutThruAll>`\\ \\(\\[clean\\,"
-" taper\\]\\)"
+":py:obj:`Workplane.cutThruAll <cadquery.Workplane.cutThruAll>`\\ "
+"\\(\\[clean\\, taper\\]\\)"
 msgstr ""
-":obj:`Workplane.cutThruAll <cadquery.Workplane.cutThruAll>`\\ \\(\\[clean\\,"
-" taper\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.box <cadquery.Workplane.box>`\\ \\(length\\, width\\, "
+":py:obj:`Workplane.box <cadquery.Workplane.box>`\\ \\(length\\, width\\, "
 "height\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.box <cadquery.Workplane.box>`\\ \\(length\\, width\\, "
-"height\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
@@ -923,11 +871,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.sphere <cadquery.Workplane.sphere>`\\ \\(radius\\[\\, "
+":py:obj:`Workplane.sphere <cadquery.Workplane.sphere>`\\ \\(radius\\[\\, "
 "direct\\, angle1\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.sphere <cadquery.Workplane.sphere>`\\ \\(radius\\[\\, "
-"direct\\, angle1\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
@@ -936,7 +882,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.wedge <cadquery.Workplane.wedge>`\\ \\(dx\\, dy\\, dz\\, "
+":py:obj:`Workplane.wedge <cadquery.Workplane.wedge>`\\ \\(dx\\, dy\\, dz\\, "
 "xmin\\, zmin\\, ...\\)"
 msgstr ""
 
@@ -948,7 +894,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.cylinder <cadquery.Workplane.cylinder>`\\ \\(height\\, "
+":py:obj:`Workplane.cylinder <cadquery.Workplane.cylinder>`\\ \\(height\\, "
 "radius\\[\\, direct\\, ...\\]\\)"
 msgstr ""
 
@@ -960,11 +906,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.union <cadquery.Workplane.union>`\\ \\(\\[toUnion\\, "
+":py:obj:`Workplane.union <cadquery.Workplane.union>`\\ \\(\\[toUnion\\, "
 "clean\\, glue\\, tol\\]\\)"
 msgstr ""
-":obj:`Workplane.union <cadquery.Workplane.union>`\\ \\(\\[toUnion\\, "
-"clean\\, glue\\, tol\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
@@ -973,11 +917,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.combine <cadquery.Workplane.combine>`\\ \\(\\[clean\\, "
+":py:obj:`Workplane.combine <cadquery.Workplane.combine>`\\ \\(\\[clean\\, "
 "glue\\, tol\\]\\)"
 msgstr ""
-":obj:`Workplane.combine <cadquery.Workplane.combine>`\\ \\(\\[clean\\, "
-"glue\\, tol\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Attempts to combine all of the items on the stack into a single item."
@@ -985,11 +927,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.intersect <cadquery.Workplane.intersect>`\\ "
+":py:obj:`Workplane.intersect <cadquery.Workplane.intersect>`\\ "
 "\\(toIntersect\\[\\, clean\\]\\)"
 msgstr ""
-":obj:`Workplane.intersect <cadquery.Workplane.intersect>`\\ "
-"\\(toIntersect\\[\\, clean\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Intersects the provided solid from the current solid."
@@ -997,8 +937,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.loft <cadquery.Workplane.loft>`\\ \\(\\[ruled\\, combine\\, "
-"clean\\]\\)"
+":py:obj:`Workplane.loft <cadquery.Workplane.loft>`\\ \\(\\[ruled\\, "
+"combine\\, clean\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
@@ -1007,11 +947,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.sweep <cadquery.Workplane.sweep>`\\ \\(path\\[\\, "
+":py:obj:`Workplane.sweep <cadquery.Workplane.sweep>`\\ \\(path\\[\\, "
 "multisection\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.sweep <cadquery.Workplane.sweep>`\\ \\(path\\[\\, "
-"multisection\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Use all un-extruded wires in the parent chain to create a swept solid."
@@ -1019,11 +957,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.twistExtrude <cadquery.Workplane.twistExtrude>`\\ "
+":py:obj:`Workplane.twistExtrude <cadquery.Workplane.twistExtrude>`\\ "
 "\\(distance\\, angleDegrees\\)"
 msgstr ""
-":obj:`Workplane.twistExtrude <cadquery.Workplane.twistExtrude>`\\ "
-"\\(distance\\, angleDegrees\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
@@ -1033,11 +969,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.revolve <cadquery.Workplane.revolve>`\\ "
+":py:obj:`Workplane.revolve <cadquery.Workplane.revolve>`\\ "
 "\\(\\[angleDegrees\\, axisStart\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.revolve <cadquery.Workplane.revolve>`\\ "
-"\\(\\[angleDegrees\\, axisStart\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Use all un-revolved wires in the parent chain to create a solid."
@@ -1045,11 +979,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid ""
-":obj:`Workplane.text <cadquery.Workplane.text>`\\ \\(txt\\, fontsize\\, "
+":py:obj:`Workplane.text <cadquery.Workplane.text>`\\ \\(txt\\, fontsize\\, "
 "distance\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.text <cadquery.Workplane.text>`\\ \\(txt\\, fontsize\\, "
-"distance\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:183:<autosummary>:1
 msgid "Returns a 3D text."
@@ -1060,8 +992,10 @@ msgid "3D operations that do NOT require a 2D workplane to be active:"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
-msgid ":obj:`Workplane.shell <cadquery.Workplane.shell>`\\ \\(thickness\\[\\, kind\\]\\)"
-msgstr ":obj:`Workplane.shell <cadquery.Workplane.shell>`\\ \\(thickness\\[\\, kind\\]\\)"
+msgid ""
+":py:obj:`Workplane.shell <cadquery.Workplane.shell>`\\ \\(thickness\\[\\, "
+"kind\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
@@ -1069,8 +1003,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
-msgid ":obj:`Workplane.fillet <cadquery.Workplane.fillet>`\\ \\(radius\\)"
-msgstr ":obj:`Workplane.fillet <cadquery.Workplane.fillet>`\\ \\(radius\\)"
+msgid ":py:obj:`Workplane.fillet <cadquery.Workplane.fillet>`\\ \\(radius\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid "Fillets a solid on the selected edges."
@@ -1078,19 +1012,17 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
-":obj:`Workplane.chamfer <cadquery.Workplane.chamfer>`\\ \\(length\\[\\, "
+":py:obj:`Workplane.chamfer <cadquery.Workplane.chamfer>`\\ \\(length\\[\\, "
 "length2\\]\\)"
 msgstr ""
-":obj:`Workplane.chamfer <cadquery.Workplane.chamfer>`\\ \\(length\\[\\, "
-"length2\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid "Chamfers a solid on the selected edges."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
-msgid ":obj:`Workplane.split <cadquery.Workplane.split>`\\ \\(\\)"
-msgstr ":obj:`Workplane.split <cadquery.Workplane.split>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.split <cadquery.Workplane.split>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
@@ -1100,11 +1032,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
-":obj:`Workplane.rotate <cadquery.Workplane.rotate>`\\ \\(axisStartPoint\\, "
-"...\\)"
+":py:obj:`Workplane.rotate <cadquery.Workplane.rotate>`\\ "
+"\\(axisStartPoint\\, ...\\)"
 msgstr ""
-":obj:`Workplane.rotate <cadquery.Workplane.rotate>`\\ \\(axisStartPoint\\, "
-"...\\)"
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
@@ -1114,11 +1044,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
-":obj:`Workplane.rotateAboutCenter <cadquery.Workplane.rotateAboutCenter>`\\ "
-"\\(axisEndPoint\\, ...\\)"
+":py:obj:`Workplane.rotateAboutCenter "
+"<cadquery.Workplane.rotateAboutCenter>`\\ \\(axisEndPoint\\, ...\\)"
 msgstr ""
-":obj:`Workplane.rotateAboutCenter <cadquery.Workplane.rotateAboutCenter>`\\ "
-"\\(axisEndPoint\\, ...\\)"
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
@@ -1127,8 +1055,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
-msgid ":obj:`Workplane.translate <cadquery.Workplane.translate>`\\ \\(vec\\)"
-msgstr ":obj:`Workplane.translate <cadquery.Workplane.translate>`\\ \\(vec\\)"
+msgid ":py:obj:`Workplane.translate <cadquery.Workplane.translate>`\\ \\(vec\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
@@ -1138,11 +1066,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid ""
-":obj:`Workplane.mirror <cadquery.Workplane.mirror>`\\ \\(\\[mirrorPlane\\, "
-"...\\]\\)"
+":py:obj:`Workplane.mirror <cadquery.Workplane.mirror>`\\ "
+"\\(\\[mirrorPlane\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.mirror <cadquery.Workplane.mirror>`\\ \\(\\[mirrorPlane\\, "
-"...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:195:<autosummary>:1
 msgid "Mirror a single CQ object."
@@ -1153,25 +1079,28 @@ msgid "File Management and Export"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
-msgid ":obj:`Workplane.toSvg <cadquery.Workplane.toSvg>`\\ \\(\\[opts\\]\\)"
-msgstr ":obj:`Workplane.toSvg <cadquery.Workplane.toSvg>`\\ \\(\\[opts\\]\\)"
+msgid ":py:obj:`Workplane.toSvg <cadquery.Workplane.toSvg>`\\ \\(\\[opts\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
 msgid "Returns svg text that represents the first item on the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
-msgid ":obj:`Workplane.exportSvg <cadquery.Workplane.exportSvg>`\\ \\(fileName\\)"
-msgstr ":obj:`Workplane.exportSvg <cadquery.Workplane.exportSvg>`\\ \\(fileName\\)"
+msgid ""
+":py:obj:`Workplane.exportSvg <cadquery.Workplane.exportSvg>`\\ "
+"\\(fileName\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:203:<autosummary>:1
 msgid "Exports the first item on the stack as an SVG file"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
-msgid ":obj:`importers.importStep <cadquery.importers.importStep>`\\ \\(fileName\\)"
+msgid ""
+":py:obj:`importers.importStep <cadquery.importers.importStep>`\\ "
+"\\(fileName\\)"
 msgstr ""
-":obj:`importers.importStep <cadquery.importers.importStep>`\\ \\(fileName\\)"
 
 #: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid "Accepts a file name and loads the STEP file into a cadquery Workplane"
@@ -1179,11 +1108,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid ""
-":obj:`importers.importDXF <cadquery.importers.importDXF>`\\ "
+":py:obj:`importers.importDXF <cadquery.importers.importDXF>`\\ "
 "\\(filename\\[\\, tol\\, exclude\\]\\)"
 msgstr ""
-":obj:`importers.importDXF <cadquery.importers.importDXF>`\\ "
-"\\(filename\\[\\, tol\\, exclude\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid "Loads a DXF file into a cadquery Workplane."
@@ -1191,11 +1118,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid ""
-":obj:`exporters.export <cadquery.exporters.export>`\\ \\(w\\, fname\\[\\, "
-"exportType\\, ...\\]\\)"
+":py:obj:`exporters.export <cadquery.exporters.export>`\\ \\(w\\, fname\\[\\,"
+" exportType\\, ...\\]\\)"
 msgstr ""
-":obj:`exporters.export <cadquery.exporters.export>`\\ \\(w\\, fname\\[\\, "
-"exportType\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:209:<autosummary>:1
 msgid "Export Wokrplane or Shape to file."
@@ -1210,7 +1135,7 @@ msgid "Methods that allow iteration over the stack or objects"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
-msgid ":obj:`Workplane.each <cadquery.Workplane.each>`\\ \\(callback\\[\\, ...\\]\\)"
+msgid ":py:obj:`Workplane.each <cadquery.Workplane.each>`\\ \\(callback\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
@@ -1221,11 +1146,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
 msgid ""
-":obj:`Workplane.eachpoint <cadquery.Workplane.eachpoint>`\\ "
+":py:obj:`Workplane.eachpoint <cadquery.Workplane.eachpoint>`\\ "
 "\\(callback\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`Workplane.eachpoint <cadquery.Workplane.eachpoint>`\\ "
-"\\(callback\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:219:<autosummary>:1
 msgid ""
@@ -1242,48 +1165,48 @@ msgid "CadQuery methods that operate on the stack"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.all <cadquery.Workplane.all>`\\ \\(\\)"
-msgstr ":obj:`Workplane.all <cadquery.Workplane.all>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.all <cadquery.Workplane.all>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return a list of all CQ objects on the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.size <cadquery.Workplane.size>`\\ \\(\\)"
-msgstr ":obj:`Workplane.size <cadquery.Workplane.size>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.size <cadquery.Workplane.size>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the number of objects currently on the stack"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.vals <cadquery.Workplane.vals>`\\ \\(\\)"
-msgstr ":obj:`Workplane.vals <cadquery.Workplane.vals>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.vals <cadquery.Workplane.vals>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "get the values in the current list"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.add <cadquery.Workplane.add>`\\ \\(\\)"
-msgstr ":obj:`Workplane.add <cadquery.Workplane.add>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.add <cadquery.Workplane.add>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Adds an object or a list of objects to the stack"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.val <cadquery.Workplane.val>`\\ \\(\\)"
-msgstr ":obj:`Workplane.val <cadquery.Workplane.val>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.val <cadquery.Workplane.val>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the first value on the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.first <cadquery.Workplane.first>`\\ \\(\\)"
-msgstr ":obj:`Workplane.first <cadquery.Workplane.first>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.first <cadquery.Workplane.first>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
@@ -1291,39 +1214,37 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.item <cadquery.Workplane.item>`\\ \\(i\\)"
-msgstr ":obj:`Workplane.item <cadquery.Workplane.item>`\\ \\(i\\)"
+msgid ":py:obj:`Workplane.item <cadquery.Workplane.item>`\\ \\(i\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the ith item on the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.last <cadquery.Workplane.last>`\\ \\(\\)"
-msgstr ":obj:`Workplane.last <cadquery.Workplane.last>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.last <cadquery.Workplane.last>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Return the last item on the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.end <cadquery.Workplane.end>`\\ \\(\\[n\\]\\)"
-msgstr ":obj:`Workplane.end <cadquery.Workplane.end>`\\ \\(\\[n\\]\\)"
-
-#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ""
-"Return the nth parent of this CQ element :type n: :py:class:`int` :param n: "
-"number of ancestor to return (default: 1) :rtype: a CQ object :raises: "
-"ValueError if there are no more parents in the chain."
+msgid ":py:obj:`Workplane.end <cadquery.Workplane.end>`\\ \\(\\[n\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
-":obj:`Workplane.vertices <cadquery.Workplane.vertices>`\\ \\(\\[selector\\, "
-"tag\\]\\)"
+"Return the nth parent of this CQ element :param n: number of ancestor to "
+"return (default: 1) :rtype: a CQ object :raises: ValueError if there are no "
+"more parents in the chain."
 msgstr ""
-":obj:`Workplane.vertices <cadquery.Workplane.vertices>`\\ \\(\\[selector\\, "
-"tag\\]\\)"
+
+#: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
+msgid ""
+":py:obj:`Workplane.vertices <cadquery.Workplane.vertices>`\\ "
+"\\(\\[selector\\, tag\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
@@ -1332,8 +1253,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.faces <cadquery.Workplane.faces>`\\ \\(\\[selector\\, tag\\]\\)"
-msgstr ":obj:`Workplane.faces <cadquery.Workplane.faces>`\\ \\(\\[selector\\, tag\\]\\)"
+msgid ":py:obj:`Workplane.faces <cadquery.Workplane.faces>`\\ \\(\\[selector\\, tag\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
@@ -1342,8 +1263,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.edges <cadquery.Workplane.edges>`\\ \\(\\[selector\\, tag\\]\\)"
-msgstr ":obj:`Workplane.edges <cadquery.Workplane.edges>`\\ \\(\\[selector\\, tag\\]\\)"
+msgid ":py:obj:`Workplane.edges <cadquery.Workplane.edges>`\\ \\(\\[selector\\, tag\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
@@ -1352,8 +1273,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.wires <cadquery.Workplane.wires>`\\ \\(\\[selector\\, tag\\]\\)"
-msgstr ":obj:`Workplane.wires <cadquery.Workplane.wires>`\\ \\(\\[selector\\, tag\\]\\)"
+msgid ":py:obj:`Workplane.wires <cadquery.Workplane.wires>`\\ \\(\\[selector\\, tag\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
@@ -1362,8 +1283,10 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.solids <cadquery.Workplane.solids>`\\ \\(\\[selector\\, tag\\]\\)"
-msgstr ":obj:`Workplane.solids <cadquery.Workplane.solids>`\\ \\(\\[selector\\, tag\\]\\)"
+msgid ""
+":py:obj:`Workplane.solids <cadquery.Workplane.solids>`\\ \\(\\[selector\\, "
+"tag\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
@@ -1372,8 +1295,10 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
-msgid ":obj:`Workplane.shells <cadquery.Workplane.shells>`\\ \\(\\[selector\\, tag\\]\\)"
-msgstr ":obj:`Workplane.shells <cadquery.Workplane.shells>`\\ \\(\\[selector\\, tag\\]\\)"
+msgid ""
+":py:obj:`Workplane.shells <cadquery.Workplane.shells>`\\ \\(\\[selector\\, "
+"tag\\]\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
@@ -1383,11 +1308,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid ""
-":obj:`Workplane.compounds <cadquery.Workplane.compounds>`\\ "
+":py:obj:`Workplane.compounds <cadquery.Workplane.compounds>`\\ "
 "\\(\\[selector\\, tag\\]\\)"
 msgstr ""
-":obj:`Workplane.compounds <cadquery.Workplane.compounds>`\\ "
-"\\(\\[selector\\, tag\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:244:<autosummary>:1
 msgid "Select compounds on the stack, optionally filtering the selection."
@@ -1405,11 +1328,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`NearestToPointSelector <cadquery.selectors.NearestToPointSelector>`\\ "
-"\\(pnt\\)"
+":py:obj:`NearestToPointSelector "
+"<cadquery.selectors.NearestToPointSelector>`\\ \\(pnt\\)"
 msgstr ""
-":obj:`NearestToPointSelector <cadquery.selectors.NearestToPointSelector>`\\ "
-"\\(pnt\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects object nearest the provided point."
@@ -1417,11 +1338,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
+":py:obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
 "point1\\[\\, boundingbox\\]\\)"
 msgstr ""
-":obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
-"point1\\[\\, boundingbox\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects inside the 3D box defined by 2 points."
@@ -1429,11 +1348,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
+":py:obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
-":obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
-"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
@@ -1442,11 +1359,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
+":py:obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
-":obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
-"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects parallel with the provided direction."
@@ -1454,11 +1369,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
+":py:obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
-":obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
-"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects aligned with the provided direction."
@@ -1466,11 +1379,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
+":py:obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
 "\\(vector\\, n\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
-"\\(vector\\, n\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
@@ -1480,11 +1391,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ \\(n\\[\\,"
-" directionMax\\, tolerance\\]\\)"
+":py:obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ "
+"\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
-":obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ \\(n\\[\\,"
-" directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Select the object(s) with the Nth length"
@@ -1492,11 +1401,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
+":py:obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
 "directionMax\\, tolerance\\]\\)"
 msgstr ""
-":obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
-"directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects the object(s) with Nth area"
@@ -1504,11 +1411,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ \\(n\\[\\,"
-" directionMax\\, tolerance\\]\\)"
+":py:obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ "
+"\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
-":obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ \\(n\\[\\,"
-" directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Select the object with the Nth radius."
@@ -1516,21 +1421,18 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`PerpendicularDirSelector "
+":py:obj:`PerpendicularDirSelector "
 "<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
 "tolerance\\]\\)"
 msgstr ""
-":obj:`PerpendicularDirSelector "
-"<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
-"tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects perpendicular with the provided direction."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
-msgid ":obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
-msgstr ":obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
+msgid ":py:obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects having the prescribed geometry type."
@@ -1538,11 +1440,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`DirectionMinMaxSelector "
+":py:obj:`DirectionMinMaxSelector "
 "<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 msgstr ""
-":obj:`DirectionMinMaxSelector "
-"<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Selects objects closest or farthest in the specified direction."
@@ -1550,11 +1450,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
+":py:obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
 "\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 msgstr ""
-":obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
-"\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
@@ -1564,27 +1462,25 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
+":py:obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
 "right\\)"
 msgstr ""
-":obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
-"right\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Base class for selectors that operates with two other selectors."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
-msgid ":obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
-msgstr ":obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
+msgid ":py:obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Intersection selector."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
-msgid ":obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
-msgstr ":obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
+msgid ":py:obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Union selector."
@@ -1592,20 +1488,19 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ \\(left\\, "
-"right\\)"
+":py:obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ "
+"\\(left\\, right\\)"
 msgstr ""
-":obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ \\(left\\, "
-"right\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Difference selector."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
-msgid ":obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ \\(selector\\)"
+msgid ""
+":py:obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ "
+"\\(selector\\)"
 msgstr ""
-":obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ \\(selector\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Inverts the selection of given selector."
@@ -1613,11 +1508,9 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid ""
-":obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
+":py:obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
 "\\(selectorString\\)"
 msgstr ""
-":obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
-"\\(selectorString\\)"
 
 #: ../../cadquery/doc/apireference.rst:275:<autosummary>:1
 msgid "Filter lists objects using a simple string syntax."
@@ -1633,8 +1526,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ""
-":obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\, "
-"metadata\\]\\)"
+":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, "
+"color\\, metadata\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
@@ -1644,8 +1537,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
-msgid ":obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(\\)"
-msgstr ":obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(\\)"
+msgid ":py:obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Add a subassembly to the current assembly."
@@ -1653,8 +1546,8 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid ""
-":obj:`Assembly.save <cadquery.Assembly.save>`\\ \\(path\\[\\, exportType\\, "
-"tolerance\\, ...\\]\\)"
+":py:obj:`Assembly.save <cadquery.Assembly.save>`\\ \\(path\\[\\, "
+"exportType\\, tolerance\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
@@ -1662,32 +1555,32 @@ msgid "save as STEP or OCCT native XML file"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
-msgid ":obj:`Assembly.constrain <cadquery.Assembly.constrain>`\\ \\(\\)"
-msgstr ":obj:`Assembly.constrain <cadquery.Assembly.constrain>`\\ \\(\\)"
+msgid ":py:obj:`Assembly.constrain <cadquery.Assembly.constrain>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Define a new constraint."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
-msgid ":obj:`Assembly.solve <cadquery.Assembly.solve>`\\ \\(\\)"
-msgstr ":obj:`Assembly.solve <cadquery.Assembly.solve>`\\ \\(\\)"
+msgid ":py:obj:`Assembly.solve <cadquery.Assembly.solve>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Solve the constraints."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
-msgid ":obj:`Constraint <cadquery.Constraint>`\\"
+msgid ":py:obj:`Constraint <cadquery.Constraint>`\\"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
-msgid "alias of :class:`cadquery.occ_impl.solver.ConstraintSpec`"
+msgid "alias of :py:class:`~cadquery.occ_impl.solver.ConstraintSpec`"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
-msgid ":obj:`Color <cadquery.Color>`\\ \\(\\)"
-msgstr ":obj:`Color <cadquery.Color>`\\ \\(\\)"
+msgid ":py:obj:`Color <cadquery.Color>`\\ \\(\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:292:<autosummary>:1
 msgid "Wrapper for the OCCT color object Quantity_ColorRGBA."

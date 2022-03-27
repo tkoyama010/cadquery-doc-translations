@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 16:45+0000\n"
+"POT-Creation-Date: 2022-03-27 01:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,24 +106,24 @@ msgstr ""
 msgid "DXF files can be imported using the :py:meth:`importers.importDXF` method."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.importers.importDXF:1
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.occ_impl.importers.importDXF:1
 msgid "Loads a DXF file into a cadquery Workplane."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.importers.importDXF:0
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.occ_impl.importers.importDXF:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:0
 msgid "Parameters"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.importers.importDXF:3
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.occ_impl.importers.importDXF:3
 msgid "The path and name of the DXF file to be imported"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.importers.importDXF:4
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.occ_impl.importers.importDXF:4
 msgid "The tolerance used for merging edges into wires (default: 1e-6)"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.importers.importDXF:5
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.py:docstring of cadquery.occ_impl.importers.importDXF:5
 msgid "a list of layer names not to import (default: [])"
 msgstr ""
 
@@ -227,28 +227,24 @@ msgstr ""
 msgid "Exports a shape to a specified STL file."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:3
 msgid "The path and file name to write the STL output to."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:7
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:5
 msgid "A linear deflection setting which limits the distance between a curve and its tessellation. Setting this value too low will result in large meshes that can consume computing resources. Setting the value too high can result in meshes with a level of detail that is too low. Default is 0.1, which is good starting point for a range of cases."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:10
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:7
 msgid "- Angular deflection setting which limits the angle between subsequent segments in a polyline. Default is 0.1."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:10
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:7
 msgid "Angular deflection setting which limits the angle between subsequent segments in a polyline. Default is 0.1."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:0
 msgid "Return type"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:14
-msgid ":py:class:`bool`"
 msgstr ""
 
 #: ../../cadquery/doc/importexport.rst:156

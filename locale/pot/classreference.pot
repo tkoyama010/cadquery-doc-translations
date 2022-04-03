@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 01:03+0000\n"
+"POT-Creation-Date: 2022-04-03 01:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5281,7 +5281,7 @@ msgid "The centerOption parameter sets how the center is defined. Options are 'C
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:28
-msgid "The Z direction will be the normal of the face,computed at the center point."
+msgid "The Z direction will be the normal of the face, computed at the center point."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:30
@@ -5289,7 +5289,7 @@ msgid "The X direction will be parallel to the x-y plane. If the workplane is  p
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:34
-msgid "Most commonly, the selected face will be planar, and the workplane lies in the same plane of the face ( IE, offset=0).  Occasionally, it is useful to define a face offset from an existing surface, and even more rarely to define a workplane based on a face that is not planar."
+msgid "Most commonly, the selected face will be planar, and the workplane lies in the same plane of the face ( IE, offset=0). Occasionally, it is useful to define a face offset from an existing surface, and even more rarely to define a workplane based on a face that is not planar."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplaneFromTagged:1

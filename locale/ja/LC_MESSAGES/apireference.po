@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-07 01:04+0000\n"
+"POT-Creation-Date: 2022-04-20 01:18+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -391,7 +391,7 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid "Construct an arc."
+msgid "Construct an arc starting at p1, through p2, ending at p3"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1

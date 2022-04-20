@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-03 01:06+0000\n"
+"POT-Creation-Date: 2022-04-20 01:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2398,7 +2398,7 @@ msgid "Iterate over faces-locations combinations."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.arc:1
-msgid "Construct an arc."
+msgid "Construct an arc starting at p1, through p2, ending at p3"
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.assemble:1

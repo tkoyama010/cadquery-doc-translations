@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-20 01:18+0000\n"
+"POT-Creation-Date: 2022-05-05 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -891,11 +891,11 @@ msgid "export format (default: None, results in format being inferred form the p
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:5
-msgid "the deflection tolerance, in model units. Only used for GLTF. Default 0.1."
+msgid "the deflection tolerance, in model units. Only used for GLTF, VRML. Default 0.1."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:6
-msgid "the angular tolerance, in radians. Only used for GLTF. Default 0.1."
+msgid "the angular tolerance, in radians. Only used for GLTF, VRML. Default 0.1."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:0

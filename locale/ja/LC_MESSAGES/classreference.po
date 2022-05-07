@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 01:21+0000\n"
+"POT-Creation-Date: 2022-05-07 01:15+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -4590,7 +4590,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.add:11
 msgid ""
 "Used in rare cases when you need to combine the results of several CQ "
-"results into a single Workplane object. Shelling is one common example."
+"results into a single Workplane object."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.all:1
@@ -4875,7 +4875,6 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.rect:25
 #: ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.rotateAboutCenter:21
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:34
 #: ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.threePointArc:12
 msgid "Future Enhancements:"
@@ -6466,12 +6465,12 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:6
 msgid ""
-"a positive float, representing the thickness of the desired shell. Negative "
-"values shell inwards, positive values shell outwards."
+"thickness of the desired shell. Negative values shell inwards, positive "
+"values shell outwards."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:8
-msgid "kind of joints, intersection or arc (default: arc)."
+msgid "kind of join, arc or intersection (default: arc)."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:9
@@ -6492,26 +6491,16 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:18
 msgid ""
-"Shelling is one of the cases where you may need to use the add method to "
-"select several faces. For example, this example creates a 3-walled corner, "
-"by removing three faces of a cube::"
+"You can also select multiple faces at once. Here is an example that creates "
+"a three-walled corner, by removing three faces of a cube::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:27
-msgid ""
-"This fairly yucky syntax for selecting multiple faces is planned for "
-"improvement"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:29
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:23
 msgid ""
 "**Note**:  When sharp edges are shelled inwards, they remain sharp corners, "
-"but **outward** shells are automatically filleted, because an outward offset"
-" from a corner generates a radius."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shell:35
-msgid "Better selectors to make it easier to select multiple faces"
+"but **outward** shells are automatically filleted (unless "
+"kind=\"intersection\"), because an outward offset from a corner generates a "
+"radius."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shells:1

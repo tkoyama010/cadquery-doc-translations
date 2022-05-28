@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-07 01:15+0000\n"
+"POT-Creation-Date: 2022-05-28 01:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -692,6 +692,11 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.StringSyntaxSelector:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector.filter:0
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:0
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportCAF:0
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportGLTF:0
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportVRML:0
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportVTKJS:0
 msgid "Parameters"
 msgstr ""
 
@@ -879,11 +884,12 @@ msgid "Define a new constraint."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:1
-msgid "save as STEP or OCCT native XML file"
+msgid "Save assembly to a file."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:3
-msgid "filepath"
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:5
+msgid "Path and filename for writing."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:4
@@ -896,6 +902,11 @@ msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:6
 msgid "the angular tolerance, in radians. Only used for GLTF, VRML. Default 0.1."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:7
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:7
+msgid "Additional keyword arguments.  Only used for STEP. See :meth:`~cadquery.occ_impl.exporters.assembly.exportAssembly`."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:0
@@ -1194,6 +1205,8 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.PerpendicularDirSelector.test:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.RadiusNthSelector.key:0
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector.filter:0
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:0
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportCAF:0
 msgid "Return type"
 msgstr ""
 
@@ -2117,7 +2130,32 @@ msgid "Export this shape to a BREP file"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:1
-msgid "Export this shape to a STEP file"
+msgid "Export this shape to a STEP file."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:3
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:3
+msgid "kwargs is used to provide optional keyword arguments to configure the exporter."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:6
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:7
+msgid "Enable or disable writing parametric curves to the STEP file. Default True.  If False, writes STEP file without pcurves. This decreases the size of the resulting STEP file."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:6
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:7
+msgid "Enable or disable writing parametric curves to the STEP file. Default True."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:8
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:9
+msgid "If False, writes STEP file without pcurves. This decreases the size of the resulting STEP file."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:10
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:11
+msgid "Controls the uncertainty value for STEP entities. Specify -1, 0, or 1. Default 0. See OCCT documentation."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:1
@@ -5579,4 +5617,32 @@ msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.SumSelector:1
 msgid "Union selector. Returns the sum of two selectors results."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:1
+msgid "Export an assembly to a STEP file."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:5
+msgid "assembly"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:6
+msgid "Path and filename for writing"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportCAF:1
+msgid "Export an assembly to a OCAF xml file (internal OCCT format)."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportGLTF:1
+msgid "Export an assembly to a gltf file."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportVRML:1
+msgid "Export an assembly to a vrml file using vtk."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportVTKJS:1
+msgid "Export an assembly to a zipped vtkjs. NB: .zip extensions is added to path."
 msgstr ""

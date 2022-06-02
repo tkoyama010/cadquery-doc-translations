@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-28 01:27+0000\n"
+"POT-Creation-Date: 2022-06-02 01:32+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -4799,14 +4799,14 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.cboreHole:21 ../../cadquery/cadquery/cq.pydocstring
-#: of cadquery.cq.Workplane.cskHole:21 ../../cadquery/cadquery/cq.pydocstring
-#: of cadquery.cq.Workplane.hole:17
+#: cadquery.cq.Workplane.cboreHole:29 ../../cadquery/cadquery/cq.pydocstring
+#: of cadquery.cq.Workplane.cskHole:29 ../../cadquery/cadquery/cq.pydocstring
+#: of cadquery.cq.Workplane.hole:25
 msgid "This sample creates a plate with a set of holes at the corners."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.cboreHole:23
+#: cadquery.cq.Workplane.cboreHole:31
 msgid ""
 "**Plugin Note**: this is one example of the power of plugins. Counterbored "
 "holes are quite time consuming to create, but are quite easily defined by "
@@ -4814,7 +4814,7 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.cboreHole:26
+#: cadquery.cq.Workplane.cboreHole:34
 msgid "see :py:meth:`cskHole` to make countersinks instead of counterbores"
 msgstr ""
 
@@ -5143,15 +5143,15 @@ msgstr ""
 msgid "The surface of the hole is at the current workplane."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cskHole:23
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.hole:19
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cskHole:31
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.hole:27
 msgid ""
 "**Plugin Note**: this is one example of the power of plugins. CounterSunk "
 "holes are quite time consuming to create, but are quite easily defined by "
 "users."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cskHole:26
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cskHole:34
 msgid "see :py:meth:`cboreHole` to make counterbores instead of countersinks"
 msgstr ""
 
@@ -5744,7 +5744,7 @@ msgstr ""
 msgid "Makes a hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.hole:22
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.hole:30
 msgid ""
 "see :py:meth:`cboreHole` and :py:meth:`cskHole` to make counterbores or "
 "countersinks"

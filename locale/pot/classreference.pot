@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-28 01:27+0000\n"
+"POT-Creation-Date: 2022-06-02 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3307,17 +3307,17 @@ msgstr ""
 msgid "One hole is created for each item on the stack.  A very common use case is to use a construction rectangle to define the centers of a set of holes, like so::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:21
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:21
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:25
 msgid "This sample creates a plate with a set of holes at the corners."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:31
 msgid "**Plugin Note**: this is one example of the power of plugins. Counterbored holes are quite time consuming to create, but are quite easily defined by users."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:34
 msgid "see :py:meth:`cskHole` to make countersinks instead of counterbores"
 msgstr ""
 
@@ -3583,12 +3583,12 @@ msgstr ""
 msgid "The surface of the hole is at the current workplane."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:23
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:31
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:27
 msgid "**Plugin Note**: this is one example of the power of plugins. CounterSunk holes are quite time consuming to create, but are quite easily defined by users."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:34
 msgid "see :py:meth:`cboreHole` to make counterbores instead of countersinks"
 msgstr ""
 
@@ -4027,7 +4027,7 @@ msgstr ""
 msgid "Makes a hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:30
 msgid "see :py:meth:`cboreHole` and :py:meth:`cskHole` to make counterbores or countersinks"
 msgstr ""
 

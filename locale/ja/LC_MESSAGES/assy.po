@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-16 00:50+0000\n"
+"POT-Creation-Date: 2022-06-02 01:32+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
@@ -240,9 +240,9 @@ msgstr ""
 
 #: ../../cadquery/doc/assy.rst:454
 msgid ""
-"The Point constraint uses the :meth:`~cadquery.occ_impl.Shape.Center` to "
-"find the center of the argument. Hence it will work with all subclasses of "
-":class:`~caquery.occ_impl.Shape`."
+"The Point constraint uses the :meth:`~cadquery.Shape.Center` to find the "
+"center of the argument. Hence it will work with all subclasses of "
+":class:`~cadquery.Shape`."
 msgstr ""
 
 #: ../../cadquery/doc/assy.rst:502

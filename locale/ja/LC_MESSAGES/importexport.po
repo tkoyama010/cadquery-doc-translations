@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 01:03+0000\n"
+"POT-Creation-Date: 2022-08-07 01:49+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -136,7 +136,18 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
 #: cadquery.occ_impl.importers.importDXF:1
-msgid "Loads a DXF file into a cadquery Workplane."
+msgid "Loads a DXF file into a Workplane."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
+#: cadquery.occ_impl.importers.importDXF:4
+msgid ""
+"All layers are imported by default.  Provide a layer include or exclude list"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
+#: cadquery.occ_impl.importers.importDXF:4
+msgid "to select layers.  Layer names are handled as case-insensitive."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
@@ -147,18 +158,23 @@ msgid "Parameters"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:3
+#: cadquery.occ_impl.importers.importDXF:6
 msgid "The path and name of the DXF file to be imported"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:4
-msgid "The tolerance used for merging edges into wires (default: 1e-6)"
+#: cadquery.occ_impl.importers.importDXF:7
+msgid "The tolerance used for merging edges into wires"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:5
-msgid "a list of layer names not to import (default: [])"
+#: cadquery.occ_impl.importers.importDXF:8
+msgid "a list of layer names not to import"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
+#: cadquery.occ_impl.importers.importDXF:9
+msgid "a list of layer names to import"
 msgstr ""
 
 #: ../../cadquery/doc/importexport.rst:52

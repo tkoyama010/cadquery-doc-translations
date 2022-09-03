@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 01:03+0000\n"
+"POT-Creation-Date: 2022-08-07 01:49+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -295,8 +295,8 @@ msgstr ""
 msgid ":py:obj:`parse <cadquery.cqgi.parse>`\\ \\(script\\_source\\)"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 #: ../../cadquery/cadquery/cqgi.pydocstring of cadquery.cqgi.parse:1
+#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 msgid "Parses the script as a model, and returns a model."
 msgstr ""
 
@@ -326,9 +326,9 @@ msgid ""
 "<cadquery.cqgi.ScriptCallback.show_object>`\\ \\(shape\\[\\, options\\]\\)"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 #: ../../cadquery/cadquery/cqgi.pydocstring of
 #: cadquery.cqgi.ScriptCallback.show_object:1
+#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 msgid ""
 "return an object to the executing environment, with options :param shape: a "
 "cadquery object :param options: a dictionary of options that will be made "

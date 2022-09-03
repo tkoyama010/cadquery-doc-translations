@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-01 01:39+0000\n"
+"POT-Creation-Date: 2022-08-07 01:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -345,7 +345,7 @@ msgid "Add an edge to the sketch."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid ":py:obj:`Sketch.segment <cadquery.Sketch.segment>`\\ \\(self\\, p1\\, p2\\[\\, tag\\, ...\\]\\)"
+msgid ":py:obj:`Sketch.segment <cadquery.Sketch.segment>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -353,15 +353,15 @@ msgid "Construct a segment."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid ":py:obj:`Sketch.arc <cadquery.Sketch.arc>`\\ \\(self\\, p1\\, p2\\, p3\\[\\, tag\\, ...\\]\\)"
+msgid ":py:obj:`Sketch.arc <cadquery.Sketch.arc>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid "Construct an arc starting at p1, through p2, ending at p3"
+msgid "Construct an arc."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid ":py:obj:`Sketch.spline <cadquery.Sketch.spline>`\\ \\(self\\, pts\\, tangents\\, periodic\\)"
+msgid ":py:obj:`Sketch.spline <cadquery.Sketch.spline>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -385,7 +385,7 @@ msgid "Assemble edges into faces."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
-msgid ":py:obj:`Sketch.constrain <cadquery.Sketch.constrain>`\\ \\(self\\, tag\\, constraint\\, arg\\)"
+msgid ":py:obj:`Sketch.constrain <cadquery.Sketch.constrain>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:97:<autosummary>:1
@@ -741,7 +741,6 @@ msgid ":py:obj:`Workplane.cutBlind <cadquery.Workplane.cutBlind>`\\ \\(until\\[\
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:184:<autosummary>:1
-#: ../../cadquery/doc/apireference.rst:184:<autosummary>:1
 msgid "Use all un-extruded wires in the parent chain to create a prismatic cut from existing solid."
 msgstr ""
 
@@ -942,11 +941,11 @@ msgid "Accepts a file name and loads the STEP file into a cadquery Workplane"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:210:<autosummary>:1
-msgid ":py:obj:`importers.importDXF <cadquery.importers.importDXF>`\\ \\(filename\\[\\, tol\\, exclude\\]\\)"
+msgid ":py:obj:`importers.importDXF <cadquery.importers.importDXF>`\\ \\(filename\\[\\, tol\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:210:<autosummary>:1
-msgid "Loads a DXF file into a cadquery Workplane."
+msgid "Loads a DXF file into a Workplane."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:210:<autosummary>:1

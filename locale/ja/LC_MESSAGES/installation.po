@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 00:44+0000\n"
+"POT-Creation-Date: 2022-09-01 02:18+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
+"Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,11 +37,11 @@ msgstr ""
 
 #: ../../cadquery/doc/installation.rst:11
 msgid "Conda"
-msgstr ""
+msgstr "Conda"
 
 #: ../../cadquery/doc/installation.rst:12
 msgid ""
-"In principle any conda distrubtion will work, but it is probably best to "
+"In principle, any conda distribution will work, but it is probably best to "
 "install `Miniforge <https://github.com/conda-forge/miniforge>`_ to a local "
 "directory and to avoid running `conda init`. After performing a local "
 "directory installation, Miniforge can be activated via the "
@@ -52,13 +52,14 @@ msgstr ""
 
 #: ../../cadquery/doc/installation.rst:21
 msgid "On Windows one can install locally as follows::"
-msgstr ""
+msgstr "Windowsの場合、以下のようにローカルにインストールすることができます::"
 
 #: ../../cadquery/doc/installation.rst:30
 msgid ""
 "It might be worthwhile to consider using ``/NoScripts=0`` to have an "
 "activation shortcut added to the start menu."
 msgstr ""
+"スタートメニューに起動用のショートカットを追加するために、``/NoScripts=0`` を使用することを検討する価値はあるかもしれません。"
 
 #: ../../cadquery/doc/installation.rst:33
 msgid "Command Line Installation"

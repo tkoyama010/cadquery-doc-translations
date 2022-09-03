@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 01:03+0000\n"
+"POT-Creation-Date: 2022-08-17 02:16+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/121077/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -136,7 +136,18 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
 #: cadquery.occ_impl.importers.importDXF:1
-msgid "Loads a DXF file into a cadquery Workplane."
+msgid "Loads a DXF file into a Workplane."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
+#: cadquery.occ_impl.importers.importDXF:4
+msgid ""
+"All layers are imported by default.  Provide a layer include or exclude list"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
+#: cadquery.occ_impl.importers.importDXF:4
+msgid "to select layers.  Layer names are handled as case-insensitive."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
@@ -147,18 +158,23 @@ msgid "Parameters"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:3
+#: cadquery.occ_impl.importers.importDXF:6
 msgid "The path and name of the DXF file to be imported"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:4
-msgid "The tolerance used for merging edges into wires (default: 1e-6)"
+#: cadquery.occ_impl.importers.importDXF:7
+msgid "The tolerance used for merging edges into wires"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:5
-msgid "a list of layer names not to import (default: [])"
+#: cadquery.occ_impl.importers.importDXF:8
+msgid "a list of layer names not to import"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
+#: cadquery.occ_impl.importers.importDXF:9
+msgid "a list of layer names to import"
 msgstr ""
 
 #: ../../cadquery/doc/importexport.rst:52
@@ -292,27 +308,27 @@ msgid "The path and file name to write the STL output to."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Shape.exportStl:5
+#: cadquery.occ_impl.shapes.Shape.exportStl:4
 msgid ""
 "A linear deflection setting which limits the distance between a curve and "
 "its tessellation. Setting this value too low will result in large meshes "
 "that can consume computing resources. Setting the value too high can result "
-"in meshes with a level of detail that is too low. Default is 0.1, which is "
-"good starting point for a range of cases."
+"in meshes with a level of detail that is too low.  Default is 1e-3, which is"
+" a good starting point for a range of cases."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Shape.exportStl:7
-msgid ""
-"- Angular deflection setting which limits the angle between subsequent "
-"segments in a polyline. Default is 0.1."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Shape.exportStl:7
+#: cadquery.occ_impl.shapes.Shape.exportStl:8
 msgid ""
 "Angular deflection setting which limits the angle between subsequent "
 "segments in a polyline. Default is 0.1."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.exportStl:9
+msgid ""
+"Export the file as ASCII (True) or binary (False) STL format.  Default is "
+"binary."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

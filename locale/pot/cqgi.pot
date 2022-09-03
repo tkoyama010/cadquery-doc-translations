@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 01:03+0000\n"
+"POT-Creation-Date: 2022-08-07 01:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -208,8 +208,8 @@ msgstr ""
 msgid ":py:obj:`parse <cadquery.cqgi.parse>`\\ \\(script\\_source\\)"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:1
+#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 msgid "Parses the script as a model, and returns a model."
 msgstr ""
 
@@ -233,8 +233,8 @@ msgstr ""
 msgid ":py:obj:`ScriptCallback.show_object <cadquery.cqgi.ScriptCallback.show_object>`\\ \\(shape\\[\\, options\\]\\)"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ScriptCallback.show_object:1
+#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
 msgid "return an object to the executing environment, with options :param shape: a cadquery object :param options: a dictionary of options that will be made available to the executing environment"
 msgstr ""
 

@@ -16,6 +16,7 @@ import os
 from sphinx.util.pycompat import execfile_
 
 os.system("git submodule update --init --force --recursive cadquery")
+os.system("cp -r ./cadquery/doc/ext .")
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 

@@ -23,7 +23,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         job_name: script
     - name: checkout with submodule
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         fetch-depth: 0
         submodules: true

@@ -26,8 +26,8 @@ dependencies:
   - casadi
   - pip
   - pip:
-    - git+https://github.com/CadQuery/cadquery.git@master
     - "--install-option=\"--no-deps\""
     - "--editable=."
+    - git+https://github.com/CadQuery/cadquery.git@master
     - sphinxcadquery
     - multimethod>=1.7,<2.0

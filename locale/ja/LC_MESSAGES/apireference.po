@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-07 01:49+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,11 +68,11 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
 msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
-msgstr ""
+msgstr ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
 msgid "2D sketch."
-msgstr ""
+msgstr "2Dスケッチ。"
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
 msgid ""
@@ -440,12 +444,12 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:108:<autosummary>:1
 msgid ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
-msgstr ""
+msgstr ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
 
 #: ../../cadquery/doc/apireference.rst:108:<autosummary>:1
 msgid ""
 "Defines a coordinate system in space, in which 2D coordinates can be used."
-msgstr ""
+msgstr "2次元座標を使用できる空間上の座標系を定義します。"
 
 #: ../../cadquery/doc/apireference.rst:112
 msgid "2D Operations"
@@ -1332,57 +1336,69 @@ msgid ""
 ":py:obj:`NearestToPointSelector "
 "<cadquery.selectors.NearestToPointSelector>`\\ \\(pnt\\)"
 msgstr ""
+":py:obj:`NearestToPointSelector "
+"<cadquery.selectors.NearestToPointSelector>`\\ \\(pnt\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects object nearest the provided point."
-msgstr ""
+msgstr "指定された点に最も近いオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
 "point1\\[\\, boundingbox\\]\\)"
 msgstr ""
+":py:obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
+"point1\\[\\, boundingbox\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects objects inside the 3D box defined by 2 points."
-msgstr ""
+msgstr "2点で定義された3Dボックス内のオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
+"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 "A selector that handles selection on the basis of a single direction vector."
-msgstr ""
+msgstr "単一の方向ベクトルに基づく選択を処理するセレクタ。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
+"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects objects parallel with the provided direction."
-msgstr ""
+msgstr "指定した方向と平行なオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
+"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects objects aligned with the provided direction."
-msgstr ""
+msgstr "指定した方向に並んだオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
 "\\(vector\\, n\\[\\, ...\\]\\)"
 msgstr ""
+":py:obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
+"\\(vector\\, n\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
@@ -1395,6 +1411,8 @@ msgid ""
 ":py:obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ "
 "\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ "
+"\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Select the object(s) with the Nth length"
@@ -1405,6 +1423,8 @@ msgid ""
 ":py:obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
 "directionMax\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
+"directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects the object(s) with Nth area"
@@ -1415,10 +1435,12 @@ msgid ""
 ":py:obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ "
 "\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ "
+"\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Select the object with the Nth radius."
-msgstr ""
+msgstr "N 番目の半径を持つオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
@@ -1426,46 +1448,55 @@ msgid ""
 "<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
 "tolerance\\]\\)"
 msgstr ""
+":py:obj:`PerpendicularDirSelector "
+"<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
+"tolerance\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects objects perpendicular with the provided direction."
-msgstr ""
+msgstr "指定した方向と直交するオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ":py:obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
-msgstr ""
+msgstr ":py:obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects objects having the prescribed geometry type."
-msgstr ""
+msgstr "所定のジオメトリタイプを持つオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`DirectionMinMaxSelector "
 "<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 msgstr ""
+":py:obj:`DirectionMinMaxSelector "
+"<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Selects objects closest or farthest in the specified direction."
-msgstr ""
+msgstr "指定した方向に最も近い、または最も遠いオブジェクトを選択します。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
 "\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 msgstr ""
+":py:obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
+"\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 "Sorts objects into a list with order determined by the distance of their "
 "center projected onto the specified direction."
-msgstr ""
+msgstr "オブジェクトを、指定された方向に投影された中心からの距離によって決まる順序でリストにソートします。"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ""
 ":py:obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
 "right\\)"
 msgstr ""
+":py:obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
+"right\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Base class for selectors that operates with two other selectors."
@@ -1473,7 +1504,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ":py:obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
-msgstr ""
+msgstr ":py:obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Intersection selector."
@@ -1481,7 +1512,7 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid ":py:obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
-msgstr ""
+msgstr ":py:obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Union selector."
@@ -1492,6 +1523,8 @@ msgid ""
 ":py:obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ "
 "\\(left\\, right\\)"
 msgstr ""
+":py:obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ "
+"\\(left\\, right\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Difference selector."
@@ -1502,6 +1535,8 @@ msgid ""
 ":py:obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ "
 "\\(selector\\)"
 msgstr ""
+":py:obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ "
+"\\(selector\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Inverts the selection of given selector."
@@ -1512,6 +1547,8 @@ msgid ""
 ":py:obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
 "\\(selectorString\\)"
 msgstr ""
+":py:obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
+"\\(selectorString\\)"
 
 #: ../../cadquery/doc/apireference.rst:276:<autosummary>:1
 msgid "Filter lists objects using a simple string syntax."
@@ -1530,12 +1567,14 @@ msgid ""
 ":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, "
 "color\\, metadata\\]\\)"
 msgstr ""
+":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, "
+"color\\, metadata\\]\\)"
 
 #: ../../cadquery/doc/apireference.rst:293:<autosummary>:1
 msgid ""
 "Nested assembly of Workplane and Shape objects defining their relative "
 "positions."
-msgstr ""
+msgstr "WorkplaneとShapeオブジェクトの相対的な位置を定義するネストされたアセンブリ。"
 
 #: ../../cadquery/doc/apireference.rst:293:<autosummary>:1
 msgid ":py:obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(\\)"
@@ -1573,11 +1612,11 @@ msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:293:<autosummary>:1
 msgid ":py:obj:`Constraint <cadquery.Constraint>`\\"
-msgstr ""
+msgstr ":py:obj:`Constraint <cadquery.Constraint>`\\"
 
 #: ../../cadquery/doc/apireference.rst:293:<autosummary>:1
 msgid "alias of :py:class:`~cadquery.occ_impl.solver.ConstraintSpec`"
-msgstr ""
+msgstr ":py:class:`~cadquery.occ_impl.solver.ConstraintSpec` のエイリアスです。"
 
 #: ../../cadquery/doc/apireference.rst:293:<autosummary>:1
 msgid ":py:obj:`Color <cadquery.Color>`\\ \\(\\)"

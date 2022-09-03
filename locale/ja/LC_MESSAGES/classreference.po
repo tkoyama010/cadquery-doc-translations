@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-17 02:16+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,46 +23,48 @@ msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:5
 msgid "CadQuery Class Summary"
-msgstr ""
+msgstr "CadQueryクラスの概要"
 
 #: ../../cadquery/doc/classreference.rst:7
 msgid ""
 "This page documents all of the methods and functions of the CadQuery "
 "classes, organized alphabetically."
-msgstr ""
+msgstr "このページでは、CadQuery クラスのすべてのメソッドと関数について、アルファベット順に整理して説明しています。"
 
 #: ../../cadquery/doc/classreference.rst:11
 msgid ""
 "For a listing organized by functional area, see the :ref:`apireference`"
-msgstr ""
+msgstr "機能分野別の一覧は、 :ref:`apireference` をご覧ください。"
 
 #: ../../cadquery/doc/classreference.rst:16
 msgid "Core Classes"
-msgstr ""
+msgstr "コアクラス"
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
-msgstr ""
+msgstr ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid "2D sketch."
-msgstr ""
+msgstr "2Dスケッチ。"
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
-msgstr ""
+msgstr ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:1
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid ""
 "Defines a coordinate system in space, in which 2D coordinates can be used."
-msgstr ""
+msgstr "2次元座標を使用できる空間上の座標系を定義します。"
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid ""
 ":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, "
 "color\\, metadata\\]\\)"
 msgstr ""
+":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, "
+"color\\, metadata\\]\\)"
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly:1
@@ -70,226 +72,240 @@ msgstr ""
 msgid ""
 "Nested assembly of Workplane and Shape objects defining their relative "
 "positions."
-msgstr ""
+msgstr "WorkplaneとShapeオブジェクトの相対的な位置を定義するネストされたアセンブリ。"
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid ":py:obj:`Constraint <cadquery.Constraint>`\\"
-msgstr ""
+msgstr ":py:obj:`Constraint <cadquery.Constraint>`\\"
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid "alias of :py:class:`~cadquery.occ_impl.solver.ConstraintSpec`"
-msgstr ""
+msgstr ":py:class:`~cadquery.occ_impl.solver.ConstraintSpec` のエイリアスです。"
 
 #: ../../cadquery/doc/classreference.rst:26
 msgid "Topological Classes"
-msgstr ""
+msgstr "トポロジカルクラス"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Shape <cadquery.Shape>`\\ \\(obj\\)"
-msgstr ""
+msgstr ":py:obj:`Shape <cadquery.Shape>`\\ \\(obj\\)"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "Represents a shape in the system."
-msgstr ""
+msgstr "システム内の形状を表します。"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Vertex <cadquery.Vertex>`\\ \\(obj\\[\\, forConstruction\\]\\)"
-msgstr ""
+msgstr ":py:obj:`Vertex <cadquery.Vertex>`\\ \\(obj\\[\\, forConstruction\\]\\)"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Vertex:1
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "A Single Point in Space"
-msgstr ""
+msgstr "空間の中の一点"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Edge <cadquery.Edge>`\\ \\(obj\\)"
-msgstr ""
+msgstr ":py:obj:`Edge <cadquery.Edge>`\\ \\(obj\\)"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Edge:1
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "A trimmed curve that represents the border of a face"
-msgstr ""
+msgstr "面の境界を表すトリミングされた曲線"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ""
 ":py:obj:`cadquery.occ_impl.shapes.Mixin1D "
 "<cadquery.occ_impl.shapes.Mixin1D>`\\ \\(\\)"
 msgstr ""
+":py:obj:`cadquery.occ_impl.shapes.Mixin1D "
+"<cadquery.occ_impl.shapes.Mixin1D>`\\ \\(\\)"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Wire <cadquery.Wire>`\\ \\(obj\\)"
-msgstr ""
+msgstr ":py:obj:`Wire <cadquery.Wire>`\\ \\(obj\\)"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Wire:1
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "A series of connected, ordered Edges, that typically bounds a Face"
-msgstr ""
+msgstr "接続され、順序付けられた一連のEdgeで、通常、Faceを囲みます。"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Face <cadquery.Face>`\\ \\(obj\\)"
-msgstr ""
+msgstr ":py:obj:`Face <cadquery.Face>`\\ \\(obj\\)"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face:1
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "a bounded surface that represents part of the boundary of a solid"
-msgstr ""
+msgstr "固体の境界の一部を表す有界面"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Shell <cadquery.Shell>`\\ \\(obj\\)"
-msgstr ""
+msgstr ":py:obj:`Shell <cadquery.Shell>`\\ \\(obj\\)"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shell:1
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "the outer boundary of a surface"
-msgstr ""
+msgstr "サーフェスの外側の境界線"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ""
 ":py:obj:`cadquery.occ_impl.shapes.Mixin3D "
 "<cadquery.occ_impl.shapes.Mixin3D>`\\ \\(\\)"
 msgstr ""
+":py:obj:`cadquery.occ_impl.shapes.Mixin3D "
+"<cadquery.occ_impl.shapes.Mixin3D>`\\ \\(\\)"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Solid <cadquery.Solid>`\\ \\(obj\\)"
-msgstr ""
+msgstr ":py:obj:`Solid <cadquery.Solid>`\\ \\(obj\\)"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Solid:1
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "a single solid"
-msgstr ""
+msgstr "単体"
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid ":py:obj:`Compound <cadquery.Compound>`\\ \\(obj\\)"
-msgstr ""
+msgstr ":py:obj:`Compound <cadquery.Compound>`\\ \\(obj\\)"
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound:1
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
 msgid "a collection of disconnected solids"
-msgstr ""
+msgstr "切断された固体の集合体"
 
 #: ../../cadquery/doc/classreference.rst:42
 msgid "Geometry Classes"
-msgstr ""
+msgstr "ジオメトリークラス"
 
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid ":py:obj:`Vector <cadquery.Vector>`\\ \\(\\)"
-msgstr ""
+msgstr ":py:obj:`Vector <cadquery.Vector>`\\ \\(\\)"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Vector:1
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid "Create a 3-dimensional vector"
-msgstr ""
+msgstr "3次元ベクトルを作成する"
 
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid ":py:obj:`Matrix <cadquery.Matrix>`\\ \\(\\)"
-msgstr ""
+msgstr ":py:obj:`Matrix <cadquery.Matrix>`\\ \\(\\)"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Matrix:1
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid "A 3d , 4x4 transformation matrix."
-msgstr ""
+msgstr "3d , 4x4 の変換行列。"
 
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid ":py:obj:`Plane <cadquery.Plane>`\\ \\(origin\\[\\, xDir\\, normal\\]\\)"
-msgstr ""
+msgstr ":py:obj:`Plane <cadquery.Plane>`\\ \\(origin\\[\\, xDir\\, normal\\]\\)"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane:1
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid "A 2D coordinate system in space"
-msgstr ""
+msgstr "空間における2次元座標系"
 
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid ":py:obj:`Location <cadquery.Location>`\\ \\(\\)"
-msgstr ""
+msgstr ":py:obj:`Location <cadquery.Location>`\\ \\(\\)"
 
 #: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
 msgid "Location in 3D space."
-msgstr ""
+msgstr "3D空間での位置。"
 
 #: ../../cadquery/doc/classreference.rst:52
 msgid "Selector Classes"
-msgstr ""
+msgstr "セレクタクラス"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ":py:obj:`Selector <cadquery.selectors.Selector>`\\ \\(\\)"
-msgstr ""
+msgstr ":py:obj:`Selector <cadquery.selectors.Selector>`\\ \\(\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.Selector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Filters a list of objects."
-msgstr ""
+msgstr "オブジェクトのリストにフィルタをかける。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`NearestToPointSelector "
 "<cadquery.selectors.NearestToPointSelector>`\\ \\(pnt\\)"
 msgstr ""
+":py:obj:`NearestToPointSelector "
+"<cadquery.selectors.NearestToPointSelector>`\\ \\(pnt\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.NearestToPointSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Selects object nearest the provided point."
-msgstr ""
+msgstr "指定された点に最も近いオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
 "point1\\[\\, boundingbox\\]\\)"
 msgstr ""
+":py:obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, "
+"point1\\[\\, boundingbox\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.BoxSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Selects objects inside the 3D box defined by 2 points."
-msgstr ""
+msgstr "2点で定義された3Dボックス内のオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ "
+"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.BaseDirSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 "A selector that handles selection on the basis of a single direction vector."
-msgstr ""
+msgstr "単一の方向ベクトルに基づく選択を処理するセレクタ。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ "
+"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.ParallelDirSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Selects objects parallel with the provided direction."
-msgstr ""
+msgstr "指定した方向と平行なオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
 "\\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ "
+"\\(vector\\[\\, tolerance\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.DirectionSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Selects objects aligned with the provided direction."
-msgstr ""
+msgstr "指定した方向に並んだオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
@@ -297,40 +313,47 @@ msgid ""
 "<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
 "tolerance\\]\\)"
 msgstr ""
+":py:obj:`PerpendicularDirSelector "
+"<cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, "
+"tolerance\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.PerpendicularDirSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Selects objects perpendicular with the provided direction."
-msgstr ""
+msgstr "指定した方向と直交するオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ":py:obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
-msgstr ""
+msgstr ":py:obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.TypeSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Selects objects having the prescribed geometry type."
-msgstr ""
+msgstr "所定のジオメトリタイプを持つオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ "
 "\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ "
+"\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.RadiusNthSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Select the object with the Nth radius."
-msgstr ""
+msgstr "N 番目の半径を持つオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
 "\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 msgstr ""
+":py:obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ "
+"\\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.CenterNthSelector:1
@@ -338,25 +361,29 @@ msgstr ""
 msgid ""
 "Sorts objects into a list with order determined by the distance of their "
 "center projected onto the specified direction."
-msgstr ""
+msgstr "オブジェクトを、指定された方向に投影された中心からの距離によって決まる順序でリストにソートします。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`DirectionMinMaxSelector "
 "<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 msgstr ""
+":py:obj:`DirectionMinMaxSelector "
+"<cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.DirectionMinMaxSelector:1
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Selects objects closest or farthest in the specified direction."
-msgstr ""
+msgstr "指定した方向に最も近い、または最も遠いオブジェクトを選択します。"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ""
 ":py:obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
 "\\(vector\\, n\\[\\, ...\\]\\)"
 msgstr ""
+":py:obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ "
+"\\(vector\\, n\\[\\, ...\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.DirectionNthSelector:1
@@ -371,6 +398,8 @@ msgid ""
 ":py:obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ "
 "\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ "
+"\\(n\\[\\, directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.LengthNthSelector:1
@@ -383,6 +412,8 @@ msgid ""
 ":py:obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
 "directionMax\\, tolerance\\]\\)"
 msgstr ""
+":py:obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, "
+"directionMax\\, tolerance\\]\\)"
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.AreaNthSelector:1
@@ -395,6 +426,8 @@ msgid ""
 ":py:obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
 "right\\)"
 msgstr ""
+":py:obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, "
+"right\\)"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Base class for selectors that operates with two other selectors."
@@ -402,7 +435,7 @@ msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ":py:obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
-msgstr ""
+msgstr ":py:obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Intersection selector."
@@ -410,7 +443,7 @@ msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid ":py:obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
-msgstr ""
+msgstr ":py:obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Union selector."
@@ -421,6 +454,8 @@ msgid ""
 ":py:obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ "
 "\\(left\\, right\\)"
 msgstr ""
+":py:obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ "
+"\\(left\\, right\\)"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Difference selector."
@@ -431,6 +466,8 @@ msgid ""
 ":py:obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ "
 "\\(selector\\)"
 msgstr ""
+":py:obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ "
+"\\(selector\\)"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Inverts the selection of given selector."
@@ -441,6 +478,8 @@ msgid ""
 ":py:obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
 "\\(selectorString\\)"
 msgstr ""
+":py:obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ "
+"\\(selectorString\\)"
 
 #: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
 msgid "Filter lists objects using a simple string syntax."
@@ -2577,22 +2616,22 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:12
 msgid "xDir"
-msgstr ""
+msgstr "xDir"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:12
 msgid "yDir"
-msgstr ""
+msgstr "yDir"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:12
 msgid "zDir"
-msgstr ""
+msgstr "zDir"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:14
 msgid "XY"
-msgstr ""
+msgstr "XY"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:14
@@ -2613,7 +2652,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:25
 msgid "+x"
-msgstr ""
+msgstr "+x"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:14
@@ -2636,7 +2675,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:24
 msgid "+y"
-msgstr ""
+msgstr "+y"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:14
@@ -2655,34 +2694,34 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:25
 msgid "+z"
-msgstr ""
+msgstr "+z"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:15
 msgid "YZ"
-msgstr ""
+msgstr "YZ"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:16
 msgid "ZX"
-msgstr ""
+msgstr "ZX"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:17
 msgid "XZ"
-msgstr ""
+msgstr "XZ"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:17
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:25
 msgid "-y"
-msgstr ""
+msgstr "-y"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:18
 msgid "YX"
-msgstr ""
+msgstr "YX"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:18
@@ -2693,12 +2732,12 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:24
 msgid "-z"
-msgstr ""
+msgstr "-z"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:19
 msgid "ZY"
-msgstr ""
+msgstr "ZY"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:19
@@ -2707,7 +2746,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:22
 msgid "-x"
-msgstr ""
+msgstr "-x"
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:20

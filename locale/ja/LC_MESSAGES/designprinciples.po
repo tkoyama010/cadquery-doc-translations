@@ -107,6 +107,7 @@ msgid ""
 "how important the way that an object is built impact its maintainability and"
 " resiliency to design changes."
 msgstr ""
+"実際、多くの人が3次元CADの使い方を知っていますが、オブジェクトの作り方が保守性や設計変更への対応力にどれほど重要な影響を与えるかを理解している人はあまりいません。"
 
 #: ../../cadquery/doc/designprinciples.rst:50
 msgid "Principle 3: Plugins as first class citizens"
@@ -124,7 +125,7 @@ msgstr ""
 
 #: ../../cadquery/doc/designprinciples.rst:58
 msgid "Principle 4: CAD models as source code makes sense"
-msgstr ""
+msgstr "原則4：CADモデルをソースコードとすることに意味がある"
 
 #: ../../cadquery/doc/designprinciples.rst:60
 msgid ""

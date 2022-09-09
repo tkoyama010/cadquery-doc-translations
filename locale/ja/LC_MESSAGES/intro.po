@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-20 00:40+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "はじめに"
 
 #: ../../cadquery/doc/intro.rst:8
 msgid "What is CadQuery"
-msgstr ""
+msgstr "CadQueryとは"
 
 #: ../../cadquery/doc/intro.rst:10
 msgid ""
@@ -76,6 +76,7 @@ msgid ""
 "amount of code. For example, this simple script produces a flat plate with a"
 " hole in the middle::"
 msgstr ""
+"CadQueryを使用すると、非常に少ないコード量で完全なパラメトリックモデルを構築することができます。例えば、このシンプルなスクリプトは、中央に穴の開いた平板を作成します。"
 
 #: ../../cadquery/doc/intro.rst:34
 msgid ""
@@ -83,6 +84,7 @@ msgid ""
 "useful part: a parametric pillow block for a standard 608-size ball "
 "bearing::"
 msgstr ""
+"これはちょっとディキシーカップ的な例ですね。しかし、より有用な部品である、標準的な608サイズのボールベアリング用のパラメトリック・ピローブロックに非常によく似ています::"
 
 #: ../../cadquery/doc/intro.rst:46
 msgid "Lots more examples are available in the :ref:`examples`"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-20 00:40+0000\n"
+"POT-Creation-Date: 2022-09-10 02:42+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -50,9 +50,9 @@ msgstr "エンドユーザが非常に簡単にカスタマイズできるパラ
 
 #: ../../cadquery/doc/intro.rst:17
 msgid ""
-"Output high quality CAD formats like STEP and AMF in addition to traditional"
-" STL"
-msgstr "従来のSTL形式に加えて、STEPやAMFなどの高品質なCAD形式を出力します。"
+"Output high quality CAD formats like STEP, AMF and 3MF in addition to "
+"traditional STL"
+msgstr ""
 
 #: ../../cadquery/doc/intro.rst:19
 msgid ""
@@ -156,8 +156,8 @@ msgstr ""
 
 #: ../../cadquery/doc/intro.rst:78
 msgid ""
-"**Better Performance**  CadQuery scripts can build STL, STEP, and AMF faster"
-" than OpenSCAD."
+"**Better Performance**  CadQuery scripts can build STL, STEP, AMF and 3MF "
+"faster than OpenSCAD."
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:81

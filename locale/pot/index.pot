@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 16:45+0000\n"
+"POT-Creation-Date: 2022-09-10 02:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Create parametric models that can be very easily customized by end users"
 msgstr ""
 
 #: ../../cadquery/doc/index.rst:13
-msgid "Output high quality CAD formats like STEP and AMF in addition to traditional STL"
+msgid "Output high quality CAD formats like STEP, AMF and 3MF in addition to traditional STL"
 msgstr ""
 
 #: ../../cadquery/doc/index.rst:15

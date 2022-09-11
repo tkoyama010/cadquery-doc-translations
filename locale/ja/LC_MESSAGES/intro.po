@@ -52,7 +52,7 @@ msgstr "エンドユーザが非常に簡単にカスタマイズできるパラ
 msgid ""
 "Output high quality CAD formats like STEP, AMF and 3MF in addition to "
 "traditional STL"
-msgstr ""
+msgstr "従来のSTL形式に加えて、STEPやAMFと3MFなどの高品質なCAD形式を出力します。"
 
 #: ../../cadquery/doc/intro.rst:19
 msgid ""

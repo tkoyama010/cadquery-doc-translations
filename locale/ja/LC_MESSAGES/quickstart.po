@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 00:44+0000\n"
+"POT-Creation-Date: 2022-09-17 02:12+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -138,22 +138,22 @@ msgstr ""
 msgid "This modification will do the trick:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:93
+#: ../../cadquery/doc/quickstart.rst:94
 msgid ""
 "Rebuild your model by clicking the Render button. Your block should look "
 "like this:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:98
+#: ../../cadquery/doc/quickstart.rst:99
 msgid "The code is pretty compact, lets step through it."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:100
+#: ../../cadquery/doc/quickstart.rst:101
 msgid ""
 "**Line 4** adds a new parameter, diameter, for the diameter of the hole"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:102
+#: ../../cadquery/doc/quickstart.rst:103
 msgid ""
 "**Line 8**, we're adding the hole. :py:meth:`cadquery.Workplane.faces` "
 "selects the top-most face in the Z direction, and then "
@@ -164,84 +164,84 @@ msgid ""
 "diameter."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:110
+#: ../../cadquery/doc/quickstart.rst:111
 msgid ""
 "Don't worry about the CadQuery syntax now.. you can learn all about it in "
 "the :ref:`apireference` later."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:113
+#: ../../cadquery/doc/quickstart.rst:114
 msgid "More Holes"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:115
+#: ../../cadquery/doc/quickstart.rst:116
 msgid ""
 "Ok, that hole was not too hard, but what about the counter-bored holes in "
 "the corners?"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:117
+#: ../../cadquery/doc/quickstart.rst:118
 msgid "An M2 Socket head cap screw has these dimensions:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:119
+#: ../../cadquery/doc/quickstart.rst:120
 msgid "**Head Diameter** : 3.8 mm"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:120
+#: ../../cadquery/doc/quickstart.rst:121
 msgid "**Head height**  : 2.0 mm"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:121
+#: ../../cadquery/doc/quickstart.rst:122
 msgid "**Clearance Hole** : 2.4 mm"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:122
+#: ../../cadquery/doc/quickstart.rst:123
 msgid "**CounterBore diameter** : 4.4 mm"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:124
+#: ../../cadquery/doc/quickstart.rst:125
 msgid ""
 "The centers of these holes should be 6mm from the edges of the block. And, "
 "we want the block to work correctly even when the block is re-sized by the "
 "user."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:127
+#: ../../cadquery/doc/quickstart.rst:128
 msgid ""
 "**Don't tell me** we'll have to repeat the steps above 8 times to get "
 "counter-bored holes? Good news!-- we can get the job done with just a few "
 "lines of code. Here's the code we need:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:152
+#: ../../cadquery/doc/quickstart.rst:154
 msgid ""
 "After clicking the Render button to re-execute the model, you should see "
 "something like this:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:157
+#: ../../cadquery/doc/quickstart.rst:159
 msgid "There is quite a bit going on here, so lets break it down a bit."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:159
+#: ../../cadquery/doc/quickstart.rst:161
 msgid ""
 "**Line 5** creates a new padding parameter that decides how far the holes "
 "are from the edges of the plate."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:161
+#: ../../cadquery/doc/quickstart.rst:163
 msgid ""
 "**Line 10** selects the top-most face of the block, and creates a workplane "
 "on the top of that face, which we'll use to define the centers of the holes "
 "in the corners."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:164
+#: ../../cadquery/doc/quickstart.rst:166
 msgid "There are a couple of things to note about this line:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:166
+#: ../../cadquery/doc/quickstart.rst:168
 msgid ""
 "The :py:meth:`cadquery.Workplane.rect` function draws a rectangle.  "
 "**forConstruction=True** tells CadQuery that this rectangle will not form a "
@@ -249,14 +249,14 @@ msgid ""
 "geometry."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:169
+#: ../../cadquery/doc/quickstart.rst:171
 msgid ""
 "Unless you specify otherwise, a rectangle is drawn with its center on the "
 "current workplane center-- in this case, the center of the top face of the "
 "block. So this rectangle will be centered on the face."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:173
+#: ../../cadquery/doc/quickstart.rst:175
 msgid ""
 "**Line 11** draws a rectangle 12mm smaller than the overall length and width"
 " of the block, which we will use to locate the corner holes. We'll use the "
@@ -265,14 +265,14 @@ msgid ""
 "the center of the bearing hole."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:177
+#: ../../cadquery/doc/quickstart.rst:179
 msgid ""
 "**Line 12** selects the vertices of the rectangle, which we will use for the"
 " centers of the holes. The :py:meth:`cadquery.Workplane.vertices` function "
 "selects the corners of the rectangle."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:180
+#: ../../cadquery/doc/quickstart.rst:182
 msgid ""
 "**Line 13** uses the cboreHole function to draw the holes. The "
 ":py:meth:`cadquery.Workplane.cboreHole` function is a handy CadQuery "
@@ -283,81 +283,81 @@ msgid ""
 "rectangle corners."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:188
+#: ../../cadquery/doc/quickstart.rst:190
 msgid "Filleting"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:190
+#: ../../cadquery/doc/quickstart.rst:192
 msgid ""
 "Almost done. Let's just round the corners of the block a bit. That's easy, "
 "we just need to select the edges and then fillet them:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:193
+#: ../../cadquery/doc/quickstart.rst:195
 msgid ""
 "We can do that using the preset dictionaries in the parameter definition:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:216
+#: ../../cadquery/doc/quickstart.rst:220
 msgid ""
 "**Line 13** fillets the edges using the   "
 ":py:meth:`cadquery.Workplane.fillet` method."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:218
+#: ../../cadquery/doc/quickstart.rst:222
 msgid ""
 "To grab the right edges, the :py:meth:`cadquery.Workplane.edges` selects all"
 " of the edges that are parallel to the Z axis (\"\\|Z\"),"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:221
+#: ../../cadquery/doc/quickstart.rst:225
 msgid "The finished product looks like this:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:226
+#: ../../cadquery/doc/quickstart.rst:230
 msgid "Exporting"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:228
+#: ../../cadquery/doc/quickstart.rst:232
 msgid ""
 "If you want to fabricate a physical object you need to export the result to "
 "STL or DXF. Additionally, exporting as STEP for post-processing in another "
 "CAD tool is also possible."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:230
+#: ../../cadquery/doc/quickstart.rst:234
 msgid ""
 "This can be easily accomplished using the "
 ":py:meth:`cadquery.exporters.export` function:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:259
+#: ../../cadquery/doc/quickstart.rst:265
 msgid "Done!"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:261
+#: ../../cadquery/doc/quickstart.rst:267
 msgid ""
 "You just made a parametric, model that can generate pretty much any bearing "
 "pillow block with < 20 lines of code."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:265
+#: ../../cadquery/doc/quickstart.rst:271
 msgid "Want to learn more?"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:267
+#: ../../cadquery/doc/quickstart.rst:273
 msgid ""
 "The :ref:`examples` contains lots of examples demonstrating cadquery "
 "features"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:268
+#: ../../cadquery/doc/quickstart.rst:274
 msgid ""
 "The :ref:`apireference` is a good overview of language features grouped by "
 "function"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:269
+#: ../../cadquery/doc/quickstart.rst:275
 msgid ""
 "The :ref:`classreference` is the hard-core listing of all functions "
 "available."

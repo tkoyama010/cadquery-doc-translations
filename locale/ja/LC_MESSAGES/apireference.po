@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-07 01:49+0000\n"
+"POT-Creation-Date: 2022-09-22 02:57+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -97,7 +97,7 @@ msgid ":py:obj:`Sketch.finalize <cadquery.Sketch.finalize>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid "Finish sketch construction and return the parent"
+msgid "Finish sketch construction and return the parent."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1

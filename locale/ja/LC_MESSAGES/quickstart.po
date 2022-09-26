@@ -23,53 +23,55 @@ msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:5
 msgid "CadQuery QuickStart"
-msgstr ""
+msgstr "CadQuery クイックスタート"
 
 #: ../../cadquery/doc/quickstart.rst:9
 msgid ""
 "Want a quick glimpse of what CadQuery can do?  This quickstart will "
 "demonstrate the basics of CadQuery using a simple example"
 msgstr ""
+"CadQueryで何ができるのか、ちょっと見てみたいですか？ このクイックスタートでは、簡単な例を使ってCadQueryの基本を説明します。"
 
 #: ../../cadquery/doc/quickstart.rst:12
 msgid "Prerequisites: conda + CQ-editor running from an environment"
-msgstr ""
+msgstr "前提条件：conda + CQ-editorが動作している環境であること"
 
 #: ../../cadquery/doc/quickstart.rst:14
 msgid ""
 "If you have not already done so, follow the :ref:`installation`, to install "
 "conda and CQ-editor."
 msgstr ""
+"まだインストールしていない場合は、 :ref:`installation` に従って conda と CQ-editor をインストールします。"
 
 #: ../../cadquery/doc/quickstart.rst:16
 msgid "After installation, run CQ-editor:"
-msgstr ""
+msgstr "インストール後、CQ-editorを起動します。"
 
 #: ../../cadquery/doc/quickstart.rst:20
 msgid ""
 "Find the CadQuery code editor, on the left side.  You'll see that we start "
 "out with the script for a simple block."
-msgstr ""
+msgstr "左側にあるCadQueryのコードエディタを探します。 簡単なブロックのスクリプトから始めることがわかります。"
 
 #: ../../cadquery/doc/quickstart.rst:23
 msgid "What we'll accomplish"
-msgstr ""
+msgstr "私たちが達成すること"
 
 #: ../../cadquery/doc/quickstart.rst:25
 msgid ""
 "We will build a fully parametric bearing pillow block in this quickstart.  "
 "Our finished object will look like this:"
-msgstr ""
+msgstr "このクイックスタートでは、完全パラメトリックベアリングのピローブロックを作成します。 完成したオブジェクトは次のようになります。"
 
 #: ../../cadquery/doc/quickstart.rst:29
 msgid "**We would like our block to have these features:**"
-msgstr ""
+msgstr "**私たちのブロックには、以下のような機能を持たせたいと考えています:**"
 
 #: ../../cadquery/doc/quickstart.rst:31
 msgid ""
 "It should be sized to hold a single 608 ( 'skate' ) bearing, in the center "
 "of the block."
-msgstr ""
+msgstr "ブロックの中央に608 ( 'skate' ) ベアリングが1個入る大きさでなければなりません。"
 
 #: ../../cadquery/doc/quickstart.rst:32
 msgid ""
@@ -102,7 +104,7 @@ msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:43
 msgid "Let's see how we do."
-msgstr ""
+msgstr "さて、どうするかな。"
 
 #: ../../cadquery/doc/quickstart.rst:46
 msgid "Start With A single, simple Plate"

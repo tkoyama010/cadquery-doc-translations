@@ -13,14 +13,16 @@ This conf.py do:
 """
 import os
 
-from sphinx.util.pycompat import execfile_
+from sphinx.util.osutil import fs_encoding
 
 os.system("git submodule update --init --force --recursive cadquery")
 os.system("cp -r ./cadquery/doc/ext .")
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
-execfile_(os.path.join(BASEDIR, "cadquery/doc/conf.py"), globals())
+with open(os.path.join(BASEDIR, "cadquery/doc/conf.py"), 'rb') as f:
+    code = compile(f.read(), fs_encoding, 'exec')
+    exec(code, globals())
 
 locale_dirs = [os.path.join(BASEDIR, "locale/")]
 

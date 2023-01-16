@@ -20,8 +20,8 @@ os.system("cp -r ./cadquery/doc/ext .")
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
-with open(os.path.join(BASEDIR, "cadquery/doc/conf.py"), 'rb') as f:
-    code = compile(f.read(), fs_encoding, 'exec')
+with open(os.path.join(BASEDIR, "cadquery/doc/conf.py"), "rb") as f:
+    code = compile(f.read(), fs_encoding, "exec")
     exec(code, globals())
 
 locale_dirs = [os.path.join(BASEDIR, "locale/")]

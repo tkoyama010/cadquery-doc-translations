@@ -17,7 +17,7 @@ import sys
 from sphinx.util.osutil import fs_encoding
 
 os.system("git submodule update --init --force --recursive cadquery")
-sys.path.insert(0, os.path.abspath("./cadquery/doc/ext"))
+os.system("cp -r ./cadquery/doc/ext .")
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 

@@ -12,11 +12,13 @@ This conf.py do:
 
 """
 import os
+import sys
 
 from sphinx.util.osutil import fs_encoding
 
 os.system("git submodule update --init --force --recursive cadquery")
 os.system("cp -r ./cadquery/doc/ext .")
+sys.path.insert(0, os.path.abspath("./ext"))
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 

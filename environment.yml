@@ -25,5 +25,5 @@ dependencies:
   - multimethod >=1.7,<2.0
   - pip
   - pip:
-    - --editable=./cadquery
+    - git+https://github.com/CadQuery/cadquery.git@master
     - git+https://github.com/CadQuery/OCP-stubs.git

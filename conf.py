@@ -12,7 +12,6 @@ This conf.py do:
 
 """
 import os
-import sys
 
 from sphinx.util.osutil import fs_encoding
 

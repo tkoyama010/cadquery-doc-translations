@@ -3,6 +3,7 @@ channels:
   - cadquery
   - conda-forge
 dependencies:
+  - python>=3.8
   - sphinx=5.0.1
   - sphinx_rtd_theme
   - pip

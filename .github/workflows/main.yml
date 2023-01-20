@@ -36,6 +36,7 @@ jobs:
       run: |
         git submodule update --remote
         cd cadquery
+        $CONDA/bin/conda update --all
         $CONDA/bin/conda env update --file environment.yml --name base
         $CONDA/bin/pip install sphinx-intl[transifex]>=0.9.11
         cd ../

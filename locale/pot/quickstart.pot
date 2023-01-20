@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-17 02:12+0000\n"
+"POT-Creation-Date: 2023-01-20 13:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgid "Start With A single, simple Plate"
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:48
-msgid "Lets start with a simple model that makes nothing but a rectangular block, but with place-holders for the dimensions. Paste this into the code editor:"
+msgid "Let's start with a simple model that makes nothing but a rectangular block, but with place-holders for the dimensions. Paste this into the code editor:"
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:64
@@ -113,7 +113,7 @@ msgid "Rebuild your model by clicking the Render button. Your block should look 
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:99
-msgid "The code is pretty compact, lets step through it."
+msgid "The code is pretty compact, let's step through it."
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:101
@@ -169,7 +169,7 @@ msgid "After clicking the Render button to re-execute the model, you should see 
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:159
-msgid "There is quite a bit going on here, so lets break it down a bit."
+msgid "There is quite a bit going on here, so let's break it down a bit."
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:161

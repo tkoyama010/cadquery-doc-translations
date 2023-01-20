@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-10 02:42+0000\n"
+"POT-Creation-Date: 2023-01-20 13:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgid "The Qt-based GUI `CQ-editor <https://github.com/CadQuery/CQ-editor>`_"
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:57
-msgid "As an Jupyter extension `jupyter-cadquery <https://github.com/bernhard-42/jupyter-cadquery>`_"
+msgid "As a Jupyter extension `jupyter-cadquery <https://github.com/bernhard-42/jupyter-cadquery>`_"
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:61

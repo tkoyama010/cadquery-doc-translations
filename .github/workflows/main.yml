@@ -34,6 +34,7 @@ jobs:
         private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: install
       run: |
+        $CONDA/bin/conda update —all
         $CONDA/bin/conda env update --file environment.yml --name base
         $CONDA/bin/pip install sphinx-intl[transifex]>=0.9.11
     - name: update

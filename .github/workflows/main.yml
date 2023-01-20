@@ -10,7 +10,7 @@ on:
       - master
 jobs:
   script:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
     - name: Setup Python
       uses: actions/setup-python@v4

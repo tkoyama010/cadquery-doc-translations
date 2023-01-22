@@ -40,9 +40,6 @@ jobs:
         $CONDA/bin/conda env update --file environment.yml --name base
         $CONDA/bin/pip install sphinx-intl[transifex]>=0.9.11
         cd ../
-        curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
-        export PATH="$PWD:$PATH"
-        tx
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api
@@ -50,6 +47,8 @@ jobs:
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
         (cd cadquery/doc; $CONDA/bin/sphinx-build -M html . _build)
+        curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+        export PATH="$PWD:$PATH"
         sh ./locale/update.sh
     - name: commit
       if: contains(github.event.head_commit.message, '[ci skip]') == false && contains(github.ref, 'master')

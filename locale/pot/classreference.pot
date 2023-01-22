@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-22 02:57+0000\n"
+"POT-Creation-Date: 2023-01-20 13:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -390,6 +390,7 @@ msgstr ""
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.solve:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__add__:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__and__:0
@@ -819,6 +820,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.Vertices:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.Volume:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.Wires:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.copy:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.facesIntersectedByLine:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.geomType:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.mirror:0
@@ -2067,6 +2069,14 @@ msgstr ""
 msgid "Creates a new object that is a copy of this object."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.copy:4
+msgid "should I copy the triangulation too (default: False)"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.copy:5
+msgid "a copy of the object"
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.cut:1
 msgid "Remove the positional arguments from this Shape."
 msgstr ""
@@ -2121,7 +2131,7 @@ msgid "The path and file name to write the STL output to."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:4
-msgid "A linear deflection setting which limits the distance between a curve and its tessellation. Setting this value too low will result in large meshes that can consume computing resources. Setting the value too high can result in meshes with a level of detail that is too low.  Default is 1e-3, which is a good starting point for a range of cases."
+msgid "A linear deflection setting which limits the distance between a curve and its tessellation. Setting this value too low will result in large meshes that can consume computing resources. Setting the value too high can result in meshes with a level of detail that is too low. Default is 1e-3, which is a good starting point for a range of cases."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStl:8
@@ -3958,7 +3968,7 @@ msgid "see :py:meth:`cboreHole` and :py:meth:`cskHole` to make counterbores or c
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:1
-msgid "Returns a plate surface that is 'thickness' thick, enclosed by 'surf_edge_pts' points,  and going through 'surf_pts' points.  Using pushPoints directly with interpPlate and combine=True, can be  very resources intensive depending on the complexity of the shape. In this case set combine=False."
+msgid "Returns a plate surface that is 'thickness' thick, enclosed by 'surf_edge_pts' points,  and going through 'surf_pts' points.  Using pushPoints directly with interpPlate and combine=True, can be very resources intensive depending on the complexity of the shape. In this case set combine=False."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:6

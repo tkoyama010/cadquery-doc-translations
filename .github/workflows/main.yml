@@ -28,7 +28,7 @@ jobs:
         fetch-depth: 0
         submodules: true
     - name: Setup SSH
-      uses: MrSquaare/ssh-setup-action@v1
+      uses: MrSquaare/ssh-setup-action@v2
       with:
         host: github.com
         private-key: ${{ secrets.SSH_PRIVATE_KEY }}

@@ -15,7 +15,7 @@ $LOCAL_PYTHON_PATH/sphinx-intl create-transifexrc
 $LOCAL_PYTHON_PATH/sphinx-build -T -b gettext ../cadquery/doc pot
 $LOCAL_PYTHON_PATH/sphinx-intl update-txconfig-resources -p pot -d .
 cat .tx/config
-tx push -s --skip
+../tx push -s --skip
 rm -Rf ja
-tx pull -l ja
+../tx pull -l ja
 git checkout .tx/config

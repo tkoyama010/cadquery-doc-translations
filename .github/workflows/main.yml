@@ -49,7 +49,7 @@ jobs:
         (cd cadquery/doc; $CONDA/bin/sphinx-build -M html . _build)
         curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
         export PATH="$PWD:$PATH"
-        sh ./locale/update.sh
+        (cd locale; sh ./locale/update.sh)
     - name: commit
       if: contains(github.event.head_commit.message, '[ci skip]') == false && contains(github.ref, 'master')
       env:

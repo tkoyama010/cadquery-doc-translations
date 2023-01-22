@@ -41,6 +41,8 @@ jobs:
         $CONDA/bin/pip install sphinx-intl[transifex]>=0.9.11
         cd ../
         curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+        export PATH="$PWD:$PATH"
+        tx
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api

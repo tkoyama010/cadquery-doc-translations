@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-20 13:52+0000\n"
+"POT-Creation-Date: 2023-01-24 00:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -492,6 +492,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplaneFromTagged:0
+#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.toJSON:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportCAF:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportGLTF:0
@@ -1003,6 +1004,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplaneFromTagged:0
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.toTuple:0
+#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.toJSON:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportCAF:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.BoundBox.__init__:0
@@ -5585,4 +5587,8 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportVTKJS:1
 msgid "Export an assembly to a zipped vtkjs. NB: .zip extensions is added to path."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.toJSON:1
+msgid "Export an object to a structure suitable for converting to VTK.js JSON."
 msgstr ""

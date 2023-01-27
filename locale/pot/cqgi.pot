@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-07 01:49+0000\n"
+"POT-Creation-Date: 2023-01-27 00:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,8 +217,9 @@ msgstr ""
 msgid ":py:obj:`CQModel.build <cadquery.cqgi.CQModel.build>`\\ \\(\\[build\\_parameters\\, build\\_options\\]\\)"
 msgstr ""
 
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:1
 #: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
-msgid "Executes the script, using the optional parameters to override those in the model :param build_parameters: a dictionary of variables."
+msgid "Executes the script, using the optional parameters to override those in the model"
 msgstr ""
 
 #: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
@@ -235,7 +236,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ScriptCallback.show_object:1
 #: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
-msgid "return an object to the executing environment, with options :param shape: a cadquery object :param options: a dictionary of options that will be made available to the executing environment"
+msgid "Return an object to the executing environment, with options."
 msgstr ""
 
 #: ../../cadquery/doc/cqgi.rst:184
@@ -270,12 +271,44 @@ msgstr ""
 msgid "the build method can be used to generate a 3d model"
 msgstr ""
 
-#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:1
-msgid "Executes the script, using the optional parameters to override those in the model :param build_parameters: a dictionary of variables. The variables must be assignable to the underlying variable type. These variables override default values in the script :param build_options: build options for how to build the model. Build options include things like timeouts, tessellation tolerances, etc :raises: Nothing. If there is an exception, it will be on the exception property of the result. This is the interface so that we can return other information on the result, such as the build time :return: a BuildResult object, which includes the status of the result, and either a resulting shape or an exception"
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:0
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.validate:0
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ScriptCallback.show_object:0
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:3
+msgid "a dictionary of variables. The variables must be assignable to the underlying variable type. These variables override default values in the script"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:5
+msgid "build options for how to build the model. Build options include things like timeouts, tessellation tolerances, etc"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:0
+msgid "raises"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:7
+msgid "Nothing. If there is an exception, it will be on the exception property of the result. This is the interface so that we can return other information on the result, such as the build time"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:0
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:0
+msgid "Returns"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:9
+msgid "a BuildResult object, which includes the status of the result, and either a resulting shape or an exception"
 msgstr ""
 
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.validate:1
-msgid "Determine if the supplied parameters are valid. NOT IMPLEMENTED YET-- raises NotImplementedError :param params: a dictionary of parameters"
+msgid "Determine if the supplied parameters are valid. NOT IMPLEMENTED YET-- raises NotImplementedError"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.validate:4
+msgid "a dictionary of parameters"
 msgstr ""
 
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ConstantAssignmentFinder:1
@@ -350,6 +383,14 @@ msgstr ""
 msgid "Do Nothing-- we parsed the ast ahead of execution to get what we need."
 msgstr ""
 
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ScriptCallback.show_object:3
+msgid "a cadquery object"
+msgstr ""
+
+#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ScriptCallback.show_object:4
+msgid "a dictionary of options that will be made available to the executing environment"
+msgstr ""
+
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ScriptExecutionError:1
 msgid "Represents a script syntax error. Useful for helping clients pinpoint issues with the script interactively"
 msgstr ""
@@ -366,16 +407,8 @@ msgstr ""
 msgid "If you would prefer to access the underlying model without building it, for example, to inspect its available parameters, construct a CQModel object."
 msgstr ""
 
-#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:0
-msgid "Parameters"
-msgstr ""
-
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:6
 msgid "the script to run. Must be a valid cadquery script"
-msgstr ""
-
-#: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:0
-msgid "Returns"
 msgstr ""
 
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:7

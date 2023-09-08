@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 1.0\n"
+"Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-27 00:40+0000\n"
+"POT-Creation-Date: 2023-09-08 06:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,170 +76,174 @@ msgstr ""
 msgid "This CQGI compliant script produces a cube with a circle on top, and displays a workplane as well as an intermediate circle as debug output::"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:50
+#: ../../cadquery/doc/cqgi.rst:55
 msgid "Note that importing cadquery is not required. At the end of this script, one object will be displayed, in addition to a workplane, a point, and a circle"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:56
+#: ../../cadquery/doc/cqgi.rst:61
 msgid "Future enhancements will include several other methods, used to provide more metadata for the execution environment:"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:54
+#: ../../cadquery/doc/cqgi.rst:59
 msgid ":py:meth:`cadquery.cqgi.ScriptCallback.add_error()`, indicates an error with an input parameter"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:55
+#: ../../cadquery/doc/cqgi.rst:60
 msgid ":py:meth:`cadquery.cqgi.ScriptCallback.describe_parameter()`, provides extra information about a parameter in the script,"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:59
+#: ../../cadquery/doc/cqgi.rst:64
 msgid "The execution environment side"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:61
+#: ../../cadquery/doc/cqgi.rst:66
 msgid "CQGI makes it easy to run cadquery scripts in a standard way. To run a script from an execution environment, run code like this::"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:69
+#: ../../cadquery/doc/cqgi.rst:74
 msgid "The :py:meth:`cadquery.cqgi.parse()` method returns a :py:class:`cadquery.cqgi.CQModel` object."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:71
+#: ../../cadquery/doc/cqgi.rst:76
 msgid "The `metadata`p property of the object contains a `cadquery.cqgi.ScriptMetaData` object, which can be used to discover the user parameters available. This is useful if the execution environment would like to present a GUI to allow the user to change the model parameters.  Typically, after collecting new values, the environment will supply them in the build() method."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:75
+#: ../../cadquery/doc/cqgi.rst:81
 msgid "This code will return a dictionary of parameter values in the model text SCRIPT::"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:79
+#: ../../cadquery/doc/cqgi.rst:81
+msgid "parameters = cqgi.parse(SCRIPT).metadata.parameters"
+msgstr ""
+
+#: ../../cadquery/doc/cqgi.rst:83
 msgid "The dictionary you get back is a map where key is the parameter name, and value is an InputParameter object, which has a name, type, and default value."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:82
+#: ../../cadquery/doc/cqgi.rst:86
 msgid "The type is an object which extends ParameterType-- you can use this to determine what kind of widget to render ( checkbox for boolean, for example )."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:84
+#: ../../cadquery/doc/cqgi.rst:88
 msgid "The parameter object also has a description, valid values, minimum, and maximum values, if the user has provided them using the describe_parameter() method."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:89
+#: ../../cadquery/doc/cqgi.rst:93
 msgid "Calling :py:meth:`cadquery.cqgi.CQModel.build()` returns a :py:class:`cadquery.cqgi.BuildResult` object, ,which includes the script execution time, and a success flag."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:92
+#: ../../cadquery/doc/cqgi.rst:96
 msgid "If the script was successful, the results property will include a list of results returned by the script, as well as any debug the script produced"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:95
+#: ../../cadquery/doc/cqgi.rst:99
 msgid "If the script failed, the exception property contains the exception object."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:97
+#: ../../cadquery/doc/cqgi.rst:101
 msgid "If you have a way to get inputs from a user, you can override any of the constants defined in the user script with new values::"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:105
+#: ../../cadquery/doc/cqgi.rst:111
 msgid "If a parameter called 'param' is defined in the model, it will be assigned the value 2 before the script runs. An error will occur if a value is provided that is not defined in the model, or if the value provided cannot be assigned to a variable with the given name."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:109
+#: ../../cadquery/doc/cqgi.rst:115
 msgid "build_options is used to set server-side settings like timeouts, tessellation tolerances, and other details about how the model should be built."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:114
+#: ../../cadquery/doc/cqgi.rst:120
 msgid "More about script variables"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:116
+#: ../../cadquery/doc/cqgi.rst:122
 msgid "CQGI uses the following rules to find input variables for a script:"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:118
+#: ../../cadquery/doc/cqgi.rst:124
 msgid "only top-level statements are considered"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:119
+#: ../../cadquery/doc/cqgi.rst:125
 msgid "only assignments of constant values to a local name are considered."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:121
+#: ../../cadquery/doc/cqgi.rst:127
 msgid "For example, in the following script::"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:130
+#: ../../cadquery/doc/cqgi.rst:137
 msgid "h, w, and foo will be overridable script variables, but x is not."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:132
+#: ../../cadquery/doc/cqgi.rst:139
 msgid "You can list the variables defined in the model by using the return value of the parse method::"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:139
+#: ../../cadquery/doc/cqgi.rst:146
 msgid "The key of the dictionary is a string , and the value is a :py:class:`cadquery.cqgi.InputParameter` object See the CQGI API docs for more details."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:142
+#: ../../cadquery/doc/cqgi.rst:149
 msgid "Future enhancements will include a safer sandbox to prevent malicious scripts."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:145
+#: ../../cadquery/doc/cqgi.rst:152
 msgid "Automating export to STL"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:146
+#: ../../cadquery/doc/cqgi.rst:153
 msgid "A common use-case for the CQGI is the automation of processing cadquery code into geometry, doing so via the CQGI rather than an export line in the script itself leads to a much tidier environment; you may need to do this as part of an automated-workflow, batch-conversion, exporting to another software for assembly, or running stress simulations on resulting bodies."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:148
+#: ../../cadquery/doc/cqgi.rst:155
 msgid "The below Python script demonstrates how to open, process, and export an STL file from any valid cadquery script::"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:171
+#: ../../cadquery/doc/cqgi.rst:178
 msgid "Important CQGI Methods"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:173
+#: ../../cadquery/doc/cqgi.rst:180
 msgid "These are the most important Methods and classes of the CQGI"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid ":py:obj:`parse <cadquery.cqgi.parse>`\\ \\(script\\_source\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.parse:1
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid "Parses the script as a model, and returns a model."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid ":py:obj:`CQModel.build <cadquery.cqgi.CQModel.build>`\\ \\(\\[build\\_parameters\\, build\\_options\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.CQModel.build:1
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid "Executes the script, using the optional parameters to override those in the model"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid ":py:obj:`BuildResult <cadquery.cqgi.BuildResult>`\\ \\(\\)"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid "The result of executing a CadQuery script."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid ":py:obj:`ScriptCallback.show_object <cadquery.cqgi.ScriptCallback.show_object>`\\ \\(shape\\[\\, options\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cqgi.py:docstring of cadquery.cqgi.ScriptCallback.show_object:1
-#: ../../cadquery/doc/cqgi.rst:182:<autosummary>:1
+#: ../../cadquery/doc/cqgi.rst:189:<autosummary>:1
 msgid "Return an object to the executing environment, with options."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:184
+#: ../../cadquery/doc/cqgi.rst:191
 msgid "Complete CQGI API"
 msgstr ""
 

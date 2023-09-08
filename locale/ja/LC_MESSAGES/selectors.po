@@ -2,30 +2,36 @@
 # Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 06:27+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-09-08 05:16+0000\n"
+"PO-Revision-Date: 2021-05-27 10:39+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../cadquery/doc/selectors.rst:4
 msgid "String Selectors Reference"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:7
-msgid "CadQuery selector strings allow filtering various types of object lists. Most commonly, Edges, Faces, and Vertices are used, but all objects types can be filtered."
+msgid ""
+"CadQuery selector strings allow filtering various types of object lists. "
+"Most commonly, Edges, Faces, and Vertices are used, but all objects types "
+"can be filtered."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:10
-msgid "Object lists are created by using the following methods, which each collect a type of shape:"
+msgid ""
+"Object lists are created by using the following methods, which each collect "
+"a type of shape:"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:12
@@ -49,15 +55,24 @@ msgid ":py:meth:`cadquery.Workplane.solids`"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:18
-msgid "Each of these methods accepts either a Selector object or a string. String selectors are simply shortcuts for using the full object equivalents. If you pass one of the string patterns in, CadQuery will automatically use the associated selector object."
+msgid ""
+"Each of these methods accepts either a Selector object or a string. String "
+"selectors are simply shortcuts for using the full object equivalents. If you"
+" pass one of the string patterns in, CadQuery will automatically use the "
+"associated selector object."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:25
-msgid "String selectors are simply shortcuts to concrete selector classes, which you can use or extend. For a full description of how each selector class works, see :ref:`classreference`."
+msgid ""
+"String selectors are simply shortcuts to concrete selector classes, which "
+"you can use or extend. For a full description of how each selector class "
+"works, see :ref:`classreference`."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:28
-msgid "If you find that the built-in selectors are not sufficient, you can easily plug in your own. See :ref:`extending` to see how."
+msgid ""
+"If you find that the built-in selectors are not sufficient, you can easily "
+"plug in your own. See :ref:`extending` to see how."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:33
@@ -65,7 +80,9 @@ msgid "Combining Selectors"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:35
-msgid "Selectors can be combined logically, currently defined operators include **and**, **or**, **not** and **exc[ept]** (set difference).  For example:"
+msgid ""
+"Selectors can be combined logically, currently defined operators include "
+"**and**, **or**, **not** and **exc[ept]** (set difference).  For example:"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:41
@@ -77,38 +94,39 @@ msgid "Filtering Faces"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:60
-msgid "All types of string selectors work on faces.  In most cases, the selector refers to the direction of the **normal vector** of the face."
+msgid ""
+"All types of string selectors work on faces.  In most cases, the selector "
+"refers to the direction of the **normal vector** of the face."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:65
-msgid "If a face is not planar, selectors are evaluated at the center of mass of the face. This can lead to results that are quite unexpected."
+msgid ""
+"If a face is not planar, selectors are evaluated at the center of mass of "
+"the face. This can lead to results that are quite unexpected."
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:68
-#: ../../cadquery/doc/selectors.rst:99
-msgid "The axis used in the listing below are for illustration: any axis would work similarly in each case."
+#: ../../cadquery/doc/selectors.rst:68 ../../cadquery/doc/selectors.rst:99
+msgid ""
+"The axis used in the listing below are for illustration: any axis would work"
+" similarly in each case."
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:71
-#: ../../cadquery/doc/selectors.rst:103
+#: ../../cadquery/doc/selectors.rst:71 ../../cadquery/doc/selectors.rst:103
 #: ../../cadquery/doc/selectors.rst:127
 msgid "Selector"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:71
-#: ../../cadquery/doc/selectors.rst:103
+#: ../../cadquery/doc/selectors.rst:71 ../../cadquery/doc/selectors.rst:103
 #: ../../cadquery/doc/selectors.rst:127
 msgid "Selects"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:71
-#: ../../cadquery/doc/selectors.rst:103
+#: ../../cadquery/doc/selectors.rst:71 ../../cadquery/doc/selectors.rst:103
 #: ../../cadquery/doc/selectors.rst:127
 msgid "Selector Class"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:73
-#: ../../cadquery/doc/selectors.rst:105
+#: ../../cadquery/doc/selectors.rst:73 ../../cadquery/doc/selectors.rst:105
 msgid "+Z"
 msgstr ""
 
@@ -116,15 +134,12 @@ msgstr ""
 msgid "Faces with normal in +z direction"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:73
-#: ../../cadquery/doc/selectors.rst:75
-#: ../../cadquery/doc/selectors.rst:105
-#: ../../cadquery/doc/selectors.rst:107
+#: ../../cadquery/doc/selectors.rst:73 ../../cadquery/doc/selectors.rst:75
+#: ../../cadquery/doc/selectors.rst:105 ../../cadquery/doc/selectors.rst:107
 msgid ":py:class:`cadquery.DirectionSelector`"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:74
-#: ../../cadquery/doc/selectors.rst:106
+#: ../../cadquery/doc/selectors.rst:74 ../../cadquery/doc/selectors.rst:106
 msgid "\\|Z"
 msgstr ""
 
@@ -132,13 +147,11 @@ msgstr ""
 msgid "Faces with normal parallel to z dir"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:74
-#: ../../cadquery/doc/selectors.rst:106
+#: ../../cadquery/doc/selectors.rst:74 ../../cadquery/doc/selectors.rst:106
 msgid ":py:class:`cadquery.ParallelDirSelector`"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:75
-#: ../../cadquery/doc/selectors.rst:107
+#: ../../cadquery/doc/selectors.rst:75 ../../cadquery/doc/selectors.rst:107
 msgid "-X"
 msgstr ""
 
@@ -146,8 +159,7 @@ msgstr ""
 msgid "Faces with normal in neg x direction"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:76
-#: ../../cadquery/doc/selectors.rst:108
+#: ../../cadquery/doc/selectors.rst:76 ../../cadquery/doc/selectors.rst:108
 msgid "#Z"
 msgstr ""
 
@@ -155,8 +167,7 @@ msgstr ""
 msgid "Faces with normal orthogonal to z dir"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:76
-#: ../../cadquery/doc/selectors.rst:108
+#: ../../cadquery/doc/selectors.rst:76 ../../cadquery/doc/selectors.rst:108
 msgid ":py:class:`cadquery.PerpendicularDirSelector`"
 msgstr ""
 
@@ -168,13 +179,11 @@ msgstr ""
 msgid "Faces of type plane"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:77
-#: ../../cadquery/doc/selectors.rst:109
+#: ../../cadquery/doc/selectors.rst:77 ../../cadquery/doc/selectors.rst:109
 msgid ":py:class:`cadquery.TypeSelector`"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:78
-#: ../../cadquery/doc/selectors.rst:110
+#: ../../cadquery/doc/selectors.rst:78 ../../cadquery/doc/selectors.rst:110
 #: ../../cadquery/doc/selectors.rst:129
 msgid ">Y"
 msgstr ""
@@ -183,17 +192,13 @@ msgstr ""
 msgid "Face farthest in the positive y dir"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:78
-#: ../../cadquery/doc/selectors.rst:79
-#: ../../cadquery/doc/selectors.rst:110
-#: ../../cadquery/doc/selectors.rst:111
-#: ../../cadquery/doc/selectors.rst:129
-#: ../../cadquery/doc/selectors.rst:130
+#: ../../cadquery/doc/selectors.rst:78 ../../cadquery/doc/selectors.rst:79
+#: ../../cadquery/doc/selectors.rst:110 ../../cadquery/doc/selectors.rst:111
+#: ../../cadquery/doc/selectors.rst:129 ../../cadquery/doc/selectors.rst:130
 msgid ":py:class:`cadquery.DirectionMinMaxSelector`"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:79
-#: ../../cadquery/doc/selectors.rst:111
+#: ../../cadquery/doc/selectors.rst:79 ../../cadquery/doc/selectors.rst:111
 #: ../../cadquery/doc/selectors.rst:130
 msgid "<Y"
 msgstr ""
@@ -210,10 +215,8 @@ msgstr ""
 msgid "2nd farthest Face **normal** to the y dir"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:80
-#: ../../cadquery/doc/selectors.rst:81
-#: ../../cadquery/doc/selectors.rst:112
-#: ../../cadquery/doc/selectors.rst:113
+#: ../../cadquery/doc/selectors.rst:80 ../../cadquery/doc/selectors.rst:81
+#: ../../cadquery/doc/selectors.rst:112 ../../cadquery/doc/selectors.rst:113
 msgid ":py:class:`cadquery.DirectionNthSelector`"
 msgstr ""
 
@@ -225,8 +228,7 @@ msgstr ""
 msgid "1st closest Face **normal** to the y dir"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:82
-#: ../../cadquery/doc/selectors.rst:114
+#: ../../cadquery/doc/selectors.rst:82 ../../cadquery/doc/selectors.rst:114
 #: ../../cadquery/doc/selectors.rst:131
 msgid ">>Y[-2]"
 msgstr ""
@@ -235,17 +237,13 @@ msgstr ""
 msgid "2nd farthest Face in the y dir"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:82
-#: ../../cadquery/doc/selectors.rst:83
-#: ../../cadquery/doc/selectors.rst:114
-#: ../../cadquery/doc/selectors.rst:115
-#: ../../cadquery/doc/selectors.rst:131
-#: ../../cadquery/doc/selectors.rst:132
+#: ../../cadquery/doc/selectors.rst:82 ../../cadquery/doc/selectors.rst:83
+#: ../../cadquery/doc/selectors.rst:114 ../../cadquery/doc/selectors.rst:115
+#: ../../cadquery/doc/selectors.rst:131 ../../cadquery/doc/selectors.rst:132
 msgid ":py:class:`cadquery.CenterNthSelector`"
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:83
-#: ../../cadquery/doc/selectors.rst:115
+#: ../../cadquery/doc/selectors.rst:83 ../../cadquery/doc/selectors.rst:115
 #: ../../cadquery/doc/selectors.rst:132
 msgid "<<Y[0]"
 msgstr ""
@@ -263,7 +261,10 @@ msgid "The selector usually refers to the **direction** of the edge."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:96
-msgid "Non-linear edges are not selected for any string selectors except type (%) and center (>>). Non-linear edges are never returned when these filters are applied."
+msgid ""
+"Non-linear edges are not selected for any string selectors except type (%) "
+"and center (>>). Non-linear edges are never returned when these filters are "
+"applied."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:105
@@ -327,7 +328,9 @@ msgid "Filtering Vertices"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:124
-msgid "Only a few of the filter types apply to vertices. The location of the vertex is the subject of the filter."
+msgid ""
+"Only a few of the filter types apply to vertices. The location of the vertex"
+" is the subject of the filter."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:129
@@ -351,5 +354,7 @@ msgid "User-defined Directions"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:138
-msgid "It is possible to use user defined vectors as a basis for the selectors. For example:"
+msgid ""
+"It is possible to use user defined vectors as a basis for the selectors. For"
+" example:"
 msgstr ""

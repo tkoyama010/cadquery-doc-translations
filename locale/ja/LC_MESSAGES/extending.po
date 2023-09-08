@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# This file is distributed under the same license as the CadQuery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CadQuery 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-08 05:16+0000\n"
+"PO-Revision-Date: 2021-05-27 10:38+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../cadquery/doc/extending.rst:4
+msgid "Extending CadQuery"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:7
+msgid ""
+"If you find that CadQuery does not suit your needs, you can easily extend "
+"it.  CadQuery provides several extension methods:"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:10
+msgid ""
+"You can load plugins others have developed. This is by far the easiest way "
+"to access other code"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:11
+msgid "You can define your own plugins."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:12
+msgid "You can use OCP scripting directly"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:16
+msgid "Using OpenCascade methods"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:18
+msgid ""
+"The easiest way to extend CadQuery is to simply use OpenCascade/OCP "
+"scripting inside of your build method.  Just about any valid OCP script will"
+" execute just fine. For example, this simple CadQuery script::"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:23
+msgid "is actually equivalent to::"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:31
+msgid ""
+"As long as you return a valid OCP Shape, you can use any OCP methods you "
+"like. You can even mix and match the two. For example, consider this script,"
+" which creates a OCP box, but then uses CadQuery to select its faces::"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:43
+msgid "Extending CadQuery: Plugins"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:45
+msgid ""
+"Though you can get a lot done with OpenCascade, the code gets pretty nasty "
+"in a hurry. CadQuery shields you from a lot of the complexity of the "
+"OpenCascade API."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:48
+msgid ""
+"You can get the best of both worlds by wrapping your OCP script into a "
+"CadQuery plugin."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:50
+msgid ""
+"A CadQuery plugin is simply a function that is attached to the CadQuery "
+":py:meth:`cadquery.CQ` or :py:meth:`cadquery.Workplane` class. When "
+"connected, your plugin can be used in the chain just like the built-in "
+"functions."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:53
+msgid ""
+"There are a few key concepts important to understand when building a plugin"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:57
+msgid "The Stack"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:59
+msgid ""
+"Every CadQuery object has a local stack, which contains a list of items.  "
+"The items on the stack will be one of these types:"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:62
+msgid ""
+"**A CadQuery SolidReference object**, which holds a reference to a OCP solid"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:63
+msgid ""
+"**A OCP object**, a Vertex, Edge, Wire, Face, Shell, Solid, or Compound"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:65
+msgid ""
+"The stack is available by using self.objects, and will always contain at "
+"least one object."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:69
+msgid ""
+"Objects and points on the stack are **always** in global coordinates.  "
+"Similarly, any objects you create must be created in terms of global "
+"coordinates as well!"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:74
+msgid "Preserving the Chain"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:76
+msgid ""
+"CadQuery's fluent API relies on the ability to chain calls together one "
+"after another. For this to work, you must return a valid CadQuery object as "
+"a return value.  If you choose not to return a CadQuery object, then your "
+"plugin will end the chain. Sometimes this is desired for example "
+":py:meth:`cadquery.Workplane.size`"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:80
+msgid "There are two ways you can safely continue the chain:"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:82
+msgid ""
+"**return self**  If you simply wish to modify the stack contents, you can "
+"simply return a reference to self.  This approach is destructive, because "
+"the contents of the stack are modified, but it is also the simplest."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:85
+msgid ""
+":py:meth:`cadquery.Workplane.newObject`  Most of the time, you will want to "
+"return a new object.  Using newObject will return a new CQ or Workplane "
+"object having the stack you specify, and will link this object to the "
+"previous one.  This preserves the original object and its stack."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:91
+msgid "Helper Methods"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:93
+msgid ""
+"When you implement a CadQuery plugin, you are extending CadQuery's base "
+"objects.  As a result, you can call any CadQuery or Workplane methods from "
+"inside of your extension.  You can also call a number of internal methods "
+"that are designed to aid in plugin creation:"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:98
+msgid ""
+":py:meth:`cadquery.Workplane._makeWireAtPoints` will invoke a factory "
+"function you supply for all points on the stack, and return a properly "
+"constructed cadquery object. This function takes care of registering wires "
+"for you and everything like that"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:102
+msgid ""
+":py:meth:`cadquery.Workplane.newObject` returns a new Workplane object with "
+"the provided stack, and with its parent set to the current object. The "
+"preferred way to continue the chain"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:105
+msgid ""
+":py:meth:`cadquery.Workplane.findSolid` returns the first Solid found in the"
+" chain, working from the current object upwards in the chain. commonly used "
+"when your plugin will modify an existing solid, or needs to create objects "
+"and then combine them onto the 'main' part that is in progress"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:109
+msgid ""
+":py:meth:`cadquery.Workplane._addPendingWire` must be called if you add a "
+"wire.  This allows the base class to track all the wires that are created, "
+"so that they can be managed when extrusion occurs."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:112
+msgid ""
+":py:meth:`cadquery.Workplane.wire` gathers up all of the edges that have "
+"been drawn ( eg, by line, vline, etc ), and attempts to combine them into a "
+"single wire, which is returned. This should be used when your plugin creates"
+" 2D edges, and you know it is time to collect them into a single wire."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:116
+msgid ""
+":py:meth:`cadquery.Workplane.plane` provides a reference to the workplane, "
+"which allows you to convert between workplane coordinates and global "
+"coordinates: * :py:meth:`cadquery.occ_impl.geom.Plane.toWorldCoords` will "
+"convert local coordinates to global ones * "
+":py:meth:`cadquery.occ_impl.geom.Plane.toLocalCoords` will convert from "
+"global coordinates to local coordinates"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:122
+msgid "Coordinate Systems"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:124
+msgid ""
+"Keep in mind that the user may be using a work plane that has created a "
+"local coordinate system. Consequently, the orientation of shapes that you "
+"create are often implicitly defined by the user's workplane."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:127
+msgid ""
+"Any objects that you create must be fully defined in *global coordinates*, "
+"even though some or all of the users' inputs may be defined in terms of "
+"local coordinates."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:132
+msgid "Linking in your plugin"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:134
+msgid ""
+"Your plugin is a single method, which is attached to the main Workplane or "
+"CadQuery object."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:136
+msgid ""
+"Your plugin method's first parameter should be 'self', which will provide a "
+"reference to base class functionality. You can also accept other arguments."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:139
+msgid ""
+"To install it, simply attach it to the CadQuery or Workplane object, like "
+"this::"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:148
+msgid "That's it!"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:151
+msgid "CadQueryExample Plugins"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:152
+msgid ""
+"Some core cadquery code is intentionally written exactly like a plugin. If "
+"you are writing your own plugins, have a look at these methods for "
+"inspiration:"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:155
+msgid ":py:meth:`cadquery.Workplane.polygon`"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:156
+msgid ":py:meth:`cadquery.Workplane.cboreHole`"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:160
+msgid "Plugin Example"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:162
+msgid ""
+"This ultra simple plugin makes cubes of the specified size for each stack "
+"point."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:164
+msgid ""
+"(The cubes are off-center because the boxes have their lower left corner at "
+"the reference points.)"
+msgstr ""

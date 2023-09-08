@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# This file is distributed under the same license as the CadQuery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CadQuery 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-08 05:16+0000\n"
+"PO-Revision-Date: 2021-05-27 10:38+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../cadquery/doc/designprinciples.rst:6
+msgid "CadQuery Design Principles"
+msgstr "CadQueryの設計指針"
+
+#: ../../cadquery/doc/designprinciples.rst:10
+msgid "Principle 1: Intuitive Construction"
+msgstr "原則1：直感的な構造"
+
+#: ../../cadquery/doc/designprinciples.rst:12
+msgid ""
+"CadQuery aims to make building models using python scripting easy and "
+"intuitive. CadQuery strives to allow scripts to read roughly as a human "
+"would describe an object verbally."
+msgstr ""
+"CadQueryは、Pythonスクリプトを使用してモデルを簡単かつ直感的に構築することを目的としています。CadQueryは、人間が口頭でオブジェクトを説明するのと同じように、スクリプトをおおまかに読み取ることができるように努めています。"
+
+#: ../../cadquery/doc/designprinciples.rst:15
+msgid "For example, consider this object:"
+msgstr "例えば、こんなモノを考えてみましょう:"
+
+#: ../../cadquery/doc/designprinciples.rst:19
+msgid "A human would describe this as:"
+msgstr "人間ならこう表現します:"
+
+#: ../../cadquery/doc/designprinciples.rst:21
+msgid ""
+"\"A block 80mm square x 30mm thick , with countersunk holes for M2 socket "
+"head cap screws at the corners, and a circular pocket 22mm in diameter in "
+"the middle for a bearing\""
+msgstr ""
+"\"80mm角×30mm厚のブロックの四隅にM2ソケットヘッドキャップスクリュー用の皿穴、中央にベアリング用の直径22mmの円形ポケットがあります。\""
+
+#: ../../cadquery/doc/designprinciples.rst:24
+msgid ""
+"The goal is to have the CadQuery script that produces this object be as "
+"close as possible to the English phrase a human would use."
+msgstr "このオブジェクトを生成するCadQueryスクリプトは、人間が使う英語のフレーズに限りなく近いものを目指しています。"
+
+#: ../../cadquery/doc/designprinciples.rst:29
+msgid "Principle 2: Capture Design Intent"
+msgstr "原則2：設計意図の把握"
+
+#: ../../cadquery/doc/designprinciples.rst:31
+msgid ""
+"The features that are **not** part of the part description above are just as"
+" important as those that are.  For example, most humans will assume that:"
+msgstr "上記の部品説明に含まれない機能も、含まれる機能と同様に重要です。 例えば、ほとんどの人間は次のように考えるでしょう。"
+
+#: ../../cadquery/doc/designprinciples.rst:34
+msgid "The countersunk holes are spaced a uniform distance from the edges"
+msgstr "皿穴は、端から一定の間隔をあけて配置されています"
+
+#: ../../cadquery/doc/designprinciples.rst:35
+msgid ""
+"The circular pocket is in the center of the block, no matter how big the "
+"block is"
+msgstr "円形のポケットは、どんなに大きなブロックでも中央にあります"
+
+#: ../../cadquery/doc/designprinciples.rst:37
+msgid ""
+"If you have experience with 3D CAD systems, you also know that there is a "
+"key design intent built into this object. After the base block is created, "
+"how the hole is located is key.  If it is located from one edge, changing "
+"the block size will have a different effect than if the hole is located from"
+" the center."
+msgstr ""
+"3次元CADを使ったことがある方なら、このオブジェクトには重要な設計意図が組み込まれていることもご存じでしょう。ベースブロックを作成した後、穴をどのように配置するかが鍵になります。"
+" 穴の位置が片側である場合と、中央である場合では、ブロックのサイズを変更したときの効果が違ってきます。"
+
+#: ../../cadquery/doc/designprinciples.rst:41
+msgid ""
+"Many scripting languages do not provide a way to capture design intent-- "
+"because they require that you always work in global coordinates.  CadQuery "
+"is different-- you can locate features relative to others in a relative "
+"way-- preserving the design intent just like a human would when creating a "
+"drawing or building an object."
+msgstr ""
+"多くのスクリプト言語では、常にグローバル座標で作業する必要があるため、設計意図を把握する方法がありません。 "
+"CadQueryはそれとは異なり、図面やオブジェクトを作成する際に人間が行うように、設計意図を保持したまま、他のフィーチャーとの相対的な位置関係を特定することができます。"
+
+#: ../../cadquery/doc/designprinciples.rst:45
+msgid ""
+"In fact, though many people know how to use 3D CAD systems, few understand "
+"how important the way that an object is built impact its maintainability and"
+" resiliency to design changes."
+msgstr ""
+"実際、多くの人が3次元CADの使い方を知っていますが、オブジェクトの作り方が保守性や設計変更への対応力にどれほど重要な影響を与えるかを理解している人はあまりいません。"
+
+#: ../../cadquery/doc/designprinciples.rst:50
+msgid "Principle 3: Plugins as first class citizens"
+msgstr "原則3：プラグインは一級市民である"
+
+#: ../../cadquery/doc/designprinciples.rst:52
+msgid ""
+"Any system for building 3D models will evolve to contain an immense number "
+"of libraries and feature builders. It is important that these can be "
+"seamlessly included into the core and used alongside the built in libraries."
+"  Plugins should be easy to install and familiar to use."
+msgstr ""
+"3Dモデル構築のためのシステムは、膨大な数のライブラリや機能ビルダーを含むように進化していきます。これらをシームレスにコアに組み込んで、ビルトインライブラリと一緒に使えるようにすることが重要です。"
+" プラグインは、インストールが簡単で、使い慣れたものでなければなりません。"
+
+#: ../../cadquery/doc/designprinciples.rst:58
+msgid "Principle 4: CAD models as source code makes sense"
+msgstr "原則4：CADモデルをソースコードとすることに意味がある"
+
+#: ../../cadquery/doc/designprinciples.rst:60
+msgid ""
+"It is surprising that the world of 3D CAD is primarily dominated by systems "
+"that create opaque binary files. Just like the world of software, CAD models"
+" are very complex."
+msgstr ""
+"3次元CADの世界では、不透明なバイナリファイルを作成するシステムが主体であることは意外に知られていません。ソフトウェアの世界と同じように、CADモデルも非常に複雑です。"
+
+#: ../../cadquery/doc/designprinciples.rst:63
+msgid ""
+"CAD models have many things in common with software, and would benefit "
+"greatly from the use of tools that are standard in the software industry, "
+"such as:"
+msgstr ""
+"CADモデルはソフトウェアと共通する部分が多く、例えばソフトウェア業界で標準的に使われているようなツールを使うことで大きな恩恵を受けることができます。"
+
+#: ../../cadquery/doc/designprinciples.rst:66
+msgid "Easily re-using features between objects"
+msgstr "オブジェクト間の機能再利用が容易"
+
+#: ../../cadquery/doc/designprinciples.rst:67
+msgid "Storing objects using version control systems"
+msgstr "バージョン管理システムによるオブジェクトの保存"
+
+#: ../../cadquery/doc/designprinciples.rst:68
+msgid ""
+"Computing the differences between objects by using source control tools"
+msgstr "ソースコントロールツールを用いたオブジェクト間の差分計算"
+
+#: ../../cadquery/doc/designprinciples.rst:69
+msgid "Share objects on the Internet"
+msgstr "インターネット上でのオブジェクトの共有"
+
+#: ../../cadquery/doc/designprinciples.rst:70
+msgid ""
+"Automate testing and generation by allowing objects to be built from within "
+"libraries"
+msgstr "ライブラリ内からオブジェクトをビルドできるため、テストや生成を自動化できる"
+
+#: ../../cadquery/doc/designprinciples.rst:72
+msgid ""
+"CadQuery is designed to make 3D content creation easy enough that the above "
+"benefits can be attained without more work than using existing 'opaque', "
+"'point and click' solutions."
+msgstr ""
+"CadQueryは、既存の '不透明な'  'ポイント＆クリック' "
+"ソリューションを使用するよりも、上記のようなメリットを得るために、3Dコンテンツ作成を簡単に行えるように設計されています。"

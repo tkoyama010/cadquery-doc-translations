@@ -2,19 +2,20 @@
 # Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 06:27+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-09-08 05:16+0000\n"
+"PO-Revision-Date: 2021-11-11 16:13+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../cadquery/doc/sketch.rst:5
 msgid "Sketch"
@@ -25,7 +26,9 @@ msgid "Sketch tutorial"
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:10
-msgid "The purpose of this section is to demonstrate how to construct sketches using different approaches."
+msgid ""
+"The purpose of this section is to demonstrate how to construct sketches "
+"using different approaches."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:14
@@ -33,11 +36,16 @@ msgid "Face-based API"
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:16
-msgid "The main approach for constructing sketches is based on constructing faces and combining them using boolean operations."
+msgid ""
+"The main approach for constructing sketches is based on constructing faces "
+"and combining them using boolean operations."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:37
-msgid "Note that selectors are implemented, but selection has to be explicitly reset. Sketch class does not implement history and all modifications happen in-place."
+msgid ""
+"Note that selectors are implemented, but selection has to be explicitly "
+"reset. Sketch class does not implement history and all modifications happen "
+"in-place."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:41
@@ -45,7 +53,15 @@ msgid "Modes"
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:43
-msgid "Every operation from the face API accepts a mode parameter to define how to combine the created object with existing ones. It can be fused (``mode='a'``), cut (``mode='s'``), intersected (``mode='i'``) or just stored for construction (``mode='c'``). In the last case, it is mandatory to specify a ``tag`` in order to be able to refer to the object later on. By default faces are fused together. Note the usage of the subtractive and additive modes in the example above. The additional two are demonstrated below."
+msgid ""
+"Every operation from the face API accepts a mode parameter to define how to "
+"combine the created object with existing ones. It can be fused "
+"(``mode='a'``), cut (``mode='s'``), intersected (``mode='i'``) or just "
+"stored for construction (``mode='c'``). In the last case, it is mandatory to"
+" specify a ``tag`` in order to be able to refer to the object later on. By "
+"default faces are fused together. Note the usage of the subtractive and "
+"additive modes in the example above. The additional two are demonstrated "
+"below."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:63
@@ -57,7 +73,10 @@ msgid "If needed, one can construct sketches by placing individual edges."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:84
-msgid "Once the construction is finished it has to be converted to the face-based representation using :meth:`~cadquery.Sketch.assemble`. Afterwards, face based operations can be applied."
+msgid ""
+"Once the construction is finished it has to be converted to the face-based "
+"representation using :meth:`~cadquery.Sketch.assemble`. Afterwards, face "
+"based operations can be applied."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:89
@@ -69,7 +88,9 @@ msgid "The Convex Hull feature is currently experimental."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:93
-msgid "For certain special use-cases convex hull can be constructed from straight segments and circles."
+msgid ""
+"For certain special use-cases convex hull can be constructed from straight "
+"segments and circles."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:108
@@ -81,11 +102,17 @@ msgid "The 2D Sketch constraints and solver is currently experimental."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:112
-msgid "Finally, if desired, geometric constraints can be used to construct sketches. So far only line segments and arcs can be used in such a use case."
+msgid ""
+"Finally, if desired, geometric constraints can be used to construct "
+"sketches. So far only line segments and arcs can be used in such a use case."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:132
-msgid "Following constraints are implemented. Arguments are passed in as one tuple in :meth:`~cadquery.Sketch.constrain`. In this table, `0..1` refers to a float between 0 and 1 where 0 would create a constraint relative to the start of the element, and 1 the end."
+msgid ""
+"Following constraints are implemented. Arguments are passed in as one tuple "
+"in :meth:`~cadquery.Sketch.constrain`. In this table, `0..1` refers to a "
+"float between 0 and 1 where 0 would create a constraint relative to the "
+"start of the element, and 1 the end."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:138
@@ -112,18 +139,14 @@ msgstr ""
 msgid "FixedPoint"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:144
-#: ../../cadquery/doc/sketch.rst:159
-#: ../../cadquery/doc/sketch.rst:169
-#: ../../cadquery/doc/sketch.rst:174
+#: ../../cadquery/doc/sketch.rst:144 ../../cadquery/doc/sketch.rst:159
+#: ../../cadquery/doc/sketch.rst:169 ../../cadquery/doc/sketch.rst:174
 #: ../../cadquery/doc/sketch.rst:179
 msgid "1"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:145
-#: ../../cadquery/doc/sketch.rst:150
-#: ../../cadquery/doc/sketch.rst:155
-#: ../../cadquery/doc/sketch.rst:160
+#: ../../cadquery/doc/sketch.rst:145 ../../cadquery/doc/sketch.rst:150
+#: ../../cadquery/doc/sketch.rst:155 ../../cadquery/doc/sketch.rst:160
 #: ../../cadquery/doc/sketch.rst:165
 msgid "All"
 msgstr ""
@@ -140,8 +163,7 @@ msgstr ""
 msgid "Coincident"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:149
-#: ../../cadquery/doc/sketch.rst:154
+#: ../../cadquery/doc/sketch.rst:149 ../../cadquery/doc/sketch.rst:154
 #: ../../cadquery/doc/sketch.rst:164
 msgid "2"
 msgstr ""
@@ -158,8 +180,7 @@ msgstr ""
 msgid "Angle"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:156
-#: ../../cadquery/doc/sketch.rst:181
+#: ../../cadquery/doc/sketch.rst:156 ../../cadquery/doc/sketch.rst:181
 msgid "`angle`"
 msgstr ""
 
@@ -195,8 +216,7 @@ msgstr ""
 msgid "Radius"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:170
-#: ../../cadquery/doc/sketch.rst:180
+#: ../../cadquery/doc/sketch.rst:170 ../../cadquery/doc/sketch.rst:180
 msgid "Arc"
 msgstr ""
 
@@ -237,15 +257,25 @@ msgid "Workplane integration"
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:188
-msgid "Once created, a sketch can be used to construct various features on a workplane. Supported operations include :meth:`~cadquery.Workplane.extrude`, :meth:`~cadquery.Workplane.twistExtrude`, :meth:`~cadquery.Workplane.revolve`, :meth:`~cadquery.Workplane.sweep`, :meth:`~cadquery.Workplane.cutBlind`, :meth:`~cadquery.Workplane.cutThruAll` and :meth:`~cadquery.Workplane.loft`."
+msgid ""
+"Once created, a sketch can be used to construct various features on a "
+"workplane. Supported operations include :meth:`~cadquery.Workplane.extrude`,"
+" :meth:`~cadquery.Workplane.twistExtrude`, "
+":meth:`~cadquery.Workplane.revolve`, :meth:`~cadquery.Workplane.sweep`, "
+":meth:`~cadquery.Workplane.cutBlind`, :meth:`~cadquery.Workplane.cutThruAll`"
+" and :meth:`~cadquery.Workplane.loft`."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:193
-msgid "Sketches can be created as separate entities and reused, but also created ad-hoc in one fluent chain of calls as shown below."
+msgid ""
+"Sketches can be created as separate entities and reused, but also created "
+"ad-hoc in one fluent chain of calls as shown below."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:197
-msgid "Note that the sketch is placed on all locations that are on the top of the stack."
+msgid ""
+"Note that the sketch is placed on all locations that are on the top of the "
+"stack."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:199
@@ -253,21 +283,31 @@ msgid "Constructing sketches in-place can be accomplished as follows."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:219
-msgid "Sketch API is available after the :meth:`~cadquery.Workplane.sketch` call and original `workplane`."
+msgid ""
+"Sketch API is available after the :meth:`~cadquery.Workplane.sketch` call "
+"and original `workplane`."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:221
-msgid "When multiple elements are selected before constructing the sketch, multiple sketches will be created."
+msgid ""
+"When multiple elements are selected before constructing the sketch, multiple"
+" sketches will be created."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:247
-msgid "Sometimes it is desired to reuse existing sketches and place them as-is on a workplane."
+msgid ""
+"Sometimes it is desired to reuse existing sketches and place them as-is on a"
+" workplane."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:267
-msgid "Reusing of existing sketches is needed when using :meth:`~cadquery.Workplane.loft`."
+msgid ""
+"Reusing of existing sketches is needed when using "
+":meth:`~cadquery.Workplane.loft`."
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:280
-msgid "When lofting only outer wires are taken into account and inner wires are silently ignored."
+msgid ""
+"When lofting only outer wires are taken into account and inner wires are "
+"silently ignored."
 msgstr ""

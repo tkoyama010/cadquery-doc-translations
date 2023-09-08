@@ -2,143 +2,153 @@
 # Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 06:27+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-09-08 05:16+0000\n"
+"PO-Revision-Date: 2021-05-27 10:39+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../cadquery/doc/roadmap.rst:5
 msgid "RoadMap:  Planned Features"
-msgstr ""
+msgstr "ロードマップ: 計画的な機能"
 
 #: ../../cadquery/doc/roadmap.rst:7
 msgid "**CadQuery is not even close to finished!!!**"
-msgstr ""
+msgstr "**CadQueryはまだ完成していません!!!**"
 
 #: ../../cadquery/doc/roadmap.rst:9
-msgid "Many features are planned for later versions.  This page tracks them.  If you find that you need features not listed here, let us know!"
+msgid ""
+"Many features are planned for later versions.  This page tracks them.  If "
+"you find that you need features not listed here, let us know!"
 msgstr ""
+"多くの機能が将来のバージョンで計画されています。 このページでは、それらを追跡します。 "
+"もし、ここに掲載されていない機能が必要な場合は、私たちにお知らせください。"
 
 #: ../../cadquery/doc/roadmap.rst:14
 msgid "Workplanes"
-msgstr ""
+msgstr "ワークプレーン"
 
 #: ../../cadquery/doc/roadmap.rst:17
 msgid "rotated workplanes"
-msgstr ""
+msgstr "回転された作業面"
 
 #: ../../cadquery/doc/roadmap.rst:17
 msgid "support creation of workplanes at an angle to another plane or face"
-msgstr ""
+msgstr "他の平面や面に対して角度のあるワークプレーンの作成をサポートします。"
 
 #: ../../cadquery/doc/roadmap.rst:20
 msgid "workplane local rotations"
-msgstr ""
+msgstr "ワークプレーン局所回転"
 
 #: ../../cadquery/doc/roadmap.rst:20
 msgid "rotate the coordinate system of a workplane by an angle."
-msgstr ""
+msgstr "作業平面の座標系を角度をつけて回転させます。"
 
 #: ../../cadquery/doc/roadmap.rst:23
 msgid "make a workplane from a wire"
-msgstr ""
+msgstr "ワイヤからワークプレーンを作る"
 
 #: ../../cadquery/doc/roadmap.rst:23
-msgid "useful to select outer wire and then operate from there, to allow offsets"
-msgstr ""
+msgid ""
+"useful to select outer wire and then operate from there, to allow offsets"
+msgstr "アウターワイヤーを選択し、そこから操作することで、オフセットを許容することが有効です。"
 
 #: ../../cadquery/doc/roadmap.rst:26
 msgid "Assemblies"
-msgstr ""
+msgstr "アセンブリ"
 
 #: ../../cadquery/doc/roadmap.rst:30
 msgid "implement more constraints"
-msgstr ""
+msgstr "制約を増やす"
 
 #: ../../cadquery/doc/roadmap.rst:29
 msgid "in plane, on axis, parallel to vector"
-msgstr ""
+msgstr "平面内、軸上、ベクトルに平行"
 
 #: ../../cadquery/doc/roadmap.rst:33
 msgid "2D operations"
-msgstr ""
+msgstr "2次元演算"
 
 #: ../../cadquery/doc/roadmap.rst:36
 msgid "arc construction using relative measures"
-msgstr ""
+msgstr "相対測定を使用した弧の作図"
 
 #: ../../cadquery/doc/roadmap.rst:36
 msgid "instead of forcing use of absolute workplane coordinates"
-msgstr ""
+msgstr "絶対作業平面座標を強制的に使用するのではなく"
 
 #: ../../cadquery/doc/roadmap.rst:39
 msgid "tangent arcs"
-msgstr ""
+msgstr "接線円弧"
 
 #: ../../cadquery/doc/roadmap.rst:39
 msgid "after a line"
-msgstr ""
+msgstr "行の後に"
 
 #: ../../cadquery/doc/roadmap.rst:42
 msgid "centerpoint arcs"
-msgstr ""
+msgstr "中心点円弧"
 
 #: ../../cadquery/doc/roadmap.rst:42
 msgid "including portions of arcs as well as with end points specified"
-msgstr ""
+msgstr "端点指定と同様に円弧の一部を含みます"
 
 #: ../../cadquery/doc/roadmap.rst:45
 msgid "trimming"
-msgstr ""
+msgstr "トリミング"
 
 #: ../../cadquery/doc/roadmap.rst:45
 msgid "ability to use construction geometry to trim other entities"
-msgstr ""
+msgstr "コンストラクションジオメトリを使用して他のエンティティをトリミングする機能"
 
 #: ../../cadquery/doc/roadmap.rst:48
 msgid "construction lines"
-msgstr ""
+msgstr "作図線"
 
 #: ../../cadquery/doc/roadmap.rst:48
 msgid "especially centerlines"
-msgstr ""
+msgstr "特にセンターライン"
 
 #: ../../cadquery/doc/roadmap.rst:51
 msgid "2D fillets"
-msgstr ""
+msgstr "2Dフィレット"
 
 #: ../../cadquery/doc/roadmap.rst:51
 msgid "for a rectangle, or for consecutive selected lines"
-msgstr ""
+msgstr "矩形に対して、あるいは連続した選択線に対して"
 
 #: ../../cadquery/doc/roadmap.rst:54
 msgid "2D chamfers"
-msgstr ""
+msgstr "2次元面取り"
 
 #: ../../cadquery/doc/roadmap.rst:54
 msgid "based on rectangles, polygons, polylines, or adjacent selected lines"
-msgstr ""
+msgstr "矩形、多角形、ポリライン、または隣接する選択された線に基づきます"
 
 #: ../../cadquery/doc/roadmap.rst:57
 msgid "mirror around centerline"
-msgstr ""
+msgstr "中央線周りのミラー"
 
 #: ../../cadquery/doc/roadmap.rst:57
 msgid "using centerline construction geometry"
-msgstr ""
+msgstr "中央線構築のジオメトリを使用"
 
 #: ../../cadquery/doc/roadmap.rst:60
 msgid "midpoint selection"
-msgstr ""
+msgstr "中点選択"
 
 #: ../../cadquery/doc/roadmap.rst:60
 msgid "select midpoints of lines, arcs"
@@ -165,7 +175,9 @@ msgid "feature snap"
 msgstr ""
 
 #: ../../cadquery/doc/roadmap.rst:69
-msgid "project geometry in the rest of the part into the work plane, so that they can be selected and used as references for other features."
+msgid ""
+"project geometry in the rest of the part into the work plane, so that they "
+"can be selected and used as references for other features."
 msgstr ""
 
 #: ../../cadquery/doc/roadmap.rst:73
@@ -185,7 +197,9 @@ msgid "rotation/transform that return a copy"
 msgstr ""
 
 #: ../../cadquery/doc/roadmap.rst:79
-msgid "The current rotateAboutCenter and translate method modify the object, rather than returning a copy"
+msgid ""
+"The current rotateAboutCenter and translate method modify the object, rather"
+" than returning a copy"
 msgstr ""
 
 #: ../../cadquery/doc/roadmap.rst:84

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 06:27+0000\n"
+"POT-Creation-Date: 2023-09-10 00:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../cadquery/doc/selectors.rst:4
-msgid "String Selectors Reference"
+msgid "Selectors Reference"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:7
@@ -352,4 +352,28 @@ msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:138
 msgid "It is possible to use user defined vectors as a basis for the selectors. For example:"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:149
+msgid "Topological Selectors"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:151
+msgid "Is is also possible to use topological relations to select objects. Currently the following methods are supported:"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:154
+msgid ":py:meth:`cadquery.Workplane.ancestors`"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:155
+msgid ":py:meth:`cadquery.Workplane.siblings`"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:157
+msgid "Ancestors allows to select all objects containing currently selected object."
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:165
+msgid "Siblings allows to select all objects of the same type as selection that are connected via the specfied kind of elements."
 msgstr ""

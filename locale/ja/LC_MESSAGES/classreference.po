@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 05:16+0000\n"
+"POT-Creation-Date: 2023-09-10 00:12+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -535,6 +535,7 @@ msgstr ""
 #: cadquery.cq.Workplane.__sub__:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.add:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.all:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.ancestors:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.box:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.cboreHole:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.center:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -610,6 +611,7 @@ msgstr ""
 #: of cadquery.cq.Workplane.section:0 ../../cadquery/cadquery/cq.pydocstring
 #: of cadquery.cq.Workplane.shell:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.shells:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.siblings:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.sketch:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.slot2D:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.solids:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -698,6 +700,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Compound.ancestors:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound.cut:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound.fuse:0
@@ -709,6 +713,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Compound.makeText:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound.remove:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Compound.siblings:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Edge:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -786,6 +792,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__init__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.ancestors:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.cast:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.centerOfMass:0
@@ -837,6 +845,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Shape.rotate:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.scale:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.siblings:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.split:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1073,6 +1083,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.add:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.ancestors:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.center:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.chamfer:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.circle:0
@@ -1130,6 +1141,7 @@ msgstr ""
 #: of cadquery.cq.Workplane.section:0 ../../cadquery/cadquery/cq.pydocstring
 #: of cadquery.cq.Workplane.shell:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.shells:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.siblings:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.sketch:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.slot2D:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.solids:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -1324,6 +1336,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__or__:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__sub__:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.all:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.ancestors:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.box:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cboreHole:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.center:0
@@ -1402,6 +1415,7 @@ msgstr ""
 #: of cadquery.cq.Workplane.section:0 ../../cadquery/cadquery/cq.pydocstring
 #: of cadquery.cq.Workplane.shell:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.shells:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.siblings:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.size:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.sketch:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.slot2D:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -1485,7 +1499,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound.__bool__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Compound.__iter__:0
+#: cadquery.occ_impl.shapes.Compound.ancestors:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound.cut:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1496,6 +1510,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Compound.makeCompound:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound.makeText:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Compound.siblings:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Edge.arcCenter:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1601,6 +1617,10 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__hash__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.__iter__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.ancestors:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.cast:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.centerOfMass:0
@@ -1659,6 +1679,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.scale:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.siblings:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.split:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.toSplines:0
@@ -1704,6 +1726,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Solid.sweep_multi:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Vertex.Center:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Wire.__iter__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Wire.assembleEdges:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1981,8 +2005,10 @@ msgid "Check if empty."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Compound.__iter__:1
-msgid "Iterate over subshapes."
+#: cadquery.occ_impl.shapes.Compound.ancestors:1
+msgid ""
+"Iterate over ancestors, i.e. shapes of same kind within shape that contain "
+"elements of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -2030,6 +2056,13 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Compound.remove:1
 msgid "Remove the specified shape."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Compound.siblings:1
+msgid ""
+"Iterate over siblings, i.e. shapes within shape that share subshapes of kind"
+" with the elements of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.pydocstring of
@@ -3296,6 +3329,18 @@ msgid "Return hash(self)."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.__iter__:1
+msgid "Iterate over subshapes."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.ancestors:1
+msgid ""
+"Iterate over ancestors, i.e. shapes of same kind within shape that contain "
+"self."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.cast:1
 msgid "Returns the right type of wrapper, given a OCCT object"
 msgstr ""
@@ -3688,6 +3733,13 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.scale:1
 msgid "Scales this shape through a transformation."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.siblings:1
+msgid ""
+"Iterate over siblings, i.e. shapes within shape that share subshapes of kind"
+" with self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -4637,6 +4689,11 @@ msgid "Create a vertex"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Wire.__iter__:1
+msgid "Iterate over edges in an ordered way."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Wire.assembleEdges:1
 msgid ""
 "Attempts to build a wire that consists of the edges in the provided list"
@@ -4917,6 +4974,30 @@ msgstr ""
 msgid ""
 "Contrast with vals, which returns the underlying objects for all of the "
 "items on the stack"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.ancestors:1
+msgid "Select topological ancestors."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.ancestors:4
+msgid "kind of ancestor, e.g. \"Face\" or \"Edge\""
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.ancestors:5
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.compounds:8
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.edges:8
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.faces:8
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shells:8
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.siblings:6
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.solids:8
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.vertices:8
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.wires:8
+msgid "if set, search the tagged object instead of self"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.ancestors:6
+msgid "a Workplane object whose stack contains selected ancestors."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.box:1
@@ -5327,19 +5408,9 @@ msgid ""
 ":class:`StringSyntaxSelector`)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.compounds:8
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.edges:8
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.faces:8
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shells:8
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.solids:8
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.vertices:8
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.wires:8
-msgid "if set, search the tagged object instead of self"
-msgstr ""
-
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.compounds:9
 msgid ""
-"a CQ object who's stack contains all of the *distinct* compounds of *all* "
+"a CQ object whose stack contains all of the *distinct* compounds of *all* "
 "objects on the current stack, filtered by the provided selector."
 msgstr ""
 
@@ -5692,7 +5763,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.edges:9
 msgid ""
-"a CQ object who's stack contains all of the *distinct* edges of *all* "
+"a CQ object whose stack contains all of the *distinct* edges of *all* "
 "objects on the current stack, filtered by the provided selector."
 msgstr ""
 
@@ -5861,7 +5932,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.faces:9
 msgid ""
-"a CQ object who's stack contains all of the *distinct* faces of *all* "
+"a CQ object whose stack contains all of the *distinct* faces of *all* "
 "objects on the current stack, filtered by the provided selector."
 msgstr ""
 
@@ -6870,7 +6941,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.shells:9
 msgid ""
-"a CQ object who's stack contains all of the *distinct* shells of *all* "
+"a CQ object whose stack contains all of the *distinct* shells of *all* "
 "objects on the current stack, filtered by the provided selector."
 msgstr ""
 
@@ -6884,6 +6955,22 @@ msgstr ""
 msgid ""
 "Most solids will have a single shell, which represents the outer surface. A "
 "shell will typically be composed of multiple faces."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.siblings:1
+msgid "Select topological siblings."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.siblings:4
+msgid "kind of linking element, e.g. \"Vertex\" or \"Edge\""
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.siblings:5
+msgid "level of relation - how many elements of kind are in the link"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.siblings:7
+msgid "a Workplane object whose stack contains selected siblings."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.size:1
@@ -6928,7 +7015,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.solids:9
 msgid ""
-"a CQ object who's stack contains all of the *distinct* solids of *all* "
+"a CQ object whose stack contains all of the *distinct* solids of *all* "
 "objects on the current stack, filtered by the provided selector."
 msgstr ""
 
@@ -7512,7 +7599,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.vertices:9
 msgid ""
-"a CQ object who's stack contains  the *distinct* vertices of *all* objects "
+"a CQ object whose stack contains  the *distinct* vertices of *all* objects "
 "on the current stack, after being filtered by the selector, if provided"
 msgstr ""
 
@@ -7663,7 +7750,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.wires:9
 msgid ""
-"a CQ object who's stack contains all of the *distinct* wires of *all* "
+"a CQ object whose stack contains all of the *distinct* wires of *all* "
 "objects on the current stack, filtered by the provided selector."
 msgstr ""
 

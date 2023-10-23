@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-10 03:32+0000\n"
+"POT-Creation-Date: 2023-10-23 02:47+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -165,10 +165,11 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:260 ../../cadquery/doc/examples.rst:293
 #: ../../cadquery/doc/examples.rst:323 ../../cadquery/doc/examples.rst:446
 #: ../../cadquery/doc/examples.rst:477 ../../cadquery/doc/examples.rst:504
-#: ../../cadquery/doc/examples.rst:595 ../../cadquery/doc/examples.rst:637
-#: ../../cadquery/doc/examples.rst:811 ../../cadquery/doc/examples.rst:865
-#: ../../cadquery/doc/examples.rst:887 ../../cadquery/doc/examples.rst:954
-#: ../../cadquery/doc/examples.rst:1002 ../../cadquery/doc/examples.rst:1049
+#: ../../cadquery/doc/examples.rst:535 ../../cadquery/doc/examples.rst:595
+#: ../../cadquery/doc/examples.rst:637 ../../cadquery/doc/examples.rst:811
+#: ../../cadquery/doc/examples.rst:865 ../../cadquery/doc/examples.rst:887
+#: ../../cadquery/doc/examples.rst:954 ../../cadquery/doc/examples.rst:1002
+#: ../../cadquery/doc/examples.rst:1049
 msgid ":py:meth:`Workplane`"
 msgstr ""
 
@@ -200,8 +201,9 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:205 ../../cadquery/doc/examples.rst:262
 #: ../../cadquery/doc/examples.rst:296 ../../cadquery/doc/examples.rst:324
 #: ../../cadquery/doc/examples.rst:381 ../../cadquery/doc/examples.rst:406
-#: ../../cadquery/doc/examples.rst:501 ../../cadquery/doc/examples.rst:950
-#: ../../cadquery/doc/examples.rst:1042 ../../cadquery/doc/examples.rst:1171
+#: ../../cadquery/doc/examples.rst:501 ../../cadquery/doc/examples.rst:534
+#: ../../cadquery/doc/examples.rst:950 ../../cadquery/doc/examples.rst:1042
+#: ../../cadquery/doc/examples.rst:1171
 msgid ":py:meth:`Workplane.extrude`"
 msgstr ""
 
@@ -231,9 +233,9 @@ msgid ":py:meth:`Workplane.center` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:175 ../../cadquery/doc/examples.rst:204
-#: ../../cadquery/doc/examples.rst:666 ../../cadquery/doc/examples.rst:776
-#: ../../cadquery/doc/examples.rst:952 ../../cadquery/doc/examples.rst:999
-#: ../../cadquery/doc/examples.rst:1169
+#: ../../cadquery/doc/examples.rst:533 ../../cadquery/doc/examples.rst:666
+#: ../../cadquery/doc/examples.rst:776 ../../cadquery/doc/examples.rst:952
+#: ../../cadquery/doc/examples.rst:999 ../../cadquery/doc/examples.rst:1169
 msgid ":py:meth:`Workplane.circle`"
 msgstr ""
 
@@ -262,7 +264,7 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:202
-msgid ":py:meth:`Workplane.points` **!**"
+msgid ":py:meth:`Workplane.pushPoints` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:208
@@ -514,6 +516,10 @@ msgstr ""
 
 #: ../../cadquery/doc/examples.rst:507
 msgid "API References"
+msgstr ""
+
+#: ../../cadquery/doc/examples.rst:532
+msgid ":py:meth:`Workplane.copyWorkplane` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:538

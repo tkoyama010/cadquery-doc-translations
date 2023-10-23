@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-10 03:32+0000\n"
+"POT-Creation-Date: 2023-10-23 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,6 +166,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:446
 #: ../../cadquery/doc/examples.rst:477
 #: ../../cadquery/doc/examples.rst:504
+#: ../../cadquery/doc/examples.rst:535
 #: ../../cadquery/doc/examples.rst:595
 #: ../../cadquery/doc/examples.rst:637
 #: ../../cadquery/doc/examples.rst:811
@@ -206,6 +207,7 @@ msgstr ""
 #: ../../cadquery/doc/examples.rst:381
 #: ../../cadquery/doc/examples.rst:406
 #: ../../cadquery/doc/examples.rst:501
+#: ../../cadquery/doc/examples.rst:534
 #: ../../cadquery/doc/examples.rst:950
 #: ../../cadquery/doc/examples.rst:1042
 #: ../../cadquery/doc/examples.rst:1171
@@ -234,6 +236,7 @@ msgstr ""
 
 #: ../../cadquery/doc/examples.rst:175
 #: ../../cadquery/doc/examples.rst:204
+#: ../../cadquery/doc/examples.rst:533
 #: ../../cadquery/doc/examples.rst:666
 #: ../../cadquery/doc/examples.rst:776
 #: ../../cadquery/doc/examples.rst:952
@@ -264,7 +267,7 @@ msgid "You can use a list of points to construct multiple objects at once. Most 
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:202
-msgid ":py:meth:`Workplane.points` **!**"
+msgid ":py:meth:`Workplane.pushPoints` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:208
@@ -494,6 +497,10 @@ msgstr ""
 
 #: ../../cadquery/doc/examples.rst:507
 msgid "API References"
+msgstr ""
+
+#: ../../cadquery/doc/examples.rst:532
+msgid ":py:meth:`Workplane.copyWorkplane` **!**"
 msgstr ""
 
 #: ../../cadquery/doc/examples.rst:538

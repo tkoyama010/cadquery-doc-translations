@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-24 02:42+0000\n"
+"POT-Creation-Date: 2023-11-16 00:03+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -3535,6 +3535,21 @@ msgstr ""
 msgid ""
 "Export the file as ASCII (True) or binary (False) STL format.  Default is "
 "binary."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.exportStl:10
+msgid ""
+"If True, tolerance will be scaled by the size of the edge being meshed. "
+"Default is True. Setting this value to True may cause large features to "
+"become faceted, or small features dense."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.exportStl:12
+msgid ""
+"If True, OCCT will use parallel processing to mesh the shape. Default is "
+"True."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-16 00:03+0000\n"
+"POT-Creation-Date: 2023-12-08 00:03+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -1912,25 +1912,32 @@ msgstr ""
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:5
 msgid ""
-"the deflection tolerance, in model units. Only used for glTF, VRML. Default "
-"0.1."
+"STEP only - See "
+":meth:`~cadquery.occ_impl.exporters.assembly.exportAssembly`."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:6
 msgid ""
-"the angular tolerance, in radians. Only used for glTF, VRML. Default 0.1."
+"the deflection tolerance, in model units. Only used for glTF, VRML. Default "
+"0.1."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:7
+msgid ""
+"the angular tolerance, in radians. Only used for glTF, VRML. Default 0.1."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.save:8
 msgid ""
 "Additional keyword arguments.  Only used for STEP, glTF and STL. See "
 ":meth:`~cadquery.occ_impl.exporters.assembly.exportAssembly`."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
-#: cadquery.assembly.Assembly.save:9
+#: cadquery.assembly.Assembly.save:10
 msgid "STL only - Sets whether or not STL export should be text or binary"
 msgstr ""
 

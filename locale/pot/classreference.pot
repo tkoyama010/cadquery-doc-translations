@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-25 00:04+0000\n"
+"POT-Creation-Date: 2024-01-03 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -594,6 +594,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.isSame:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.locate:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.located:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.matrixOfInertia:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.mesh:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.mirror:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.move:0
@@ -1128,6 +1129,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.locate:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.located:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.location:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.matrixOfInertia:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.mirror:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.move:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:0
@@ -2533,6 +2535,10 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.location:1
 msgid "Return the current location"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.matrixOfInertia:1
+msgid "Calculates the matrix of inertia of an object. :param obj: Compute the matrix of inertia of this object"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.mesh:1

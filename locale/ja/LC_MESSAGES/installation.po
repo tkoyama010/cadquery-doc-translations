@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.3\n"
+"Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-08 06:27+0000\n"
+"POT-Creation-Date: 2024-01-31 00:05+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -130,13 +130,11 @@ msgstr ""
 
 #: ../../cadquery/doc/installation.rst:89
 msgid ""
-"CadQuery has a complex set of dependencies including OCP, which is our set "
-"of bindings to the OpenCASCADE CAD kernel. OCP is distributed as binary "
-"wheels for Linux, MacOS and Windows. However, there are some limitations. "
-"Only Python 3.8 through 3.10 are currently supported, and some older Linux "
-"distributions such as Ubuntu 18.04 are not supported. If the pip "
-"installation method does not work for your system, you can try the conda "
-"installation method."
+"CadQuery can be installed via pip on Linux, MacOS and Windows. Python "
+"versions 3.9 and newer are supported by CadQuery, however a bleeding-edge "
+"Python installation may be broken due to lagging support in CadQuery's "
+"complex set of dependencies. If the pip installation method does not work "
+"for your system, you can try the conda installation method above."
 msgstr ""
 
 #: ../../cadquery/doc/installation.rst:91

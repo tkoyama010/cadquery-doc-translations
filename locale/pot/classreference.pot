@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-21 00:05+0000\n"
+"POT-Creation-Date: 2024-03-25 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -401,6 +401,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.add:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.all:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:0
@@ -534,6 +535,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Compound.remove:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Compound.siblings:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeBezier:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeLine:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeSpline:0
@@ -678,6 +680,7 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.__init__:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.arc:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.assemble:0
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.bezier:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.chamfer:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.circle:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.clean:0
@@ -748,6 +751,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__init__:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.add:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:0
@@ -829,6 +833,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.setOrigin2d:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.toLocalCoords:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.toWorldCoords:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeBezier:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeLine:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeSpline:0
@@ -918,6 +923,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__sub__:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.all:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:0
@@ -1051,6 +1057,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Compound.siblings:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.arcCenter:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.close:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeBezier:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeLine:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeSpline:0
@@ -1190,6 +1197,7 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.__iter__:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.arc:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.assemble:0
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.bezier:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.chamfer:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.circle:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.clean:0
@@ -1497,6 +1505,18 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.close:1
 msgid "Close an Edge"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeBezier:1
+msgid "Create a cubic Bézier Curve from the points."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeBezier:3
+msgid "a list of Vectors that represent the points. The edge will pass through the first and the last point, and the inner points are Bézier control points."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeBezier:6
+msgid "An edge"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:1
@@ -2692,6 +2712,14 @@ msgstr ""
 msgid "Assemble edges into faces."
 msgstr ""
 
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.bezier:1
+msgid "Construct an bezier curve."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.bezier:3
+msgid "The edge will pass through the last points, and the inner points are bezier control points."
+msgstr ""
+
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.chamfer:1
 msgid "Add a chamfer based on current selection."
 msgstr ""
@@ -3537,6 +3565,30 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:6
 msgid "a Workplane object whose stack contains selected ancestors."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:1
+msgid "Make a cubic Bézier curve by the provided points (2D or 3D)."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:4
+msgid "Bezier control points and end point. All points except the last point are Bezier control points, and the last point is the end point"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:7
+msgid "Use the current point as a starting point of the curve"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:8
+msgid "convert the resulting bezier edge to a wire"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:9
+msgid "a Workplane object with the current point at the end of the bezier"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:11
+msgid "The Bézier Will begin at either current point or the first point of listOfXYTuple, and end with the last point of listOfXYTuple"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:1

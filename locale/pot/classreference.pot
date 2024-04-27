@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-07 00:04+0000\n"
+"POT-Creation-Date: 2024-04-27 00:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2561,7 +2561,7 @@ msgid "Return the current location"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.matrixOfInertia:1
-msgid "Calculates the matrix of inertia of an object. :param obj: Compute the matrix of inertia of this object"
+msgid "Calculates the matrix of inertia of an object. Since the part's density is unknown, this result is inertia/density with units of [1/length]. :param obj: Compute the matrix of inertia of this object"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.mesh:1

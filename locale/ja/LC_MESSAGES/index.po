@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-05-06 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -94,18 +94,18 @@ msgstr ":ref:`apireference`"
 msgid "Table Of Contents"
 msgstr "目次"
 
-#: ../../cadquery/doc/index.rst:57
+#: ../../cadquery/doc/index.rst:58
 msgid "Indices and tables"
 msgstr "インデックスとテーブル"
 
-#: ../../cadquery/doc/index.rst:59
+#: ../../cadquery/doc/index.rst:60
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../cadquery/doc/index.rst:60
+#: ../../cadquery/doc/index.rst:61
 msgid ":ref:`modindex`"
 msgstr ":ref:`modindex`"
 
-#: ../../cadquery/doc/index.rst:61
+#: ../../cadquery/doc/index.rst:62
 msgid ":ref:`search`"
 msgstr ":ref:`search`"

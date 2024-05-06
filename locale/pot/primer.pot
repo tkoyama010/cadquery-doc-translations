@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-05-06 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -340,7 +340,7 @@ msgid ":class:`~cadquery.Vertex`"
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:232
-msgid "Each class has its own methods to create and/or edit shapes of their respective type. As already explained in :ref:`cadquery_concepts` there is also some kind of hierarchy in the topological classes. A Wire is made of several edges which are themselves made of several vertices. This means you can create geometry from the bottom up and have a lot of control over it."
+msgid "Each class has its own methods to create and/or edit shapes of their respective type. One can also use the :ref:`freefuncapi` to create and modify shapes. As already explained in :ref:`cadquery_concepts` there is also some kind of hierarchy in the topological classes. A Wire is made of several edges which are themselves made of several vertices. This means you can create geometry from the bottom up and have a lot of control over it."
 msgstr ""
 
 #: ../../cadquery/doc/primer.rst:235

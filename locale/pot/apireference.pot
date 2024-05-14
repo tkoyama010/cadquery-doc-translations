@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-05-14 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -981,11 +981,11 @@ msgid "Runs the provided function on each value in the stack, and collects the r
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:221:<autosummary>:1
-msgid ":py:obj:`Workplane.eachpoint <cadquery.Workplane.eachpoint>`\\ \\(callback\\[\\, ...\\]\\)"
+msgid ":py:obj:`Workplane.eachpoint <cadquery.Workplane.eachpoint>`\\ \\(arg\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:221:<autosummary>:1
-msgid "Same as each(), except each item on the stack is converted into a point before it is passed into the callback function."
+msgid "Same as each(), except arg is translated by the positions on the stack."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:225

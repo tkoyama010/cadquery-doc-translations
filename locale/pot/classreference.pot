@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-06 00:04+0000\n"
+"POT-Creation-Date: 2024-05-14 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -814,7 +814,6 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:0
@@ -3781,7 +3780,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:8
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:17
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:12
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:9
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:12
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:10
@@ -4279,7 +4278,7 @@ msgid "should  values be converted from local coordinates first?"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:6
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:9
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:5
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:8
@@ -4314,22 +4313,18 @@ msgid "TODO: wrapper object for Wire will clean up forConstruction flag everywhe
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:1
-msgid "Same as each(), except each item on the stack is converted into a point before it is passed into the callback function."
+msgid "Same as each(), except arg is translated by the positions on the stack. If arg is a callback function, then the function is called for each point on the stack, and the resulting shape is used. :return: CadQuery object which contains a list of  vectors (points ) on its stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:4
-msgid "CadQuery object which contains a list of  vectors (points ) on its stack."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:5
 msgid "should points be in local or global coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:12
 msgid "The resulting object has a point on the stack for each object on the original stack. Vertices and points remain a point.  Faces, Wires, Solids, Edges, and Shells are converted to a point by using their center of mass."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:16
 msgid "If the stack has zero length, a single point is returned, which is the center of the current workplane/coordinate system"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 00:04+0000\n"
+"POT-Creation-Date: 2024-06-14 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5989,11 +5989,11 @@ msgid "a single compsolid"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1DProtocol:1
-msgid "Bases: :py:class:`~cadquery.occ_impl.shapes.ShapeProtocol`, :py:class:`~typing_extensions.Protocol`"
+msgid "Bases: :py:class:`~cadquery.occ_impl.shapes.ShapeProtocol`, :py:class:`~typing.Protocol`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ShapeProtocol:1
-msgid "Bases: :py:class:`~typing_extensions.Protocol`"
+msgid "Bases: :py:class:`~typing.Protocol`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:1

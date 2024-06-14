@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 00:04+0000\n"
+"POT-Creation-Date: 2024-06-14 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -8351,12 +8351,12 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Mixin1DProtocol:1
 msgid ""
 "Bases: :py:class:`~cadquery.occ_impl.shapes.ShapeProtocol`, "
-":py:class:`~typing_extensions.Protocol`"
+":py:class:`~typing.Protocol`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.ShapeProtocol:1
-msgid "Bases: :py:class:`~typing_extensions.Protocol`"
+msgid "Bases: :py:class:`~typing.Protocol`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

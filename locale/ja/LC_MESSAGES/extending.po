@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-07-04 00:03+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -295,4 +295,38 @@ msgstr ""
 msgid ""
 "(The cubes are off-center because the boxes have their lower left corner at "
 "the reference points.)"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:200
+msgid "Extending CadQuery: Special Methods"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:202
+msgid ""
+"The above-mentioned approach has one drawback, it requires monkey-patching "
+"or subclassing. To avoid this one can also use the following special methods"
+" of :py:class:`cadquery.Workplane` and write plugins in a more functional "
+"style."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:206
+msgid ":py:meth:`cadquery.Workplane.map`"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:207
+msgid ":py:meth:`cadquery.Workplane.apply`"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:208
+msgid ":py:meth:`cadquery.Workplane.invoke`"
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:210
+msgid "Here is the same plugin rewritten using one of those methods."
+msgstr ""
+
+#: ../../cadquery/doc/extending.rst:236
+msgid ""
+"Such an approach is more friendly for auto-completion and static analysis "
+"tools."
 msgstr ""

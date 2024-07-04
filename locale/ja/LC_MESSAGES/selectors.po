@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-07-04 00:03+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -396,4 +396,37 @@ msgstr ""
 msgid ""
 "It is possible to use selectors with :py:class:`cadquery.Shape` and "
 ":py:class:`cadquery.Sketch` objects. This includes chaining and combining."
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:192
+msgid "Additional special methods"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:194
+msgid ""
+":py:class:`cadquery.Workplane` provides the following special methods that "
+"can be used for quick prototyping of selectors when implementing a complete "
+"selector via subclassing of :py:class:`cadquery.Selector` is not desirable."
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:198
+msgid ":py:meth:`cadquery.Workplane.filter`"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:199
+msgid ":py:meth:`cadquery.Workplane.sort`"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:200
+msgid ":py:meth:`cadquery.Workplane.__getitem__`"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:202
+msgid ""
+"For example, one could use those methods for selecting objects within a "
+"certain range of volumes."
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:217
+msgid "The same can be achieved using sorting."
 msgstr ""

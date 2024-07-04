@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 00:04+0000\n"
+"POT-Creation-Date: 2024-07-04 00:03+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -536,6 +536,7 @@ msgstr ""
 #: cadquery.cq.Workplane.add:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.all:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.ancestors:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.apply:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.bezier:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.box:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.cboreHole:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -568,6 +569,7 @@ msgstr ""
 #: cadquery.cq.Workplane.extrude:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.faces:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.fillet:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.filter:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.findFace:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.findSolid:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.first:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -576,11 +578,13 @@ msgstr ""
 #: cadquery.cq.Workplane.hole:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.interpPlate:0 ../../cadquery/cadquery/cq.pydocstring
 #: of cadquery.cq.Workplane.intersect:0 ../../cadquery/cadquery/cq.pydocstring
-#: of cadquery.cq.Workplane.item:0 ../../cadquery/cadquery/cq.pydocstring of
+#: of cadquery.cq.Workplane.invoke:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.item:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.last:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.line:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.lineTo:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.loft:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.map:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.mirror:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.mirrorX:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.mirrorY:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -616,6 +620,7 @@ msgstr ""
 #: cadquery.cq.Workplane.sketch:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.slot2D:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.solids:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.sort:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.sphere:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.spline:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.splineApprox:0 ../../cadquery/cadquery/cq.pydocstring
@@ -1492,6 +1497,7 @@ msgstr ""
 #: cadquery.cq.Workplane.extrude:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.faces:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.fillet:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.filter:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.findFace:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.findSolid:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.first:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -1543,6 +1549,7 @@ msgstr ""
 #: cadquery.cq.Workplane.sketch:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.slot2D:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.solids:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.sort:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.sphere:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.spline:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.splineApprox:0 ../../cadquery/cadquery/cq.pydocstring
@@ -5414,6 +5421,12 @@ msgstr ""
 msgid "a Workplane object whose stack contains selected ancestors."
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.apply:1
+msgid ""
+"Apply a callable to all items at once. :param self: :param f: Callable to be"
+" applied. :return: Workplane object with f applied to all items."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.bezier:1
 msgid "Make a cubic Bézier curve by the provided points (2D or 3D)."
 msgstr ""
@@ -6421,6 +6434,12 @@ msgstr ""
 msgid "This example will create a unit cube, with the top edges filleted::"
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.filter:1
+msgid ""
+"Filter items using a boolean predicate. :param self: :param f: Callable to "
+"be used for filtering. :return: Workplane object with filtered items."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.findFace:1
 msgid ""
 "Finds the first face object in the chain, searching from the current node "
@@ -6595,6 +6614,14 @@ msgstr ""
 msgid "if there is no solid to intersect with in the chain"
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.invoke:1
+msgid ""
+"Invoke a callable mapping Workplane to Workplane or None. Supports also "
+"callables that take no arguments such as breakpoint. Returns self if "
+"callable returns None. :param self: :param f: Callable to be invoked. "
+":return: Workplane object."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.item:1
 msgid "Return the ith item on the stack."
 msgstr ""
@@ -6681,6 +6708,13 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.loft:10
 msgid "a Workplane object containing the created loft"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.map:1
+msgid ""
+"Apply a callable to every item separately. :param self: :param f: Callable "
+"to be applied to every item separately. :return: Workplane object with f "
+"applied to all items."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.mirror:1
@@ -7477,6 +7511,12 @@ msgstr ""
 msgid ""
 "It is possible for a single CQ object ( or even a single CAD primitive ) to "
 "contain multiple solids."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.sort:1
+msgid ""
+"Sort items using a callable. :param self: :param key: Callable to be used "
+"for sorting. :return: Workplane object with items sorted."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.sphere:1

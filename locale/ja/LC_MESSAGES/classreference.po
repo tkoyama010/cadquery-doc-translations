@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-04 00:03+0000\n"
+"POT-Creation-Date: 2024-07-16 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -8498,7 +8498,9 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.loft:1
-msgid "Loft edges or wires."
+msgid ""
+"Loft edges, wires or faces. For faces cap has no effect. Do not mix faces "
+"with other types."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8513,8 +8515,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.polygon:1
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.spline:1
 msgid "Construct a polygon (closed polyline) from points."
 msgstr ""
 
@@ -8554,17 +8554,24 @@ msgid "Construct a solid sphere."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.spline:1
+msgid "Construct a spline from points."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.split:1
 msgid "Split one shape with another."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.sweep:1
-msgid "Sweep edge or wire along a path."
+msgid ""
+"Sweep edge, wire or face along a path. For faces cap has no effect. Do not "
+"mix faces with other types."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.sweep:4
+#: cadquery.occ_impl.shapes.sweep:5
 msgid ""
 "sweep(s: Sequence[cadquery.occ_impl.shapes.Shape], path: "
 "cadquery.occ_impl.shapes.Shape, cap: bool = False) -> "
@@ -8572,8 +8579,10 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.sweep:6
-msgid "Sweep edges or wires along a path, chaining sections are supported."
+#: cadquery.occ_impl.shapes.sweep:7
+msgid ""
+"Sweep edges, wires or faces along a path, multiple sections are supported.  "
+"For faces cap has no effect. Do not mix faces with other types."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

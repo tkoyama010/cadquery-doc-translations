@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-06 00:04+0000\n"
+"POT-Creation-Date: 2024-07-16 00:04+0000\n"
 "PO-Revision-Date: 2024-05-06 00:04+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -142,11 +142,11 @@ msgid ""
 ":meth:`~cadquery.occ_impl.shapes.sweep` operations."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:225
+#: ../../cadquery/doc/free-func.rst:226
 msgid "Placement"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:227
+#: ../../cadquery/doc/free-func.rst:228
 msgid ""
 "Placement and creation of arrays is possible using "
 ":meth:`~cadquery.Shape.move` and :meth:`~cadquery.Shape.moved`."

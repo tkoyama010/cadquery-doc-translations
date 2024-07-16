@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-06 00:04+0000\n"
+"POT-Creation-Date: 2024-07-16 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,10 +104,10 @@ msgstr ""
 msgid "Free function API currently supports :meth:`~cadquery.occ_impl.shapes.extrude`, :meth:`~cadquery.occ_impl.shapes.loft`, :meth:`~cadquery.occ_impl.shapes.revolve` and :meth:`~cadquery.occ_impl.shapes.sweep` operations."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:225
+#: ../../cadquery/doc/free-func.rst:226
 msgid "Placement"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:227
+#: ../../cadquery/doc/free-func.rst:228
 msgid "Placement and creation of arrays is possible using :meth:`~cadquery.Shape.move` and :meth:`~cadquery.Shape.moved`."
 msgstr ""

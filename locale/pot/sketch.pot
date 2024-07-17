@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-07-17 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,7 +245,7 @@ msgid "Sketches can be created as separate entities and reused, but also created
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:197
-msgid "Note that the sketch is placed on all locations that are on the top of the stack."
+msgid "Sketches in-place"
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:199
@@ -256,18 +256,42 @@ msgstr ""
 msgid "Sketch API is available after the :meth:`~cadquery.Workplane.sketch` call and original `workplane`."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:221
+#: ../../cadquery/doc/sketch.rst:222
+msgid "Placing an existing sketch on a workplane"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:224
+msgid "Sometimes it is desired to place an existing sketches as-is on a workplane. This can be done with :meth:`~cadquery.Workplane.placeSketch`"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:244
+msgid "Sketches spanning multiple elements"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:246
 msgid "When multiple elements are selected before constructing the sketch, multiple sketches will be created."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:247
-msgid "Sometimes it is desired to reuse existing sketches and place them as-is on a workplane."
+#: ../../cadquery/doc/sketch.rst:248
+msgid "Note that the sketch is placed on all locations that are on the top of the stack."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:267
-msgid "Reusing of existing sketches is needed when using :meth:`~cadquery.Workplane.loft`."
+#: ../../cadquery/doc/sketch.rst:275
+msgid "Lofting between two sketches"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:280
+#: ../../cadquery/doc/sketch.rst:277
+msgid "Two sketches on different workplanes are needed when using :meth:`~cadquery.Workplane.loft`."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:290
 msgid "When lofting only outer wires are taken into account and inner wires are silently ignored. Note that only sketches on the top of stack are considered for the current operation (i.e. there are no pending sketches), so when lofting or sweeping all relevant sketches have to be added in one `placeSketch` call."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:293
+msgid "Offsets made easy"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:295
+msgid "Conveniently, it is possible to reuse a sketch to create an :meth:`~cadquery.Sketch.offset` shape."
 msgstr ""

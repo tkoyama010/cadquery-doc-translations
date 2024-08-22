@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 00:04+0000\n"
+"POT-Creation-Date: 2024-08-22 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Creating new sketches."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
+msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\, obj\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -105,7 +105,7 @@ msgid "Create a partial copy of the sketch with a new location."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":py:obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(loc\\)"
+msgid ":py:obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 00:04+0000\n"
+"POT-Creation-Date: 2024-08-22 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,253 +45,281 @@ msgid "Modes"
 msgstr ""
 
 #: ../../cadquery/doc/sketch.rst:43
-msgid "Every operation from the face API accepts a mode parameter to define how to combine the created object with existing ones. It can be fused (``mode='a'``), cut (``mode='s'``), intersected (``mode='i'``) or just stored for construction (``mode='c'``). In the last case, it is mandatory to specify a ``tag`` in order to be able to refer to the object later on. By default faces are fused together. Note the usage of the subtractive and additive modes in the example above. The additional two are demonstrated below."
+msgid "Every operation from the face API accepts a mode parameter to define how to combine the created object with existing ones. It can be fused (``mode='a'``), cut (``mode='s'``), intersected (``mode='i'``), replaced (``mode='r'``) or just stored for construction (``mode='c'``). In the last case, it is mandatory to specify a ``tag`` in order to be able to refer to the object later on. By default faces are fused together. Note the usage of the subtractive and additive modes in the example above. The additional two are demonstrated below."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:63
+#: ../../cadquery/doc/sketch.rst:70
 msgid "Edge-based API"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:65
+#: ../../cadquery/doc/sketch.rst:72
 msgid "If needed, one can construct sketches by placing individual edges."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:84
+#: ../../cadquery/doc/sketch.rst:91
 msgid "Once the construction is finished it has to be converted to the face-based representation using :meth:`~cadquery.Sketch.assemble`. Afterwards, face based operations can be applied."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:89
+#: ../../cadquery/doc/sketch.rst:96
 msgid "Convex hull"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:91
+#: ../../cadquery/doc/sketch.rst:98
 msgid "The Convex Hull feature is currently experimental."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:93
+#: ../../cadquery/doc/sketch.rst:100
 msgid "For certain special use-cases convex hull can be constructed from straight segments and circles."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:108
+#: ../../cadquery/doc/sketch.rst:115
 msgid "Constraint-based sketches"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:110
+#: ../../cadquery/doc/sketch.rst:117
 msgid "The 2D Sketch constraints and solver is currently experimental."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:112
+#: ../../cadquery/doc/sketch.rst:119
 msgid "Finally, if desired, geometric constraints can be used to construct sketches. So far only line segments and arcs can be used in such a use case."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:132
+#: ../../cadquery/doc/sketch.rst:139
 msgid "Following constraints are implemented. Arguments are passed in as one tuple in :meth:`~cadquery.Sketch.constrain`. In this table, `0..1` refers to a float between 0 and 1 where 0 would create a constraint relative to the start of the element, and 1 the end."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:138
+#: ../../cadquery/doc/sketch.rst:145
 msgid "Name"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:139
+#: ../../cadquery/doc/sketch.rst:146
 msgid "Arity"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:140
+#: ../../cadquery/doc/sketch.rst:147
 msgid "Entities"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:141
+#: ../../cadquery/doc/sketch.rst:148
 msgid "Arguments"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:142
+#: ../../cadquery/doc/sketch.rst:149
 msgid "Description"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:143
+#: ../../cadquery/doc/sketch.rst:150
 msgid "FixedPoint"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:144
-#: ../../cadquery/doc/sketch.rst:159
-#: ../../cadquery/doc/sketch.rst:169
-#: ../../cadquery/doc/sketch.rst:174
-#: ../../cadquery/doc/sketch.rst:179
+#: ../../cadquery/doc/sketch.rst:151
+#: ../../cadquery/doc/sketch.rst:166
+#: ../../cadquery/doc/sketch.rst:176
+#: ../../cadquery/doc/sketch.rst:181
+#: ../../cadquery/doc/sketch.rst:186
 msgid "1"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:145
-#: ../../cadquery/doc/sketch.rst:150
-#: ../../cadquery/doc/sketch.rst:155
-#: ../../cadquery/doc/sketch.rst:160
-#: ../../cadquery/doc/sketch.rst:165
+#: ../../cadquery/doc/sketch.rst:152
+#: ../../cadquery/doc/sketch.rst:157
+#: ../../cadquery/doc/sketch.rst:162
+#: ../../cadquery/doc/sketch.rst:167
+#: ../../cadquery/doc/sketch.rst:172
 msgid "All"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:146
+#: ../../cadquery/doc/sketch.rst:153
 msgid "`None` for arc center or `0..1` for point on segment/arc"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:147
+#: ../../cadquery/doc/sketch.rst:154
 msgid "Specified point is fixed"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:148
+#: ../../cadquery/doc/sketch.rst:155
 msgid "Coincident"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:149
-#: ../../cadquery/doc/sketch.rst:154
-#: ../../cadquery/doc/sketch.rst:164
+#: ../../cadquery/doc/sketch.rst:156
+#: ../../cadquery/doc/sketch.rst:161
+#: ../../cadquery/doc/sketch.rst:171
 msgid "2"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:151
+#: ../../cadquery/doc/sketch.rst:158
 msgid "None"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:152
+#: ../../cadquery/doc/sketch.rst:159
 msgid "Specified points coincide"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:153
+#: ../../cadquery/doc/sketch.rst:160
 msgid "Angle"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:156
-#: ../../cadquery/doc/sketch.rst:181
+#: ../../cadquery/doc/sketch.rst:163
+#: ../../cadquery/doc/sketch.rst:188
 msgid "`angle`"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:157
+#: ../../cadquery/doc/sketch.rst:164
 msgid "Angle between the tangents of the two entities is fixed"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:158
+#: ../../cadquery/doc/sketch.rst:165
 msgid "Length"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:161
+#: ../../cadquery/doc/sketch.rst:168
 msgid "`length`"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:162
+#: ../../cadquery/doc/sketch.rst:169
 msgid "Specified entity has fixed length"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:163
+#: ../../cadquery/doc/sketch.rst:170
 msgid "Distance"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:166
+#: ../../cadquery/doc/sketch.rst:173
 msgid "`None or 0..1, None or 0..1, distance`"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:167
+#: ../../cadquery/doc/sketch.rst:174
 msgid "Distance between two points is fixed"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:168
+#: ../../cadquery/doc/sketch.rst:175
 msgid "Radius"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:170
-#: ../../cadquery/doc/sketch.rst:180
+#: ../../cadquery/doc/sketch.rst:177
+#: ../../cadquery/doc/sketch.rst:187
 msgid "Arc"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:171
+#: ../../cadquery/doc/sketch.rst:178
 msgid "`radius`"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:172
+#: ../../cadquery/doc/sketch.rst:179
 msgid "Specified entity has a fixed radius"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:173
+#: ../../cadquery/doc/sketch.rst:180
 msgid "Orientation"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:175
+#: ../../cadquery/doc/sketch.rst:182
 msgid "Segment"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:176
+#: ../../cadquery/doc/sketch.rst:183
 msgid "`x,y`"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:177
+#: ../../cadquery/doc/sketch.rst:184
 msgid "Specified entity is parallel to `(x,y)`"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:178
+#: ../../cadquery/doc/sketch.rst:185
 msgid "ArcAngle"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:182
+#: ../../cadquery/doc/sketch.rst:189
 msgid "Specified entity is fixed angular span"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:186
+#: ../../cadquery/doc/sketch.rst:193
 msgid "Workplane integration"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:188
+#: ../../cadquery/doc/sketch.rst:195
 msgid "Once created, a sketch can be used to construct various features on a workplane. Supported operations include :meth:`~cadquery.Workplane.extrude`, :meth:`~cadquery.Workplane.twistExtrude`, :meth:`~cadquery.Workplane.revolve`, :meth:`~cadquery.Workplane.sweep`, :meth:`~cadquery.Workplane.cutBlind`, :meth:`~cadquery.Workplane.cutThruAll` and :meth:`~cadquery.Workplane.loft`."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:193
+#: ../../cadquery/doc/sketch.rst:200
 msgid "Sketches can be created as separate entities and reused, but also created ad-hoc in one fluent chain of calls as shown below."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:197
+#: ../../cadquery/doc/sketch.rst:204
 msgid "Sketches in-place"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:199
+#: ../../cadquery/doc/sketch.rst:206
 msgid "Constructing sketches in-place can be accomplished as follows."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:219
+#: ../../cadquery/doc/sketch.rst:226
 msgid "Sketch API is available after the :meth:`~cadquery.Workplane.sketch` call and original `workplane`."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:222
+#: ../../cadquery/doc/sketch.rst:229
 msgid "Placing an existing sketch on a workplane"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:224
+#: ../../cadquery/doc/sketch.rst:231
 msgid "Sometimes it is desired to place an existing sketches as-is on a workplane. This can be done with :meth:`~cadquery.Workplane.placeSketch`"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:244
+#: ../../cadquery/doc/sketch.rst:251
 msgid "Sketches spanning multiple elements"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:246
+#: ../../cadquery/doc/sketch.rst:253
 msgid "When multiple elements are selected before constructing the sketch, multiple sketches will be created."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:248
+#: ../../cadquery/doc/sketch.rst:255
 msgid "Note that the sketch is placed on all locations that are on the top of the stack."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:275
+#: ../../cadquery/doc/sketch.rst:282
 msgid "Lofting between two sketches"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:277
+#: ../../cadquery/doc/sketch.rst:284
 msgid "Two sketches on different workplanes are needed when using :meth:`~cadquery.Workplane.loft`."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:290
+#: ../../cadquery/doc/sketch.rst:297
 msgid "When lofting only outer wires are taken into account and inner wires are silently ignored. Note that only sketches on the top of stack are considered for the current operation (i.e. there are no pending sketches), so when lofting or sweeping all relevant sketches have to be added in one `placeSketch` call."
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:293
+#: ../../cadquery/doc/sketch.rst:301
+msgid "Combining sketches"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:303
+msgid "Sketches can be combined using :meth:`~cadquery.Sketch.face`."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:316
+msgid "It is also possible to use boolean operations to achieve the same effect."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:328
+msgid "Boolean operations are selection sensitive, so in this example :meth:`~cadquery.Sketch.reset` call is needed."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:332
 msgid "Offsets made easy"
 msgstr ""
 
-#: ../../cadquery/doc/sketch.rst:295
+#: ../../cadquery/doc/sketch.rst:334
 msgid "Conveniently, it is possible to reuse a sketch to create an :meth:`~cadquery.Sketch.offset` shape."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:353
+msgid "It is obviously possible to use negative offsets, but it requires being more careful with the mode of the offset operation. Usually one wants to replace the original face, hence ``mode='r'``."
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:374
+msgid "Exporting and importing"
+msgstr ""
+
+#: ../../cadquery/doc/sketch.rst:376
+msgid "It is possible to export sketches using :meth:`~cadquery.Sketch.export`. See :ref:`importexport` for more details. Importing of DXF files is supported as well using :meth:`~cadquery.Sketch.importDXF`."
 msgstr ""

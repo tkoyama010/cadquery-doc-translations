@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-16 00:04+0000\n"
+"POT-Creation-Date: 2024-08-22 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -41,8 +41,8 @@ msgid "Core Classes"
 msgstr "コアクラス"
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
-msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
-msgstr ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
+msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\, obj\\)"
+msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid "2D sketch."
@@ -524,6 +524,8 @@ msgstr ""
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.__iter__:0
 #: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:0
+#: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:0
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.solve:0 ../../cadquery/cadquery/cq.pydocstring
@@ -531,9 +533,12 @@ msgstr ""
 #: cadquery.cq.Workplane.__add__:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.__and__:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.__init__:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.__iter__:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.__mul__:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.__or__:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.__sub__:0 ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.add:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.__truediv__:0 ../../cadquery/cadquery/cq.pydocstring
+#: of cadquery.cq.Workplane.add:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.all:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.ancestors:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.apply:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -565,6 +570,7 @@ msgstr ""
 #: cadquery.cq.Workplane.ellipse:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.ellipseArc:0 ../../cadquery/cadquery/cq.pydocstring
 #: of cadquery.cq.Workplane.end:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.export:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.exportSvg:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.extrude:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.faces:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -838,6 +844,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.edges:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.export:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.exportBrep:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.exportStep:0
@@ -1107,10 +1115,18 @@ msgstr ""
 #: cadquery.selectors.TypeSelector.filter:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.__init__:0
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.arc:0
+#: cadquery.sketch.Sketch.__add__:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.__init__:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.assemble:0
+#: cadquery.sketch.Sketch.__mul__:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.__sub__:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.__truediv__:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.add:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.apply:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.arc:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.assemble:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.bezier:0 ../../cadquery/cadquery/sketch.pydocstring
 #: of cadquery.sketch.Sketch.chamfer:0
@@ -1129,16 +1145,20 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.edges:0 ../../cadquery/cadquery/sketch.pydocstring
 #: of cadquery.sketch.Sketch.ellipse:0
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.face:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.faces:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.fillet:0
+#: cadquery.sketch.Sketch.export:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.face:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.faces:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.fillet:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.filter:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.hull:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.importDXF:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.located:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.moved:0
+#: cadquery.sketch.Sketch.invoke:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.located:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.map:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.offset:0 ../../cadquery/cadquery/sketch.pydocstring
 #: of cadquery.sketch.Sketch.parray:0
@@ -1150,16 +1170,21 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.regularPolygon:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.reset:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.segment:0
+#: cadquery.sketch.Sketch.replace:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.reset:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.select:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.slot:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.solve:0
+#: cadquery.sketch.Sketch.segment:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.select:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.slot:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.spline:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.tag:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.trapezoid:0
+#: cadquery.sketch.Sketch.solve:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.sort:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.spline:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.subtract:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.tag:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.trapezoid:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.val:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.vals:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
@@ -1228,6 +1253,7 @@ msgstr ""
 #: of cadquery.cq.Workplane.cylinder:0 ../../cadquery/cadquery/cq.pydocstring
 #: of cadquery.cq.Workplane.edges:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.ellipse:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.export:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.extrude:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.faces:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.fillet:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -1423,6 +1449,14 @@ msgstr ""
 #: cadquery.selectors.StringSyntaxSelector:0
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.TypeSelector.filter:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.apply:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.export:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.filter:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.invoke:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.map:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.sort:0
 msgid "Returns"
 msgstr ""
 
@@ -1451,6 +1485,8 @@ msgstr ""
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.__iter__:0
 #: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:0
+#: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:0
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.solve:0
@@ -1460,20 +1496,23 @@ msgstr ""
 #: cadquery.assembly.Assembly.traverse:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__add__:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__and__:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__iter__:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__mul__:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__or__:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__sub__:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.all:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.ancestors:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.bezier:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.box:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cboreHole:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.center:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.chamfer:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.circle:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.clean:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.close:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.combine:0
 #: ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.__truediv__:0 ../../cadquery/cadquery/cq.pydocstring
+#: of cadquery.cq.Workplane.all:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.ancestors:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.bezier:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.box:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.cboreHole:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.center:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.chamfer:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.circle:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.clean:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.close:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.combine:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.combineSolids:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.compounds:0
 #: ../../cadquery/cadquery/cq.pydocstring of
@@ -1493,6 +1532,7 @@ msgstr ""
 #: cadquery.cq.Workplane.ellipse:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.ellipseArc:0 ../../cadquery/cadquery/cq.pydocstring
 #: of cadquery.cq.Workplane.end:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.export:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.exportSvg:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.extrude:0 ../../cadquery/cadquery/cq.pydocstring of
 #: cadquery.cq.Workplane.faces:0 ../../cadquery/cadquery/cq.pydocstring of
@@ -2013,7 +2053,14 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.TypeSelector.filter:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.__iter__:0
+#: cadquery.sketch.Sketch.__add__:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.__iter__:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.__mul__:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.__sub__:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.__truediv__:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.add:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.arc:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.assemble:0
@@ -2035,10 +2082,13 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.edges:0 ../../cadquery/cadquery/sketch.pydocstring
 #: of cadquery.sketch.Sketch.ellipse:0
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.face:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.faces:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.fillet:0
+#: cadquery.sketch.Sketch.export:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.face:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.faces:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.fillet:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.filter:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.finalize:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.hull:0
@@ -2046,28 +2096,31 @@ msgstr ""
 #: cadquery.sketch.Sketch.importDXF:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.located:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.moved:0
+#: of cadquery.sketch.Sketch.offset:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.offset:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.parray:0
+#: cadquery.sketch.Sketch.parray:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.polygon:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.push:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.polygon:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.push:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.rarray:0
-#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.rect:0
+#: cadquery.sketch.Sketch.rarray:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.rect:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.regularPolygon:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.regularPolygon:0
+#: cadquery.sketch.Sketch.replace:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.reset:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.reset:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.segment:0
+#: cadquery.sketch.Sketch.segment:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.select:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.slot:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.select:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.slot:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.solve:0
+#: cadquery.sketch.Sketch.solve:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.sort:0 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.spline:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
-#: cadquery.sketch.Sketch.spline:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.tag:0 ../../cadquery/cadquery/sketch.pydocstring
-#: of cadquery.sketch.Sketch.trapezoid:0
+#: cadquery.sketch.Sketch.subtract:0
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.tag:0
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.trapezoid:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.val:0
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.vals:0
 #: ../../cadquery/cadquery/sketch.pydocstring of
@@ -2100,10 +2153,14 @@ msgid "Define a new constraint."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:1
+#: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:1
 msgid "Save assembly to a file."
 msgstr ""
 
+#: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:3
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:3
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -2112,12 +2169,16 @@ msgid "Path and filename for writing."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:4
+#: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:4
 msgid ""
 "export format (default: None, results in format being inferred form the "
 "path)"
 msgstr ""
 
+#: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:5
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:5
 msgid ""
@@ -2126,6 +2187,8 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:6
+#: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:6
 msgid ""
 "the deflection tolerance, in model units. Only used for glTF, VRML. Default "
@@ -2133,11 +2196,15 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:7
+#: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:7
 msgid ""
 "the angular tolerance, in radians. Only used for glTF, VRML. Default 0.1."
 msgstr ""
 
+#: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:8
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:8
 msgid ""
@@ -2145,6 +2212,8 @@ msgid ""
 ":meth:`~cadquery.occ_impl.exporters.assembly.exportAssembly`."
 msgstr ""
 
+#: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.export:10
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.save:10
 msgid "STL only - Sets whether or not STL export should be text or binary"
@@ -2417,8 +2486,11 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__and__:5
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__mul__:5
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__or__:5
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__sub__:5
+#: ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.__truediv__:5
 #: ../../cadquery/cadquery/selectors.pydocstring of
 #: cadquery.selectors.BoxSelector:9
 #: ../../cadquery/cadquery/selectors.pydocstring of
@@ -3659,6 +3731,8 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__add__:1
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.__add__:1
 msgid "Fuse self and other."
 msgstr ""
 
@@ -3674,16 +3748,22 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__mul__:1
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.__mul__:1
 msgid "Intersect self and other."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__sub__:1
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.__sub__:1
 msgid "Subtract other from self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__truediv__:1
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.__truediv__:1
 msgid "Split self with other."
 msgstr ""
 
@@ -3754,6 +3834,11 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.edges:1
 msgid "Select edges."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.export:1
+msgid "Export Shape to file."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -4252,7 +4337,29 @@ msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.__iter__:1
-msgid "Iterate over faces-locations combinations."
+msgid ""
+"Iterate over faces-locations combinations. If not faces are present iterate "
+"over edges:"
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.add:1
+msgid "Add selection to the underlying faces."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.apply:1
+msgid "Apply a callable to all items at once."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.apply:4
+msgid "Callable to be applied."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.apply:5 ../../cadquery/cadquery/sketch.pydocstring
+#: of cadquery.sketch.Sketch.map:5
+msgid "Sketch object with f applied to all items."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.arc:1
@@ -4328,6 +4435,41 @@ msgstr ""
 msgid "Construct an elliptical face."
 msgstr ""
 
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.export:1
+msgid "Export Sketch to file."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.export:4
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.export:4
+msgid "Filename."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.export:5
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.export:5
+msgid "the deflection tolerance, in model units. Default 0.1."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.export:6
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.export:6
+msgid "the angular tolerance, in radians. Default 0.1."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.export:7
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.export:7
+msgid "additional options passed to the specific exporter. Default None."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.export:8
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.export:8
+msgid "Self."
+msgstr ""
+
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.face:1
 msgid "Construct a face from a wire or edges."
 msgstr ""
@@ -4335,6 +4477,21 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.fillet:1
 msgid "Add a fillet based on current selection."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.filter:1
+msgid "Filter items using a boolean predicate."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.filter:4
+msgid "Callable to be used for filtering."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.filter:5
+msgid "Sketch object with filtered items."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of
@@ -4352,8 +4509,34 @@ msgid "Import a DXF file and construct face(s)"
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.invoke:1
+msgid ""
+"Invoke a callable mapping Sketch to Sketch or None. Supports also callables "
+"that take no arguments such as breakpoint. Returns self if callable returns "
+"None."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.invoke:6
+msgid "Callable to be invoked."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.invoke:7
+msgid "Sketch object."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.located:1
 msgid "Create a partial copy of the sketch with a new location."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.map:1
+msgid "Apply a callable to every item separately."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.map:4
+msgid "Callable to be applied to every item separately."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of
@@ -4395,6 +4578,11 @@ msgid "Construct a regular polygonal face."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.replace:1
+msgid "Replace the underlying faces with the selection."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.reset:1
 msgid "Reset current selection."
 msgstr ""
@@ -4418,9 +4606,26 @@ msgstr ""
 msgid "Solve current constraints and update edge positions."
 msgstr ""
 
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.sort:1
+msgid "Sort items using a callable."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.sort:4
+msgid "Callable to be used for sorting."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.sort:5
+msgid "Sketch object with items sorted."
+msgstr ""
+
 #: ../../cadquery/cadquery/sketch.pydocstring of
 #: cadquery.sketch.Sketch.spline:1
 msgid "Construct a spline edge."
+msgstr ""
+
+#: ../../cadquery/cadquery/sketch.pydocstring of
+#: cadquery.sketch.Sketch.subtract:1
+msgid "Subtract selection from the underlying faces."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.tag:1
@@ -4433,11 +4638,11 @@ msgid "Construct a trapezoidal face."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.val:1
-msgid "Return the first selected item or Location()."
+msgid "Return the first selected item, underlying compound or first edge."
 msgstr ""
 
 #: ../../cadquery/cadquery/sketch.pydocstring of cadquery.sketch.Sketch.vals:1
-msgid "Return the list of selected items."
+msgid "Return all selected items, underlying compound or all edges."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -5328,6 +5533,9 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__and__:1
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__mul__:1
+#: ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.__truediv__:1
 msgid "Syntactic sugar for intersect."
 msgstr ""
 
@@ -5344,6 +5552,15 @@ msgstr ""
 msgid "ValueError if the provided plane is not a plane, or one of XY|YZ|XZ"
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__iter__:1
+msgid "Special method for iterating over Shapes in objects"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__mul__:3
+msgid ""
+"Notice that :code:`r = a * b` is equivalent to :code:`r = a.intersect(b)`."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__or__:3
 msgid ""
 "Notice that :code:`r = a | b` is equivalent to :code:`r = a.union(b)` and "
@@ -5356,6 +5573,11 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__sub__:3
 msgid "Notice that :code:`r = a - b` is equivalent to :code:`r = a.cut(b)`."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.__truediv__:3
+msgid "Notice that :code:`r = a / b` is equivalent to :code:`r = a.split(b)`."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.add:1
@@ -6308,6 +6530,10 @@ msgstr ""
 msgid "will return the same as::"
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.export:1
+msgid "Export Workplane to file."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.exportSvg:1
 msgid "Exports the first item on the stack as an SVG file"
 msgstr ""
@@ -7169,11 +7395,11 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.rarray:6
-msgid "spacing between points in the x direction ( must be > 0)"
+msgid "spacing between points in the x direction ( must be >= 0)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.rarray:7
-msgid "spacing between points in the y direction ( must be > 0)"
+msgid "spacing between points in the y direction ( must be >= 0)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.rarray:8
@@ -8581,7 +8807,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.sweep:7
 msgid ""
-"Sweep edges, wires or faces along a path, multiple sections are supported.  "
+"Sweep edges, wires or faces along a path, multiple sections are supported. "
 "For faces cap has no effect. Do not mix faces with other types."
 msgstr ""
 
@@ -9307,5 +9533,5 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/exporters/dxf.pydocstring of
 #: cadquery.occ_impl.exporters.dxf.DxfDocument.add_shape:3
-msgid "CadQuery Workplane"
+msgid "CadQuery Workplane or Shape"
 msgstr ""

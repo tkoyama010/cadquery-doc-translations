@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-04 00:03+0000\n"
+"POT-Creation-Date: 2024-08-22 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -391,7 +391,7 @@ msgid "Additional special methods"
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:194
-msgid ":py:class:`cadquery.Workplane` provides the following special methods that can be used for quick prototyping of selectors when implementing a complete selector via subclassing of :py:class:`cadquery.Selector` is not desirable."
+msgid ":py:class:`cadquery.Workplane` and :py:class:`cadquery.Sketch` provide the following special methods that can be used for quick prototyping of selectors when implementing a complete selector via subclassing of :py:class:`cadquery.Selector` is not desirable."
 msgstr ""
 
 #: ../../cadquery/doc/selectors.rst:198
@@ -406,10 +406,22 @@ msgstr ""
 msgid ":py:meth:`cadquery.Workplane.__getitem__`"
 msgstr ""
 
+#: ../../cadquery/doc/selectors.rst:201
+msgid ":py:meth:`cadquery.Sketch.filter`"
+msgstr ""
+
 #: ../../cadquery/doc/selectors.rst:202
+msgid ":py:meth:`cadquery.Sketch.sort`"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:203
+msgid ":py:meth:`cadquery.Sketch.__getitem__`"
+msgstr ""
+
+#: ../../cadquery/doc/selectors.rst:205
 msgid "For example, one could use those methods for selecting objects within a certain range of volumes."
 msgstr ""
 
-#: ../../cadquery/doc/selectors.rst:217
+#: ../../cadquery/doc/selectors.rst:220
 msgid "The same can be achieved using sorting."
 msgstr ""

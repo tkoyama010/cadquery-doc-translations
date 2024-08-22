@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 00:04+0000\n"
+"POT-Creation-Date: 2024-08-22 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -67,8 +67,8 @@ msgid "Creating new sketches."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
-msgstr ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\)"
+msgid ":py:obj:`Sketch <cadquery.Sketch>`\\ \\(parent\\, locs\\, obj\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
 msgid "2D sketch."
@@ -117,7 +117,7 @@ msgid "Create a partial copy of the sketch with a new location."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":py:obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(loc\\)"
+msgid ":py:obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1

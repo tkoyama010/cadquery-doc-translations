@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-07 00:04+0000\n"
+"POT-Creation-Date: 2024-10-09 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -669,6 +669,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cap:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.check:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.circle:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.clean:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.compound:0
@@ -1255,6 +1256,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shell.makeShell:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinear:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinearWithRotation:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.innerShells:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.isSolid:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.makeBox:0
@@ -1265,6 +1267,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.makeSphere:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.makeTorus:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.makeWedge:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.outerShell:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.sweep:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.sweep_multi:0
@@ -1286,6 +1289,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cap:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.check:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.circle:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.clean:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.compound:0
@@ -3292,6 +3296,10 @@ msgstr ""
 msgid "the angle to rotate through while extruding"
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.innerShells:1
+msgid "Returns inner shells."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:1
 msgid "Returns a plate surface that is 'thickness' thick, enclosed by 'surf_edge_pts' points, and going through 'surf_pts' points."
 msgstr ""
@@ -3342,6 +3350,10 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.makeWedge:1
 msgid "Make a wedge located in pnt By default pnt=Vector(0,0,0) and dir=Vector(0,0,1)"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.outerShell:1
+msgid "Returns outer shell."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:1
@@ -3703,16 +3715,20 @@ msgstr ""
 msgid "Apply 2D or 3D fillet to a wire"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:7
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:3
+msgid "The input wire to fillet. Currently only open wires are supported"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:7
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:4
 msgid "the radius of the fillet, must be > zero"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:5
 msgid "Optional list of vertices to fillet. By default all vertices are fillet."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:6
 msgid "A wire with filleted corners"
 msgstr ""
 
@@ -6236,6 +6252,10 @@ msgstr ""
 msgid "Chamfer selected edges in a given shell or solid."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.check:1
+msgid "Check if a shape is valid."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.circle:1
 msgid "Construct a circle."
 msgstr ""
@@ -6445,11 +6465,11 @@ msgid "normal vector"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramAt:1
-msgid "Compute parameter value at the specified normalized distance."
+msgid "Compute parameter value at the specified normalized distance or a point."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramAt:4
-msgid "normalized distance [0, 1]"
+msgid "normalized distance [0, 1] or a point"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramAt:5

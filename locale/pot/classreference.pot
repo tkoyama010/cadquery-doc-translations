@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-09 00:04+0000\n"
+"POT-Creation-Date: 2024-10-16 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3715,17 +3715,13 @@ msgstr ""
 msgid "Apply 2D or 3D fillet to a wire"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:3
-msgid "The input wire to fillet. Currently only open wires are supported"
-msgstr ""
-
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:7
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:3
 msgid "the radius of the fillet, must be > zero"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:5
-msgid "Optional list of vertices to fillet. By default all vertices are fillet."
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:4
+msgid "the vertices to delete (where the fillet will be applied).  By default all vertices are deleted except ends of open wires."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 00:04+0000\n"
+"POT-Creation-Date: 2024-11-07 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1527,6 +1527,18 @@ msgstr ""
 msgid "Wrapper for the OCCT color object Quantity_ColorRGBA."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.__eq__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.__eq__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__eq__:1
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__eq__:1
+msgid "Return self==value."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.__hash__:1
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__hash__:1
+msgid "Return hash(self)."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.toTuple:1
 msgid "Convert Color to RGB tuple."
 msgstr ""
@@ -2142,12 +2154,6 @@ msgstr ""
 msgid "Frequently, it is not necessary to create work planes, as they can be created automatically from faces."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.__eq__:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__eq__:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__eq__:1
-msgid "Return self==value."
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.__init__:1
 msgid "Create a Plane with an arbitrary orientation"
 msgstr ""
@@ -2503,10 +2509,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__add__:1
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.__add__:1
 msgid "Fuse self and other."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__hash__:1
-msgid "Return hash(self)."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__iter__:1

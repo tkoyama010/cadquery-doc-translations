@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 00:04+0000\n"
+"POT-Creation-Date: 2024-11-12 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -752,6 +752,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Edge.makeThreePointArc:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Edge.trim:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.chamfer2D:0
@@ -766,9 +768,17 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.normalAt:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normals:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.thicken:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.toArcs:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.trim:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.endPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1357,6 +1367,12 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.normalAt:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normals:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.endPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.locationAt:0
@@ -1717,6 +1733,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Edge.makeThreePointArc:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Edge.trim:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.Center:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.chamfer2D:0
@@ -1731,11 +1749,19 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.normalAt:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normals:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.thicken:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.toArcs:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.toPln:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.trim:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.endPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -2820,6 +2846,18 @@ msgid "an edge object through the three points"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Edge.trim:1
+msgid "Trim the edge in the parametric space to (u0, u1)."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Edge.trim:3
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.trim:3
+msgid "NB: this operation is done on the base geometry."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face:1
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shell:1
@@ -2988,6 +3026,52 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normalAt:10
+msgid ""
+"Computes the normal vector at the desired location in the u,v parameter "
+"space."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normalAt:12
+msgid "a vector representing the normal direction and the position"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normalAt:13
+msgid "the u parametric location to compute the normal at."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normalAt:14
+msgid "the v parametric location to compute the normal at."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normals:1
+msgid ""
+"Computes the normal vectors at the desired locations in the u,v parameter "
+"space."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normals:3
+msgid ""
+"a tuple of list of vectors representing the normal directions and the "
+"positions"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normals:4
+msgid "the u parametric locations to compute the normal at."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.normals:5
+msgid "the v parametric locations to compute the normal at."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Face.thicken:1
 msgid "Return a thickened face"
 msgstr ""
@@ -3015,6 +3099,11 @@ msgid ""
 "Note the Location of the resulting plane may not equal the center of this "
 "face, however the resulting plane will still contain the center of this "
 "face."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Face.trim:1
+msgid "Trim the face in the parametric space to (u0, u1)."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
@@ -4142,12 +4231,12 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.locate:1
-msgid "Apply a location in absolute sense to self"
+msgid "Apply a location in absolute sense to self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.located:1
-msgid "Apply a location in absolute sense to a copy of self"
+msgid "Apply a location in absolute sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -4193,14 +4282,51 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.move:1
 msgid ""
-"Apply a location in relative sense (i.e. update current location) to self"
+"Apply a location in relative sense (i.e. update current location) to self."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.move:6
+msgid ""
+"Apply translation and rotation in relative sense (i.e. update current "
+"location) to self."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.move:11
+msgid ""
+"Apply a VectorLike in relative sense (i.e. update current location) to self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.moved:1
 msgid ""
 "Apply a location in relative sense (i.e. update current location) to a copy "
-"of self"
+"of self."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.moved:6
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.moved:11
+msgid "Apply multiple locations."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.moved:16
+msgid "Apply translation and rotation in relative sense to a copy of self."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.moved:21
+msgid "Apply a VectorLike in relative sense to a copy of self."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.moved:26
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.moved:31
+msgid "Apply multiple VectorLikes in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8705,8 +8831,32 @@ msgid "Build compound from shapes."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.compound:4
+msgid ""
+"compound(s: Sequence[cadquery.occ_impl.shapes.Shape]) -> "
+"cadquery.occ_impl.shapes.Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.compound:6
+msgid "Build compound from a sequence of shapes."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.cone:1
-msgid "Construct a solid cone."
+msgid "Construct a partial solid cone."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.cone:4
+msgid ""
+"cone(d: Union[float, int], h: Union[float, int]) -> "
+"cadquery.occ_impl.shapes.Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.cone:6
+msgid "Construct a full solid cone."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8745,6 +8895,18 @@ msgid "Build face from edges or wires."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.face:4
+msgid ""
+"face(s: Sequence[cadquery.occ_impl.shapes.Shape]) -> "
+"cadquery.occ_impl.shapes.Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.face:6
+msgid "Build face from a sequence of edges or wires."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.fill:1
 msgid "Fill edges/wire possibly obeying constraints."
 msgstr ""
@@ -8774,6 +8936,21 @@ msgstr ""
 msgid ""
 "Loft edges, wires or faces. For faces cap has no effect. Do not mix faces "
 "with other types."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.loft:4
+msgid ""
+"loft(*s: cadquery.occ_impl.shapes.Shape, cap: bool = False, ruled: bool = "
+"False, continuity: Literal['C1', 'C2', 'C3'] = 'C2', parametrization: "
+"Literal['uniform', 'chordal', 'centripetal'] = 'uniform', degree: int = 3, "
+"compat: bool = True, smoothing: bool = False, weights: Tuple[float, float, "
+"float] = (1, 1, 1)) -> cadquery.occ_impl.shapes.Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.loft:6
+msgid "Variadic loft overload."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8817,8 +8994,33 @@ msgid "Build shell from faces."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.shell:4
+msgid ""
+"shell(s: Sequence[cadquery.occ_impl.shapes.Shape], tol: float = 1e-06) -> "
+"cadquery.occ_impl.shapes.Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.shell:6
+msgid "Build shell from a sequence of faces."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.solid:1
 msgid "Build solid from faces."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.solid:4
+msgid ""
+"solid(s: Sequence[cadquery.occ_impl.shapes.Shape], inner: "
+"Optional[Sequence[cadquery.occ_impl.shapes.Shape]] = None, tol: float = "
+"1e-06) -> cadquery.occ_impl.shapes.Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.solid:6
+msgid "Build solid from a sequence of faces."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8829,6 +9031,23 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.spline:1
 msgid "Construct a spline from points."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.spline:4
+msgid ""
+"spline(pts: Sequence[Union[ForwardRef('Vector'), Tuple[Union[int, float], "
+"Union[int, float]], Tuple[Union[int, float], Union[int, float], Union[int, "
+"float]]]], tgts: Optional[Sequence[Union[ForwardRef('Vector'), "
+"Tuple[Union[int, float], Union[int, float]], Tuple[Union[int, float], "
+"Union[int, float], Union[int, float]]]]] = None, params: "
+"Optional[Sequence[float]] = None, tol: float = 1e-06, periodic: bool = "
+"False, scale: bool = True) -> cadquery.occ_impl.shapes.Shape"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.spline:6
+msgid "Construct a spline from a sequence points."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8847,7 +9066,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.sweep:5
 msgid ""
 "sweep(s: Sequence[cadquery.occ_impl.shapes.Shape], path: "
-"cadquery.occ_impl.shapes.Shape, cap: bool = False) -> "
+"cadquery.occ_impl.shapes.Shape, aux: "
+"Optional[cadquery.occ_impl.shapes.Shape] = None, cap: bool = False) -> "
 "cadquery.occ_impl.shapes.Shape"
 msgstr ""
 
@@ -8874,6 +9094,18 @@ msgid "Construct a vertex from coordinates."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.vertex:4
+msgid ""
+"vertex(p: Union[ForwardRef('Vector'), Tuple[Union[int, float], Union[int, "
+"float]], Tuple[Union[int, float], Union[int, float], Union[int, float]]])"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.vertex:6
+msgid "Construct a vertex from VectorLike."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.wire:1
 msgid "Build wire from edges."
 msgstr ""
@@ -8881,6 +9113,63 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.wiresToFaces:1
 msgid "Convert wires to a list of faces."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:1
+msgid "Calculate mean curvature along the underlying curve."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.locationAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.positionAt:4
+msgid "distance or parameter value"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:5
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:5
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.locationAt:5
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.locations:5
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.positionAt:5
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.positions:5
+msgid "position calculation mode (default: length)"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:6
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:6
+msgid "resolution of the calculation (default: 1e-6)"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatureAt:7
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:7
+msgid "mean curvature value at the specified d value."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:1
+msgid "Calculate mean curvatures along the underlying curve."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.curvatures:4
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.locations:4
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1D.positions:4
+msgid "distance or parameter values"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8898,24 +9187,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.locationAt:1
 msgid "Generate a location along the underlying curve."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.locationAt:4
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.positionAt:4
-msgid "distance or parameter value"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.locationAt:5
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.locations:5
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.positionAt:5
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.positions:5
-msgid "position calculation mode (default: length)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8942,13 +9213,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.locations:1
 msgid "Generate location along the curve"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.locations:4
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.positions:4
-msgid "distance or parameter values"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

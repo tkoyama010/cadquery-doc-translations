@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-16 00:04+0000\n"
+"POT-Creation-Date: 2024-11-25 00:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,4 +110,12 @@ msgstr ""
 
 #: ../../cadquery/doc/free-func.rst:228
 msgid "Placement and creation of arrays is possible using :meth:`~cadquery.Shape.move` and :meth:`~cadquery.Shape.moved`."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:242
+msgid "Text"
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:244
+msgid "The free function API has extensive text creation capabilities including text on planar curves and text on surfaces."
 msgstr ""

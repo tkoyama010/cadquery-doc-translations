@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.4\n"
+"Project-Id-Version: CadQuery 2.5.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-22 00:04+0000\n"
+"POT-Creation-Date: 2024-12-16 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -161,10 +161,7 @@ msgid ""
 " to select layers.  Layer names are handled as case-insensitive."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:0
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Shape.exportStl:0
+#: ../../cadquery/doc/importexport.rst:0
 msgid "Parameters"
 msgstr ""
 
@@ -188,10 +185,7 @@ msgstr ""
 msgid "a list of layer names to import"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/importers/__init__.pydocstring of
-#: cadquery.occ_impl.importers.importDXF:0
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Shape.exportStl:0
+#: ../../cadquery/doc/importexport.rst:0
 msgid "Return type"
 msgstr ""
 
@@ -596,7 +590,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:414
+#: ../../cadquery/doc/importexport.rst:407
 msgid "``approx``"
 msgstr ""
 
@@ -630,7 +624,7 @@ msgstr ""
 msgid "all curves approximated as arcs and straight segments"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:417
+#: ../../cadquery/doc/importexport.rst:416
 msgid "``tolerance``"
 msgstr ""
 
@@ -640,7 +634,7 @@ msgid ""
 "to DXF entities. See `Approximation strategy`_."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:421
+#: ../../cadquery/doc/importexport.rst:419
 msgid "``doc_units``"
 msgstr ""
 

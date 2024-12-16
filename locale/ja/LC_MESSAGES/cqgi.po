@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.4\n"
+"Project-Id-Version: CadQuery 2.5.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-12-16 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgid ""
 " object will be displayed, in addition to a workplane, a point, and a circle"
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:61
+#: ../../cadquery/doc/cqgi.rst:58
 msgid ""
 "Future enhancements will include several other methods, used to provide more"
 " metadata for the execution environment:"
@@ -155,7 +155,7 @@ msgid ""
 "the build() method."
 msgstr ""
 
-#: ../../cadquery/doc/cqgi.rst:81
+#: ../../cadquery/doc/cqgi.rst:80
 msgid ""
 "This code will return a dictionary of parameter values in the model text "
 "SCRIPT::"
@@ -380,11 +380,7 @@ msgstr ""
 msgid "the build method can be used to generate a 3d model"
 msgstr ""
 
-#: ../../cadquery/cadquery/cqgi.pydocstring of cadquery.cqgi.CQModel.build:0
-#: ../../cadquery/cadquery/cqgi.pydocstring of
-#: cadquery.cqgi.CQModel.validate:0 ../../cadquery/cadquery/cqgi.pydocstring
-#: of cadquery.cqgi.ScriptCallback.show_object:0
-#: ../../cadquery/cadquery/cqgi.pydocstring of cadquery.cqgi.parse:0
+#: ../../cadquery/doc/cqgi.rst:0
 msgid "Parameters"
 msgstr ""
 
@@ -412,8 +408,7 @@ msgid ""
 " the result, such as the build time"
 msgstr ""
 
-#: ../../cadquery/cadquery/cqgi.pydocstring of cadquery.cqgi.CQModel.build:0
-#: ../../cadquery/cadquery/cqgi.pydocstring of cadquery.cqgi.parse:0
+#: ../../cadquery/doc/cqgi.rst:0
 msgid "Returns"
 msgstr ""
 

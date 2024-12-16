@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.4\n"
+"Project-Id-Version: CadQuery 2.5.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 00:03+0000\n"
+"POT-Creation-Date: 2024-12-16 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Workplanes"
 msgstr "ワークプレーン"
 
-#: ../../cadquery/doc/roadmap.rst:17
+#: ../../cadquery/doc/roadmap.rst:16
 msgid "rotated workplanes"
 msgstr "回転された作業面"
 
@@ -49,7 +49,7 @@ msgstr "回転された作業面"
 msgid "support creation of workplanes at an angle to another plane or face"
 msgstr "他の平面や面に対して角度のあるワークプレーンの作成をサポートします。"
 
-#: ../../cadquery/doc/roadmap.rst:20
+#: ../../cadquery/doc/roadmap.rst:19
 msgid "workplane local rotations"
 msgstr "ワークプレーン局所回転"
 
@@ -57,7 +57,7 @@ msgstr "ワークプレーン局所回転"
 msgid "rotate the coordinate system of a workplane by an angle."
 msgstr "作業平面の座標系を角度をつけて回転させます。"
 
-#: ../../cadquery/doc/roadmap.rst:23
+#: ../../cadquery/doc/roadmap.rst:22
 msgid "make a workplane from a wire"
 msgstr "ワイヤからワークプレーンを作る"
 
@@ -70,7 +70,7 @@ msgstr "アウターワイヤーを選択し、そこから操作することで
 msgid "Assemblies"
 msgstr "アセンブリ"
 
-#: ../../cadquery/doc/roadmap.rst:30
+#: ../../cadquery/doc/roadmap.rst:28
 msgid "implement more constraints"
 msgstr "制約を増やす"
 
@@ -82,7 +82,7 @@ msgstr "平面内、軸上、ベクトルに平行"
 msgid "2D operations"
 msgstr "2次元演算"
 
-#: ../../cadquery/doc/roadmap.rst:36
+#: ../../cadquery/doc/roadmap.rst:35
 msgid "arc construction using relative measures"
 msgstr "相対測定を使用した弧の作図"
 
@@ -90,7 +90,7 @@ msgstr "相対測定を使用した弧の作図"
 msgid "instead of forcing use of absolute workplane coordinates"
 msgstr "絶対作業平面座標を強制的に使用するのではなく"
 
-#: ../../cadquery/doc/roadmap.rst:39
+#: ../../cadquery/doc/roadmap.rst:38
 msgid "tangent arcs"
 msgstr "接線円弧"
 
@@ -98,7 +98,7 @@ msgstr "接線円弧"
 msgid "after a line"
 msgstr "行の後に"
 
-#: ../../cadquery/doc/roadmap.rst:42
+#: ../../cadquery/doc/roadmap.rst:41
 msgid "centerpoint arcs"
 msgstr "中心点円弧"
 
@@ -106,7 +106,7 @@ msgstr "中心点円弧"
 msgid "including portions of arcs as well as with end points specified"
 msgstr "端点指定と同様に円弧の一部を含みます"
 
-#: ../../cadquery/doc/roadmap.rst:45
+#: ../../cadquery/doc/roadmap.rst:44
 msgid "trimming"
 msgstr "トリミング"
 
@@ -114,7 +114,7 @@ msgstr "トリミング"
 msgid "ability to use construction geometry to trim other entities"
 msgstr "コンストラクションジオメトリを使用して他のエンティティをトリミングする機能"
 
-#: ../../cadquery/doc/roadmap.rst:48
+#: ../../cadquery/doc/roadmap.rst:47
 msgid "construction lines"
 msgstr "作図線"
 
@@ -122,7 +122,7 @@ msgstr "作図線"
 msgid "especially centerlines"
 msgstr "特にセンターライン"
 
-#: ../../cadquery/doc/roadmap.rst:51
+#: ../../cadquery/doc/roadmap.rst:50
 msgid "2D fillets"
 msgstr "2Dフィレット"
 
@@ -130,7 +130,7 @@ msgstr "2Dフィレット"
 msgid "for a rectangle, or for consecutive selected lines"
 msgstr "矩形に対して、あるいは連続した選択線に対して"
 
-#: ../../cadquery/doc/roadmap.rst:54
+#: ../../cadquery/doc/roadmap.rst:53
 msgid "2D chamfers"
 msgstr "2次元面取り"
 
@@ -138,7 +138,7 @@ msgstr "2次元面取り"
 msgid "based on rectangles, polygons, polylines, or adjacent selected lines"
 msgstr "矩形、多角形、ポリライン、または隣接する選択された線に基づきます"
 
-#: ../../cadquery/doc/roadmap.rst:57
+#: ../../cadquery/doc/roadmap.rst:56
 msgid "mirror around centerline"
 msgstr "中央線周りのミラー"
 
@@ -146,7 +146,7 @@ msgstr "中央線周りのミラー"
 msgid "using centerline construction geometry"
 msgstr "中央線構築のジオメトリを使用"
 
-#: ../../cadquery/doc/roadmap.rst:60
+#: ../../cadquery/doc/roadmap.rst:59
 msgid "midpoint selection"
 msgstr "中点選択"
 
@@ -154,7 +154,7 @@ msgstr "中点選択"
 msgid "select midpoints of lines, arcs"
 msgstr "直線や円弧の中点を選択します"
 
-#: ../../cadquery/doc/roadmap.rst:63
+#: ../../cadquery/doc/roadmap.rst:62
 msgid "face center"
 msgstr ""
 
@@ -162,7 +162,7 @@ msgstr ""
 msgid "explicit selection of face center"
 msgstr "フェースセンターの明示的選択 "
 
-#: ../../cadquery/doc/roadmap.rst:66
+#: ../../cadquery/doc/roadmap.rst:65
 msgid "manipulate spline control points"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgstr ""
 msgid "so that the shape of a spline can be more accurately controlled"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:70
+#: ../../cadquery/doc/roadmap.rst:68
 msgid "feature snap"
 msgstr ""
 
@@ -180,7 +180,7 @@ msgid ""
 "can be selected and used as references for other features."
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:73
+#: ../../cadquery/doc/roadmap.rst:72
 msgid "polyline edges"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr ""
 msgid "3D operations"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:79
+#: ../../cadquery/doc/roadmap.rst:78
 msgid "rotation/transform that return a copy"
 msgstr ""
 
@@ -202,11 +202,11 @@ msgid ""
 " than returning a copy"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:84
+#: ../../cadquery/doc/roadmap.rst:81
 msgid "primitive creation"
 msgstr ""
 
-#: ../../cadquery/doc/roadmap.rst:84
+#: ../../cadquery/doc/roadmap.rst:82
 msgid "Need primitive creation for:"
 msgstr ""
 

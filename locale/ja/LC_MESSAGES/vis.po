@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# This file is distributed under the same license as the CadQuery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CadQuery 2.5.0.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-24 00:04+0000\n"
+"PO-Revision-Date: 2024-12-24 00:05+0000\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../cadquery/doc/vis.rst:5
+msgid "Visualization"
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:9
+msgid "Pure Python"
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:11
+msgid ""
+"Since version 2.4 CadQuery supports visualization without any external "
+"tools. Those facilities are based on the VTK library and are not tied to any"
+" external tool."
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:29
+msgid ""
+"One can visualize objects of type :class:`~cadquery.Workplane`, "
+":class:`~cadquery.Sketch`, :class:`~cadquery.Assembly`, "
+":class:`~cadquery.Shape`, :class:`~cadquery.Vector`, "
+":class:`~cadquery.Location` and lists thereof."
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:59
+msgid ""
+"Additionally it is possible to integrate with other libraries using VTK and "
+"display any `vtkProp` object."
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:78
+msgid "Note that currently the show function is blocking."
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:82
+msgid "Jupyter/JupterLab"
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:84
+msgid ""
+"There is also more limited support for displaying "
+":class:`~cadquery.Workplane`, :class:`~cadquery.Sketch`, "
+":class:`~cadquery.Assembly`, :class:`~cadquery.Shape` in Jupyter and "
+"JupyterLab. This functionality is implemented using VTK.js."
+msgstr ""

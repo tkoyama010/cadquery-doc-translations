@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# Copyright (C) CadQuery Development Team
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.5.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-27 00:04+0000\n"
+"POT-Creation-Date: 2024-12-28 00:04+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -8845,37 +8845,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin3D.shell:9
 msgid "A shelled solid."
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.pydocstring of cadquery.selectors:1
-msgid ""
-"Copyright (C) 2011-2015  Parametric Products Intellectual Holdings, LLC"
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.pydocstring of cadquery.selectors:3
-msgid "This file is part of CadQuery."
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.pydocstring of cadquery.selectors:5
-msgid ""
-"CadQuery is free software; you can redistribute it and/or modify it under "
-"the terms of the GNU Lesser General Public License as published by the Free "
-"Software Foundation; either version 2.1 of the License, or (at your option) "
-"any later version."
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.pydocstring of cadquery.selectors:10
-msgid ""
-"CadQuery is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for "
-"more details."
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.pydocstring of cadquery.selectors:15
-msgid ""
-"You should have received a copy of the GNU Lesser General Public License "
-"along with this library; If not, see <http://www.gnu.org/licenses/>"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.pydocstring of

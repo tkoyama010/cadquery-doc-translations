@@ -39,6 +39,7 @@ jobs:
         $CONDA/bin/conda update --all
         $CONDA/bin/conda env update --file environment.yml --name base
         $CONDA/bin/pip install sphinx-intl[transifex]>=2.1.0
+        $CONDA/bin/pip install sqlite3
         cd ../
         curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
         mv tx /usr/local/bin/tx

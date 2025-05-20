@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# Copyright (C) CadQuery Development Team
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.5.0.dev0\n"
+"Project-Id-Version: CadQuery 2.6.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-24 00:04+0000\n"
+"POT-Creation-Date: 2025-05-20 00:32+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -94,18 +94,18 @@ msgstr ":ref:`apireference`"
 msgid "Table Of Contents"
 msgstr "目次"
 
-#: ../../cadquery/doc/index.rst:59
+#: ../../cadquery/doc/index.rst:60
 msgid "Indices and tables"
 msgstr "インデックスとテーブル"
 
-#: ../../cadquery/doc/index.rst:61
+#: ../../cadquery/doc/index.rst:62
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../cadquery/doc/index.rst:62
+#: ../../cadquery/doc/index.rst:63
 msgid ":ref:`modindex`"
 msgstr ":ref:`modindex`"
 
-#: ../../cadquery/doc/index.rst:63
+#: ../../cadquery/doc/index.rst:64
 msgid ":ref:`search`"
 msgstr ":ref:`search`"

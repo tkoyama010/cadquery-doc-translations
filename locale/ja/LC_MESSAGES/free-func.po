@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Parametric Products Intellectual Holdings LLC, All Rights Reserved
+# Copyright (C) CadQuery Development Team
 # This file is distributed under the same license as the CadQuery package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.5.0.dev0\n"
+"Project-Id-Version: CadQuery 2.6.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-16 00:04+0000\n"
+"POT-Creation-Date: 2025-05-20 00:32+0000\n"
 "PO-Revision-Date: 2024-05-06 00:04+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -160,4 +160,47 @@ msgstr ""
 msgid ""
 "The free function API has extensive text creation capabilities including "
 "text on planar curves and text on surfaces."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:282
+msgid "Adding features manually"
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:284
+msgid ""
+"In certain cases it is desirable to add features such as holes or "
+"protrusions manually. E.g., for complicated shapes it might be beneficial "
+"performance-wise because it avoids boolean operations. One can add or remove"
+" faces, add holes to existing faces and last but not least reconstruct "
+"existing solids."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:318
+msgid ""
+"If the base shape is more complicated, it is possible to use local sewing "
+"that takes into account on indicated elements of the context shape. This, "
+"however, necessitates a two step approach - first a shell needs to be "
+"explicitly sewn and only then the final solid can be constructed."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:352
+msgid "Mapping onto parametric space"
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:354
+msgid ""
+"To complement functionalities described, it is possible to trim edges and "
+"faces explicitly using simple rectangular trims, polygons, splines or "
+"arbitrary wires."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:386
+msgid ""
+"This in principle allows to model arbitrary shapes in the parametric domain,"
+" but often it is more desirable to work with higher level objects like "
+"wires."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:420
+msgid "Finally, it is also possible to map complete faces."
 msgstr ""

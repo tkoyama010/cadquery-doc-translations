@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.6.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-05 00:07+0000\n"
+"POT-Creation-Date: 2025-08-06 00:08+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -668,6 +668,8 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.startPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Mixin1DProtocol:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__add__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__mul__:0
@@ -741,6 +743,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Shape.vertices:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.wires:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.ShapeProtocol:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shell.makeShell:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1162,6 +1166,8 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.wires:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.workplane:0
 #: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Color.__getstate__:0
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
 #: cadquery.occ_impl.assembly.Color.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
 #: cadquery.occ_impl.assembly.toJSON:0
@@ -1176,21 +1182,29 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.BoundBox.isInside:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Location.__getstate__:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Location.__init__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Location.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Matrix.__getitem__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Matrix.__getstate__:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Matrix.__repr__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Matrix.transposed_list:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Plane.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Vector.Center:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Vector.__eq__:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Vector.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Vector.__repr__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
@@ -1255,6 +1269,8 @@ msgstr ""
 #: cadquery.occ_impl.shapes.Shape.__add__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__eq__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__hash__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -1576,7 +1592,7 @@ msgstr ""
 #: cadquery.Shape.__weakref__:1 ../docstring of cadquery.Sketch.__weakref__:1
 #: ../docstring of cadquery.Vector.__weakref__:1 ../docstring of
 #: cadquery.Workplane.__weakref__:1
-msgid "list of weak references to the object (if defined)"
+msgid "list of weak references to the object"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
@@ -1820,6 +1836,21 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.__eq__:1
 msgid "Return self==value."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Color.__getstate__:1
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Location.__getstate__:1
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Matrix.__getstate__:1
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Plane.__getstate__:1
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Vector.__getstate__:1
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.Shape.__getstate__:1
+msgid "Helper for pickle."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of

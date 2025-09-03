@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.6.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-30 00:06+0000\n"
+"POT-Creation-Date: 2025-09-03 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -489,7 +489,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.endPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.project:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.startPoint:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1DProtocol:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__add__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mul__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__sub__:0
@@ -527,7 +526,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.translate:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.vertices:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.wires:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ShapeProtocol:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shell.makeShell:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.addCavity:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinear:0
@@ -813,7 +811,6 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:0
-#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.toJSON:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportCAF:0
@@ -821,18 +818,14 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.BoundBox.enlarge:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.BoundBox.findOutsideBox2D:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.BoundBox.isInside:0
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Location.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Location.__init__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Location.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix.__getitem__:0
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix.__repr__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix.transposed_list:0
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.named:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.Center:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__eq__:0
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__repr__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__str__:0
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.multiply:0
@@ -865,7 +858,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.startPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__add__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__eq__:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__hash__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__iter__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mul__:0
@@ -1218,15 +1210,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__eq__:1
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__eq__:1
 msgid "Return self==value."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.__getstate__:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Location.__getstate__:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix.__getstate__:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.__getstate__:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector.__getstate__:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__getstate__:1
-msgid "Helper for pickle."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color.__hash__:1

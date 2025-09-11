@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.6.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-10 00:08+0000\n"
+"POT-Creation-Date: 2025-09-11 00:07+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -1592,7 +1592,7 @@ msgstr ""
 #: cadquery.Shape.__weakref__:1 ../docstring of cadquery.Sketch.__weakref__:1
 #: ../docstring of cadquery.Vector.__weakref__:1 ../docstring of
 #: cadquery.Workplane.__weakref__:1
-msgid "list of weak references to the object"
+msgid "list of weak references to the object (if defined)"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of

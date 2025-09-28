@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.6.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-24 00:07+0000\n"
+"POT-Creation-Date: 2025-09-28 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1049,7 +1049,7 @@ msgstr ""
 #: ../docstring of cadquery.Sketch.__weakref__:1
 #: ../docstring of cadquery.Vector.__weakref__:1
 #: ../docstring of cadquery.Workplane.__weakref__:1
-msgid "list of weak references to the object (if defined)"
+msgid "list of weak references to the object"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.add:1

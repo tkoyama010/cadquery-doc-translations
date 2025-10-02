@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.6.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-30 00:07+0000\n"
+"POT-Creation-Date: 2025-10-02 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -387,8 +387,11 @@ msgid "Bases: :py:class:`object`"
 msgstr ""
 
 #: ../../cadquery/cadquery/__init__.py:docstring of cadquery.occ_impl.shapes.sortWiresByBuildOrder:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getattr__:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getitem__:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__iter__:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.load:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.remove:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.solve:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__add__:0
@@ -572,6 +575,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fuse:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.imprint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.intersect:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.isSubshape:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.loft:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.offset:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.plane:0
@@ -659,98 +663,19 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:1
-msgid "construct an assembly"
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__dir__:1
+msgid "Modified __dir__ for autocompletion."
 msgstr ""
 
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:3
-msgid "root object of the assembly (default: None)"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:4
-msgid "location of the root object (default: None, interpreted as identity transformation)"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:5
-msgid "unique name of the root object (default: None, resulting in an UUID being generated)"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:6
-msgid "color of the added object (default: None)"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:7
-msgid "a store for user-defined metadata (default: None)"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:0
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.remove:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__init__:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.add:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.close:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirrorX:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirrorY:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vals:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:0
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.setOrigin2d:0
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.toLocalCoords:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.endPoint:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.startPoint:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinear:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:0
-#: ../../cadquery/doc/classreference.rst:0
-msgid "Returns"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:8
-msgid "An Assembly object."
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:11
-msgid "To create an empty assembly use::"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:15
-msgid "To create one constraint a root object::"
-msgstr ""
-
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__iter__:1
-msgid "Assembly iterator yielding shapes, names, locations and colors."
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getattr__:1
+msgid ". based access to children."
 msgstr ""
 
 #: ../../cadquery/cadquery/__init__.py:docstring of cadquery.occ_impl.shapes.sortWiresByBuildOrder:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getattr__:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getitem__:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__iter__:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.load:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.remove:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.solve:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.toCompound:0
@@ -955,6 +880,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fuse:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.imprint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.intersect:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.isSubshape:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.loft:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.offset:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.plane:0
@@ -1038,6 +964,109 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getitem__:1
+msgid "[] based access to children."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getstate__:1
+msgid "Explicit getstate needed due to getattr."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:1
+msgid "construct an assembly"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:3
+msgid "root object of the assembly (default: None)"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:4
+msgid "location of the root object (default: None, interpreted as identity transformation)"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:5
+msgid "unique name of the root object (default: None, resulting in an UUID being generated)"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:6
+msgid "color of the added object (default: None)"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:7
+msgid "a store for user-defined metadata (default: None)"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:0
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.remove:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__init__:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.add:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.close:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirrorX:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirrorY:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vals:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:0
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.setOrigin2d:0
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane.toLocalCoords:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.endPoint:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.startPoint:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinear:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:0
+#: ../../cadquery/doc/classreference.rst:0
+msgid "Returns"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:8
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.importStep:4
+msgid "An Assembly object."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:11
+msgid "To create an empty assembly use::"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:15
+msgid "To create one constraint a root object::"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__iter__:1
+msgid "Assembly iterator yielding shapes, names, locations and colors."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__setstate__:1
+msgid "Explicit setstate needed due to getattr."
+msgstr ""
+
 #: ../docstring of cadquery.Assembly.__weakref__:1
 #: ../docstring of cadquery.BoundBox.__weakref__:1
 #: ../docstring of cadquery.Color.__weakref__:1
@@ -1049,7 +1078,7 @@ msgstr ""
 #: ../docstring of cadquery.Sketch.__weakref__:1
 #: ../docstring of cadquery.Vector.__weakref__:1
 #: ../docstring of cadquery.Workplane.__weakref__:1
-msgid "list of weak references to the object (if defined)"
+msgid "list of weak references to the object"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.add:1
@@ -1123,6 +1152,18 @@ msgstr ""
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.export:10
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:10
 msgid "STL only - Sets whether or not STL export should be text or binary"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.importStep:1
+msgid "Reads an assembly from a STEP file."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.importStep:3
+msgid "Path and filename for reading."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.load:1
+msgid "Load step, xbf or xml."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.remove:1
@@ -6253,6 +6294,10 @@ msgstr ""
 msgid "Intersect two shapes."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.isSubshape:1
+msgid "Check if s1 is a subshape of s2."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.loft:1
 msgid "Loft edges, wires or faces. For faces cap has no effect. Do not mix faces with other types."
 msgstr ""
@@ -6832,7 +6877,7 @@ msgid "Enable or disable writing parametric curves to the STEP file. Default Tru
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportCAF:1
-msgid "Export an assembly to a OCAF xml file (internal OCCT format)."
+msgid "Export an assembly to an XCAF xml or xbf file (internal OCCT formats)."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportGLTF:1

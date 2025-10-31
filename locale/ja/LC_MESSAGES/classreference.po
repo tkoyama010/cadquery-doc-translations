@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-21 00:07+0000\n"
+"POT-Creation-Date: 2025-10-31 00:07+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -617,6 +617,8 @@ msgstr ""
 #: cadquery.occ_impl.geom.Location.__init__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Matrix.__getitem__:0
+#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
+#: cadquery.occ_impl.geom.Plane.__init__:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.named:0
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
@@ -3030,38 +3032,14 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.__init__:1
-msgid "Create a Plane with an arbitrary orientation"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
-#: cadquery.occ_impl.geom.Plane.__init__:3
-msgid "the origin in global coordinates"
+msgid ""
+"Create a Plane from origin in global coordinates, vector xDir, and normal "
+"direction for the plane."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Plane.__init__:4
-msgid "an optional vector representing the xDirection."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
-#: cadquery.occ_impl.geom.Plane.__init__:5
-msgid "the normal direction for the plane"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.chamfer:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cutBlind:0
-#: ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.cutThruAll:0 ../../cadquery/cadquery/cq.pydocstring
-#: of cadquery.cq.Workplane.fillet:0 ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.findSolid:0 ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.shell:0 ../../cadquery/cadquery/cq.pydocstring of
-#: cadquery.cq.Workplane.split:0 ../../cadquery/doc/classreference.rst:0
-msgid "Raises"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
-#: cadquery.occ_impl.geom.Plane.__init__:6
-msgid "if the specified xDir is not orthogonal to the provided normal"
+msgid "Create a Plane from Location loc."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
@@ -5749,6 +5727,17 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.chamfer:13
 msgid "optional parameter for asymmetrical chamfer"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.chamfer:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.cutBlind:0
+#: ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.cutThruAll:0 ../../cadquery/cadquery/cq.pydocstring
+#: of cadquery.cq.Workplane.fillet:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.findSolid:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.shell:0 ../../cadquery/cadquery/cq.pydocstring of
+#: cadquery.cq.Workplane.split:0 ../../cadquery/doc/classreference.rst:0
+msgid "Raises"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.chamfer:14

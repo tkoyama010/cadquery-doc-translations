@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.6.dev0\n"
+"Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 00:32+0000\n"
+"POT-Creation-Date: 2025-10-08 00:07+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -45,56 +45,66 @@ msgid "Import Formats"
 msgstr ""
 
 #: ../../cadquery/doc/importexport.rst:20
-#: ../../cadquery/doc/importexport.rst:26
+#: ../../cadquery/doc/importexport.rst:28
 msgid "DXF"
 msgstr ""
 
 #: ../../cadquery/doc/importexport.rst:21
-#: ../../cadquery/doc/importexport.rst:28
+#: ../../cadquery/doc/importexport.rst:30
 msgid "STEP"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:24
+#: ../../cadquery/doc/importexport.rst:22
+#: ../../cadquery/doc/importexport.rst:38
+msgid "XML (XCAF)"
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:23
+#: ../../cadquery/doc/importexport.rst:39
+msgid "XBF"
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:26
 msgid "Export Formats"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:27
+#: ../../cadquery/doc/importexport.rst:29
 msgid "SVG"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:29
+#: ../../cadquery/doc/importexport.rst:31
 msgid "STL"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:30
+#: ../../cadquery/doc/importexport.rst:32
 msgid "AMF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:31
+#: ../../cadquery/doc/importexport.rst:33
 msgid "TJS"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:32
+#: ../../cadquery/doc/importexport.rst:34
 msgid "VRML"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:33
+#: ../../cadquery/doc/importexport.rst:35
 msgid "VTP"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:34
+#: ../../cadquery/doc/importexport.rst:36
 msgid "3MF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:35
+#: ../../cadquery/doc/importexport.rst:37
 msgid "glTF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:38
+#: ../../cadquery/doc/importexport.rst:42
 msgid "Notes on the Formats"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:40
+#: ../../cadquery/doc/importexport.rst:44
 msgid ""
 "DXF is useful for importing complex 2D profiles that would be tedious to "
 "create using CadQuery's 2D operations. An example is that the 2D profiles of"
@@ -102,49 +112,57 @@ msgid ""
 "and extruded to create the length of extrusion that is needed in a design."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:41
+#: ../../cadquery/doc/importexport.rst:45
 msgid ""
 "STEP files are useful for interchanging model data with other CAD and "
 "analysis systems, such as FreeCAD. Many parts such as screws have STEP files"
 " available, which can be imported and used in CadQuery assemblies."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:42
+#: ../../cadquery/doc/importexport.rst:46
 msgid ""
 "STL, AMF and 3MF files are mesh-based formats which are typically used in "
 "additive manufacturing (i.e. 3D printing). AMF and 3MF files support more "
 "features, but are not as universally supported as STL files."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:43
+#: ../../cadquery/doc/importexport.rst:47
 msgid ""
 "TJS is short for ThreeJS, and is a JSON mesh format that is useful for "
 "displaying 3D models in web browsers. The TJS format is used to display "
 "embedded 3D examples within the CadQuery documentation."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:44
+#: ../../cadquery/doc/importexport.rst:48
 msgid ""
 "VRML is a mesh-based format for representing interactive 3D objects in a web"
 " browser."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:45
+#: ../../cadquery/doc/importexport.rst:49
 msgid "VTP is a mesh-based format used by the VTK library."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:46
+#: ../../cadquery/doc/importexport.rst:50
 msgid ""
 "glTF is a mesh-based format useful for viewing models on the web. Whether "
 "the resulting glTF file is binary (.glb) or text (.gltf) is set by the file "
 "extension. This export format is only available for assemblies."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:49
+#: ../../cadquery/doc/importexport.rst:51
+msgid "XML is an internal OCCT format for assemblies"
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:52
+msgid "XBF is an internal OCCT binary format for assemblies"
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:55
 msgid "Importing DXF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:51
+#: ../../cadquery/doc/importexport.rst:57
 msgid ""
 "DXF files can be imported using the :meth:`importers.importDXF` method."
 msgstr ""
@@ -189,13 +207,13 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:56
+#: ../../cadquery/doc/importexport.rst:62
 msgid ""
 "Importing a DXF profile with default settings and using it within a CadQuery"
 " script is shown in the following code."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:66
+#: ../../cadquery/doc/importexport.rst:72
 msgid ""
 "Note the use of the :meth:`Workplane.wires` and :meth:`Workplane.toPending` "
 "methods to make the DXF profile ready for use during subsequent operations. "
@@ -203,55 +221,55 @@ msgid ""
 "the next modelling operation that is called in the chain."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:71
+#: ../../cadquery/doc/importexport.rst:77
 msgid "Importing STEP"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:73
+#: ../../cadquery/doc/importexport.rst:79
 msgid ""
 "STEP files can be imported using the :meth:`importers.importStep` method "
 "(note the capitalization of \"Step\"). There are no parameters for this "
 "method other than the file path to import."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:83
+#: ../../cadquery/doc/importexport.rst:89
 msgid "Exporting STEP"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:85
+#: ../../cadquery/doc/importexport.rst:91
 msgid ""
 "This section covers exporting CadQuery Workplane objects to STEP. For "
 "exporting assemblies to STEP, see the next section."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:88
-#: ../../cadquery/doc/importexport.rst:145
+#: ../../cadquery/doc/importexport.rst:94
+#: ../../cadquery/doc/importexport.rst:151
 msgid "Default"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:90
+#: ../../cadquery/doc/importexport.rst:96
 msgid ""
 "The exporters module handles exporting Workplane objects to STEP. It is not "
 "necessary to set the export type explicitly since it will be determined from"
 " the file extension. Below is an example."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:102
+#: ../../cadquery/doc/importexport.rst:108
 msgid "Non-Default File Extensions"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:104
+#: ../../cadquery/doc/importexport.rst:110
 msgid ""
 "If there is a requirement to export the STEP file using an \"stp\" "
 "extension, CadQuery will throw an error saying that it does not recognize "
 "the file extension. In that case the export type has to be specified."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:119
+#: ../../cadquery/doc/importexport.rst:125
 msgid "Setting Extra Options"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:121
+#: ../../cadquery/doc/importexport.rst:127
 msgid ""
 "There are additional options that can be set when exporting an object to a "
 "STEP file. For an explanation of the options available, see the "
@@ -259,37 +277,38 @@ msgid ""
 ":meth:`Assembly.exportAssembly`` method."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:138
-msgid "Exporting Assemblies to STEP"
+#: ../../cadquery/doc/importexport.rst:144
+msgid "Exporting Assemblies"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:140
+#: ../../cadquery/doc/importexport.rst:146
 msgid ""
-"It is possible to export CadQuery assemblies directly to STEP. The STEP "
-"exporter has multiple options which change the way exported STEP files will "
-"appear and operate when opened in other CAD programs. All assembly export "
-"methods shown here will preserve the color information from the assembly."
+"It is possible to export CadQuery assemblies directly to STEP, XBF or XML. "
+"The exporter has multiple options which change the way exported STEP files "
+"will appear and operate when opened in other CAD programs. All assembly "
+"export methods shown here will preserve the color information from the "
+"assembly."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:147
+#: ../../cadquery/doc/importexport.rst:153
 msgid ""
 "CadQuery assemblies have a :meth:`Assembly.export` method which can write an"
-" assembly to a STEP file. An example assembly export with all defaults is "
-"shown below."
+" assembly to a file. An example assembly export with all defaults is shown "
+"below."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:164
+#: ../../cadquery/doc/importexport.rst:176
 msgid ""
 "This will produce a STEP file that is nested with auto-generated object "
 "names. The colors of each assembly object will be preserved, but the names "
 "that were set for each will not."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:168
+#: ../../cadquery/doc/importexport.rst:180
 msgid "Fused"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:170
+#: ../../cadquery/doc/importexport.rst:182
 msgid ""
 "The following will attempt to create a single, fused shape while preserving "
 "the name and color information of each assembly object. The process of "
@@ -297,48 +316,60 @@ msgid ""
 "to alter the faces of the fused solids."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:192
+#: ../../cadquery/doc/importexport.rst:204
 msgid "Naming"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:194
+#: ../../cadquery/doc/importexport.rst:206
 msgid ""
 "It is also possible to set the name of the top level assembly object in the "
 "STEP file with either the DEFAULT or FUSED methods. This is done by setting "
 "the name property of the assembly before calling :meth:`Assembly.export`."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:206
+#: ../../cadquery/doc/importexport.rst:218
 msgid ""
 "If an assembly name is not specified, a UUID will be used to avoid name "
 "conflicts."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:209
-msgid "Exporting Assemblies to STEP with Metadata"
+#: ../../cadquery/doc/importexport.rst:221
+msgid "Exporting Assemblies with Metadata"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:211
+#: ../../cadquery/doc/importexport.rst:223
 msgid ""
 "It is possible to attach metadata to the assembly that will be included in "
-"the STEP file. This metadata can be attached to arbitrary shapes and "
+"the output file. This metadata can be attached to arbitrary shapes and "
 "includes names, colors and layers. This is done by using the "
-":meth:`Assembly.addSubshape` method before calling "
-":meth:`cadquery.occ_impl.exporters.assembly.exportStepMeta`."
+":meth:`Assembly.addSubshape` method before calling ' "
+"':meth:`cadquery.Assembly.export` or "
+"':meth:`cadquery.occ_impl.exporters.assembly.exportStepMeta`."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:235
+#: ../../cadquery/doc/importexport.rst:251
+msgid "Importing Assemblies"
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:253
+msgid ""
+"It is possible to import CadQuery assemblies from STEP, XBF or XML files "
+"using the :meth:`Assembly.load`. Note that this method will create a new "
+"assembly if invoked from an instance."
+msgstr ""
+
+#: ../../cadquery/doc/importexport.rst:257
 msgid "Exporting Assemblies to glTF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:237
+#: ../../cadquery/doc/importexport.rst:259
 msgid ""
 "It is possible to export CadQuery assemblies to glTF format. glTF is a mesh-"
 "based format useful for viewing models on the web. Whether the resulting "
 "glTF file is binary (.glb) or text (.gltf) is set by the file extension."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:239
+#: ../../cadquery/doc/importexport.rst:261
 msgid ""
 "CadQuery assemblies have a :meth:`Assembly.export` method which can write an"
 " assembly to a glTF file. An example assembly export with all defaults is "
@@ -346,107 +377,107 @@ msgid ""
 "``glb``."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:257
+#: ../../cadquery/doc/importexport.rst:279
 msgid "Exporting SVG"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:259
+#: ../../cadquery/doc/importexport.rst:281
 msgid ""
 "The SVG exporter has several options which can be useful for achieving the "
 "desired final output. Those options are as follows."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:262
+#: ../../cadquery/doc/importexport.rst:284
 msgid "*width* - Width of the resulting image (None to fit based on height)."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:263
+#: ../../cadquery/doc/importexport.rst:285
 msgid "*height* - Height of the resulting image (None to fit based on width)."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:264
+#: ../../cadquery/doc/importexport.rst:286
 msgid "*marginLeft* - Inset margin from the left side of the document."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:265
+#: ../../cadquery/doc/importexport.rst:287
 msgid "*marginTop* - Inset margin from the top side of the document."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:266
+#: ../../cadquery/doc/importexport.rst:288
 msgid "*projectionDir* - Direction the camera will view the shape from."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:267
+#: ../../cadquery/doc/importexport.rst:289
 msgid ""
 "*showAxes* - Whether or not to show the axes indicator, which will only be "
 "visible when the projectionDir is also at the default."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:268
+#: ../../cadquery/doc/importexport.rst:290
 msgid "*strokeWidth* - Width of the line that visible edges are drawn with."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:269
+#: ../../cadquery/doc/importexport.rst:291
 msgid "*strokeColor* - Color of the line that visible edges are drawn with."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:270
+#: ../../cadquery/doc/importexport.rst:292
 msgid "*hiddenColor* - Color of the line that hidden edges are drawn with."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:271
+#: ../../cadquery/doc/importexport.rst:293
 msgid "*showHidden* - Whether or not to show hidden lines."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:272
+#: ../../cadquery/doc/importexport.rst:294
 msgid ""
 "*focus* - If specified, creates a perspective SVG with the projector at the "
 "distance specified."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:274
+#: ../../cadquery/doc/importexport.rst:296
 msgid ""
 "The options are passed to the exporter in a dictionary, and can be left out "
 "to force the SVG to be created with default options. Below are examples with"
 " and without options set."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:277
+#: ../../cadquery/doc/importexport.rst:299
 msgid "Without options:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:288
+#: ../../cadquery/doc/importexport.rst:310
 msgid "Results in:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:292
+#: ../../cadquery/doc/importexport.rst:314
 msgid ""
 "Note that the exporters API figured out the format type from the file "
 "extension. The format type can be set explicitly by using "
 ":py:class:`exporters.ExportTypes`."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:295
+#: ../../cadquery/doc/importexport.rst:317
 msgid ""
 "The following is an example of using options to alter the resulting SVG "
 "output by passing in the ``opt`` parameter."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:320
+#: ../../cadquery/doc/importexport.rst:342
 msgid "Which results in the following image:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:324
+#: ../../cadquery/doc/importexport.rst:346
 msgid ""
 "Exporting with the additional option ``\"focus\": 25`` results in the "
 "following output SVG with perspective:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:329
+#: ../../cadquery/doc/importexport.rst:351
 msgid "Exporting STL"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:331
+#: ../../cadquery/doc/importexport.rst:353
 msgid ""
 "The STL exporter is capable of adjusting the quality of the resulting mesh, "
 "and accepts the following parameters."
@@ -501,32 +532,32 @@ msgid ""
 "True."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:336
-#: ../../cadquery/doc/importexport.rst:379
-#: ../../cadquery/doc/importexport.rst:408
+#: ../../cadquery/doc/importexport.rst:358
+#: ../../cadquery/doc/importexport.rst:401
+#: ../../cadquery/doc/importexport.rst:430
 msgid ""
 "For more complex objects, some experimentation with ``tolerance`` and "
 "``angularTolerance`` may be required to find the optimum values that will "
 "produce an acceptable mesh."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:349
+#: ../../cadquery/doc/importexport.rst:371
 msgid "Exporting AMF and 3MF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:351
+#: ../../cadquery/doc/importexport.rst:373
 msgid ""
 "The AMF and 3MF exporters are capable of adjusting the quality of the "
 "resulting mesh, and accept the following parameters."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:353
+#: ../../cadquery/doc/importexport.rst:375
 msgid "``fileName`` - The path and file name to write the AMF output to."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:354
 #: ../../cadquery/doc/importexport.rst:376
-#: ../../cadquery/doc/importexport.rst:405
+#: ../../cadquery/doc/importexport.rst:398
+#: ../../cadquery/doc/importexport.rst:427
 msgid ""
 "``tolerance`` - A linear deflection setting which limits the distance "
 "between a curve and its tessellation. Setting this value too low will result"
@@ -535,15 +566,15 @@ msgid ""
 "is 0.1, which is good starting point for a range of cases."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:355
 #: ../../cadquery/doc/importexport.rst:377
-#: ../../cadquery/doc/importexport.rst:406
+#: ../../cadquery/doc/importexport.rst:399
+#: ../../cadquery/doc/importexport.rst:428
 msgid ""
 "``angularTolerance`` - Angular deflection setting which limits the angle "
 "between subsequent segments in a polyline. Default is 0.1."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:357
+#: ../../cadquery/doc/importexport.rst:379
 msgid ""
 "For more complex objects, some experimentation with ``tolerance`` and "
 "``angularTolerance`` may be required to find the optimum values that will "
@@ -551,11 +582,11 @@ msgid ""
 "absent."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:371
+#: ../../cadquery/doc/importexport.rst:393
 msgid "Exporting TJS"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:373
+#: ../../cadquery/doc/importexport.rst:395
 msgid ""
 "The TJS (ThreeJS) exporter produces a file in JSON format that describes a "
 "scene for the ThreeJS WebGL renderer. The objects in the first argument are "
@@ -563,11 +594,11 @@ msgid ""
 "mesh can be adjusted with the following parameters."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:375
+#: ../../cadquery/doc/importexport.rst:397
 msgid "``fileName`` - The path and file name to write the ThreeJS output to."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:396
+#: ../../cadquery/doc/importexport.rst:418
 msgid ""
 "Note that the export type was explicitly specified as ``TJS`` because the "
 "extension that was used for the file name was ``.json``. If the extension "
@@ -575,193 +606,193 @@ msgid ""
 "export format."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:400
+#: ../../cadquery/doc/importexport.rst:422
 msgid "Exporting VRML"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:402
+#: ../../cadquery/doc/importexport.rst:424
 msgid ""
 "The VRML exporter is capable of adjusting the quality of the resulting mesh,"
 " and accepts the following parameters."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:404
+#: ../../cadquery/doc/importexport.rst:426
 msgid "``fileName`` - The path and file name to write the VRML output to."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:423
+#: ../../cadquery/doc/importexport.rst:445
 msgid "Exporting DXF"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:425
+#: ../../cadquery/doc/importexport.rst:447
 msgid ""
 "DXF exporting works only with 2D sections on the current workplane or "
 "sketches."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:429
+#: ../../cadquery/doc/importexport.rst:451
 msgid ""
 ":class:`cadquery.occ_impl.exporters.dxf.DxfDocument` for exporting multiple "
 "Workplanes to one or many layers of a DXF document."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:433
+#: ../../cadquery/doc/importexport.rst:455
 msgid "Options"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:435
+#: ../../cadquery/doc/importexport.rst:457
 msgid "``approx``"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:436
+#: ../../cadquery/doc/importexport.rst:458
 msgid ""
 "Approximation strategy for converting :class:`cadquery.Workplane` objects to"
 " DXF entities:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:438
+#: ../../cadquery/doc/importexport.rst:460
 msgid "``None``"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:439
+#: ../../cadquery/doc/importexport.rst:461
 msgid "no approximation applied"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:440
+#: ../../cadquery/doc/importexport.rst:462
 msgid "``\"spline\"``"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:441
+#: ../../cadquery/doc/importexport.rst:463
 msgid "all splines approximated as cubic splines"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:442
+#: ../../cadquery/doc/importexport.rst:464
 msgid "``\"arc\"``"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:443
+#: ../../cadquery/doc/importexport.rst:465
 msgid "all curves approximated as arcs and straight segments"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:444
+#: ../../cadquery/doc/importexport.rst:466
 msgid "``tolerance``"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:445
+#: ../../cadquery/doc/importexport.rst:467
 msgid ""
 "Approximation tolerance for converting :class:`cadquery.Workplane` objects "
 "to DXF entities. See `Approximation strategy`_."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:447
+#: ../../cadquery/doc/importexport.rst:469
 msgid "``doc_units``"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:448
+#: ../../cadquery/doc/importexport.rst:470
 msgid ""
 "Ezdxf document/modelspace :doc:`units <ezdxf-stable:concepts/units>`. See "
 "`Units`_."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:451
+#: ../../cadquery/doc/importexport.rst:473
 msgid "DXF of workplanes."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:462
+#: ../../cadquery/doc/importexport.rst:484
 msgid "Sketches can also be directly exported to DXF."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:464
+#: ../../cadquery/doc/importexport.rst:486
 msgid "DXF export of sketches."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:475
+#: ../../cadquery/doc/importexport.rst:497
 msgid "Units"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:477
+#: ../../cadquery/doc/importexport.rst:499
 msgid "The default DXF document units are mm (:code:`doc_units = 4`)."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:480
+#: ../../cadquery/doc/importexport.rst:502
 msgid "doc_units"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:480
+#: ../../cadquery/doc/importexport.rst:502
 msgid "Unit"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:482
+#: ../../cadquery/doc/importexport.rst:504
 msgid "0"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:482
+#: ../../cadquery/doc/importexport.rst:504
 msgid "Unitless"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:483
+#: ../../cadquery/doc/importexport.rst:505
 msgid "1"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:483
+#: ../../cadquery/doc/importexport.rst:505
 msgid "Inches"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:484
+#: ../../cadquery/doc/importexport.rst:506
 msgid "2"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:484
+#: ../../cadquery/doc/importexport.rst:506
 msgid "Feet"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:485
+#: ../../cadquery/doc/importexport.rst:507
 msgid "3"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:485
+#: ../../cadquery/doc/importexport.rst:507
 msgid "Miles"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:486
+#: ../../cadquery/doc/importexport.rst:508
 msgid "4"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:486
+#: ../../cadquery/doc/importexport.rst:508
 msgid "Millimeters"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:487
+#: ../../cadquery/doc/importexport.rst:509
 msgid "5"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:487
+#: ../../cadquery/doc/importexport.rst:509
 msgid "Centimeters"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:488
+#: ../../cadquery/doc/importexport.rst:510
 msgid "6"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:488
+#: ../../cadquery/doc/importexport.rst:510
 msgid "Meters"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:491
+#: ../../cadquery/doc/importexport.rst:513
 msgid ""
 "Document units can be set to any :doc:`unit supported by ezdxf <ezdxf-"
 "stable:concepts/units>`."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:493
+#: ../../cadquery/doc/importexport.rst:515
 msgid "DXF document with units set to meters."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:518
+#: ../../cadquery/doc/importexport.rst:540
 msgid "Approximation strategy"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:520
+#: ../../cadquery/doc/importexport.rst:542
 msgid ""
 "By default, the DXF exporter will output splines exactly as they are "
 "represented by the OpenCascade kernel. Unfortunately some software cannot "
@@ -770,41 +801,41 @@ msgid ""
 " options:"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:522
+#: ../../cadquery/doc/importexport.rst:544
 msgid ""
 "``approx`` - ``None``, ``\"spline\"`` or ``\"arc\"``. ``\"spline\"`` results"
 " in all splines approximated with cubic splines. ``\"arc\"`` results in all "
 "curves approximated with arcs and line segments."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:523
+#: ../../cadquery/doc/importexport.rst:545
 msgid ""
 "``tolerance``: Acceptable error of the approximation, in document/modelspace"
 " units. Defaults to 0.001 (1 thou for inch-scale drawings, 1 µm for mm-scale"
 " drawings)."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:525
+#: ../../cadquery/doc/importexport.rst:547
 msgid "DXF document with curves approximated with cubic splines."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:532
+#: ../../cadquery/doc/importexport.rst:554
 msgid "Exporting Other Formats"
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:534
+#: ../../cadquery/doc/importexport.rst:556
 msgid ""
 "The remaining export formats do not accept any additional parameters other "
 "than file name, and can be exported using the following structure."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:546
+#: ../../cadquery/doc/importexport.rst:568
 msgid ""
 "Be sure to use the correct file extension so that CadQuery can determine the"
 " export format. If in doubt, fall back to setting the type explicitly by "
 "using :py:class:`exporters.ExportTypes`."
 msgstr ""
 
-#: ../../cadquery/doc/importexport.rst:549
+#: ../../cadquery/doc/importexport.rst:571
 msgid "For example:"
 msgstr ""

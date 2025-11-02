@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: CadQuery 2.6.dev0\n"
+"Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 00:32+0000\n"
+"POT-Creation-Date: 2025-10-08 00:07+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -235,31 +235,12 @@ msgstr "**5行目** は、プレートの端から穴までの距離を決める
 
 #: ../../cadquery/doc/quickstart.rst:171
 msgid ""
-"**Lines 11-12** selects the top-most face of the block, and creates a "
+"**Lines 14-15** selects the top-most face of the block, and creates a "
 "workplane on the top of that face, which we'll use to define the centers of "
 "the holes in the corners."
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:174
-msgid "There are a couple of things to note about this line:"
-msgstr ""
-
-#: ../../cadquery/doc/quickstart.rst:176
-msgid ""
-"The :py:meth:`cadquery.Workplane.rect` function draws a rectangle.  "
-"**forConstruction=True** tells CadQuery that this rectangle will not form a "
-"part of the solid, but we are just using it to help define some other "
-"geometry."
-msgstr ""
-
-#: ../../cadquery/doc/quickstart.rst:179
-msgid ""
-"Unless you specify otherwise, a rectangle is drawn with its center on the "
-"current workplane center-- in this case, the center of the top face of the "
-"block. So this rectangle will be centered on the face."
-msgstr ""
-
-#: ../../cadquery/doc/quickstart.rst:183
 msgid ""
 "**Line 16** draws a rectangle 12mm smaller than the overall length and width"
 " of the block, which we will use to locate the corner holes. We'll use the "
@@ -268,14 +249,33 @@ msgid ""
 "the center of the bearing hole."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:187
+#: ../../cadquery/doc/quickstart.rst:178
+msgid "There are a couple of things to note about this line:"
+msgstr ""
+
+#: ../../cadquery/doc/quickstart.rst:180
+msgid ""
+"The :py:meth:`cadquery.Workplane.rect` function draws a rectangle.  "
+"**forConstruction=True** tells CadQuery that this rectangle will not form a "
+"part of the solid, but we are just using it to help define some other "
+"geometry."
+msgstr ""
+
+#: ../../cadquery/doc/quickstart.rst:183
+msgid ""
+"Unless you specify otherwise, a rectangle is drawn with its center on the "
+"current workplane center-- in this case, the center of the top face of the "
+"block. So this rectangle will be centered on the face."
+msgstr ""
+
+#: ../../cadquery/doc/quickstart.rst:186
 msgid ""
 "**Line 17** selects the vertices of the rectangle, which we will use for the"
 " centers of the holes. The :py:meth:`cadquery.Workplane.vertices` function "
 "selects the corners of the rectangle."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:190
+#: ../../cadquery/doc/quickstart.rst:189
 msgid ""
 "**Line 18** uses the cboreHole function to draw the holes. The "
 ":py:meth:`cadquery.Workplane.cboreHole` function is a handy CadQuery "
@@ -286,81 +286,81 @@ msgid ""
 "rectangle corners."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:198
+#: ../../cadquery/doc/quickstart.rst:197
 msgid "Filleting"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:200
+#: ../../cadquery/doc/quickstart.rst:199
 msgid ""
 "Almost done. Let's just round the corners of the block a bit. That's easy, "
 "we just need to select the edges and then fillet them:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:203
+#: ../../cadquery/doc/quickstart.rst:202
 msgid ""
 "We can do that using the preset dictionaries in the parameter definition:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:234
+#: ../../cadquery/doc/quickstart.rst:233
+msgid ""
+"**Line 19** To grab the right edges, the :py:meth:`cadquery.Workplane.edges`"
+" selects all of the edges that are parallel to the Z axis (\"\\|Z\")."
+msgstr ""
+
+#: ../../cadquery/doc/quickstart.rst:236
 msgid ""
 "**Line 20** fillets the edges using the :py:meth:`cadquery.Workplane.fillet`"
 " method."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:236
-msgid ""
-"To grab the right edges, the :py:meth:`cadquery.Workplane.edges` selects all"
-" of the edges that are parallel to the Z axis (\"\\|Z\"),"
-msgstr ""
-
-#: ../../cadquery/doc/quickstart.rst:239
+#: ../../cadquery/doc/quickstart.rst:238
 msgid "The finished product looks like this:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:244
+#: ../../cadquery/doc/quickstart.rst:243
 msgid "Exporting"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:246
+#: ../../cadquery/doc/quickstart.rst:245
 msgid ""
 "If you want to fabricate a physical object you need to export the result to "
 "STL or DXF. Additionally, exporting as STEP for post-processing in another "
 "CAD tool is also possible."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:248
+#: ../../cadquery/doc/quickstart.rst:247
 msgid ""
 "This can be easily accomplished using the "
 ":py:meth:`cadquery.exporters.export` function:"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:285
+#: ../../cadquery/doc/quickstart.rst:284
 msgid "Done!"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:287
+#: ../../cadquery/doc/quickstart.rst:286
 msgid ""
 "You just made a parametric, model that can generate pretty much any bearing "
 "pillow block with <30 lines of code."
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:291
+#: ../../cadquery/doc/quickstart.rst:290
 msgid "Want to learn more?"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:293
+#: ../../cadquery/doc/quickstart.rst:292
 msgid ""
 "The :ref:`examples` contains lots of examples demonstrating cadquery "
 "features"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:294
+#: ../../cadquery/doc/quickstart.rst:293
 msgid ""
 "The :ref:`apireference` is a good overview of language features grouped by "
 "function"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:295
+#: ../../cadquery/doc/quickstart.rst:294
 msgid ""
 "The :ref:`classreference` is the hard-core listing of all functions "
 "available."

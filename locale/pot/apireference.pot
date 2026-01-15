@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:08+0000\n"
+"POT-Creation-Date: 2025-12-13 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1293,7 +1293,7 @@ msgid "Workplane and Shape objects can be connected together into assemblies"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
-msgid ":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\, metadata\\]\\)"
+msgid ":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, color\\, material\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1

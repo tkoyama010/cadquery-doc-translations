@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 00:07+0000\n"
+"POT-Creation-Date: 2025-12-13 00:08+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -61,10 +61,8 @@ msgstr "2次元座標を使用できる空間上の座標系を定義します�
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
 msgid ""
 ":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, "
-"color\\, metadata\\]\\)"
+"color\\, material\\, ...\\]\\)"
 msgstr ""
-":py:obj:`Assembly <cadquery.Assembly>`\\ \\(\\[obj\\, loc\\, name\\, "
-"color\\, metadata\\]\\)"
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly:1
@@ -494,6 +492,8 @@ msgstr ""
 #: cadquery.cq.Workplane:1
 #: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
 #: cadquery.occ_impl.assembly.Color:1
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material:1
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.BoundBox:1
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
@@ -595,6 +595,10 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.wire:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.wires:0
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.workplane:0
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__init__:0
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__setstate__:0
 #: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
 #: cadquery.occ_impl.assembly.toJSON:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.pydocstring of
@@ -1081,6 +1085,10 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
 #: cadquery.occ_impl.assembly.Color.toTuple:0
 #: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__getstate__:0
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.toTuple:0
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
 #: cadquery.occ_impl.assembly.toJSON:0
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.pydocstring of
 #: cadquery.occ_impl.exporters.assembly.exportCAF:0
@@ -1537,6 +1545,13 @@ msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.__init__:7
+msgid ""
+"material (for visual and/or physical properties) of the added object "
+"(default: None)"
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.pydocstring of
+#: cadquery.assembly.Assembly.__init__:8
 msgid "a store for user-defined metadata (default: None)"
 msgstr ""
 
@@ -1602,19 +1617,19 @@ msgid "Returns"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
-#: cadquery.assembly.Assembly.__init__:8
+#: cadquery.assembly.Assembly.__init__:9
 #: ../../cadquery/cadquery/assembly.pydocstring of
 #: cadquery.assembly.Assembly.importStep:4
 msgid "An Assembly object."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
-#: cadquery.assembly.Assembly.__init__:11
+#: cadquery.assembly.Assembly.__init__:12
 msgid "To create an empty assembly use::"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.pydocstring of
-#: cadquery.assembly.Assembly.__init__:15
+#: cadquery.assembly.Assembly.__init__:16
 msgid "To create one constraint a root object::"
 msgstr ""
 
@@ -1632,6 +1647,7 @@ msgstr ""
 #: cadquery.BoundBox.__weakref__:1 ../docstring of
 #: cadquery.Color.__weakref__:1 ../docstring of
 #: cadquery.Location.__weakref__:1 ../docstring of
+#: cadquery.Material.__weakref__:1 ../docstring of
 #: cadquery.Matrix.__weakref__:1 ../docstring of cadquery.Plane.__weakref__:1
 #: ../docstring of cadquery.Selector.__weakref__:1 ../docstring of
 #: cadquery.Shape.__weakref__:1 ../docstring of cadquery.Sketch.__weakref__:1
@@ -2833,6 +2849,65 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of
 #: cadquery.occ_impl.geom.Location.toTuple:1
 msgid "Convert the location to a translation, rotation tuple."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material:1
+msgid ""
+"Wrapper for the OCCT material classes XCAFDoc_Material and "
+"XCAFDoc_VisMaterial. XCAFDoc_Material is focused on physical material "
+"properties and XCAFDoc_VisMaterial is for visual properties to be used when "
+"rendering."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__eq__:1
+msgid "Check equality of this material against another via its tuple."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__getstate__:1
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__setstate__:1
+msgid "Allows pickling."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__hash__:1
+msgid "Create a unique hash for this material via its tuple."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.__init__:1
+msgid ""
+"Can be passed an arbitrary string name for the material along with keyword "
+"arguments defining some other characteristics of the material. If nothing is"
+" passed, arbitrary defaults are used."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.Material.density:1
+msgid "Get the density value of the material."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.Material.densityUnit:1
+msgid "Get the units that the material density is defined in."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.Material.description:1
+msgid "Get the string description of the material."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.Material.name:1
+msgid "Get the string name of the material."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/assembly.pydocstring of
+#: cadquery.occ_impl.assembly.Material.toTuple:1
+msgid "Convert Material to a tuple."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.pydocstring of

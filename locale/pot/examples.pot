@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:08+0000\n"
+"POT-Creation-Date: 2026-01-18 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,33 +60,33 @@ msgstr ""
 msgid "Just about the simplest possible example, a rectangular box"
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:36
-#: ../../cadquery/doc/examples.rst:54
-#: ../../cadquery/doc/examples.rst:91
-#: ../../cadquery/doc/examples.rst:114
-#: ../../cadquery/doc/examples.rst:146
-#: ../../cadquery/doc/examples.rst:180
-#: ../../cadquery/doc/examples.rst:208
-#: ../../cadquery/doc/examples.rst:233
-#: ../../cadquery/doc/examples.rst:267
-#: ../../cadquery/doc/examples.rst:299
-#: ../../cadquery/doc/examples.rst:327
-#: ../../cadquery/doc/examples.rst:388
-#: ../../cadquery/doc/examples.rst:412
-#: ../../cadquery/doc/examples.rst:449
-#: ../../cadquery/doc/examples.rst:481
-#: ../../cadquery/doc/examples.rst:538
-#: ../../cadquery/doc/examples.rst:566
-#: ../../cadquery/doc/examples.rst:598
-#: ../../cadquery/doc/examples.rst:640
-#: ../../cadquery/doc/examples.rst:670
-#: ../../cadquery/doc/examples.rst:780
-#: ../../cadquery/doc/examples.rst:814
-#: ../../cadquery/doc/examples.rst:869
-#: ../../cadquery/doc/examples.rst:890
-#: ../../cadquery/doc/examples.rst:981
-#: ../../cadquery/doc/examples.rst:1005
-#: ../../cadquery/doc/examples.rst:1052
+#: ../../cadquery/doc/examples.rst:45
+#: ../../cadquery/doc/examples.rst:81
+#: ../../cadquery/doc/examples.rst:103
+#: ../../cadquery/doc/examples.rst:135
+#: ../../cadquery/doc/examples.rst:168
+#: ../../cadquery/doc/examples.rst:197
+#: ../../cadquery/doc/examples.rst:223
+#: ../../cadquery/doc/examples.rst:254
+#: ../../cadquery/doc/examples.rst:287
+#: ../../cadquery/doc/examples.rst:313
+#: ../../cadquery/doc/examples.rst:373
+#: ../../cadquery/doc/examples.rst:399
+#: ../../cadquery/doc/examples.rst:436
+#: ../../cadquery/doc/examples.rst:467
+#: ../../cadquery/doc/examples.rst:496
+#: ../../cadquery/doc/examples.rst:555
+#: ../../cadquery/doc/examples.rst:585
+#: ../../cadquery/doc/examples.rst:628
+#: ../../cadquery/doc/examples.rst:658
+#: ../../cadquery/doc/examples.rst:762
+#: ../../cadquery/doc/examples.rst:799
+#: ../../cadquery/doc/examples.rst:851
+#: ../../cadquery/doc/examples.rst:879
+#: ../../cadquery/doc/examples.rst:942
+#: ../../cadquery/doc/examples.rst:992
+#: ../../cadquery/doc/examples.rst:1037
+#: ../../cadquery/doc/examples.rst:1164
 msgid "Api References"
 msgstr ""
 
@@ -495,7 +495,7 @@ msgstr ""
 msgid "An existing CQ object can copy a workplane from another CQ object."
 msgstr ""
 
-#: ../../cadquery/doc/examples.rst:507
+#: ../../cadquery/doc/examples.rst:527
 msgid "API References"
 msgstr ""
 

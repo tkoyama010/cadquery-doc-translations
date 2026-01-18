@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 00:08+0000\n"
+"POT-Creation-Date: 2026-01-18 00:08+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -117,7 +117,7 @@ msgid "Create a partial copy of the sketch with a new location."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
-msgid ":py:obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(\\)"
+msgid ":py:obj:`Sketch.moved <cadquery.Sketch.moved>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:36:<autosummary>:1
@@ -443,8 +443,8 @@ msgid "Creating new workplanes and object chains"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:108:<autosummary>:1
-msgid ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
-msgstr ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
+msgid ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\)"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:108:<autosummary>:1
 msgid ""
@@ -900,7 +900,7 @@ msgstr ""
 #: ../../cadquery/doc/apireference.rst:184:<autosummary>:1
 msgid ""
 ":py:obj:`Workplane.cylinder <cadquery.Workplane.cylinder>`\\ \\(height\\, "
-"radius\\[\\, direct\\, ...\\]\\)"
+"radius\\, direct\\, ...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:184:<autosummary>:1
@@ -1026,7 +1026,7 @@ msgid "Chamfers a solid on the selected edges."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:196:<autosummary>:1
-msgid ":py:obj:`Workplane.split <cadquery.Workplane.split>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.split <cadquery.Workplane.split>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:196:<autosummary>:1
@@ -1203,7 +1203,7 @@ msgid "get the values in the current list"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:246:<autosummary>:1
-msgid ":py:obj:`Workplane.add <cadquery.Workplane.add>`\\ \\(\\)"
+msgid ":py:obj:`Workplane.add <cadquery.Workplane.add>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:246:<autosummary>:1
@@ -1580,7 +1580,7 @@ msgid ""
 msgstr "WorkplaneとShapeオブジェクトの相対的な位置を定義するネストされたアセンブリ。"
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
-msgid ":py:obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(\\)"
+msgid ":py:obj:`Assembly.add <cadquery.Assembly.add>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
@@ -1598,7 +1598,7 @@ msgid "Save assembly to a file."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
-msgid ":py:obj:`Assembly.constrain <cadquery.Assembly.constrain>`\\ \\(\\)"
+msgid ":py:obj:`Assembly.constrain <cadquery.Assembly.constrain>`\\ \\(...\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
@@ -1614,12 +1614,8 @@ msgid "Solve the constraints."
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
-msgid ":py:obj:`Constraint <cadquery.Constraint>`\\"
-msgstr ":py:obj:`Constraint <cadquery.Constraint>`\\"
-
-#: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
-msgid "alias of :py:class:`~cadquery.occ_impl.solver.ConstraintSpec`"
-msgstr ":py:class:`~cadquery.occ_impl.solver.ConstraintSpec` のエイリアスです。"
+msgid ":py:obj:`Constraint <cadquery.Constraint>`"
+msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:294:<autosummary>:1
 msgid ":py:obj:`Color <cadquery.Color>`\\ \\(\\)"

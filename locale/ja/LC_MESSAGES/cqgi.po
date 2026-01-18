@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:08+0000\n"
+"POT-Creation-Date: 2026-01-18 00:08+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -458,27 +458,32 @@ msgid ""
 "provide additional metadata"
 msgstr ""
 
-#: ../docstring of cadquery.cqgi.InputParameter.default_value:1
+#: ../../cadquery/cadquery/cqgi.pydocstring of
+#: cadquery.cqgi.InputParameter.default_value:1
 msgid "the default value for the variable."
 msgstr ""
 
-#: ../docstring of cadquery.cqgi.InputParameter.desc:1
+#: ../../cadquery/cadquery/cqgi.pydocstring of
+#: cadquery.cqgi.InputParameter.desc:1
 msgid ""
 "help text describing the variable. Only available if the script used "
 "describe_parameter()"
 msgstr ""
 
-#: ../docstring of cadquery.cqgi.InputParameter.name:1
+#: ../../cadquery/cadquery/cqgi.pydocstring of
+#: cadquery.cqgi.InputParameter.name:1
 msgid "the name of the parameter."
 msgstr ""
 
-#: ../docstring of cadquery.cqgi.InputParameter.valid_values:1
+#: ../../cadquery/cadquery/cqgi.pydocstring of
+#: cadquery.cqgi.InputParameter.valid_values:1
 msgid ""
 "valid values for the variable. Only available if the script used "
 "describe_parameter()"
 msgstr ""
 
-#: ../docstring of cadquery.cqgi.InputParameter.varType:1
+#: ../../cadquery/cadquery/cqgi.pydocstring of
+#: cadquery.cqgi.InputParameter.varType:1
 msgid ""
 "type of the variable: BooleanParameter, StringParameter, NumericParameter"
 msgstr ""

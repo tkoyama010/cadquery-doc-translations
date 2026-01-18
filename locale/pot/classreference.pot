@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 00:08+0000\n"
+"POT-Creation-Date: 2026-01-18 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "2D sketch."
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
-msgid ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\=None\\)\\)"
+msgid ":py:obj:`Workplane <cadquery.Workplane>`\\ \\(\\, obj\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane:1
@@ -59,11 +59,7 @@ msgid "Nested assembly of Workplane and Shape objects defining their relative po
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
-msgid ":py:obj:`Constraint <cadquery.Constraint>`\\"
-msgstr ""
-
-#: ../../cadquery/doc/classreference.rst:24:<autosummary>:1
-msgid "alias of :py:class:`~cadquery.occ_impl.solver.ConstraintSpec`"
+msgid ":py:obj:`Constraint <cadquery.Constraint>`"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:26
@@ -97,7 +93,7 @@ msgid "A trimmed curve that represents the border of a face"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
-msgid ":py:obj:`cadquery.occ_impl.shapes.Mixin1D <cadquery.occ_impl.shapes.Mixin1D>`\\ \\(\\)"
+msgid ":py:obj:`occ_impl.shapes.Mixin1D <cadquery.occ_impl.shapes.Mixin1D>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
@@ -128,7 +124,7 @@ msgid "the outer boundary of a surface"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
-msgid ":py:obj:`cadquery.occ_impl.shapes.Mixin3D <cadquery.occ_impl.shapes.Mixin3D>`\\ \\(\\)"
+msgid ":py:obj:`occ_impl.shapes.Mixin3D <cadquery.occ_impl.shapes.Mixin3D>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
@@ -370,23 +366,6 @@ msgstr ""
 msgid "Class Details"
 msgstr ""
 
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly:1
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane:1
-#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Color:1
-#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Material:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.BoundBox:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Location:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane:1
-#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.Selector:1
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch:1
-msgid "Bases: :py:class:`object`"
-msgstr ""
-
 #: ../../cadquery/cadquery/__init__.py:docstring of cadquery.occ_impl.shapes.sortWiresByBuildOrder:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getattr__:0
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__getitem__:0
@@ -484,6 +463,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Compound.siblings:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.hasPCurve:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.trim:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face._:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.addHole:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.chamfer2D:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.fillet2D:0
@@ -491,12 +471,10 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.isolines:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeFromWires:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.thicken:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.trim:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.bounds:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.endPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.project:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.startPoint:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1DProtocol:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__add__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mul__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__sub__:0
@@ -534,7 +512,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.translate:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.vertices:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.wires:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ShapeProtocol:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shell.makeShell:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.addCavity:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinear:0
@@ -555,6 +532,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.makePolygon:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.offset2D:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.stitch:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes._:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cap:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer:0
@@ -567,7 +545,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cut:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cylinder:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.downcast:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgesToWires:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ellipse:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.extrude:0
@@ -642,6 +619,7 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.hull:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.importDXF:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.located:0
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.moved:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.offset:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.parray:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.polygon:0
@@ -734,6 +712,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vals:0
@@ -780,6 +759,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.close:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.hasPCurve:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.trim:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face._:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.addHole:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.chamfer2D:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.fillet2D:0
@@ -788,7 +768,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeFromWires:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.thicken:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.toPln:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.trim:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.uvBounds:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.bounds:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.endPoint:0
@@ -862,6 +841,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.makePolygon:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.offset2D:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.stitch:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes._:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cap:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer:0
@@ -874,7 +854,6 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cut:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cylinder:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.downcast:0
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgesToWires:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ellipse:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.extrude:0
@@ -945,6 +924,7 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.hull:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.importDXF:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.located:0
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.moved:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.offset:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.parray:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.polygon:0
@@ -1077,18 +1057,18 @@ msgstr ""
 msgid "Explicit setstate needed due to getattr."
 msgstr ""
 
-#: ../docstring of cadquery.Assembly.__weakref__:1
-#: ../docstring of cadquery.BoundBox.__weakref__:1
-#: ../docstring of cadquery.Color.__weakref__:1
-#: ../docstring of cadquery.Location.__weakref__:1
-#: ../docstring of cadquery.Material.__weakref__:1
-#: ../docstring of cadquery.Matrix.__weakref__:1
-#: ../docstring of cadquery.Plane.__weakref__:1
-#: ../docstring of cadquery.Selector.__weakref__:1
-#: ../docstring of cadquery.Shape.__weakref__:1
-#: ../docstring of cadquery.Sketch.__weakref__:1
-#: ../docstring of cadquery.Vector.__weakref__:1
-#: ../docstring of cadquery.Workplane.__weakref__:1
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.Assembly.__weakref__:1
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.Workplane.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.Color.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.Material.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.BoundBox.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Location.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Matrix.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Plane.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.Vector.__weakref__:1
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.Shape.__weakref__:1
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.Selector.__weakref__:1
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.Sketch.__weakref__:1
 msgid "list of weak references to the object"
 msgstr ""
 
@@ -1290,12 +1270,6 @@ msgstr ""
 msgid "Convert Color to RGB tuple."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.CompSolid:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Compound:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid:1
-msgid "Bases: :py:class:`~cadquery.occ_impl.shapes.Shape`, :py:class:`~cadquery.occ_impl.shapes.Mixin3D`"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Compound.__bool__:1
 msgid "Check if empty."
 msgstr ""
@@ -1342,10 +1316,6 @@ msgstr ""
 msgid "Iterate over siblings, i.e. shapes within shape that share subshapes of kind with the elements of self."
 msgstr ""
 
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionMinMaxSelector:1
-msgid "Bases: :py:class:`~cadquery.selectors.CenterNthSelector`"
-msgstr ""
-
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.AreaNthSelector:3
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.CenterNthSelector:3
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionMinMaxSelector:3
@@ -1373,12 +1343,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionMinMaxSelector:14
 msgid "Means to select the face having the center of mass farthest in the positive z direction, and is the same as::"
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.ParallelDirSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.PerpendicularDirSelector:1
-msgid "Bases: :py:class:`~cadquery.selectors.BaseDirSelector`"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionNthSelector:4
@@ -1416,11 +1380,6 @@ msgstr ""
 msgid "Test a specified vector. Subclasses override to provide other implementations"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire:1
-msgid "Bases: :py:class:`~cadquery.occ_impl.shapes.Shape`, :py:class:`~cadquery.occ_impl.shapes.Mixin1D`"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.arcCenter:1
 msgid "Center of an underlying circle or ellipse geometry."
 msgstr ""
@@ -1449,12 +1408,12 @@ msgstr ""
 msgid "Makes an Ellipse centered at the provided point, having normal in the provided direction."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:4
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:4
 msgid "x radius of the ellipse (along the x-axis of plane the ellipse should lie in)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:5
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:5
 msgid "y radius of the ellipse (along the y-axis of plane the ellipse should lie in)"
 msgstr ""
@@ -1467,18 +1426,18 @@ msgstr ""
 msgid "vector representing the direction of the plane the ellipse should lie in"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:6
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:8
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.makeEllipse:7
 msgid "start angle of arc"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:7
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:9
 msgid "end angle of arc (angle2 == angle1 return closed ellipse = default)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:9
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeEllipse:10
 msgid "clockwise (-1) or counter clockwise (1)"
 msgstr ""
@@ -1518,7 +1477,7 @@ msgstr ""
 msgid "tuple of Vectors specifying start and finish tangent"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:16
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeSpline:5
 msgid "creation of periodic curves"
 msgstr ""
@@ -1554,8 +1513,8 @@ msgstr ""
 msgid "minimum spline degree. Enforced only when smothing is None (default: 1)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:11
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:6
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeSplineApprox:7
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeSplineApprox:7
 msgid "maximum spline degree (default: 6)"
@@ -1571,7 +1530,7 @@ msgid "start vector"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.makeTangentArc:5
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangentAt:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangentAt:5
 msgid "tangent vector"
 msgstr ""
 
@@ -1601,14 +1560,8 @@ msgid "Trim the edge in the parametric space to (u0, u1)."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge.trim:3
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.trim:3
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face._:3
 msgid "NB: this operation is done on the base geometry."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shell:1
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Vertex:1
-msgid "Bases: :py:class:`~cadquery.occ_impl.shapes.Shape`"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.Center:1
@@ -1685,13 +1638,13 @@ msgstr ""
 msgid ">=2"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:11
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:9
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:9
 msgid "number of points on curve >= 15"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:12
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:10
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:10
 msgid "number of iterations >= 2"
@@ -1712,7 +1665,7 @@ msgstr ""
 msgid "3D tolerance >0"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:16
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:14
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:14
 msgid "angular tolerance"
@@ -1723,13 +1676,13 @@ msgstr ""
 msgid "tolerance for curvature >0"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:18
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:16
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:16
 msgid "highest polynomial degree >= 2"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:19
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:17
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:17
 msgid "greatest number of segments >= 2"
@@ -1846,7 +1799,7 @@ msgid "Approximate planar face with arcs and straight line segments."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.toArcs:3
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.toSplines:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.toSplines:4
 msgid "Approximation tolerance."
 msgstr ""
 
@@ -1858,15 +1811,15 @@ msgstr ""
 msgid "Note the Location of the resulting plane may not equal the center of this face, however the resulting plane will still contain the center of this face."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.trim:1
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face._:1
 msgid "Trim the face in the (u,v) space to (u0, u1)x(v1, v2)."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.trim:8
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face._:8
 msgid "Trim the face using a polyline defined in the (u,v) space."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.trim:13
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face._:13
 msgid "Trim using wires. The provided wires need to have a pcurve on self."
 msgstr ""
 
@@ -1997,16 +1950,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix.transposed_list:1
 msgid "Needed by the cqparts gltf exporter"
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BaseDirSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BinarySelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BoxSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.InverseSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.StringSyntaxSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector:1
-msgid "Bases: :py:class:`~cadquery.selectors.Selector`"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector:3
@@ -2468,11 +2411,11 @@ msgstr ""
 msgid "Creates a new object that is a copy of this object."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.copy:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.copy:3
 msgid "should I copy the triangulation too (default: False)"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.copy:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.copy:4
 msgid "a copy of the object"
 msgstr ""
 
@@ -2767,19 +2710,19 @@ msgstr ""
 msgid "Rotates a shape around an axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:3
 msgid "start point of rotation axis"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:5
 msgid "end point of rotation axis"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:8
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:7
 msgid "angle to rotate, in degrees"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:9
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.rotate:8
 msgid "a copy of the shape, rotated"
 msgstr ""
 
@@ -2811,11 +2754,11 @@ msgstr ""
 msgid "Approximate shape with b-splines of the specified degree."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.toSplines:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.toSplines:3
 msgid "Maximum degree."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.toSplines:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.toSplines:5
 msgid "Use rational splines."
 msgstr ""
 
@@ -2891,13 +2834,13 @@ msgstr ""
 msgid "Apply a callable to all items at once."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.apply:4
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.apply:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.apply:3
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.apply:3
 msgid "Callable to be applied."
 msgstr ""
 
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.apply:5
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.map:5
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.apply:4
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.map:4
 msgid "Sketch object with f applied to all items."
 msgstr ""
 
@@ -2965,28 +2908,28 @@ msgstr ""
 msgid "Export Sketch to file."
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:3
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:3
+msgid "Filename."
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:4
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:4
-msgid "Filename."
+msgid "the deflection tolerance, in model units. Default 0.1."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:5
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:5
-msgid "the deflection tolerance, in model units. Default 0.1."
+msgid "the angular tolerance, in radians. Default 0.1."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:6
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:6
-msgid "the angular tolerance, in radians. Default 0.1."
+msgid "additional options passed to the specific exporter. Default None."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:7
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:7
-msgid "additional options passed to the specific exporter. Default None."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:8
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:8
 msgid "Self."
 msgstr ""
 
@@ -3003,12 +2946,12 @@ msgstr ""
 msgid "Filter items using a boolean predicate."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.filter:4
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.filter:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.filter:3
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.filter:3
 msgid "Callable to be used for filtering."
 msgstr ""
 
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.filter:5
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.filter:4
 msgid "Sketch object with filtered items."
 msgstr ""
 
@@ -3028,12 +2971,12 @@ msgstr ""
 msgid "Invoke a callable mapping Sketch to Sketch or None. Supports also callables that take no arguments such as breakpoint. Returns self if callable returns None."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.invoke:6
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.invoke:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.invoke:5
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.invoke:5
 msgid "Callable to be invoked."
 msgstr ""
 
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.invoke:7
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.invoke:6
 msgid "Sketch object."
 msgstr ""
 
@@ -3046,8 +2989,8 @@ msgstr ""
 msgid "Apply a callable to every item separately."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.map:4
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.map:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.map:3
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.map:3
 msgid "Callable to be applied to every item separately."
 msgstr ""
 
@@ -3112,12 +3055,12 @@ msgstr ""
 msgid "Sort items using a callable."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sort:4
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.sort:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sort:3
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.sort:3
 msgid "Callable to be used for sorting."
 msgstr ""
 
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.sort:5
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.sort:4
 msgid "Sketch object with items sorted."
 msgstr ""
 
@@ -3176,7 +3119,7 @@ msgstr ""
 msgid "taper angle, default=0"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:9
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:8
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinear:7
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.extrudeLinearWithRotation:19
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:9
@@ -3319,17 +3262,17 @@ msgstr ""
 msgid "Attempt to revolve the list of wires into a solid in the provided direction"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:3
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:5
 msgid "the angle to revolve through."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:5
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:7
 msgid "the start point of the axis of rotation"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:6
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.revolve:8
 msgid "the end point of the axis of rotation"
 msgstr ""
@@ -3359,7 +3302,7 @@ msgstr ""
 msgid "additional sweep mode parameters"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:10
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.sweep:9
 msgid "handling of profile orientation at C1 path discontinuities. Possible values are {'transformed','round', 'right'} (default: 'right')."
 msgstr ""
@@ -3368,7 +3311,7 @@ msgstr ""
 msgid "Multi section sweep. Only single outer profile per section is allowed."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:4
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.sweep_multi:3
 msgid "list of profiles"
 msgstr ""
@@ -3674,7 +3617,7 @@ msgstr ""
 msgid "Apply 2D or 3D fillet to a wire"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:6
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.fillet:3
 msgid "the radius of the fillet, must be > zero"
 msgstr ""
@@ -3725,7 +3668,7 @@ msgstr ""
 msgid "end angle of arc"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:8
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire.makeEllipse:9
 msgid "angle to rotate the created ellipse / arc"
 msgstr ""
@@ -3879,28 +3822,28 @@ msgstr ""
 msgid "Select topological ancestors."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:3
 msgid "kind of ancestor, e.g. \"Face\" or \"Edge\""
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:7
 msgid "if set, search the tagged object instead of self"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ancestors:5
 msgid "a Workplane object whose stack contains selected ancestors."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.apply:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.map:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.apply:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.map:4
 msgid "Workplane object with f applied to all items."
 msgstr ""
 
@@ -3908,23 +3851,23 @@ msgstr ""
 msgid "Make a cubic Bézier curve by the provided points (2D or 3D)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:3
 msgid "Bezier control points and end point. All points except the last point are Bezier control points, and the last point is the end point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:6
 msgid "Use the current point as a starting point of the curve"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:7
 msgid "convert the resulting bezier edge to a wire"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:8
 msgid "a Workplane object with the current point at the end of the bezier"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.bezier:10
 msgid "The Bézier Will begin at either current point or the first point of listOfXYTuple, and end with the last point of listOfXYTuple"
 msgstr ""
 
@@ -3932,68 +3875,68 @@ msgstr ""
 msgid "Return a 3d box with specified dimensions for each object on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:3
 msgid "box size in X direction"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:4
 msgid "box size in Y direction"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:5
 msgid "box size in Z direction"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:6
 msgid "If True, the box will be centered around the reference point. If False, the corner of the box will be on the reference point and it will extend in the positive x, y and z directions. Can also use a 3-tuple to specify centering along each axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:11
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:8
 msgid "should the results be combined with other solids on the stack (and each other)?"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:13
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:11
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:14
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:7
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:17
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:12
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:12
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:7
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:11
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:20
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:12
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:17
 msgid "call :meth:`clean` afterwards to have a clean shape"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:14
 msgid "One box is created for each item on the current stack. If no items are on the stack, one box using the current workplane center is created."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:17
 msgid "If combine is true, the result will be a single object on the stack. If a solid was found in the chain, the result is that solid with all boxes produced fused onto it otherwise, the result is the combination of all the produced boxes."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:21
 msgid "If combine is false, the result will be a list of the boxes produced."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:24
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:23
 msgid "Most often boxes form the basis for a part::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.box:28
 msgid "But sometimes it is useful to create an array of them::"
 msgstr ""
 
@@ -4001,47 +3944,47 @@ msgstr ""
 msgid "Makes a counterbored hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:3
 msgid "the diameter of the hole"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:4
 msgid "the diameter of the cbore, must be greater than hole diameter"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:5
 msgid "depth of the counterbore"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:4
 msgid "the depth of the hole"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:11
 msgid "The surface of the hole is at the current workplane plane."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:14
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:15
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:10
 msgid "One hole is created for each item on the stack.  A very common use case is to use a construction rectangle to define the centers of a set of holes, like so::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:27
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:28
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:24
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:27
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:23
 msgid "This sample creates a plate with a set of holes at the corners."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:28
 msgid "**Plugin Note**: this is one example of the power of plugins. Counterbored holes are quite time consuming to create, but are quite easily defined by users."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:32
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cboreHole:31
 msgid "see :meth:`cskHole` to make countersinks instead of counterbores"
 msgstr ""
 
@@ -4053,27 +3996,27 @@ msgstr ""
 msgid "The location is specified in terms of local coordinates."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:5
 msgid "the new x location"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:6
 msgid "the new y location"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:7
 msgid "the Workplane object, with the center adjusted."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:9
 msgid "The current point is set to the new center. This method is useful to adjust the center point after it has been created automatically on a face, but not where you'd like it to be."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:13
 msgid "In this example, we adjust the workplane center to be at the corner of a cube, instead of the center of a face, which is the default::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:24
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:23
 msgid "The result is a cube with a round boss on the corner"
 msgstr ""
 
@@ -4089,11 +4032,11 @@ msgstr ""
 msgid "Optional parameter `length2` can be supplied with a different value than `length` for a chamfer that is shorter on one side longer on the other side."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:11
 msgid "the length of the chamfer, must be greater than zero"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:12
 msgid "optional parameter for asymmetrical chamfer"
 msgstr ""
 
@@ -4108,26 +4051,26 @@ msgstr ""
 msgid "Raises"
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:7
+msgid "if at least one edge is not selected"
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:14
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:8
-msgid "if at least one edge is not selected"
+msgid "if the solid containing the edge is not in the chain"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:15
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:9
-msgid "if the solid containing the edge is not in the chain"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:16
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:10
 msgid "CQ object with the resulting solid selected."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:17
 msgid "This example will create a unit cube, with the top edges chamfered::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:21
 msgid "This example will create chamfers longer on the sides::"
 msgstr ""
 
@@ -4135,44 +4078,44 @@ msgstr ""
 msgid "Make a circle for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:3
 msgid "radius of the circle"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:7
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:9
 msgid "should the new wires be reference geometry only?"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:13
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:6
 msgid "a new CQ object with the created wires on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:14
 msgid "A common use case is to use a for-construction rectangle to define the centers of a hole pattern::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:14
 msgid "Creates 4 circles at the corners of a square centered on the origin. Another common case is to use successive circle() calls to create concentric circles.  This works because the center of a circle is its reference point::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:21
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:20
 msgid "Creates two concentric circles, which when extruded will form a ring."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:23
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:25
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:15
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:24
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:9
 msgid "Future Enhancements:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:24
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.circle:23
 msgid "better way to handle forConstruction project points not in the workplane plane onto the workplane plane"
 msgstr ""
 
@@ -4216,25 +4159,25 @@ msgstr ""
 msgid "WARNING: all of the items must be of the same type!"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:7
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:6
 msgid "use a faster gluing mode for non-overlapping shapes (default False)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:7
 msgid "tolerance value for fuzzy bool operation mode (default None)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:8
 msgid "ValueError if there are no items on the stack, or if they cannot be combined"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:18
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combine:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:10
 msgid "a CQ object with the resulting object selected"
 msgstr ""
 
@@ -4262,21 +4205,21 @@ msgstr ""
 msgid "Select compounds on the stack, optionally filtering the selection. If there are multiple objects on the stack, they are collected and a list of all the distinct compounds is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:5
 msgid "optional Selector object, or string selector expression (see :class:`StringSyntaxSelector`)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:8
 msgid "a CQ object whose stack contains all of the *distinct* compounds of *all* objects on the current stack, filtered by the provided selector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:11
 msgid "A compound contains multiple CAD primitives that resulted from a single operation, such as a union, cut, split, or fillet.  Compounds can contain multiple edges, wires, or solids."
 msgstr ""
 
@@ -4300,25 +4243,25 @@ msgstr ""
 msgid "Makes a countersunk hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:5
 msgid "the diameter of the countersink, must be greater than hole diameter"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:6
 msgid "angle of the countersink, in degrees ( 82 is common )"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:13
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:8
 msgid "The surface of the hole is at the current workplane."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:30
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:25
 msgid "**Plugin Note**: this is one example of the power of plugins. CounterSunk holes are quite time consuming to create, but are quite easily defined by users."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:33
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:32
 msgid "see :meth:`cboreHole` to make counterbores instead of countersinks"
 msgstr ""
 
@@ -4326,21 +4269,21 @@ msgstr ""
 msgid "Cuts the provided solid from the current solid, IE, perform a solid subtraction."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:4
 msgid "a solid object, or a Workplane object having a solid"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:7
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:17
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:8
 msgid "if there is no solid to subtract from in the chain"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cut:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:9
 msgid "a Workplane object with the resulting object selected"
 msgstr ""
 
@@ -4356,20 +4299,20 @@ msgstr ""
 msgid "Similar to extrude, except that a solid in the parent chain is required to remove material from. cutBlind always removes material from a part."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:8
 msgid "The distance to cut to, normal to the workplane plane. When a negative float is passed the cut extends this far in the opposite direction to the normal of the plane (i.e in the solid). The string \"next\" cuts until the next face orthogonal to the wire normal.  \"last\" cuts to the last face. If an object of type Face is passed, then the cut will extend until this face."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:14
 msgid "cut in both directions symmetrically"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:16
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:13
 msgid "angle for optional tapered extrusion"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:19
 msgid "see :meth:`cutThruAll` to cut material from the entire part"
 msgstr ""
 
@@ -4377,19 +4320,19 @@ msgstr ""
 msgid "Evaluates the provided function at each point on the stack (ie, eachpoint) and then cuts the result from the context solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:4
 msgid "a function suitable for use in the eachpoint method: ie, that accepts a vector"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:5
 msgid "same as for :meth:`eachpoint`"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:7
 msgid "if no solids or compounds are found in the stack or parent chain"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutEach:8
 msgid "a CQ object that contains the resulting solid"
 msgstr ""
 
@@ -4401,11 +4344,11 @@ msgstr ""
 msgid "Similar to extrude, except that a solid in the parent chain is required to remove material from. cutThruAll always removes material from a part."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:9
 msgid "if there are no pending wires to cut with"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:12
 msgid "see :meth:`cutBlind` to cut material to a limited depth"
 msgstr ""
 
@@ -4413,45 +4356,45 @@ msgstr ""
 msgid "Returns a cylinder with the specified radius and height for each point on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:3
 msgid "The height of the cylinder"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:4
 msgid "The radius of the cylinder"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:5
 msgid "The direction axis for the creation of the cylinder"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:7
 msgid "The angle to sweep the cylinder arc through"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:9
 msgid "If True, the cylinder will be centered around the reference point. If False, the corner of a bounding box around the cylinder will be on the reference point and it will extend in the positive x, y and z directions. Can also use a 3-tuple to specify centering along each axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:14
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:17
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:16
 msgid "Whether the results should be combined with other solids on the stack (and each other)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:17
 msgid "A cylinder object for each point on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:19
 msgid "One cylinder is created for each item on the current stack. If no items are on the stack, one cylinder is created using the current workplane center."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:22
 msgid "If combine is true, the result will be a single object on the stack. If a solid was found in the chain, the result is that solid with all cylinders produced fused onto it otherwise, the result is the combination of all the produced cylinders."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:27
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cylinder:26
 msgid "If combine is false, the result will be a list of the cylinders produced."
 msgstr ""
 
@@ -4463,46 +4406,46 @@ msgstr ""
 msgid "Special note: a newly created workplane always has its center point as its only stack item"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:6
 msgid "the function to call for each item on the current stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:7
 msgid "should  values be converted from local coordinates first?"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:7
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:14
 msgid "True or \"a\" to combine the resulting solid with parent solids if found, \"cut\" or \"s\" to remove the resulting solid from the parent solids if found. False to keep the resulting solid separated from the parent solids."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:14
 msgid "The callback function must accept one argument, which is the item on the stack, and return one object, which is collected. If the function returns None, nothing is added to the stack. The object passed into the callBackFunction is potentially transformed to local coordinates, if useLocalCoordinates is true"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:19
 msgid "useLocalCoordinates is very useful for plugin developers."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:21
 msgid "If false, the callback function is assumed to be working in global coordinates.  Objects created are added as-is, and objects passed into the function are sent in using global coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:25
 msgid "If true, the calling function is assumed to be  working in local coordinates.  Objects are transformed to local coordinates before they are passed into the callback method, and result objects are transformed to global coordinates after they are returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:30
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:29
 msgid "This allows plugin developers to create objects in local coordinates, without worrying about the fact that the working plane is different than the global coordinate system."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:34
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.each:33
 msgid "TODO: wrapper object for Wire will clean up forConstruction flag everywhere"
 msgstr ""
 
@@ -4510,15 +4453,15 @@ msgstr ""
 msgid "Same as each(), except arg is translated by the positions on the stack. If arg is a callback function, then the function is called for each point on the stack, and the resulting shape is used. :return: CadQuery object which contains a list of  vectors (points ) on its stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:4
 msgid "should points be in local or global coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:11
 msgid "The resulting object has a point on the stack for each object on the original stack. Vertices and points remain a point.  Faces, Wires, Solids, Edges, and Shells are converted to a point by using their center of mass."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.eachpoint:15
 msgid "If the stack has zero length, a single point is returned, which is the center of the current workplane/coordinate system"
 msgstr ""
 
@@ -4526,27 +4469,27 @@ msgstr ""
 msgid "Select the edges of objects on the stack, optionally filtering the selection. If there are multiple objects on the stack, the edges of all objects are collected and a list of all the distinct edges is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:8
 msgid "a CQ object whose stack contains all of the *distinct* edges of *all* objects on the current stack, filtered by the provided selector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:11
 msgid "If there are no edges for any objects on the current stack, an empty CQ object is returned"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:13
 msgid "The typical use is to select the edges of a single object on the stack. For example::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:17
 msgid "returns 4, because the topmost face of a cube will contain four edges. Similarly::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:21
 msgid "returns 12, because a cube has a total of 12 edges, And::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:25
 msgid "returns 4, because a cube has 4 edges parallel to the z direction"
 msgstr ""
 
@@ -4554,19 +4497,19 @@ msgstr ""
 msgid "Make an ellipse for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:3
 msgid "x radius of the ellipse (x-axis of plane the ellipse should lie in)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:4
 msgid "y radius of the ellipse (y-axis of plane the ellipse should lie in)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:5
 msgid "angle to rotate the ellipse"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:11
 msgid "*NOTE* Due to a bug in opencascade (https://tracker.dev.opencascade.org/view.php?id=31290) the center of mass (equals center for next shape) is shifted. To create concentric ellipses use::"
 msgstr ""
 
@@ -4574,11 +4517,11 @@ msgstr ""
 msgid "Draw an elliptical arc with x and y radiuses either with start point at current point or or current point being the center of the arc"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:10
 msgid "True: start point of arc is moved to current point; False: center of arc is on current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipseArc:12
 msgid "convert the resulting arc edge to a wire"
 msgstr ""
 
@@ -4622,39 +4565,39 @@ msgstr ""
 msgid "Use all un-extruded wires in the parent chain to create a prismatic solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:3
 msgid "The distance to extrude, normal to the workplane plane. When a float is passed, the extrusion extends this far and a negative value is in the opposite direction to the normal of the plane. The string \"next\" extrudes until the next face orthogonal to the wire normal. \"last\" extrudes to the last face. If a object of type Face is passed then the extrusion will extend until this face. **Note that the Workplane must contain a Solid for extruding to a given face.**"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:12
 msgid "extrude in both directions symmetrically"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:15
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:12
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:14
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:18
 msgid "a CQ object with the resulting solid selected."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:17
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:13
 msgid "The returned object is always a CQ object, and depends on whether combine is True, and whether a context solid is already defined:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:19
 msgid "if combine is False, the new value is pushed onto the stack. Note that when extruding"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:21
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:20
 msgid "until a specified face, combine can not be False"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:21
 msgid "if combine is true, the value is combined with the context solid if it exists,"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.extrude:22
 msgid "and the resulting solid becomes the new context solid."
 msgstr ""
 
@@ -4662,27 +4605,27 @@ msgstr ""
 msgid "Select the faces of objects on the stack, optionally filtering the selection. If there are multiple objects on the stack, the faces of all objects are collected and a list of all the distinct faces is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:8
 msgid "a CQ object whose stack contains all of the *distinct* faces of *all* objects on the current stack, filtered by the provided selector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:11
 msgid "If there are no faces for any objects on the current stack, an empty CQ object is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:14
 msgid "The typical use is to select the faces of a single object on the stack. For example::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:18
 msgid "returns 1, because a cube has one face with a normal in the +Z direction. Similarly::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:22
 msgid "returns 6, because a cube has a total of 6 faces, And::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:27
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:26
 msgid "returns 2, because a cube has 2 faces having normals parallel to the z direction"
 msgstr ""
 
@@ -4694,11 +4637,11 @@ msgstr ""
 msgid "The edges on the stack are filleted. The solid to which the edges belong must be in the parent chain of the selected edges."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:11
 msgid "This example will create a unit cube, with the top edges filleted::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.filter:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.filter:4
 msgid "Workplane object with filtered items."
 msgstr ""
 
@@ -4755,22 +4698,22 @@ msgstr ""
 msgid "Make a horizontal line from the current point the provided distance"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLine:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLine:3
 msgid "(x) distance from current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLine:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLine:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLine:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLine:3
 msgid "distance from current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLine:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLineTo:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLine:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLineTo:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLine:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLineTo:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLine:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLineTo:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLine:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLineTo:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLine:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLineTo:7
 msgid "the Workplane object with the current point at the end of the new line"
 msgstr ""
 
@@ -4782,7 +4725,7 @@ msgstr ""
 msgid "Useful if it is more convenient to specify the end location rather than distance, as in :meth:`hLine`"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLineTo:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hLineTo:6
 msgid "x coordinate for the end of the line"
 msgstr ""
 
@@ -4790,7 +4733,7 @@ msgstr ""
 msgid "Makes a hole for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.hole:28
 msgid "see :meth:`cboreHole` and :meth:`cskHole` to make counterbores or countersinks"
 msgstr ""
 
@@ -4798,35 +4741,35 @@ msgstr ""
 msgid "Returns a plate surface that is 'thickness' thick, enclosed by 'surf_edge_pts' points, and going through 'surf_pts' points.  Using pushPoints directly with interpPlate and combine=True, can be very resource intensive depending on the complexity of the shape. In this case set combine=False."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:5
 msgid "list of [x,y,z] ordered coordinates or list of ordered or unordered edges, wires"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:6
 msgid "list of points (uses only edges if [])"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:7
 msgid "value may be negative or positive depending on thickening direction (2D surface if 0)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:10
 msgid ">= 2"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:13
 msgid "= bool Anisotropy"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:14
 msgid "2D tolerance"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:15
 msgid "3D tolerance"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:17
 msgid "tolerance for curvature"
 msgstr ""
 
@@ -4834,7 +4777,7 @@ msgstr ""
 msgid "Intersects the provided solid from the current solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.intersect:6
 msgid "if there is no solid to intersect with in the chain"
 msgstr ""
 
@@ -4842,7 +4785,7 @@ msgstr ""
 msgid "Invoke a callable mapping Workplane to Workplane or None. Supports also callables that take no arguments such as breakpoint. Returns self if callable returns None."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.invoke:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.invoke:6
 msgid "Workplane object."
 msgstr ""
 
@@ -4859,7 +4802,7 @@ msgid "Used internally to create thru features, this is how you can compute how 
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.largestDimension:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.section:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.section:4
 msgid "if no solids or compounds are found"
 msgstr ""
 
@@ -4875,19 +4818,19 @@ msgstr ""
 msgid "Make a line from the current point to the provided point, using dimensions relative to the current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:4
 msgid "x distance from current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:5
 msgid "y distance from current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:6
 msgid "the workplane object with the current point at the end of the new line"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.line:8
 msgid "see :meth:`lineTo` if you want to use absolute coordinates to make a line instead."
 msgstr ""
 
@@ -4895,15 +4838,15 @@ msgstr ""
 msgid "Make a line from the current point to the provided point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:3
 msgid "the x point, in workplane plane coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:4
 msgid "the y point, in workplane plane coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.lineTo:7
 msgid "See :meth:`line` if you want to use relative dimensions to make a line instead."
 msgstr ""
 
@@ -4911,11 +4854,11 @@ msgstr ""
 msgid "Make a lofted solid, through the set of wires."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:3
 msgid "When set to `True` connects each section linearly and without continuity"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:9
 msgid "a Workplane object containing the created loft"
 msgstr ""
 
@@ -4923,15 +4866,15 @@ msgstr ""
 msgid "Mirror a single CQ object."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirror:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirror:3
 msgid "the plane to mirror about"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirror:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirror:6
 msgid "the base point to mirror about (this is overwritten if a Face is passed)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirror:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.mirror:7
 msgid "If true will perform a union operation on the mirrored object"
 msgstr ""
 
@@ -4969,20 +4912,20 @@ msgstr ""
 msgid "Move the specified distance from the current point, without drawing."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:3
 msgid "desired x distance, in local coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:5
 msgid "desired y distance, in local coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:8
 msgid "Not to be confused with :meth:`center`, which moves the center of the entire workplane, this method only moves the current point ( and therefore does not affect objects already drawn )."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.move:12
 msgid "See :meth:`moveTo` to do the same thing but using absolute coordinates"
 msgstr ""
 
@@ -4990,15 +4933,15 @@ msgstr ""
 msgid "Move to the specified point, without drawing."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:3
 msgid "desired x location, in local coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:5
 msgid "desired y location, in local coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.moveTo:12
 msgid "See :meth:`move` to do the same thing but using relative dimensions"
 msgstr ""
 
@@ -5010,11 +4953,11 @@ msgstr ""
 msgid "Overrides CQ.newObject, and should be used by extensions, plugins, and subclasses to create new objects."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.newObject:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.newObject:6
 msgid "new objects to put on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.newObject:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.newObject:8
 msgid "a new Workplane object with the current workplane as a parent."
 msgstr ""
 
@@ -5022,19 +4965,19 @@ msgstr ""
 msgid "Creates a 2D offset wire."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:3
 msgid "thickness. Negative thickness denotes offset to inside."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:4
 msgid "offset kind. Use \"arc\" for rounded and \"intersection\" for sharp edges (default: \"arc\")"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:5
 msgid "Should the result be added to pending wires?"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.offset2D:7
 msgid "CQ object with resulting wire(s)."
 msgstr ""
 
@@ -5042,47 +4985,47 @@ msgstr ""
 msgid "Create a spline curve approximating the provided function."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:3
 msgid "function f(t) that will generate (x,y,z) pairs"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:5
 msgid "number of points for discretization"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:6
 msgid "starting value of the parameter t"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:7
 msgid "final value of the parameter t"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:4
 msgid "tolerance of the algorithm (default: 1e-6)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:5
 msgid "minimum spline degree (default: 1)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:12
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:12
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:7
 msgid "optional parameters for the variational smoothing algorithm (default: (1,1,1))"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:13
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:41
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:40
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:9
 msgid "convert the resulting spline edge to a wire"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:14
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricCurve:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:12
 msgid "a Workplane object with the current point unchanged"
 msgstr ""
 
@@ -5090,31 +5033,31 @@ msgstr ""
 msgid "Create a spline surface approximating the provided function."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:3
 msgid "function f(u,v) that will generate (x,y,z) pairs"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:5
 msgid "number of points for discretization in one direction"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:6
 msgid "starting value of the parameters u,v"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:7
 msgid "final value of the parameters u,v"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:8
 msgid "tolerance used by the approximation algorithm (default: 1e-3)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:10
 msgid "maximum spline degree (default: 3)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.parametricSurface:14
 msgid "This method might be unstable and may require tuning of the tol parameter."
 msgstr ""
 
@@ -5130,27 +5073,27 @@ msgstr ""
 msgid "Creates a polar array of points and pushes them onto the stack. The zero degree reference angle is located along the local X-axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:4
 msgid "Radius of the array."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:5
 msgid "Starting angle (degrees) of array. Zero degrees is situated along the local X-axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:7
 msgid "The angle (degrees) to fill with elements. A positive value will fill in the counter-clockwise direction. If fill is False, angle is the angle between elements."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:10
 msgid "Number of elements in array. (count >= 1)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:11
 msgid "Interpret the angle as total if True (default: True)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarArray:12
 msgid "Rotate every item (default: True)."
 msgstr ""
 
@@ -5158,12 +5101,12 @@ msgstr ""
 msgid "Make a line of the given length, at the given angle from the current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLine:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLine:3
 msgid "distance of the end of the line from the current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLine:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLineTo:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLine:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLineTo:7
 msgid "angle of the vector to the end of the line with the x-axis"
 msgstr ""
 
@@ -5175,7 +5118,7 @@ msgstr ""
 msgid "Useful if it is more convenient to specify the end location rather than the distance and angle from the current point"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLineTo:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polarLineTo:6
 msgid "distance of the end of the line from the origin"
 msgstr ""
 
@@ -5187,19 +5130,19 @@ msgstr ""
 msgid "By default, each polygon is created by inscribing it in a circle of the specified diameter, such that the first vertex is oriented in the x direction. Alternatively, each polygon can be created by circumscribing it around a circle of the specified diameter, such that the midpoint of the first edge is oriented in the x direction. Circumscribed polygons are thus rotated by pi/nSides radians relative to the inscribed polygon. This ensures the extent of the polygon along the positive x-axis is always known. This has the advantage of not requiring additional formulae for purposes such as tiling on the x-axis (at least for even sided polygons)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:13
 msgid "number of sides, must be >= 3"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:14
 msgid "the diameter of the circle for constructing the polygon"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:15
 msgid "circumscribe the polygon about a circle"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polygon:18
 msgid "a polygon wire"
 msgstr ""
 
@@ -5207,23 +5150,23 @@ msgstr ""
 msgid "Create a polyline from a list of points"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:3
 msgid "a list of points in Workplane coordinates (2D or 3D)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:4
 msgid "whether or not the edges are used for reference"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:7
 msgid "use current point as a starting point of the polyline"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:8
 msgid "a new CQ object with a list of edges on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.polyline:10
 msgid "*NOTE* most commonly, the resulting wire should be closed."
 msgstr ""
 
@@ -5231,19 +5174,19 @@ msgstr ""
 msgid "Pushes a list of points onto the stack as vertices. The points are in the 2D coordinate space of the workplane face"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:4
 msgid "a list of points to push onto the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:6
 msgid "a new workplane with the desired points on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:8
 msgid "A common use is to provide a list of points for a subsequent operation, such as creating circles or holes. This example creates a cube, and then drills three holes through it, based on three points::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.pushPoints:21
 msgid "Here the circle function operates on all three points, and is then extruded to create three holes. See :meth:`circle` for how it works."
 msgstr ""
 
@@ -5251,23 +5194,23 @@ msgstr ""
 msgid "Draw an arc from the current point to endPoint with an arc defined by the radius."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:5
 msgid "end point for the arc"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:5
 msgid "the radius of the arc"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:7
 msgid "a workplane with the current point at the end of the arc"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.radiusArc:9
 msgid "Given that a closed contour is drawn clockwise; A positive radius means convex arc and negative radius means concave arc."
 msgstr ""
 
@@ -5275,20 +5218,20 @@ msgstr ""
 msgid "Creates an array of points and pushes them onto the stack. If you want to position the array at another point, create another workplane that is shifted to the position you would like to use as a reference"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:5
 msgid "spacing between points in the x direction ( must be >= 0)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:6
 msgid "spacing between points in the y direction ( must be >= 0)"
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:8
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:9
 msgid "number of points ( > 0 )"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rarray:9
 msgid "If True, the array will be centered around the workplane center. If False, the lower corner will be on the reference point and the array will extend in the positive x and y directions. Can also use a 2-tuple to specify centering along each axis."
 msgstr ""
 
@@ -5296,27 +5239,27 @@ msgstr ""
 msgid "Make a rectangle for each item on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:3
 msgid "length in the x direction (in workplane coordinates)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:4
 msgid "length in the y direction (in workplane coordinates)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:5
 msgid "If True, the rectangle will be centered around the reference point. If False, the corner of the rectangle will be on the reference point and it will extend in the positive x and y directions. Can also use a 2-tuple to specify centering along each axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:19
 msgid "Creates 4 circles at the corners of a square centered on the origin."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:21
 msgid "Negative values for xLen and yLen are permitted, although they only have an effect when centered is False."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rect:25
 msgid "project points not in the workplane plane onto the workplane plane"
 msgstr ""
 
@@ -5324,17 +5267,17 @@ msgstr ""
 msgid "Use all un-revolved wires in the parent chain to create a solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:17
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:22
 msgid "if combine is False, the new value is pushed onto the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:18
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:24
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:23
 msgid "if combine is true, the value is combined with the context solid if it exists, and the resulting solid becomes the new context solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:21
 msgid "Keep in mind that `axisStart` and `axisEnd` are defined relative to the current Workplane center position. So if for example you want to revolve a circle centered at (10,0,0) around the Y axis, be sure to either :meth:`move` (or :meth:`moveTo`) the current Workplane position or specify `axisStart` and `axisEnd` with the correct vector position. In this example (0,0,0), (0,1,0) as axis coords would fail."
 msgstr ""
 
@@ -5342,21 +5285,21 @@ msgstr ""
 msgid "Returns a copy of all of the items on the stack rotated through and angle around the axis of rotation."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:4
 msgid "The first point of the axis of rotation"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:6
 msgid "The second point of the axis of rotation"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:8
 msgid "the rotation angle, in degrees"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:10
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.translate:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotate:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.translate:5
 msgid "a CQ object"
 msgstr ""
 
@@ -5368,23 +5311,23 @@ msgstr ""
 msgid "The center of rotation is a vector starting at the center of the object on the stack, and ended at the specified point."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:6
 msgid "the second point of axis of rotation"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:9
 msgid "a CQ object, with all items rotated."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:11
 msgid "WARNING: This version returns the same CQ object instead of a new one-- the old object is not accessible."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:15
 msgid "A version of this method that returns a transformed copy, rather than modifying the originals"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.rotateAboutCenter:17
 msgid "This method doesn't expose a very good interface, because the axis of rotation could be inconsistent between multiple objects.  This is because the beginning of the axis is variable, while the end is fixed. This is fine when operating on one object, but is not cool for multiple."
 msgstr ""
 
@@ -5392,11 +5335,11 @@ msgstr ""
 msgid "Draw an arc from the current point to endPoint with an arc defined by the sag (sagitta)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:5
 msgid "the sagitta of the arc"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sagittaArc:9
 msgid "The sagitta is the distance from the center of the arc to the arc base. Given that a closed contour is drawn clockwise; A positive sagitta means convex arc and negative sagitta means concave arc. See `<https://en.wikipedia.org/wiki/Sagitta_(geometry)>`_ for more information."
 msgstr ""
 
@@ -5404,11 +5347,11 @@ msgstr ""
 msgid "Slices current solid at the given height."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.section:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.section:3
 msgid "height to slice at (default: 0)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.section:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.section:5
 msgid "a CQ object with the resulting face(s)."
 msgstr ""
 
@@ -5420,31 +5363,31 @@ msgstr ""
 msgid "To shell, first create a solid, and *in the same chain* select the faces you wish to remove."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:5
 msgid "thickness of the desired shell. Negative values shell inwards, positive values shell outwards."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:7
 msgid "kind of join, arc or intersection (default: arc)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:8
 msgid "if the current stack contains objects that are not faces of a solid further up in the chain."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:10
 msgid "a CQ object with the resulting shelled solid selected."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:12
 msgid "This example will create a hollowed out unit cube, where the top most face is open, and all other walls are 0.2 units thick::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:17
 msgid "You can also select multiple faces at once. Here is an example that creates a three-walled corner, by removing three faces of a cube::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shell:22
 msgid "**Note**:  When sharp edges are shelled inwards, they remain sharp corners, but **outward** shells are automatically filleted (unless kind=\"intersection\"), because an outward offset from a corner generates a radius."
 msgstr ""
 
@@ -5452,15 +5395,15 @@ msgstr ""
 msgid "Select the shells of objects on the stack, optionally filtering the selection. If there are multiple objects on the stack, the shells of all objects are collected and a list of all the distinct shells is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:8
 msgid "a CQ object whose stack contains all of the *distinct* shells of *all* objects on the current stack, filtered by the provided selector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:11
 msgid "If there are no shells for any objects on the current stack, an empty CQ object is returned"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.shells:13
 msgid "Most solids will have a single shell, which represents the outer surface. A shell will typically be composed of multiple faces."
 msgstr ""
 
@@ -5468,15 +5411,15 @@ msgstr ""
 msgid "Select topological siblings."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:3
 msgid "kind of linking element, e.g. \"Vertex\" or \"Edge\""
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:4
 msgid "level of relation - how many elements of kind are in the link"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.siblings:6
 msgid "a Workplane object whose stack contains selected siblings."
 msgstr ""
 
@@ -5496,19 +5439,19 @@ msgstr ""
 msgid "Creates a rounded slot for each point on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:3
 msgid "desired diameter, or width, of slot"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:4
 msgid "desired end to end length of slot"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:5
 msgid "angle of slot in degrees, with 0 being along x-axis"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.slot2D:8
 msgid "Can be used to create arrays of slots, such as in cooling applications::"
 msgstr ""
 
@@ -5516,27 +5459,27 @@ msgstr ""
 msgid "Select the solids of objects on the stack, optionally filtering the selection. If there are multiple objects on the stack, the solids of all objects are collected and a list of all the distinct solids is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:8
 msgid "a CQ object whose stack contains all of the *distinct* solids of *all* objects on the current stack, filtered by the provided selector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:11
 msgid "If there are no solids for any objects on the current stack, an empty CQ object is returned"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:13
 msgid "The typical use is to select a single object on the stack. For example::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:17
 msgid "returns 1, because a cube consists of one solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.solids:19
 msgid "It is possible for a single CQ object ( or even a single CAD primitive ) to contain multiple solids."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sort:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sort:4
 msgid "Workplane object with items sorted."
 msgstr ""
 
@@ -5544,43 +5487,43 @@ msgstr ""
 msgid "Returns a 3D sphere with the specified radius for each point on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:3
 msgid "The radius of the sphere"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:4
 msgid "The direction axis for the creation of the sphere"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:6
 msgid "The first angle to sweep the sphere arc through"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:8
 msgid "The second angle to sweep the sphere arc through"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:10
 msgid "The third angle to sweep the sphere arc through"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:12
 msgid "If True, the sphere will be centered around the reference point. If False, the corner of a bounding box around the sphere will be on the reference point and it will extend in the positive x, y and z directions. Can also use a 3-tuple to specify centering along each axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:21
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:20
 msgid "A sphere object for each point on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:22
 msgid "One sphere is created for each item on the current stack. If no items are on the stack, one box using the current workplane center is created."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:25
 msgid "If combine is true, the result will be a single object on the stack. If a solid was found in the chain, the result is that solid with all spheres produced fused onto it otherwise, the result is the combination of all the produced spheres."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:30
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:29
 msgid "If combine is false, the result will be a list of the spheres produced."
 msgstr ""
 
@@ -5589,98 +5532,98 @@ msgstr ""
 msgid "Create a spline interpolated through the provided points (2D or 3D)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:4
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:3
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:3
 msgid "points to interpolate through"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:4
 msgid "vectors specifying the direction of the tangent to the curve at each of the specified interpolation points.  If only 2 tangents are given, they will be used as the initial and final tangent.  If some tangents are not specified (i.e., are None), no tangent constraint will be applied to the corresponding interpolation point.  The spline will be C2 continuous at the interpolation points where no tangent constraint is specified, and C1 continuous at the points where a tangent constraint is specified."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:4
 msgid "vectors specifying the direction of the tangent to the curve at each of the specified interpolation points."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:7
 msgid "If only 2 tangents are given, they will be used as the initial and final tangent."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:10
 msgid "If some tangents are not specified (i.e., are None), no tangent constraint will be applied to the corresponding interpolation point."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:13
 msgid "The spline will be C2 continuous at the interpolation points where no tangent constraint is specified, and C1 continuous at the points where a tangent constraint is specified."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:17
 msgid "the value of the parameter at each interpolation point. (The interpolated curve is represented as a vector-valued function of a scalar parameter.)  If periodic == True, then len(parameters) must be len(interpolation points) + 1, otherwise len(parameters) must be equal to len(interpolation points)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:17
 msgid "the value of the parameter at each interpolation point. (The interpolated curve is represented as a vector-valued function of a scalar parameter.)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:21
 msgid "If periodic == True, then len(parameters) must be len(interpolation points) + 1, otherwise len(parameters) must be equal to len(interpolation points)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:25
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:24
 msgid "whether to scale the specified tangent vectors before interpolating.  Each tangent is scaled, so it's length is equal to the derivative of the Lagrange interpolated curve.  I.e., set this to True, if you want to use only the direction of the tangent vectors specified by ``tangents``, but not their magnitude."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:25
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:24
 msgid "whether to scale the specified tangent vectors before interpolating."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:28
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:27
 msgid "Each tangent is scaled, so it's length is equal to the derivative of the Lagrange interpolated curve."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:31
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:30
 msgid "I.e., set this to True, if you want to use only the direction of the tangent vectors specified by ``tangents``, but not their magnitude."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:33
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:32
 msgid "tolerance of the algorithm (consult OCC documentation)  Used to check that the specified points are not too close to each other, and that tangent vectors are not too short. (In either case interpolation may fail.)  Set to None to use the default tolerance."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:33
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:32
 msgid "tolerance of the algorithm (consult OCC documentation)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:35
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:34
 msgid "Used to check that the specified points are not too close to each other, and that tangent vectors are not too short. (In either case interpolation may fail.)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:39
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:38
 msgid "Set to None to use the default tolerance."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:40
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:39
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:8
 msgid "use current point as a starting point of the curve"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:42
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:41
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:10
 msgid "a Workplane object with the current point at the end of the spline"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:44
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:43
 msgid "The spline will begin at the current point, and end with the last point in the XY tuple list."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:47
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:46
 msgid "This example creates a block with a spline for one side::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:62
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.spline:61
 msgid "*WARNING*  It is fairly easy to create a list of points that cannot be correctly interpreted as a spline."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.splineApprox:12
 msgid "*WARNING*  for advanced users."
 msgstr ""
 
@@ -5688,27 +5631,27 @@ msgstr ""
 msgid "Splits a solid on the stack into two parts, optionally keeping the separate parts."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:3
 msgid "True to keep the top, False or None to discard it"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:4
 msgid "True to keep the bottom, False or None to discard it"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:5
 msgid "if keepTop and keepBottom are both false."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:6
 msgid "if there is no solid in the current stack or parent chain"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:7
 msgid "CQ object with the desired objects on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.split:9
 msgid "The most common operation splits a solid and keeps one half. This sample creates a split bushing::"
 msgstr ""
 
@@ -5716,19 +5659,19 @@ msgstr ""
 msgid "Use all un-extruded wires in the parent chain to create a swept solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:3
 msgid "A wire along which the pending wires will be swept"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:4
 msgid "False to create multiple swept from wires on the chain along path. True to create only one solid swept along path with shape following the list of wires on the chain"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:11
 msgid "optional fixed normal for extrusion"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:12
 msgid "a wire defining the binormal along the extrusion path"
 msgstr ""
 
@@ -5736,11 +5679,11 @@ msgstr ""
 msgid "Tags the current CQ object for later reference."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tag:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tag:3
 msgid "the name to tag this object with"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tag:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tag:4
 msgid "self, a CQ object with tag applied"
 msgstr ""
 
@@ -5748,19 +5691,19 @@ msgstr ""
 msgid "Draw an arc as a tangent from the end of the current edge to endpoint."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:3
 msgid "point for the arc to end at"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:5
 msgid "True if endpoint is specified relative to the current point, False if endpoint is in workplane coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:6
 msgid "a Workplane object with an arc on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.tangentArcPoint:8
 msgid "Requires the the current first object on the stack is an Edge, as would be the case after a lineTo operation or similar."
 msgstr ""
 
@@ -5768,63 +5711,63 @@ msgstr ""
 msgid "Returns a 3D text."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:3
 msgid "text to be rendered"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:4
 msgid "size of the font in model units"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:5
 msgid "the distance to extrude or cut, normal to the workplane plane"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:7
 msgid "True to cut the resulting solid from the parent solids if found"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:12
 msgid "font name"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:13
 msgid "path to font file"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:14
 msgid "font type"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:15
 msgid "horizontal alignment"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:16
 msgid "vertical alignment"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:17
 msgid "a CQ object with the resulting solid selected"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:19
 msgid "The returned object is always a Workplane object, and depends on whether combine is True, and whether a context solid is already defined:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:27
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:26
 msgid "Examples::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:31
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:30
 msgid "Specify the font (name), and kind to use an installed system font::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:35
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:34
 msgid "Specify fontPath to use a font from a given file::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:39
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:38
 msgid "Cutting text into a solid::"
 msgstr ""
 
@@ -5832,11 +5775,11 @@ msgstr ""
 msgid "Draw an arc from the current point, through point1, and ending at point2"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:3
 msgid "point to draw through"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:10
 msgid "provide a version that allows an arc using relative measures provide a centerpoint arc provide tangent arcs"
 msgstr ""
 
@@ -5876,15 +5819,15 @@ msgstr ""
 msgid "Create a new workplane based on the current one. The origin of the new plane is located at the existing origin+offset vector, where offset is given in coordinates local to the current plane The new plane is rotated through the angles specified by the components of the rotation vector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.transformed:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.transformed:7
 msgid "3-tuple of angles to rotate, in degrees relative to work plane coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.transformed:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.transformed:8
 msgid "3-tuple to offset the new plane, in local work plane coordinates"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.transformed:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.transformed:9
 msgid "a new work plane, transformed as requested"
 msgstr ""
 
@@ -5892,7 +5835,7 @@ msgstr ""
 msgid "Returns a copy of all of the items on the stack moved by the specified translation vector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.translate:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.translate:3
 msgid "distance to move, in global coordinates"
 msgstr ""
 
@@ -5912,11 +5855,11 @@ msgstr ""
 msgid "**NOTE**  This method can create complex calculations, so be careful using it with complex geometries"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:12
 msgid "the distance to extrude normal to the workplane"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:13
 msgid "angle (in degrees) to rotate through the extrusion"
 msgstr ""
 
@@ -5924,11 +5867,11 @@ msgstr ""
 msgid "Unions all of the items on the stack of toUnion with the current solid. If there is no current solid, the items in toUnion are unioned together."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:5
 msgid "call :meth:`clean` afterwards to have a clean shape (default True)"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.union:8
 msgid "ValueError if there is no solid to add to in the chain"
 msgstr ""
 
@@ -5936,7 +5879,7 @@ msgstr ""
 msgid "Make a vertical line from the current point the provided distance"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLine:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLine:3
 msgid "(y) distance from current point"
 msgstr ""
 
@@ -5948,7 +5891,7 @@ msgstr ""
 msgid "Useful if it is more convenient to specify the end location rather than distance, as in :meth:`vLine`"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLineTo:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vLineTo:6
 msgid "y coordinate for the end of the line"
 msgstr ""
 
@@ -5976,27 +5919,27 @@ msgstr ""
 msgid "Select the vertices of objects on the stack, optionally filtering the selection. If there are multiple objects on the stack, the vertices of all objects are collected and a list of all the distinct vertices is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:8
 msgid "a CQ object whose stack contains  the *distinct* vertices of *all* objects on the current stack, after being filtered by the selector, if provided"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:11
 msgid "If there are no vertices for any objects on the current stack, an empty CQ object is returned"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:14
 msgid "The typical use is to select the vertices of a single object on the stack. For example::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:18
 msgid "returns 4, because the topmost face of a cube will contain four vertices. While this::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:23
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:22
 msgid "returns 8, because a cube has a total of 8 vertices"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:25
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.vertices:24
 msgid "**Note** Circles are peculiar, they have a single vertex at the center!"
 msgstr ""
 
@@ -6004,63 +5947,63 @@ msgstr ""
 msgid "Returns a 3D wedge with the specified dimensions for each point on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:3
 msgid "Distance along the X axis"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:4
 msgid "Distance along the Y axis"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:5
 msgid "Distance along the Z axis"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:6
 msgid "The minimum X location"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:7
 msgid "The minimum Z location"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:8
 msgid "The maximum X location"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:10
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:9
 msgid "The maximum Z location"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:10
 msgid "A vector (or tuple) for the origin of the direction for the wedge"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:11
 msgid "The direction vector (or tuple) for the major axis of the wedge"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:12
 msgid "If True, the wedge will be centered around the reference point. If False, the corner of the wedge will be on the reference point and it will extend in the positive x, y and z directions. Can also use a 3-tuple to specify centering along each axis."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:18
 msgid "True to attempt to have the kernel clean up the geometry, False otherwise"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:20
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:19
 msgid "A wedge object for each point on the stack"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:21
 msgid "One wedge is created for each item on the current stack. If no items are on the stack, one wedge using the current workplane center is created."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:25
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:24
 msgid "If combine is True, the result will be a single object on the stack. If a solid was found in the chain, the result is that solid with all wedges produced fused onto it otherwise, the result is the combination of all the produced wedges."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:29
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wedge:28
 msgid "If combine is False, the result will be a list of the wedges produced."
 msgstr ""
 
@@ -6072,19 +6015,19 @@ msgstr ""
 msgid "All edges on the stack that can be combined will be combined into a single wire object, and other objects will remain on the stack unmodified. If there are no pending edges, this method will just return self."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:7
 msgid "whether the wire should be used to make a solid, or if it is just for reference"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:10
 msgid "This method is primarily of use to plugin developers making utilities for 2D construction. This method should be called when a user operation implies that 2D construction is finished, and we are ready to begin working in 3d."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:14
 msgid "SEE '2D construction concepts' for a more detailed explanation of how CadQuery handles edges, wires, etc."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:17
 msgid "Any non edges will still remain."
 msgstr ""
 
@@ -6092,19 +6035,19 @@ msgstr ""
 msgid "Select the wires of objects on the stack, optionally filtering the selection. If there are multiple objects on the stack, the wires of all objects are collected and a list of all the distinct wires is returned."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:9
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:8
 msgid "a CQ object whose stack contains all of the *distinct* wires of *all* objects on the current stack, filtered by the provided selector."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:11
 msgid "If there are no wires for any objects on the current stack, an empty CQ object is returned"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:13
 msgid "The typical use is to select the wires of a single object on the stack. For example::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:18
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:17
 msgid "returns 1, because a face typically only has one outer wire"
 msgstr ""
 
@@ -6112,43 +6055,43 @@ msgstr ""
 msgid "Creates a new 2D workplane, located relative to the first face on the stack."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:4
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:3
 msgid "offset for the workplane in its normal direction . Default"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:5
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:4
 msgid "invert the normal direction from that of the face."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:6
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:5
 msgid "how local origin of workplane is determined."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:7
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:6
 msgid "origin for plane center, requires 'ProjectedOrigin' centerOption."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:10
 msgid "The first element on the stack must be a face, a set of co-planar faces or a vertex.  If a vertex, then the parent item on the chain immediately before the vertex must be a face."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:15
 msgid "The result will be a 2D working plane with a new coordinate system set up as follows:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:18
 msgid "The centerOption parameter sets how the center is defined. Options are 'CenterOfMass', 'CenterOfBoundBox', or 'ProjectedOrigin'. 'CenterOfMass' and 'CenterOfBoundBox' are in relation to the selected face(s) or vertex (vertices). 'ProjectedOrigin' uses by default the current origin or the optional origin parameter (if specified) and projects it onto the plane defined by the selected face(s)."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:25
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:24
 msgid "The Z direction will be the normal of the face, computed at the center point."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:27
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:26
 msgid "The X direction will be parallel to the x-y plane. If the workplane is  parallel to the global x-y plane, the x direction of the workplane will co-incide with the global x direction."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:31
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:30
 msgid "Most commonly, the selected face will be planar, and the workplane lies in the same plane of the face ( IE, offset=0). Occasionally, it is useful to define a face offset from an existing surface, and even more rarely to define a workplane based on a face that is not planar."
 msgstr ""
 
@@ -6198,14 +6141,6 @@ msgstr ""
 msgid "a single compsolid"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1DProtocol:1
-msgid "Bases: :py:class:`~cadquery.occ_impl.shapes.ShapeProtocol`, :py:class:`~typing.Protocol`"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ShapeProtocol:1
-msgid "Bases: :py:class:`~typing.Protocol`"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:1
 msgid "Construct a solid box."
 msgstr ""
@@ -6238,20 +6173,12 @@ msgstr ""
 msgid "Build compound from shapes."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.compound:4
-msgid "compound(s: Sequence[cadquery.occ_impl.shapes.Shape]) -> cadquery.occ_impl.shapes.Shape"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.compound:6
 msgid "Build compound from a sequence of shapes."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cone:1
 msgid "Construct a partial solid cone."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cone:4
-msgid "cone(d: Union[float, int], h: Union[float, int]) -> cadquery.occ_impl.shapes.Shape"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cone:6
@@ -6270,15 +6197,11 @@ msgstr ""
 msgid "Downcasts a TopoDS object to suitable specialized type"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:1
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes._:1
 msgid "Build an edge on a face from points in (u,v) space."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:4
-msgid "_(fbase: cadquery.occ_impl.shapes.Shape, edg: cadquery.occ_impl.shapes.Shape, *edgs: cadquery.occ_impl.shapes.Shape, tol: float = 1e-06, N: int = 20)"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes._:6
 msgid "Map one or more edges onto a base face in the u,v space."
 msgstr ""
 
@@ -6296,10 +6219,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.face:1
 msgid "Build face from edges or wires."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.face:4
-msgid "face(s: Sequence[cadquery.occ_impl.shapes.Shape]) -> cadquery.occ_impl.shapes.Shape"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.face:6
@@ -6342,10 +6261,6 @@ msgstr ""
 msgid "Loft edges, wires or faces. For faces cap has no effect. Do not mix faces with other types."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.loft:4
-msgid "loft(*s: cadquery.occ_impl.shapes.Shape, cap: bool = False, ruled: bool = False, continuity: Literal['C1', 'C2', 'C3'] = 'C2', parametrization: Literal['uniform', 'chordal', 'centripetal'] = 'uniform', degree: int = 3, compat: bool = True, smoothing: bool = False, weights: Tuple[float, float, float] = (1, 1, 1)) -> cadquery.occ_impl.shapes.Shape"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.loft:6
 msgid "Variadic loft overload."
 msgstr ""
@@ -6356,10 +6271,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.plane:1
 msgid "Construct a finite planar face."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.plane:4
-msgid "plane() -> cadquery.occ_impl.shapes.Shape"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.plane:6
@@ -6402,20 +6313,12 @@ msgstr ""
 msgid "Build shell from faces. If ctx is specified, local sewing is performed."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.shell:4
-msgid "shell(s: Sequence[cadquery.occ_impl.shapes.Shape], tol: float = 1e-06, manifold: bool = True, ctx: Union[Sequence[cadquery.occ_impl.shapes.Shape], cadquery.occ_impl.shapes.Shape, NoneType] = None, history: Optional[Dict[Union[cadquery.occ_impl.shapes.Shape, str], cadquery.occ_impl.shapes.Shape]] = None) -> cadquery.occ_impl.shapes.Shape"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.shell:6
 msgid "Build shell from a sequence of faces. If ctx is specified, local sewing is performed."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.solid:1
 msgid "Build solid from faces or shells."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.solid:4
-msgid "solid(s: Sequence[cadquery.occ_impl.shapes.Shape], inner: Optional[Sequence[cadquery.occ_impl.shapes.Shape]] = None, tol: float = 1e-06, history: Optional[Dict[Union[cadquery.occ_impl.shapes.Shape, str], cadquery.occ_impl.shapes.Shape]] = None) -> cadquery.occ_impl.shapes.Shape"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.solid:6
@@ -6430,10 +6333,6 @@ msgstr ""
 msgid "Construct a spline from points."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.spline:4
-msgid "spline(pts: Sequence[Union[ForwardRef('Vector'), Tuple[Union[int, float], Union[int, float]], Tuple[Union[int, float], Union[int, float], Union[int, float]]]], tgts: Optional[Sequence[Union[ForwardRef('Vector'), Tuple[Union[int, float], Union[int, float]], Tuple[Union[int, float], Union[int, float], Union[int, float]]]]] = None, params: Optional[Sequence[float]] = None, tol: float = 1e-06, periodic: bool = False, scale: bool = True) -> cadquery.occ_impl.shapes.Shape"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.spline:6
 msgid "Construct a spline from a sequence points."
 msgstr ""
@@ -6446,10 +6345,6 @@ msgstr ""
 msgid "Sweep edge, wire or face along a path. For faces cap has no effect. Do not mix faces with other types."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.sweep:5
-msgid "sweep(s: Sequence[cadquery.occ_impl.shapes.Shape], path: cadquery.occ_impl.shapes.Shape, aux: Optional[cadquery.occ_impl.shapes.Shape] = None, cap: bool = False) -> cadquery.occ_impl.shapes.Shape"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.sweep:7
 msgid "Sweep edges, wires or faces along a path, multiple sections are supported. For faces cap has no effect. Do not mix faces with other types."
 msgstr ""
@@ -6458,16 +6353,8 @@ msgstr ""
 msgid "Create a flat text."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.text:4
-msgid "text(txt: str, size: Union[float, int], spine: cadquery.occ_impl.shapes.Shape, planar: bool = False, font: str = 'Arial', path: Optional[str] = None, kind: Literal['regular', 'bold', 'italic'] = 'regular', halign: Literal['center', 'left', 'right'] = 'center', valign: Literal['center', 'top', 'bottom'] = 'center') -> cadquery.occ_impl.shapes.Shape"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.text:6
 msgid "Create a text on a spine."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.text:9
-msgid "text(txt: str, size: Union[float, int], spine: cadquery.occ_impl.shapes.Shape, base: cadquery.occ_impl.shapes.Shape, font: str = 'Arial', path: Optional[str] = None, kind: Literal['regular', 'bold', 'italic'] = 'regular', halign: Literal['center', 'left', 'right'] = 'center', valign: Literal['center', 'top', 'bottom'] = 'center') -> cadquery.occ_impl.shapes.Shape"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.text:11
@@ -6480,10 +6367,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.vertex:1
 msgid "Construct a vertex from coordinates."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.vertex:4
-msgid "vertex(p: Union[ForwardRef('Vector'), Tuple[Union[int, float], Union[int, float]], Tuple[Union[int, float], Union[int, float], Union[int, float]]])"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.vertex:6
@@ -6510,29 +6393,29 @@ msgstr ""
 msgid "Calculate mean curvature along the underlying curve."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatureAt:4
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:4
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positionAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatureAt:3
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:3
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positionAt:3
 msgid "distance or parameter value"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatureAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatures:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positionAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positions:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangentAt:4
+msgid "position calculation mode (default: length)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatureAt:5
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatures:5
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:5
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:5
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positionAt:5
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positions:5
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangentAt:5
-msgid "position calculation mode (default: length)"
+msgid "resolution of the calculation (default: 1e-6)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatureAt:6
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatures:6
-msgid "resolution of the calculation (default: 1e-6)"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatureAt:7
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatures:7
 msgid "mean curvature value at the specified d value."
 msgstr ""
 
@@ -6540,9 +6423,9 @@ msgstr ""
 msgid "Calculate mean curvatures along the underlying curve."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatures:4
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:4
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positions:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.curvatures:3
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:3
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positions:3
 msgid "distance or parameter values"
 msgstr ""
 
@@ -6559,17 +6442,17 @@ msgstr ""
 msgid "Generate a location along the underlying curve."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:6
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:5
 msgid "moving frame calculation method (default: frenet)"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:7
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:7
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:6
 msgid "planar mode"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:8
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locationAt:7
 msgid "A Location object representing local coordinate system at the specified distance."
 msgstr ""
 
@@ -6577,7 +6460,7 @@ msgstr ""
 msgid "Generate locations along the curve."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:8
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.locations:7
 msgid "A list of Location objects representing local coordinate systems at the specified distances."
 msgstr ""
 
@@ -6593,11 +6476,11 @@ msgstr ""
 msgid "Compute parameter value at the specified normalized distance or a point."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramAt:3
 msgid "normalized distance [0, 1] or a point"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramAt:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramAt:4
 msgid "parameter value"
 msgstr ""
 
@@ -6605,13 +6488,13 @@ msgstr ""
 msgid "Computes u values closest to given vectors."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.params:4
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramsLength:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.params:3
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramsLength:5
 msgid "the points to compute the parameters at."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.params:5
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramsLength:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.params:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramsLength:4
 msgid "list of u values."
 msgstr ""
 
@@ -6619,7 +6502,7 @@ msgstr ""
 msgid "Computes u values at given relative lengths."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramsLength:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.paramsLength:3
 msgid "list of distances."
 msgstr ""
 
@@ -6627,7 +6510,7 @@ msgstr ""
 msgid "Generate a position along the underlying curve."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positionAt:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positionAt:5
 msgid "A Vector on the underlying curve located at the specified d value."
 msgstr ""
 
@@ -6635,7 +6518,7 @@ msgstr ""
 msgid "Generate positions along the underlying curve."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positions:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.positions:5
 msgid "A list of Vector objects."
 msgstr ""
 
@@ -6663,11 +6546,11 @@ msgstr ""
 msgid "Sample a curve based on a number of points or deflection."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.sample:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.sample:3
 msgid "Number of positions or deflection"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.sample:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.sample:4
 msgid "A list of Vectors and a list of parameters."
 msgstr ""
 
@@ -6679,7 +6562,7 @@ msgstr ""
 msgid "Compute tangent vector at the specified location."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangentAt:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangentAt:3
 msgid "distance or parameter value (default: 0.5)"
 msgstr ""
 
@@ -6687,15 +6570,15 @@ msgstr ""
 msgid "Compute tangent vectors at the specified locations."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangents:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangents:3
 msgid "list of distances or parameters."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangents:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangents:4
 msgid "position calculation mode (default: length)."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangents:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.tangents:5
 msgid "list of tangent vectors"
 msgstr ""
 
@@ -6703,20 +6586,20 @@ msgstr ""
 msgid "Chamfers the specified edges of this solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:3
 msgid "length > 0, the length (length) of the chamfer"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:4
 msgid "length2 > 0, optional parameter for asymmetrical chamfer. Should be `None` if not required."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:6
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.fillet:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.fillet:4
 msgid "a list of Edge objects, which must belong to this solid"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:7
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:6
 msgid "Chamfered solid"
 msgstr ""
 
@@ -6724,19 +6607,19 @@ msgstr ""
 msgid "Make a prismatic feature (additive or subtractive)"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:3
 msgid "face to perform the operation on"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:5
 msgid "depth of the cut or extrusion"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:7
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:6
 msgid "a face to extrude until"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:8
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.dprism:7
 msgid "cut thruAll"
 msgstr ""
 
@@ -6744,11 +6627,11 @@ msgstr ""
 msgid "Fillets the specified edges of this solid."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.fillet:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.fillet:3
 msgid "float > 0, the radius of the fillet"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.fillet:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.fillet:5
 msgid "Filleted solid"
 msgstr ""
 
@@ -6756,15 +6639,15 @@ msgstr ""
 msgid "Returns whether or not the point is inside a solid or compound object within the specified tolerance."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.isInside:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.isInside:4
 msgid "tuple or Vector representing 3D point to be tested"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.isInside:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.isInside:5
 msgid "tolerance for inside determination, default=1.0e-6"
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.isInside:7
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.isInside:6
 msgid "bool indicating whether or not point is within solid"
 msgstr ""
 
@@ -6772,37 +6655,24 @@ msgstr ""
 msgid "Make a shelled solid of self."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:4
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:3
 msgid "List of faces to be removed, which must be part of the solid. Can be an empty list."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:6
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:5
 msgid "Floating point thickness. Positive shells outwards, negative shells inwards."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:8
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:7
 msgid "Modelling tolerance of the method, default=0.0001."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:9
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.shell:8
 msgid "A shelled solid."
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.AndSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.SubtractSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.SumSelector:1
-msgid "Bases: :py:class:`~cadquery.selectors.BinarySelector`"
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.AndSelector:1
 msgid "Intersection selector. Returns objects that is selected by both selectors."
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.AreaNthSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.CenterNthSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.LengthNthSelector:1
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.RadiusNthSelector:1
-msgid "Bases: :py:class:`~cadquery.selectors._NthSelector`"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.AreaNthSelector:4
@@ -6855,10 +6725,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.CenterNthSelector:4
 msgid "All Shapes."
-msgstr ""
-
-#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionNthSelector:1
-msgid "Bases: :py:class:`~cadquery.selectors.ParallelDirSelector`, :py:class:`~cadquery.selectors.CenterNthSelector`"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.InverseSelector:1

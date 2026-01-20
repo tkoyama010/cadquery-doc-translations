@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:08+0000\n"
+"POT-Creation-Date: 2026-01-20 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,43 +204,39 @@ msgstr ""
 msgid "This ultra simple plugin makes cubes of the specified size for each stack point."
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:164
-msgid "(The cubes are off-center because the boxes have their lower left corner at the reference points.)"
-msgstr ""
-
-#: ../../cadquery/doc/extending.rst:200
+#: ../../cadquery/doc/extending.rst:199
 msgid "Extending CadQuery: Special Methods"
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:202
+#: ../../cadquery/doc/extending.rst:201
 msgid "The above-mentioned approach has one drawback, it requires monkey-patching or subclassing. To avoid this one can also use the following special methods of :py:class:`cadquery.Workplane` and :py:class:`cadquery.Sketch` and write plugins in a more functional style."
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:206
+#: ../../cadquery/doc/extending.rst:205
 msgid ":py:meth:`cadquery.Workplane.map`"
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:207
+#: ../../cadquery/doc/extending.rst:206
 msgid ":py:meth:`cadquery.Workplane.apply`"
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:208
+#: ../../cadquery/doc/extending.rst:207
 msgid ":py:meth:`cadquery.Workplane.invoke`"
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:209
+#: ../../cadquery/doc/extending.rst:208
 msgid ":py:meth:`cadquery.Sketch.map`"
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:210
+#: ../../cadquery/doc/extending.rst:209
 msgid ":py:meth:`cadquery.Sketch.apply`"
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:211
+#: ../../cadquery/doc/extending.rst:210
 msgid ":py:meth:`cadquery.Sketch.invoke`"
 msgstr ""
 
-#: ../../cadquery/doc/extending.rst:213
+#: ../../cadquery/doc/extending.rst:212
 msgid "Here is the same plugin rewritten using one of those methods."
 msgstr ""
 

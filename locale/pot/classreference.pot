@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.7.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-18 00:08+0000\n"
+"POT-Creation-Date: 2026-01-20 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -391,7 +391,6 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.clean:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.close:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.consolidateWires:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:0
@@ -677,7 +676,6 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.clean:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.close:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.consolidateWires:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cskHole:0
@@ -994,7 +992,6 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.center:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.chamfer:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.close:0
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutBlind:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.cutThruAll:0
@@ -1634,57 +1631,47 @@ msgid "OCC.Core.GeomAbs continuity condition"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:8
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:8
 msgid ">=2"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:11
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:9
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:9
 msgid "number of points on curve >= 15"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:12
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:10
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:10
 msgid "number of iterations >= 2"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:11
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:11
 msgid "bool Anisotropy"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:12
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:12
 msgid "2D tolerance >0"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:13
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:13
 msgid "3D tolerance >0"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:16
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:14
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:14
 msgid "angular tolerance"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:15
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:15
 msgid "tolerance for curvature >0"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:18
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:16
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:16
 msgid "highest polynomial degree >= 2"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.interpPlate:19
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face.makeNSidedSurface:17
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:17
 msgid "greatest number of segments >= 2"
 msgstr ""
 
@@ -3202,22 +3189,6 @@ msgstr ""
 msgid "Returns inner shells."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:1
-msgid "Returns a plate surface that is 'thickness' thick, enclosed by 'surf_edge_pts' points, and going through 'surf_pts' points."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:3
-msgid "list of [x,y,z] float ordered coordinates or list of ordered or unordered wires"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:6
-msgid "list of [x,y,z] float coordinates (uses only edges if [])"
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.interpPlate:7
-msgid "thickness may be negative or positive depending on direction, (returns 2D surface if 0)"
-msgstr ""
-
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid.isSolid:1
 msgid "Returns true if the object is a solid, false otherwise"
 msgstr ""
@@ -3746,7 +3717,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__and__:1
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__mul__:1
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__truediv__:1
 msgid "Syntactic sugar for intersect."
 msgstr ""
 
@@ -3780,6 +3750,10 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__sub__:3
 msgid "Notice that :code:`r = a - b` is equivalent to :code:`r = a.cut(b)`."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__truediv__:1
+msgid "Syntactic sugar for split."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.__truediv__:3
@@ -3915,7 +3889,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:10
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sphere:19
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:9
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:11
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:10
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:17
 msgid "call :meth:`clean` afterwards to have a clean shape"
 msgstr ""
@@ -4181,26 +4155,6 @@ msgstr ""
 msgid "a CQ object with the resulting object selected"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:1
-msgid "!!!DEPRECATED!!! use union() Combines all solids on the current stack, and any context object, together into a single object."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:5
-msgid "After the operation, the returned solid is also the context solid."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:7
-msgid "another CadQuery to combine."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:8
-msgid "a CQ object with the resulting combined solid on the stack."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.combineSolids:10
-msgid "Most of the time, both objects will contain a single solid, which is combined and returned on the stack of the new object."
-msgstr ""
-
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.compounds:1
 msgid "Select compounds on the stack, optionally filtering the selection. If there are multiple objects on the stack, they are collected and a list of all the distinct compounds is returned."
 msgstr ""
@@ -4420,7 +4374,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.loft:4
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.sweep:6
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:7
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.twistExtrude:14
 msgid "True or \"a\" to combine the resulting solid with parent solids if found, \"cut\" or \"s\" to remove the resulting solid from the parent solids if found. False to keep the resulting solid separated from the parent solids."
 msgstr ""
@@ -4645,29 +4599,16 @@ msgstr ""
 msgid "Workplane object with filtered items."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findFace:1
-msgid "Finds the first face object in the chain, searching from the current node backwards through parents until one is found."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findFace:4
-msgid "should objects on the stack be searched first."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findFace:5
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findSolid:5
-msgid "should parents be searched?"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findFace:6
-msgid "A face or None if no face is found."
-msgstr ""
-
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findSolid:1
 msgid "Finds the first solid object in the chain, searching from the current node backwards through parents until one is found."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findSolid:4
 msgid "should objects on the stack be searched first?"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findSolid:5
+msgid "should parents be searched?"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findSolid:6
@@ -5268,12 +5209,11 @@ msgid "Use all un-revolved wires in the parent chain to create a solid."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:16
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:22
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:21
 msgid "if combine is False, the new value is pushed onto the stack."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.revolve:17
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:23
 msgid "if combine is true, the value is combined with the context solid if it exists, and the resulting solid becomes the new context solid."
 msgstr ""
 
@@ -5723,52 +5663,60 @@ msgstr ""
 msgid "the distance to extrude or cut, normal to the workplane plane"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:7
-msgid "True to cut the resulting solid from the parent solids if found"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:12
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:11
 msgid "font name"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:13
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:12
 msgid "path to font file"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:14
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:13
 msgid "font type"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:15
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:14
 msgid "horizontal alignment"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:16
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:15
 msgid "vertical alignment"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:17
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:16
 msgid "a CQ object with the resulting solid selected"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:19
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:18
 msgid "The returned object is always a Workplane object, and depends on whether combine is True, and whether a context solid is already defined:"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:26
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:22
+msgid "if combine is True, \"a\", \"cut\" or \"s\", the value is combined with the context solid if it exists, and the resulting solid becomes the new context solid."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:25
 msgid "Examples::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:30
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:27
+msgid "Create text::"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:31
 msgid "Specify the font (name), and kind to use an installed system font::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:34
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:35
 msgid "Specify fontPath to use a font from a given file::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:38
-msgid "Cutting text into a solid::"
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:39
+msgid "Cut text from a solid (default behavior when context solid exists and combine is not overridden)::"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.text:43
+msgid "Add text to a solid::"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.threePointArc:1

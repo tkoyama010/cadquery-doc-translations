@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-01 00:09+0000\n"
+"POT-Creation-Date: 2026-03-06 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1940,6 +1940,7 @@ msgid "If the object is a vertex or point, the distance is used. For other kinds
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector:7
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToShapeSelector:3
 msgid "Applicability: All Types of Shapes"
 msgstr ""
 
@@ -1951,6 +1952,7 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BoxSelector.filter:1
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.InverseSelector.filter:1
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector.filter:1
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToShapeSelector.filter:1
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.Selector.filter:1
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector.filter:1
 msgid "Filter the provided list."
@@ -1960,6 +1962,7 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BoxSelector.filter:3
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.InverseSelector.filter:3
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector.filter:3
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToShapeSelector.filter:3
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.Selector.filter:3
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector.filter:3
 msgid "The default implementation returns the original list unfiltered."
@@ -1969,6 +1972,7 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BoxSelector.filter:5
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.InverseSelector.filter:5
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector.filter:5
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToShapeSelector.filter:5
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.Selector.filter:5
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector.filter:5
 msgid "list to filter"
@@ -1978,6 +1982,7 @@ msgstr ""
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BoxSelector.filter:7
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.InverseSelector.filter:7
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector.filter:7
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToShapeSelector.filter:7
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.Selector.filter:7
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector.filter:7
 msgid "filtered list"
@@ -2672,13 +2677,13 @@ msgid "Apply a VectorLike in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:16
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:31
-msgid "Apply multiple locations."
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:26
+msgid "Apply multiple VectorLikes in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:21
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:26
-msgid "Apply multiple VectorLikes in relative sense to a copy of self."
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:31
+msgid "Apply multiple locations."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.remove:1
@@ -6677,6 +6682,10 @@ msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.LengthNthSelector:4
 msgid "All Edge and Wire objects"
+msgstr ""
+
+#: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToShapeSelector:1
+msgid "Selects object nearest the provided Shape."
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.RadiusNthSelector:4

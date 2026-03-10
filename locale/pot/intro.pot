@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-15 00:10+0000\n"
+"POT-Creation-Date: 2026-03-10 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Provide a non-proprietary, plain text model format that can be edited and
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:21
-msgid "CadQuery 2 is based on `OCP <https://github.com/CadQuery/OCP>`_, which is a set of Python bindings for the open-source `OpenCascade <http://www.opencascade.com/>`_ modelling kernel."
+msgid "CadQuery is based on `OCP <https://github.com/CadQuery/OCP>`_, which is a set of Python bindings for the open-source `OpenCascade <http://www.opencascade.com/>`_ modelling kernel."
 msgstr ""
 
 #: ../../cadquery/doc/intro.rst:25

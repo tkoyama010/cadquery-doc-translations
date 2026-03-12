@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-07 00:09+0000\n"
+"POT-Creation-Date: 2026-03-12 00:09+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -9350,6 +9350,11 @@ msgid ""
 "Enable or disable writing parametric curves to the STEP file. Default True. "
 "If False, writes STEP file without pcurves. This decreases the size of the "
 "resulting STEP file."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.pydocstring of
+#: cadquery.occ_impl.exporters.assembly.exportAssembly:22
+msgid "Propagate subshape names to geometric STEP entities."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.pydocstring of

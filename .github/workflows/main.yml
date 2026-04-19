@@ -15,7 +15,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v6
       with:
-        python-version: 3.9
+        python-version: 3.12
     - name: Get Job URL
       uses: Tiryoh/gha-jobid-action@v1
       id: jobs
@@ -38,7 +38,7 @@ jobs:
         cd cadquery
         $CONDA/bin/conda update --all
         $CONDA/bin/conda env update --file environment.yml --name base
-        $CONDA/bin/pip install sphinx-intl[transifex]>=2.1.0
+        $CONDA/bin/pip install sphinx-intl>=2.1.0
         cd ../
         curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
         mv tx /usr/local/bin/tx

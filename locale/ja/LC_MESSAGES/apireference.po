@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-15 00:10+0000\n"
+"POT-Creation-Date: 2026-05-15 00:26+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -1104,7 +1104,7 @@ msgstr ""
 #: ../../cadquery/doc/apireference.rst:211:<autosummary>:1
 msgid ""
 ":py:obj:`importers.importStep <cadquery.importers.importStep>`\\ "
-"\\(fileName\\)"
+"\\(fileName\\[\\, unit\\]\\)"
 msgstr ""
 
 #: ../../cadquery/doc/apireference.rst:211:<autosummary>:1

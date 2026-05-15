@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-16 00:19+0000\n"
+"POT-Creation-Date: 2026-05-15 00:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -402,6 +402,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.end:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findSolid:0
@@ -693,6 +694,7 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.edges:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.ellipse:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.end:0
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.faces:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.fillet:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.findSolid:0
@@ -1047,7 +1049,7 @@ msgid "Returns"
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.__init__:9
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.importStep:4
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.importStep:5
 msgid "An Assembly object."
 msgstr ""
 
@@ -1121,7 +1123,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.export:3
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:3
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:5
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:4
 msgid "Path and filename for writing."
 msgstr ""
 
@@ -1146,11 +1148,25 @@ msgid "the angular tolerance, in radians. Only used for glTF, VRML. Default 0.1.
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.export:8
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:6
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:6
+msgid "The internal unit of the model's geometry values. Only used for STEP. Default \"MM\"."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.export:10
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:11
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportStepMeta:16
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:8
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:8
+msgid "The unit to use in the STEP file header. If None, defaults to the value of ``unit``. Use this when you want the output file to declare a different unit than the model's internal unit, for example to export a MM model as a STEP file declaring meters."
+msgstr ""
+
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.export:14
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:8
 msgid "Additional keyword arguments.  Only used for STEP, glTF and STL. See :meth:`~cadquery.occ_impl.exporters.assembly.exportAssembly`."
 msgstr ""
 
-#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.export:10
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.export:16
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.save:10
 msgid "STL only - Sets whether or not STL export should be text or binary"
 msgstr ""
@@ -1163,8 +1179,12 @@ msgstr ""
 msgid "Path and filename for reading."
 msgstr ""
 
+#: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.importStep:4
+msgid "The unit of measurement for the STEP file. Default \"MM\"."
+msgstr ""
+
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.load:1
-msgid "Load step, xbf or xml."
+msgid "Load step, xbf or xml. Only STEP supports unit conversion on loading."
 msgstr ""
 
 #: ../../cadquery/cadquery/assembly.py:docstring of cadquery.assembly.Assembly.remove:1
@@ -2476,29 +2496,24 @@ msgid "Export this shape to a BREP file"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:1
-msgid "Export this shape to a STEP file."
+msgid "Export this shape to a STEP file. kwargs is used to provide additional optional keyword arguments to configure the exporter."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:3
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:3
-msgid "kwargs is used to provide optional keyword arguments to configure the exporter."
-msgstr ""
-
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:9
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportStepMeta:14
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:6
-msgid "Enable or disable writing parametric curves to the STEP file. Default True.  If False, writes STEP file without pcurves. This decreases the size of the resulting STEP file."
+msgid "The internal unit of the model's geometry values. Default \"MM\"."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:6
-msgid "Enable or disable writing parametric curves to the STEP file. Default True."
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:22
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportStepMeta:10
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:12
+msgid "Enable or disable writing parametric curves to the STEP file. Default True. If False, writes STEP file without pcurves. This decreases the size of the resulting STEP file."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:8
-msgid "If False, writes STEP file without pcurves. This decreases the size of the resulting STEP file."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:19
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:25
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportStepMeta:12
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:10
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.exportStep:15
 msgid "Controls the uncertainty value for STEP entities. Specify -1, 0, or 1. Default 0. See OCCT documentation."
 msgstr ""
 
@@ -2728,17 +2743,17 @@ msgid "Apply a VectorLike in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:16
-msgid "Apply a Shape as a Location in relative sense (i.e. update current location) to a copy of self."
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:26
+msgid "Apply multiple VectorLikes in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:21
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:31
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:36
 msgid "Apply multiple locations."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:26
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:36
-msgid "Apply multiple VectorLikes in relative sense to a copy of self."
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:31
+msgid "Apply a Shape as a Location in relative sense (i.e. update current location) to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.remove:1
@@ -2986,13 +3001,11 @@ msgstr ""
 msgid "the angular tolerance, in radians. Default 0.1."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:6
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:6
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:12
 msgid "additional options passed to the specific exporter. Default None."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:7
-#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:7
+#: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.export:13
 msgid "Self."
 msgstr ""
 
@@ -4577,6 +4590,14 @@ msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:1
 msgid "Export Workplane to file."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:8
+msgid "The unit to use in the STEP file header. If None, defaults to the value of ``unit``."
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.export:9
+msgid "Use this when you want the output file to declare a different unit than the model's internal unit, for example to export a MM model as a STEP file declaring meters. :type outputUnit: UnitLiterals or None :param opt: additional options passed to the specific exporter. Default None. :return: Self."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.exportSvg:1
@@ -6787,6 +6808,10 @@ msgstr ""
 msgid "Export an assembly to a STEP file."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:3
+msgid "kwargs is used to provide optional keyword arguments to configure the exporter."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:5
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportStepMeta:8
 msgid "assembly"
@@ -6801,20 +6826,15 @@ msgstr ""
 msgid "STEP export mode. The options are \"default\", and \"fused\" (a single fused compound). It is possible that fused mode may exhibit low performance."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:9
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:15
 msgid "OCCT fuse operation tolerance setting used only for fused assembly export."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:11
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:17
 msgid "Enable gluing mode for improved performance during fused assembly export. This option should only be used for non-intersecting shapes or those that are only touching or partially overlapping. Note that when glue is enabled, the resulting fused shape may be invalid if shapes are intersecting in an incompatible way. Defaults to False."
 msgstr ""
 
-#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:16
-#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportStepMeta:10
-msgid "Enable or disable writing parametric curves to the STEP file. Default True. If False, writes STEP file without pcurves. This decreases the size of the resulting STEP file."
-msgstr ""
-
-#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:22
+#: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportAssembly:28
 msgid "Propagate subshape names to geometric STEP entities."
 msgstr ""
 

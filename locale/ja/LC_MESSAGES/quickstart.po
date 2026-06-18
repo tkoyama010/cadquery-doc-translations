@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-10 00:26+0000\n"
+"POT-Creation-Date: 2026-06-18 00:35+0000\n"
 "PO-Revision-Date: 2021-05-27 10:39+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -345,22 +345,32 @@ msgid ""
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:316
-msgid "Want to learn more?"
+msgid "Free function equivalent"
 msgstr ""
 
 #: ../../cadquery/doc/quickstart.rst:318
+msgid ""
+"If the fluent style of modeling does not appeal to you, note that exactly "
+"the same object can be constructed using :ref:`freefuncapi`."
+msgstr ""
+
+#: ../../cadquery/doc/quickstart.rst:356
+msgid "Want to learn more?"
+msgstr ""
+
+#: ../../cadquery/doc/quickstart.rst:358
 msgid ""
 "The :ref:`examples` contains lots of examples demonstrating cadquery "
 "features"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:319
+#: ../../cadquery/doc/quickstart.rst:359
 msgid ""
 "The :ref:`apireference` is a good overview of language features grouped by "
 "function"
 msgstr ""
 
-#: ../../cadquery/doc/quickstart.rst:320
+#: ../../cadquery/doc/quickstart.rst:360
 msgid ""
 "The :ref:`classreference` is the hard-core listing of all functions "
 "available."

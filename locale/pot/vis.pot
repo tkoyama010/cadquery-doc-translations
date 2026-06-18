@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-15 00:10+0000\n"
+"POT-Creation-Date: 2026-06-18 00:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "Additionally it is possible to integrate with other libraries using VTK a
 msgstr ""
 
 #: ../../cadquery/doc/vis.rst:78
-msgid "Note that currently the show function is blocking."
+msgid "Note that the :meth:`~cadquery.vis.show` function is blocking."
 msgstr ""
 
 #: ../../cadquery/doc/vis.rst:81
@@ -77,9 +77,21 @@ msgid "Fine-grained control of the appearance of every item can be achieved usin
 msgstr ""
 
 #: ../../cadquery/doc/vis.rst:176
-msgid "Jupyter/JupterLab"
+msgid "Non-blocking visualization"
 msgstr ""
 
 #: ../../cadquery/doc/vis.rst:178
+msgid "For non-blocking visualization, one can use the :meth:`cadquery.fig.show` function from the :mod:`~cadquery.fig` module. It relies on VTK/Trame and opens a web browser window. To programmatically remove previously added shapes one can use the :meth:`cadquery.fig.clear` function."
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:185
+msgid "This function is very handy for interactive work and debugging. Alternatively one can use the :class:`~cadquery.fig.Figure` class for more fine-grained control."
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:190
+msgid "Jupyter/JupterLab"
+msgstr ""
+
+#: ../../cadquery/doc/vis.rst:192
 msgid "There is also more limited support for displaying :class:`~cadquery.Workplane`, :class:`~cadquery.Sketch`, :class:`~cadquery.Assembly`, :class:`~cadquery.Shape` in Jupyter and JupyterLab. This functionality is implemented using VTK.js."
 msgstr ""

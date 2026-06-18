@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-15 00:10+0000\n"
+"POT-Creation-Date: 2026-06-18 00:35+0000\n"
 "PO-Revision-Date: 2024-05-06 00:04+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +21,7 @@ msgstr ""
 msgid "Free function API"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:8
-msgid "The free function API is experimental and may change."
-msgstr ""
-
-#: ../../cadquery/doc/free-func.rst:10
+#: ../../cadquery/doc/free-func.rst:9
 msgid ""
 "For situations when more freedom in crafting individual objects is required,"
 " a free function API is provided. This API has no hidden state, but may "
@@ -35,40 +31,40 @@ msgid ""
 "moved method."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:14
+#: ../../cadquery/doc/free-func.rst:13
 msgid ""
 "Currently this documentation is incomplete, more examples can be found in "
 "the tests."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:17
+#: ../../cadquery/doc/free-func.rst:16
 msgid "Tutorial"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:19
+#: ../../cadquery/doc/free-func.rst:18
 msgid ""
 "The purpose of this section is to demonstrate how to construct Shape objects"
 " using the free function API."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:51
+#: ../../cadquery/doc/free-func.rst:50
 msgid ""
 "The code above builds a non-trivial object by sequentially constructing "
 "individual faces, assembling them into a solid and finally generating a "
 "pattern."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:53
+#: ../../cadquery/doc/free-func.rst:52
 msgid "It begins with defining few edges."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:62
+#: ../../cadquery/doc/free-func.rst:61
 msgid ""
 "Those edges are used to create the side faces of the final solid using "
 ":meth:`~cadquery.occ_impl.shapes.loft`."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:68
+#: ../../cadquery/doc/free-func.rst:67
 msgid ""
 "Once the side is there, :meth:`~cadquery.occ_impl.shapes.cap` and "
 ":meth:`~cadquery.occ_impl.shapes.fill` are used to define the top and bottom"
@@ -77,37 +73,37 @@ msgid ""
 " for :meth:`~cadquery.occ_impl.shapes.fill`."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:79
+#: ../../cadquery/doc/free-func.rst:78
 msgid "Next, all the faces are assembled into a solid."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:85
+#: ../../cadquery/doc/free-func.rst:84
 msgid ""
 "Finally, the solid is duplicated and placed in the desired locations "
 "creating the final compound object. Note various usages of "
 ":meth:`~cadquery.Shape.moved`."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:91
+#: ../../cadquery/doc/free-func.rst:90
 msgid ""
 "In general all the operations are implemented as free functions, with the "
 "exception of placement and selection which are strictly related to a "
 "specific shape."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:95
+#: ../../cadquery/doc/free-func.rst:94
 msgid "Primitives"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:97
+#: ../../cadquery/doc/free-func.rst:96
 msgid "Various 1D, 2D and 3D primitives are supported."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:115
+#: ../../cadquery/doc/free-func.rst:114
 msgid "Boolean operations"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:117
+#: ../../cadquery/doc/free-func.rst:116
 msgid ""
 "Boolean operations are supported and implemented as operators and free "
 "functions. In general boolean operations are slow and it is advised to avoid"
@@ -115,58 +111,131 @@ msgid ""
 "solids at once by first combining them into a compound."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:152
+#: ../../cadquery/doc/free-func.rst:151
 msgid "Note that bool operations work on 2D shapes as well."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:156
+#: ../../cadquery/doc/free-func.rst:154
+msgid ""
+"Boolean operations support optionally history that allows to refer to "
+"generated, modified or deleted shapes. In order to use it one has to "
+"instantiate the :py:class:`cadquery.occ_impl.shapes.History` class and pass "
+"it to the operations of interest. The individual boolean operations entries "
+"(i.e. instances of :py:class:`cadquery.occ_impl.shapes.Op`) can be accessed "
+"using indexing or name-based queries. In order to support names, one need to"
+" specify the `name` parameter when invoking an operation."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:158 ../../cadquery/doc/free-func.rst:324
+msgid ""
+"The history tracking feature of the free function API is experimental and "
+"may change."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:162
+msgid "Shape selection"
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:164
+msgid ""
+"Shape selection can be performed using the usual "
+":meth:`~cadquery.occ_impl.shapes.Shape.vertices`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.edges`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.wires`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.faces`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.shells`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.solids` methods. Those methods return"
+" a shape or a compound. Alternatively, one can use "
+":meth:`~cadquery.occ_impl.shapes.Shape.vertex`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.edge`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.wire`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.face`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.shell`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.solid` methods. Those methods either "
+"return a single shape or throw. Additionally, selection can be performed "
+"using :meth:`~cadquery.occ_impl.shapes.Shape.siblings`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.ancestors`, special selectors. Last "
+"but not least, selections can be combined using set operations implemented "
+"via convenient operator syntax "
+":meth:`~cadquery.occ_impl.shapes.Shape.__and__`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.__or__`, "
+":meth:`~cadquery.occ_impl.shapes.Shape.__mod__`. The last operator "
+"implements a set difference operation."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:189
 msgid "Shape construction"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:158
+#: ../../cadquery/doc/free-func.rst:191
 msgid ""
 "Constructing complex shapes from simple shapes is possible in various "
 "contexts."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:194
+#: ../../cadquery/doc/free-func.rst:227
 msgid "Operations"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:196
+#: ../../cadquery/doc/free-func.rst:229
 msgid ""
 "Free function API currently supports "
 ":meth:`~cadquery.occ_impl.shapes.extrude`, "
 ":meth:`~cadquery.occ_impl.shapes.loft`, "
-":meth:`~cadquery.occ_impl.shapes.revolve` and "
-":meth:`~cadquery.occ_impl.shapes.sweep` operations."
+":meth:`~cadquery.occ_impl.shapes.revolve`, "
+":meth:`~cadquery.occ_impl.shapes.sweep`, "
+":meth:`~cadquery.occ_impl.shapes.hollow`, "
+":meth:`~cadquery.occ_impl.shapes.draft`, "
+":meth:`~cadquery.occ_impl.shapes.prism`, "
+":meth:`~cadquery.occ_impl.shapes.chamfer` and "
+":meth:`~cadquery.occ_impl.shapes.fillet` operations."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:227
+#: ../../cadquery/doc/free-func.rst:261
+msgid ""
+"Most operations support optionally history that allows to refer to "
+"generated, modified or deleted shapes. In order to use it one has to "
+"instantiate the :py:class:`cadquery.occ_impl.shapes.History` class and pass "
+"it to the operations of interest. The individual modeling steps (i.e. "
+"instances of :py:class:`cadquery.occ_impl.shapes.Op`) can be accessed using "
+"indexing or name-based queries. In order to support names, one need to "
+"specify the `name` parameter when invoking an operation. Here is an usage "
+"example of this feature."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:321
+msgid ""
+"Some operations like e.g. :meth:`~cadquery.occ_impl.shapes.extrude` or "
+":meth:`~cadquery.occ_impl.shapes.prism` support referring to the "
+":meth:`~cadquery.occ_impl.shapes.Op.first` and "
+":meth:`~cadquery.occ_impl.shapes.Op.last` shape as well."
+msgstr ""
+
+#: ../../cadquery/doc/free-func.rst:328
 msgid "Placement"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:229
+#: ../../cadquery/doc/free-func.rst:330
 msgid ""
 "Placement and creation of arrays is possible using "
 ":meth:`~cadquery.Shape.move` and :meth:`~cadquery.Shape.moved`."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:243
+#: ../../cadquery/doc/free-func.rst:344
 msgid "Text"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:245
+#: ../../cadquery/doc/free-func.rst:346
 msgid ""
 "The free function API has extensive text creation capabilities including "
 "text on planar curves and text on surfaces."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:283
+#: ../../cadquery/doc/free-func.rst:384
 msgid "Adding features manually"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:285
+#: ../../cadquery/doc/free-func.rst:386
 msgid ""
 "In certain cases it is desirable to add features such as holes or "
 "protrusions manually. E.g., for complicated shapes it might be beneficial "
@@ -175,7 +244,7 @@ msgid ""
 "existing solids."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:319
+#: ../../cadquery/doc/free-func.rst:420
 msgid ""
 "If the base shape is more complicated, it is possible to use local sewing "
 "that takes into account on indicated elements of the context shape. This, "
@@ -183,30 +252,30 @@ msgid ""
 "explicitly sewn and only then the final solid can be constructed."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:353
+#: ../../cadquery/doc/free-func.rst:454
 msgid "Mapping onto parametric space"
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:355
+#: ../../cadquery/doc/free-func.rst:456
 msgid ""
 "To complement functionalities described, it is possible to trim edges and "
 "faces explicitly using simple rectangular trims, polygons, splines or "
 "arbitrary wires."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:387
+#: ../../cadquery/doc/free-func.rst:488
 msgid ""
 "This in principle allows to model arbitrary shapes in the parametric domain,"
 " but often it is more desirable to work with higher level objects like "
 "wires."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:421
+#: ../../cadquery/doc/free-func.rst:522
 msgid ""
 "Note that trimming of periodic faces requires manual seam construction and "
 "an additional sewing step to ensure correctness."
 msgstr ""
 
-#: ../../cadquery/doc/free-func.rst:450
+#: ../../cadquery/doc/free-func.rst:551
 msgid "Finally, it is also possible to map complete faces."
 msgstr ""

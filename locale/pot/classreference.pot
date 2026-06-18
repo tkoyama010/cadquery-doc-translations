@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-18 00:25+0000\n"
+"POT-Creation-Date: 2026-06-18 00:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,303 +66,321 @@ msgstr ""
 msgid "Topological Classes"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Shape <cadquery.Shape>`\\ \\(obj\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "Represents a shape in the system."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Vertex <cadquery.Vertex>`\\ \\(obj\\[\\, forConstruction\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Vertex:1
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "A Single Point in Space"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Edge <cadquery.Edge>`\\ \\(obj\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Edge:1
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "A trimmed curve that represents the border of a face"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`occ_impl.shapes.Mixin1D <cadquery.occ_impl.shapes.Mixin1D>`\\ \\(\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Wire <cadquery.Wire>`\\ \\(obj\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Wire:1
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "A series of connected, ordered Edges, that typically bounds a Face"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Face <cadquery.Face>`\\ \\(obj\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Face:1
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "a bounded surface that represents part of the boundary of a solid"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Shell <cadquery.Shell>`\\ \\(obj\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shell:1
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "the outer boundary of a surface"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`occ_impl.shapes.Mixin3D <cadquery.occ_impl.shapes.Mixin3D>`\\ \\(\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Solid <cadquery.Solid>`\\ \\(obj\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Solid:1
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "a single solid"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid ":py:obj:`Compound <cadquery.Compound>`\\ \\(obj\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Compound:1
-#: ../../cadquery/doc/classreference.rst:40:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
 msgid "a collection of disconnected solids"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:42
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
+msgid ":py:obj:`occ_impl.shapes.History <cadquery.occ_impl.shapes.History>`\\ \\(\\)"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.History:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
+msgid "Operation history."
+msgstr ""
+
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
+msgid ":py:obj:`occ_impl.shapes.Op <cadquery.occ_impl.shapes.Op>`\\ \\(\\[name\\]\\)"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op:1
+#: ../../cadquery/doc/classreference.rst:42:<autosummary>:1
+msgid "Operation history element."
+msgstr ""
+
+#: ../../cadquery/doc/classreference.rst:44
 msgid "Geometry Classes"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid ":py:obj:`Vector <cadquery.Vector>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Vector:1
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid "Create a 3-dimensional vector"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid ":py:obj:`Matrix <cadquery.Matrix>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Matrix:1
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid "A 3d , 4x4 transformation matrix."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid ":py:obj:`Plane <cadquery.Plane>`\\ \\(origin\\[\\, xDir\\, normal\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/geom.py:docstring of cadquery.occ_impl.geom.Plane:1
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid "A 2D coordinate system in space"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid ":py:obj:`Location <cadquery.Location>`\\ \\(t\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:50:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:52:<autosummary>:1
 msgid "Location in 3D space."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:52
+#: ../../cadquery/doc/classreference.rst:54
 msgid "Selector Classes"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`Selector <cadquery.selectors.Selector>`\\ \\(\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.Selector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Filters a list of objects."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`NearestToPointSelector <cadquery.selectors.NearestToPointSelector>`\\ \\(pnt\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.NearestToPointSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects object nearest the provided point."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`BoxSelector <cadquery.selectors.BoxSelector>`\\ \\(point0\\, point1\\[\\, boundingbox\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BoxSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects objects inside the 3D box defined by 2 points."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`BaseDirSelector <cadquery.selectors.BaseDirSelector>`\\ \\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.BaseDirSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "A selector that handles selection on the basis of a single direction vector."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`ParallelDirSelector <cadquery.selectors.ParallelDirSelector>`\\ \\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.ParallelDirSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects objects parallel with the provided direction."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`DirectionSelector <cadquery.selectors.DirectionSelector>`\\ \\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects objects aligned with the provided direction."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`PerpendicularDirSelector <cadquery.selectors.PerpendicularDirSelector>`\\ \\(vector\\[\\, tolerance\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.PerpendicularDirSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects objects perpendicular with the provided direction."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`TypeSelector <cadquery.selectors.TypeSelector>`\\ \\(typeString\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.TypeSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects objects having the prescribed geometry type."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`RadiusNthSelector <cadquery.selectors.RadiusNthSelector>`\\ \\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.RadiusNthSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Select the object with the Nth radius."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`CenterNthSelector <cadquery.selectors.CenterNthSelector>`\\ \\(vector\\, n\\[\\, directionMax\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.CenterNthSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Sorts objects into a list with order determined by the distance of their center projected onto the specified direction."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`DirectionMinMaxSelector <cadquery.selectors.DirectionMinMaxSelector>`\\ \\(vector\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionMinMaxSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects objects closest or farthest in the specified direction."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`DirectionNthSelector <cadquery.selectors.DirectionNthSelector>`\\ \\(vector\\, n\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.DirectionNthSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Filters for objects parallel (or normal) to the specified direction then returns the Nth one."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`LengthNthSelector <cadquery.selectors.LengthNthSelector>`\\ \\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.LengthNthSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Select the object(s) with the Nth length"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`AreaNthSelector <cadquery.selectors.AreaNthSelector>`\\ \\(n\\[\\, directionMax\\, tolerance\\]\\)"
 msgstr ""
 
 #: ../../cadquery/cadquery/selectors.py:docstring of cadquery.selectors.AreaNthSelector:1
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Selects the object(s) with Nth area"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`BinarySelector <cadquery.selectors.BinarySelector>`\\ \\(left\\, right\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Base class for selectors that operates with two other selectors."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`AndSelector <cadquery.selectors.AndSelector>`\\ \\(left\\, right\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Intersection selector."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`SumSelector <cadquery.selectors.SumSelector>`\\ \\(left\\, right\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Union selector."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`SubtractSelector <cadquery.selectors.SubtractSelector>`\\ \\(left\\, right\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Difference selector."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`InverseSelector <cadquery.selectors.InverseSelector>`\\ \\(selector\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Inverts the selection of given selector."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid ":py:obj:`StringSyntaxSelector <cadquery.selectors.StringSyntaxSelector>`\\ \\(selectorString\\)"
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:78:<autosummary>:1
+#: ../../cadquery/doc/classreference.rst:80:<autosummary>:1
 msgid "Filter lists objects using a simple string syntax."
 msgstr ""
 
-#: ../../cadquery/doc/classreference.rst:80
+#: ../../cadquery/doc/classreference.rst:82
 msgid "Class Details"
 msgstr ""
 
@@ -433,6 +451,10 @@ msgstr ""
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wire:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.wires:0
 #: ../../cadquery/cadquery/cq.py:docstring of cadquery.cq.Workplane.workplane:0
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.Figure.clear:0
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.Figure.show:0
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.clear:0
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.show:0
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Material.__init__:0
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.Material.__setstate__:0
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.toJSON:0
@@ -475,8 +497,16 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.endPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.project:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.startPoint:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.first:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.generated:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.images:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.last:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.modified:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__add__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__and__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mod__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mul__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__or__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__sub__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__truediv__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.ancestors:0
@@ -541,6 +571,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cap:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer2D:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.check:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.circle:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.clean:0
@@ -550,6 +581,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cut:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cylinder:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.downcast:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.draft:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgesToWires:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ellipse:0
@@ -558,8 +590,10 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.faceOn:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fill:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fillet:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fillet2D:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fix:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fuse:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.hollow:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.imprint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.intersect:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.isSubshape:0
@@ -569,6 +603,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.plane:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.polygon:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.polyline:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.prism:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.project:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.rect:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.revolve:0
@@ -648,6 +683,9 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.vals:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.vertices:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.wires:0
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.ctrlPts:0
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.show:0
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.style:0
 #: ../../cadquery/doc/classreference.rst:0
 msgid "Parameters"
 msgstr ""
@@ -780,12 +818,21 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.endPoint:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.project:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin1D.startPoint:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.deleted:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.first:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.generated:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.images:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.last:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.modified:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__add__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__and__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__eq__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__getstate__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__hash__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__iter__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mod__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mul__:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__or__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__sub__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__truediv__:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.ancestors:0
@@ -869,6 +916,7 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cut:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.cylinder:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.downcast:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.draft:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgesToWires:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.ellipse:0
@@ -888,7 +936,9 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.plane:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.polygon:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.polyline:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.prism:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.rect:0
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.revolve:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.segment:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.shell:0
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.solid:0
@@ -963,6 +1013,8 @@ msgstr ""
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.vals:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.vertices:0
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.wires:0
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.ctrlPts:0
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.style:0
 #: ../../cadquery/doc/classreference.rst:0
 msgid "Return type"
 msgstr ""
@@ -2407,13 +2459,25 @@ msgstr ""
 msgid "Fuse self and other."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__and__:1
+msgid "Set intersection for combining selection results."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__iter__:1
 msgid "Iterate over subshapes."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mod__:1
+msgid "Set difference for combining selection results."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__mul__:1
 #: ../../cadquery/cadquery/sketch.py:docstring of cadquery.sketch.Sketch.__mul__:1
 msgid "Intersect self and other."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__or__:1
+msgid "Set sum for combining selection results."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.__sub__:1
@@ -2747,17 +2811,17 @@ msgid "Apply a VectorLike in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:16
-msgid "Apply a Shape as a Location in relative sense (i.e. update current location) to a copy of self."
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:31
+msgid "Apply multiple VectorLikes in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:21
-#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:31
-msgid "Apply multiple locations."
+msgid "Apply a Shape as a Location in relative sense (i.e. update current location) to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:26
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.moved:36
-msgid "Apply multiple VectorLikes in relative sense to a copy of self."
+msgid "Apply multiple locations."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Shape.remove:1
@@ -6198,6 +6262,30 @@ msgstr ""
 msgid "a single compsolid"
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.deleted:1
+msgid "Deleted shapes."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.first:1
+msgid "First shape (e.g. bottom face) or first shape generated from s."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.generated:1
+msgid "Shapes generated from s."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.images:1
+msgid "Images of s."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.last:1
+msgid "Last shape (e.g. top face) or last shape generated from s."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Op.modified:1
+msgid "Shapes modified from s."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.box:1
 msgid "Construct a solid box."
 msgstr ""
@@ -6208,6 +6296,10 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer:1
 msgid "Chamfer selected edges in a given shell or solid."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.chamfer2D:1
+msgid "Apply a 2D chamfer to a planar face."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.check:1
@@ -6254,6 +6346,11 @@ msgstr ""
 msgid "Downcasts a TopoDS object to suitable specialized type"
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.draft:1
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.draft:6
+msgid "Add a draft angle to the specified faces."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.edgeOn:1
 msgid "Build an edge on a face from points in (u,v) space."
 msgstr ""
@@ -6294,12 +6391,20 @@ msgstr ""
 msgid "Fillet selected edges in a given shell or solid."
 msgstr ""
 
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fillet2D:1
+msgid "Apply a 2D fillet to a planar face."
+msgstr ""
+
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fix:1
 msgid "Fix a TopoDS object to suitable specialized type"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.fuse:1
 msgid "Fuse at least two shapes."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.hollow:1
+msgid "Make a hollow solid by removing faces and applying thickness t."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.imprint:1
@@ -6348,6 +6453,14 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.polyline:1
 msgid "Construct a polyline from points."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.prism:1
+msgid "Build a drafted prismatic feature that can be additive or subtractive."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.prism:6
+msgid "Build a (potentially tilted) prismatic feature that can be additive or subtractive."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.project:1
@@ -6876,6 +6989,46 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/exporters/assembly.py:docstring of cadquery.occ_impl.exporters.assembly.exportVTKJS:1
 msgid "Export an assembly to a zipped vtkjs. NB: .zip extensions is added to path."
+msgstr ""
+
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.Figure:1
+msgid "Non-blocking visualization class."
+msgstr ""
+
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.Figure.clear:1
+msgid "Clear specified objects. If no arguments are passed, clears all objects."
+msgstr ""
+
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.Figure.fit:1
+msgid "Update view to fit all objects."
+msgstr ""
+
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.Figure.pop:1
+msgid "Clear the selected showable."
+msgstr ""
+
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.Figure.show:1
+msgid "Show objects."
+msgstr ""
+
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.clear:1
+msgid "Clear objects from the current figure."
+msgstr ""
+
+#: ../../cadquery/cadquery/fig.py:docstring of cadquery.fig.show:1
+msgid "Show objects without blocking."
+msgstr ""
+
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.ctrlPts:1
+msgid "Convert Edge, Face, Surface or Curve to a vtkActor representing control points."
+msgstr ""
+
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.show:1
+msgid "Show CQ objects using VTK. This functions optionally allows to make screenshots."
+msgstr ""
+
+#: ../../cadquery/cadquery/vis.py:docstring of cadquery.vis.style:1
+msgid "Apply styling to CQ objects. To be used in conjunction with show."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/assembly.py:docstring of cadquery.occ_impl.assembly.toJSON:1

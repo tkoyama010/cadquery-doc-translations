@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.9.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 00:21+0000\n"
+"POT-Creation-Date: 2026-07-16 00:23+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -4200,15 +4200,15 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.moved:16
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Shape.moved:31
-msgid "Apply multiple VectorLikes in relative sense to a copy of self."
+#: cadquery.occ_impl.shapes.Shape.moved:36
+msgid "Apply multiple locations."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Shape.moved:21
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Shape.moved:36
-msgid "Apply multiple locations."
+#: cadquery.occ_impl.shapes.Shape.moved:31
+msgid "Apply multiple VectorLikes in relative sense to a copy of self."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
@@ -8694,6 +8694,31 @@ msgid "a single compsolid"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.HLRResult:1
+msgid "Result of a hidden-line-removal projection."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.HLRResult:3
+msgid "The returned plane describes the 2D projection coordinate system:"
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.HLRResult:5
+msgid "``plane.xDir`` is screen +X/right in world coordinates."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.HLRResult:6
+msgid "``plane.yDir`` is screen +Y/up in world coordinates."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.HLRResult:7
+msgid "``plane.zDir`` is the projection direction/view-plane normal."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Op.deleted:1
 msgid "Deleted shapes."
 msgstr ""
@@ -8879,6 +8904,60 @@ msgstr ""
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.fuse:1
 msgid "Fuse at least two shapes."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:1
+msgid ""
+"Project a shape onto a plane and perform hidden-line removal. Useful for "
+"generating views for technical drawings."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:4
+msgid ""
+"``dir`` defines the projection plane's normal, and ``pnt`` defines its "
+"origin. Orthographic projection is used by default; supplying ``focus`` "
+"enables perspective projection."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:8
+msgid "Shape to project."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:9
+msgid "Projection direction and normal of the projection plane."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:10
+msgid "Origin of the projection plane."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:11
+msgid ""
+"Preferred positive Y direction of the projected view. If omitted, OCCT "
+"chooses the in-plane orientation."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:13
+msgid ""
+"Focal distance for perspective projection. If omitted, orthographic "
+"projection is used."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:15
+msgid "Visible and hidden projected edges together with the projection plane."
+msgstr ""
+
+#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
+#: cadquery.occ_impl.shapes.hlr:17
+msgid "If ``dir`` or ``up`` is zero, or if ``up`` is parallel to ``dir``."
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of

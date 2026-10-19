@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.9.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 00:24+0000\n"
+"POT-Creation-Date: 2026-10-19 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6882,7 +6882,7 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:5
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.fillet:4
-msgid "a list of Edge objects, which must belong to this solid"
+msgid "a list of Edge objects or a Shape containing edges, which must belong to this solid"
 msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.py:docstring of cadquery.occ_impl.shapes.Mixin3D.chamfer:6

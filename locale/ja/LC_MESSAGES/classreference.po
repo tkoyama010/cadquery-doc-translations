@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CadQuery 2.9.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-24 00:14+0000\n"
+"POT-Creation-Date: 2026-11-17 00:05+0000\n"
 "PO-Revision-Date: 2021-05-27 10:38+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/121077/ja/)\n"
@@ -5408,52 +5408,18 @@ msgid "Attempt to stitch wires"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:3
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:3
-msgid "the plane in which the workplane will be done"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:5
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:5
-msgid "the desired origin of the new workplane"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:7
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:7
-msgid "an object to use initially for the stack"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.combine:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.end:0
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.union:0
-msgid "raises"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:10
-msgid ""
-"ValueError if the provided plane is not a plane, a valid named workplane"
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:11
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:11
-msgid ""
-"A Workplane object, with coordinate system matching the supplied plane."
-msgstr ""
-
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:13
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:13
 msgid "The most common use is::"
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:17
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:7
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:17
 msgid ""
 "After creation, the stack contains a single point, the origin of the "
 "underlying plane, and the *current point* is on the origin."
 msgstr ""
 
-#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:21
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane:11
 msgid ""
 "You can also create workplanes on the surface of existing faces using "
 ":meth:`workplane`"
@@ -5484,8 +5450,32 @@ msgstr ""
 msgid "make a workplane from a particular plane"
 msgstr ""
 
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:3
+msgid "the plane in which the workplane will be done"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:5
+msgid "the desired origin of the new workplane"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:7
+msgid "an object to use initially for the stack"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.combine:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.end:0
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.union:0
+msgid "raises"
+msgstr ""
+
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:10
 msgid "ValueError if the provided plane is not a plane, or one of XY|YZ|XZ"
+msgstr ""
+
+#: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__init__:11
+msgid ""
+"A Workplane object, with coordinate system matching the supplied plane."
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.__iter__:1
@@ -6291,9 +6281,8 @@ msgstr ""
 msgid ""
 "The callback function must accept one argument, which is the item on the "
 "stack, and return one object, which is collected. If the function returns "
-"None, nothing is added to the stack. The object passed into the "
-"callBackFunction is potentially transformed to local coordinates, if "
-"useLocalCoordinates is true"
+"None, nothing is added to the stack. The object passed into the callback is "
+"potentially transformed to local coordinates, if useLocalCoordinates is true"
 msgstr ""
 
 #: ../../cadquery/cadquery/cq.pydocstring of cadquery.cq.Workplane.each:19
@@ -10685,8 +10674,6 @@ msgstr ""
 
 #: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
 #: cadquery.occ_impl.shapes.Mixin1D.params:3
-#: ../../cadquery/cadquery/occ_impl/shapes.pydocstring of
-#: cadquery.occ_impl.shapes.Mixin1D.paramsLength:5
 msgid "the points to compute the parameters at."
 msgstr ""
 
